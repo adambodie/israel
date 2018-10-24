@@ -15,17 +15,15 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin); }
-
-.App h1 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .App h1 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .top-bar {
   background-color: #0038B8; }
-
-.top-bar h4 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .top-bar h4 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 @media (min-width: 468px) {
   .App {
