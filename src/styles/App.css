@@ -4,10 +4,14 @@ body {
   margin: 0;
   padding: 0; }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
 .App {
   text-align: center;
-  background-image: url("../images/background.jpg");
-  background-position: bottom;
+  background: url("../images/background.jpg") no-repeat bottom fixed;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -25,6 +29,43 @@ body {
     font-family: 'Heebo', sans-serif;
     color: white; }
 
-@media (min-width: 468px) {
+.button[disabled] {
+  opacity: 0.5; }
+
+@media (min-width: 768px) {
   .App {
     background-position: top; } }
+
+/* MAIN COMPONENT 
+--------------------------*/
+.c-side-nav {
+  background-color: #0038B8;
+  word-wrap: break-word; }
+
+.c-side-nav__item {
+  list-style: none; }
+  .c-side-nav__item a {
+    color: white; }
+
+.o-sidebar {
+  display: none; }
+
+ul {
+  margin-left: 0; }
+
+.is-current {
+  background: navy; }
+
+.is-current > a {
+  font-weight: bold; }
+
+@media (min-width: 768px) {
+  .o-sidebar {
+    width: 260px;
+    overflow-y: scroll;
+    display: inherit; }
+  .o-sidebar--fixed-left {
+    position: fixed;
+    min-height: 100vh;
+    left: 0;
+    top: 59px; } }

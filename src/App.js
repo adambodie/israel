@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './styles/App.css';
+import Header from './components/Header';
 import Landing from './components/Landing';
+import Main from './components/Main';
 
 class App extends Component {
   render() {
     return (
 		<Router>
 			<div>
-				<header>
-					<div className="top-bar">
-						<div className="top-bar-left">
-							<h4>Adam's Birthright Trip to Israel</h4>
-						</div>
-					</div>
-				</header>
+			<Header />
 				<div className="App">
 					<Route exact path="/" component={Landing} />
+					<Route path="/index" component={Main} />
 				</div>				
 			</div>
 		</Router>

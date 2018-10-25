@@ -1,16 +1,22 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
+$background-color: #0038B8;
+
 body {
 	margin: 0;
 	padding: 0;
 }
 
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
 .App {
 	text-align: center;
-	background-image: url('../images/background.jpg');
-	background-position: bottom;
+	background: url('../images/background.jpg') no-repeat bottom fixed;
 	background-size: cover;
 	min-height: 100vh;
 	display: flex;
@@ -25,15 +31,68 @@ body {
 }
 
 .top-bar {
-	background-color: #0038B8;
+	background-color: $background-color;
 	h4 {
 		font-family: 'Heebo', sans-serif;
 		color: white;
 	}
 }
 
-@media (min-width: 468px) {
+.button[disabled] {
+	opacity: 0.5;
+}
+
+
+
+
+
+@media (min-width: 768px) {
 	.App {
 		background-position: top;
 	}
+}
+
+
+
+
+/* MAIN COMPONENT 
+--------------------------*/
+.c-side-nav {
+    background-color: $background-color;
+    word-wrap: break-word;
+}
+.c-side-nav__item {
+	list-style: none;
+	a {
+		color: white;
+	}
+}
+
+
+.o-sidebar {
+    display: none;
+}
+ul {
+	margin-left: 0;
+}
+.is-current {
+    background: navy;
+}
+
+.is-current > a {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+.o-sidebar {
+    width: 260px;
+    overflow-y: scroll;
+    display: inherit;
+}
+.o-sidebar--fixed-left {
+    position: fixed;
+    min-height: 100vh;
+    left: 0;
+    top: 59px;
+}
 }
