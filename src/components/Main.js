@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import Scrollspy from 'react-scrollspy'
+import TodoList from './TodoList';
 
 export default class Main extends Component {
 	
@@ -24,15 +25,15 @@ export default class Main extends Component {
 	const pageItems = this.state.pages.map((x) => {
 		return (
 				<section key={x} className="o-content" style={ style } id={`day-${x}`}>
-						<div className="o-content__inner">
-							<div className="o-content__inner-head">
-								<h2 className="c-heading-4 c-heading-4--upper">Day {x}</h2>
-							</div>
-							<div className="o-content__inner-body">
-								<img src='http://placehold.it/600x450' alt='placehold'/>
-							</div>
+					<div className="o-content__inner">
+						<div className="o-content__inner-head">
+							<h2 className="c-heading-4 c-heading-4--upper">Day {x}</h2>
 						</div>
-					</section>
+						<div className="o-content__inner-body">
+							<img src='http://placehold.it/600x450' alt='placehold'/>
+						</div>
+					</div>
+				</section>
 		)
 	});
 	return(
@@ -51,6 +52,7 @@ export default class Main extends Component {
 							<h1 className="c-heading-4 c-heading-4--upper headline">Welcome</h1>
 							<img src='http://placehold.it/600x450' alt='placehold'/>
 						</div>
+						<TodoList/>
 					</section>
 					{pageItems}
 				</div>
