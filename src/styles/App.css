@@ -63,7 +63,31 @@ ul {
   list-style: none;
   background: white;
   border: 1px solid black;
-  padding: 5px; }
+  padding: 5px;
+  display: flex; }
+  .item button {
+    align-self: center;
+    margin-right: 20px; }
+  .item p {
+    cursor: pointer;
+    margin: 0;
+    align-self: center; }
+
+.item-completed {
+  list-style: none;
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+  display: flex; }
+  .item-completed button {
+    align-self: center;
+    margin-right: 20px; }
+  .item-completed p {
+    cursor: pointer;
+    margin: 0;
+    align-self: center; }
+  .item-completed p {
+    text-decoration: line-through; }
 
 @media (min-width: 768px) {
   .o-sidebar {
