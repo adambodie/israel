@@ -1,4 +1,6 @@
 import React, { Component} from 'react';
+import TodoListForm from './TodoListForm.js';
+import TodoListItem from './TodoListItem.js';
 
 export default class TodoList extends Component {
 	constructor(){
@@ -7,15 +9,15 @@ export default class TodoList extends Component {
 			items: [{name: 'Shirts', id: 1, className: 'item', count: 0},{name:'Pants', id: 2, className: 'item', count: 0}, {name:'Passport', id: 3, className: 'item', count: 0}, {name: 'Shoes', id: 4, className: 'item', count: 0}, {name:'Camera', id: 5, className: 'item', count: 0}],
 			value: '',
 		}
-		this.handleChange = this.handleChange.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this);		
-		this.handleRemove = this.handleRemove.bind(this);		
-		this.handleComplete = this.handleComplete.bind(this);		
+		this.onHandleChange = this.onHandleChange.bind(this);
+		this.onHandleSubmit = this.onHandleSubmit.bind(this);		
+		this.onHandleRemove = this.onHandleRemove.bind(this);		
+		this.onHandleComplete = this.onHandleComplete.bind(this);		
 	}
-	handleChange(event) {
-		this.setState({value: event.target.value});
+	onHandleChange(value) {
+		this.setState({value});
 	}	
-	handleComplete(index) {
+	onHandleComplete(index) {
 		const newItems = [...this.state.items];
 		let count = newItems[index - 1].count;
 		count++;
@@ -38,7 +40,7 @@ export default class TodoList extends Component {
 		this.setState({newItems});		
 	}
 
-	handleSubmit(event) {
+	onHandleSubmit() {
 		const newItems = [...this.state.items];
 		if (this.state.value !== '') {
 			newItems.push({name:this.state.value, id: this.state.items.length + 1, className: 'item', count: 0});
@@ -49,33 +51,33 @@ export default class TodoList extends Component {
 		} else {
 			alert("Please enter a value");
 		};
-		event.preventDefault();
 	}
-	handleRemove(index) {
+	onHandleRemove(index) {
 		const newItems = [...this.state.items];
 		newItems.splice(index - 1 , 1);
 		newItems.forEach((item, index) => item.id = index + 1);
 		this.setState(prevState =>({ items: newItems }));
 	}		
 	render() {		
-		let listOfItems = this.state.items.map((x, index)=> {
+		let listOfOtherItems = this.state.items.map((x, index) => {
 			return(
-				<li key={x.id} className={x.className}>
-					<button onClick={()=>this.handleRemove(x.id)}>x</button> 
-						<p onClick={()=>this.handleComplete(x.id)}>{x.name}</p>
-				</li>
-				)
-			});
+				<TodoListItem id={x.id} 
+							  key={x.id} 
+							  className={x.className} 
+							  name={x.name} 
+							  onHandleRemove={this.onHandleRemove} 
+							  onHandleComplete={this.onHandleComplete} 
+							/>
+					)
+				}
+			);
 		return(
 			<div>
 				<h1>Things to Bring to Israel</h1>
-					<ul className="todoList">
-						{listOfItems}
-					</ul>	
-				<form onSubmit={this.handleSubmit}>
-					<input type="text" value={this.state.value} onChange={this.handleChange} />
-					<input type="submit" value="Add Item" />
-				</form>
+					<ul className="todoListEdit">
+						{listOfOtherItems}
+					</ul>
+					<TodoListForm onHandleChange={this.onHandleChange} onHandleSubmit={this.onHandleSubmit} value={this.state.value} />
 			</div>
 		)
   }
