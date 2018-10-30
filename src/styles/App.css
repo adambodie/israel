@@ -1,51 +1,118 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
 @import url("https://fonts.googleapis.com/css?family=Heebo");
-body {
-  margin: 0;
-  padding: 0; }
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
+@import url("https://fonts.googleapis.com/css?family=Heebo");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
+@import url("https://fonts.googleapis.com/css?family=Heebo");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
+@import url("https://fonts.googleapis.com/css?family=Heebo");
 header {
   position: fixed;
   top: 0;
-  width: 100%; }
-
-.App {
-  text-align: center;
-  background: url("../images/background.jpg") no-repeat bottom fixed;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin); }
-  .App h1 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+  width: 100%;
+  z-index: 10000; }
 
 .top-bar {
   background-color: #0038B8; }
-  .top-bar h4 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
 
-.button[disabled] {
-  opacity: 0.5; }
+.top-bar h4 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
-@media (min-width: 768px) {
-  .App {
-    background-position: top; } }
+.button {
+  background-color: #0038B8; }
 
-/* MAIN COMPONENT 
---------------------------*/
+.item {
+  list-style: none;
+  background: white;
+  border: 1px solid black;
+  display: flex; }
+
+.item button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item p {
+  cursor: pointer;
+  margin: 0;
+  align-self: center; }
+
+.item-completed {
+  list-style: none;
+  background: white;
+  border: 1px solid black;
+  display: flex; }
+
+.item-completed button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item-completed p {
+  cursor: pointer;
+  margin: 0;
+  align-self: center; }
+
+.item-completed p {
+  text-decoration: line-through; }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0);
+  color: black; }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0px;
+  position: absolute; }
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
+
+span {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  z-index: 200; }
+
+.form {
+  display: flex;
+  border: 1px solid black; }
+
+.form input {
+  height: 42px;
+  margin: 0; }
+
+.delete {
+  font-weight: bold;
+  color: red;
+  margin-left: 10px; }
+
+.delete:hover {
+  color: maroon; }
+
 .c-side-nav {
   background-color: #0038B8;
   word-wrap: break-word; }
 
 .c-side-nav__item {
   list-style: none; }
-  .c-side-nav__item a {
-    color: white; }
+
+.c-side-nav__item a {
+  color: white; }
 
 .o-sidebar {
   display: none; }
@@ -59,36 +126,6 @@ ul {
 .is-current > a {
   font-weight: bold; }
 
-.item {
-  list-style: none;
-  background: white;
-  border: 1px solid black;
-  padding: 5px;
-  display: flex; }
-  .item button {
-    align-self: center;
-    margin-right: 20px; }
-  .item p {
-    cursor: pointer;
-    margin: 0;
-    align-self: center; }
-
-.item-completed {
-  list-style: none;
-  background: white;
-  border: 1px solid black;
-  padding: 5px;
-  display: flex; }
-  .item-completed button {
-    align-self: center;
-    margin-right: 20px; }
-  .item-completed p {
-    cursor: pointer;
-    margin: 0;
-    align-self: center; }
-  .item-completed p {
-    text-decoration: line-through; }
-
 @media (min-width: 768px) {
   .o-sidebar {
     width: 260px;
@@ -99,3 +136,29 @@ ul {
     min-height: 100vh;
     left: 0;
     top: 59px; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.App {
+  text-align: center;
+  background: url("../images/background.jpg") no-repeat bottom fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); }
+
+.App h1 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
+
+.button[disabled] {
+  opacity: 0.5; }
+
+@media (min-width: 768px) {
+  .App {
+    background-position: top; } }

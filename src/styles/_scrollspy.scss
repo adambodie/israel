@@ -1,0 +1,41 @@
+@import './_import.scss';
+
+.c-side-nav {
+    background-color: $background-color;
+    word-wrap: break-word;
+}
+.c-side-nav__item {
+	list-style: none;
+	a {
+		color: white;
+	}
+}
+
+
+.o-sidebar {
+    display: none;
+}
+ul {
+	margin-left: 0;
+}
+.is-current {
+    background: navy;
+}
+
+.is-current > a {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+.o-sidebar {
+    width: 260px;
+    overflow-y: scroll;
+    display: inherit;
+}
+.o-sidebar--fixed-left {
+    position: fixed;
+    min-height: 100vh;
+    left: 0;
+    top: 59px;
+}
+}

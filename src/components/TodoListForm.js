@@ -11,9 +11,9 @@ const TodoListForm = () => {
 					e.preventDefault();
 				}
 				return(
-					<form onSubmit={handleSubmit}>
+					<form onSubmit={handleSubmit} className="form">
 						<input type="text" value={value} onChange={handleChange} />
-						<input type="submit" value="Add Item" />
+						<input className ="button" type="submit" value="Add Item" />
 					</form>
 				)			
 			}

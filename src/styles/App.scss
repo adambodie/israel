@@ -1,36 +1,13 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
-@import url('https://fonts.googleapis.com/css?family=Heebo');
-
-$background-color: #0038B8;
-
-@mixin item() {
-	list-style: none;
-	background: white;
-	border: 1px solid black;
-	padding: 5px;
-	display: flex;
-	
-	button {
-		align-self: center;
-		margin-right: 20px;
-	}
-	p {
-		cursor: pointer;
-		margin: 0;
-		align-self: center;
-	}
-}
+@import './_import.scss';
+@import './_header.scss';
+@import './_todo.scss';
+@import './_scrollspy.scss';
 
 body {
 	margin: 0;
 	padding: 0;
 }
 
-header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
 
 .App {
 	text-align: center;
@@ -48,21 +25,10 @@ header {
 	}
 }
 
-.top-bar {
-	background-color: $background-color;
-	h4 {
-		font-family: 'Heebo', sans-serif;
-		color: white;
-	}
-}
 
 .button[disabled] {
 	opacity: 0.5;
 }
-
-
-
-
 
 @media (min-width: 768px) {
 	.App {
@@ -73,55 +39,4 @@ header {
 
 
 
-/* MAIN COMPONENT 
---------------------------*/
-.c-side-nav {
-    background-color: $background-color;
-    word-wrap: break-word;
-}
-.c-side-nav__item {
-	list-style: none;
-	a {
-		color: white;
-	}
-}
 
-
-.o-sidebar {
-    display: none;
-}
-ul {
-	margin-left: 0;
-}
-.is-current {
-    background: navy;
-}
-
-.is-current > a {
-    font-weight: bold;
-}
-
-.item {
-	@include item();
-}
-
-.item-completed {
-	@include item();	
-	p {
-		text-decoration: line-through;
-	}	
-}
-
-@media (min-width: 768px) {
-.o-sidebar {
-    width: 260px;
-    overflow-y: scroll;
-    display: inherit;
-}
-.o-sidebar--fixed-left {
-    position: fixed;
-    min-height: 100vh;
-    left: 0;
-    top: 59px;
-}
-}

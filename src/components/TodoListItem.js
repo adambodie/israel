@@ -16,8 +16,11 @@ export default class TodoListItem extends Component {
 
 				return(
 				<li key={items[index].id} className={items[index].className}>
-					<button onClick={()=> handleRemove(items[index].id)}>x</button> 
-					<p onClick={()=> handleComplete(items[index].id)}>{items[index].name}</p>
+					<button onClick={()=> handleRemove(items[index].id)} className="delete">x</button> 
+					<p className="tooltip" onClick={()=> handleComplete(items[index].id)}>
+						{items[index].name}
+						<span className="tooltiptext">Click to Mark Complete</span>
+					</p>
 				</li>
 				)			
 			}
