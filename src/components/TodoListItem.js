@@ -1,29 +1,28 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
+import { Consumer } from './Context';
 import PropTypes from 'prop-types';
 
 export default class TodoListItem extends Component {
-
-	handleComplete(e) {
-		this.props.onHandleComplete(e);
+	static propTypes = {
+		index: PropTypes.number.isRequired,
 	}
-
-	handleRemove(e) {
-		this.props.onHandleRemove(e);
-	}		
 	render() {
-		const {id, className, name} = this.props;		
+		const { index } = this.props;
 		return(
-				<li key={id} className={className}>
-					<button onClick={()=> this.handleRemove(id)}>x</button> 
-					<p onClick={()=> this.handleComplete(id)}>{name}</p>
-				</li>
-		)
-	}
-}
+		<Consumer>
+			{ ({ actions, items }) => {
+				const handleComplete =(e) => actions.onHandleComplete(e);
+				const handleRemove = (e) => actions.onHandleRemove(e);			
 
-TodoListItem.propTypes = {
-	id: PropTypes.number,
-	className: PropTypes.string,
-	name: PropTypes.string,
-	onClick: PropTypes.func
+				return(
+				<li key={items[index].id} className={items[index].className}>
+					<button onClick={()=> handleRemove(items[index].id)}>x</button> 
+					<p onClick={()=> handleComplete(items[index].id)}>{items[index].name}</p>
+				</li>
+				)			
+			}
+		}
+	</Consumer>
+	)
+}
 }

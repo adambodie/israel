@@ -1,33 +1,25 @@
-import React, { Component} from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+import { Consumer } from './Context';
 
-export default class TodoListForm extends Component {
-	constructor(props){
-		super(props);
-		this.handleChange = this.handleChange.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this);
-	
-	}
-	handleChange(e) {
-		this.props.onHandleChange(e.target.value);
-	}	
-
-	handleSubmit(e) {
-		this.props.onHandleSubmit(e.target.value);
-		e.preventDefault();
-	}		
-	render() {
-		const {value} = this.props;		
-		return(
-			<form onSubmit={this.handleSubmit}>
-				<input type="text" value={value} onChange={this.handleChange} />
-				<input type="submit" value="Add Item" />
-			</form>
-		)
-  }
+const TodoListForm = () => {
+	return(
+		<Consumer>
+			{ ({ actions, items, value }) => {
+				const handleChange = (e) => actions.onHandleChange(e.target.value);
+				const handleSubmit = (e) => {
+					actions.onHandleSubmit(e.target.value);
+					e.preventDefault();
+				}
+				return(
+					<form onSubmit={handleSubmit}>
+						<input type="text" value={value} onChange={handleChange} />
+						<input type="submit" value="Add Item" />
+					</form>
+				)			
+			}
+		}
+	</Consumer>
+	)
 }
+export default TodoListForm;
 
-TodoListForm.propTypes = {
-	value: PropTypes.string,
-	onChange: PropTypes.func
-}
