@@ -4,6 +4,10 @@
 	background-color: $background-color;
 }
 
+.todoListIntro {
+	color: white;
+}
+
 .item {
 	@include item();
 }
@@ -66,5 +70,13 @@ span {
 	margin-left: 10px;
 	&:hover {
 		color: maroon;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.todoList {
+		width: calc(100% - 390px);
+		margin-left: 320px;
 	}
 }

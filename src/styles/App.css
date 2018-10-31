@@ -22,6 +22,9 @@ header {
 .button {
   background-color: #0038B8; }
 
+.todoListIntro {
+  color: white; }
+
 .item {
   list-style: none;
   background: white;
@@ -104,6 +107,11 @@ span {
 .delete:hover {
   color: maroon; }
 
+@media (min-width: 768px) {
+  .todoList {
+    width: calc(100% - 390px);
+    margin-left: 320px; } }
+
 .c-side-nav {
   background-color: #0038B8;
   word-wrap: break-word; }
@@ -126,6 +134,9 @@ ul {
 .is-current > a {
   font-weight: bold; }
 
+.o-hero {
+  color: white; }
+
 @media (min-width: 768px) {
   .o-sidebar {
     width: 260px;
@@ -135,7 +146,10 @@ ul {
     position: fixed;
     min-height: 100vh;
     left: 0;
-    top: 59px; } }
+    top: 59px; }
+  .o-hero {
+    width: calc(100% - 390px);
+    margin-left: 320px; } }
 
 body {
   margin: 0;

@@ -11,13 +11,14 @@
 	}
 }
 
-
 .o-sidebar {
     display: none;
 }
 ul {
 	margin-left: 0;
 }
+
+
 .is-current {
     background: navy;
 }
@@ -26,16 +27,24 @@ ul {
     font-weight: bold;
 }
 
+.o-hero {
+	color: white;
+}
+
 @media (min-width: 768px) {
-.o-sidebar {
-    width: 260px;
-    overflow-y: scroll;
-    display: inherit;
-}
-.o-sidebar--fixed-left {
-    position: fixed;
-    min-height: 100vh;
-    left: 0;
-    top: 59px;
-}
+	.o-sidebar {
+		width: 260px;
+		overflow-y: scroll;
+		display: inherit;
+	}
+	.o-sidebar--fixed-left {
+		position: fixed;
+		min-height: 100vh;
+		left: 0;
+		top: 59px;
+	}
+	.o-hero {
+		width: calc(100% - 390px);
+		margin-left: 320px;
+	}
 }
