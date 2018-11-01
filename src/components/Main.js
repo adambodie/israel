@@ -1,14 +1,14 @@
 import React, { Component} from 'react';
 import Scrollspy from 'react-scrollspy'
-import TodoList from './TodoList';
+import { Link } from "react-router-dom";
 
 export default class Main extends Component {
 	
 	constructor() {
 		super();
 		this.state ={
-			items: ['day-1', 'day-2', 'day-3'],
-			pages: [1,2,3]
+			items: ['day-0', 'day-1', 'day-2', 'day-3'],
+			pages: [0,1,2,3]
 		}
 	}
 	render() {
@@ -30,7 +30,10 @@ export default class Main extends Component {
 							<h2 className="c-heading-4 c-heading-4--upper">Day {x}</h2>
 						</div>
 						<div className="o-content__inner-body">
+							<h1>Title</h1>
 							<img src='http://placehold.it/600x450' alt='placehold'/>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<Link to="/todoList" className="button">Click Here</Link>
 						</div>
 					</div>
 				</section>
@@ -57,7 +60,9 @@ export default class Main extends Component {
 							<p>But the powers that be prevented Adam from going.  He was denied the chance; not enough room for Adam to go.  So it seemed like Adam would never be able to go to Israel.  Adam wasn't made of money; it wasn't as easy as writing a check.  So years went by, wondering what could have been.  But then, an e-mail popped up in Adam's e-mail.  Birthright Israel was extendng the age limit to people up to 32 years old.  The same age Adam was when he read that e-mail.  Suddenly, a second chance at Israel presented itself.</p>
 							<p>Now had to be the time.  Adam was far more mature this time around, and able to handle himself for such a big trip.  So when Adam applied this time around, he was all in.  Things happen for a reason, and soon enough, Adam was ready to go.</p>
 						</div>
-						<TodoList/>
+						{/*<h1>Things to Bring to Israel</h1>
+						<p className="todoListIntro">Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you'd like to bring!</p>
+						<Link to="/todoList" className="button">Click Here</Link>*/}
 					</section>
 					{pageItems}
 				</div>

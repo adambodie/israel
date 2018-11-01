@@ -1,5 +1,9 @@
 @import './_import.scss';
 
+section {
+	border-bottom: 1px solid white;
+}
+
 .c-side-nav {
     background-color: $background-color;
     word-wrap: break-word;
@@ -14,6 +18,7 @@
 .o-sidebar {
     display: none;
 }
+
 ul {
 	margin-left: 0;
 }
@@ -21,30 +26,37 @@ ul {
 
 .is-current {
     background: navy;
+	> a {
+		font-weight: bold;
+	}
 }
 
-.is-current > a {
-    font-weight: bold;
-}
-
-.o-hero {
+.o-main {
 	color: white;
 }
 
 @media (min-width: 768px) {
+
+	.c-side-nav__body {
+		margin-top: 60px;
+	}
+	
 	.o-sidebar {
 		width: 260px;
 		overflow-y: scroll;
 		display: inherit;
 	}
+	
 	.o-sidebar--fixed-left {
 		position: fixed;
 		min-height: 100vh;
 		left: 0;
-		top: 59px;
+		top: 0;
+		z-index: 999;
 	}
-	.o-hero {
-		width: calc(100% - 390px);
-		margin-left: 320px;
+		
+	.o-main {
+		width: calc(100% - 260px);
+		margin-left: 260px;
 	}
 }

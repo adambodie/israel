@@ -7,16 +7,27 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
 @import url("https://fonts.googleapis.com/css?family=Heebo");
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 10000; }
 
 .top-bar {
   background-color: #0038B8; }
-  .top-bar h4 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.top-bar h4 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
+
+.todoList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: 100px 0px; }
+
+.todoList ul {
+  margin-top: 20px; }
 
 .button {
   background-color: #0038B8; }
@@ -29,52 +40,60 @@ header {
   background: white;
   border: 1px solid black;
   display: flex; }
-  .item button {
-    align-self: center;
-    margin-right: 20px; }
-  .item p {
-    cursor: pointer;
-    margin: 0;
-    align-self: center; }
+
+.item button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item p {
+  cursor: pointer;
+  margin: 0;
+  align-self: center; }
 
 .item-completed {
   list-style: none;
   background: white;
   border: 1px solid black;
   display: flex; }
-  .item-completed button {
-    align-self: center;
-    margin-right: 20px; }
-  .item-completed p {
-    cursor: pointer;
-    margin: 0;
-    align-self: center; }
-  .item-completed p {
-    text-decoration: line-through; }
+
+.item-completed button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item-completed p {
+  cursor: pointer;
+  margin: 0;
+  align-self: center; }
+
+.item-completed p {
+  text-decoration: line-through; }
 
 .tooltip {
   position: relative;
   display: inline-block;
   background-color: rgba(0, 0, 0, 0);
   color: black; }
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 250px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 10px 0px;
-    position: absolute; }
-    .tooltip .tooltiptext::after {
-      content: " ";
-      position: absolute;
-      top: 50%;
-      right: 100%;
-      margin-top: -5px;
-      border-width: 5px;
-      border-style: solid;
-      border-color: transparent black transparent transparent; }
-  .tooltip:hover .tooltiptext {
-    visibility: visible; }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0px;
+  position: absolute; }
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
 
 span {
   background-color: black;
@@ -85,21 +104,21 @@ span {
 .form {
   display: flex;
   border: 1px solid black; }
-  .form input {
-    height: 42px;
-    margin: 0; }
+
+.form input {
+  height: 42px;
+  margin: 0; }
 
 .delete {
   font-weight: bold;
   color: red;
   margin-left: 10px; }
-  .delete:hover {
-    color: maroon; }
 
-@media (min-width: 768px) {
-  .todoList {
-    width: calc(100% - 390px);
-    margin-left: 320px; } }
+.delete:hover {
+  color: maroon; }
+
+section {
+  border-bottom: 1px solid white; }
 
 .c-side-nav {
   background-color: #0038B8;
@@ -107,8 +126,9 @@ span {
 
 .c-side-nav__item {
   list-style: none; }
-  .c-side-nav__item a {
-    color: white; }
+
+.c-side-nav__item a {
+  color: white; }
 
 .o-sidebar {
   display: none; }
@@ -122,10 +142,12 @@ ul {
 .is-current > a {
   font-weight: bold; }
 
-.o-hero {
+.o-main {
   color: white; }
 
 @media (min-width: 768px) {
+  .c-side-nav__body {
+    margin-top: 60px; }
   .o-sidebar {
     width: 260px;
     overflow-y: scroll;
@@ -134,10 +156,11 @@ ul {
     position: fixed;
     min-height: 100vh;
     left: 0;
-    top: 59px; }
-  .o-hero {
-    width: calc(100% - 390px);
-    margin-left: 320px; } }
+    top: 0;
+    z-index: 999; }
+  .o-main {
+    width: calc(100% - 260px);
+    margin-left: 260px; } }
 
 body {
   margin: 0;
@@ -153,9 +176,10 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin); }
-  .App h1 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.App h1 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
 .button[disabled] {
   opacity: 0.5; }

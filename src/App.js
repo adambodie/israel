@@ -4,6 +4,7 @@ import './styles/App.css';
 import Header from './components/Header';
 import Landing from './components/Landing';
 import Main from './components/Main';
+import TodoList from './components/TodoList';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
 				<div className="App">
 					<Route exact path="/" component={Landing} />
 					<Route path="/index" component={Main} />
+					<Route path="/todoList" component={TodoList} />
 				</div>				
 			</div>
 		</Router>

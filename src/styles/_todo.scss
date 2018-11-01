@@ -1,5 +1,16 @@
 @import './_import.scss';
 
+.todoList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	margin: 100px 0px;
+	ul {
+		margin-top: 20px;
+	}
+}
+
 .button {
 	background-color: $background-color;
 }
@@ -73,10 +84,3 @@ span {
 	}
 }
 
-
-@media (min-width: 768px) {
-	.todoList {
-		width: calc(100% - 390px);
-		margin-left: 320px;
-	}
-}
