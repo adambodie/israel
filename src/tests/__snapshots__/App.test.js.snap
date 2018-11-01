@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <header>
+    <div
+      className="top-bar"
+    >
+      <div
+        className="top-bar-left"
+      >
+        <h4>
+          Adam's Birthright Trip to Israel
+        </h4>
+      </div>
+    </div>
+  </header>
+  <div
+    className="App"
+  >
+    <div>
+      <h1>
+        Coming Soon
+      </h1>
+      <a
+        className="button"
+        disabled={true}
+      >
+        Enter
+      </a>
+    </div>
+  </div>
+</div>
+`;

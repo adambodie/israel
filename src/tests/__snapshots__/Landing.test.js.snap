@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h1>
+    Coming Soon
+  </h1>
+  <a
+    className="button"
+    disabled={true}
+  >
+    Enter
+  </a>
+</div>
+`;

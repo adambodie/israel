@@ -14,10 +14,9 @@ header {
 
 .top-bar {
   background-color: #0038B8; }
-
-.top-bar h4 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .top-bar h4 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .button {
   background-color: #0038B8; }
@@ -30,60 +29,52 @@ header {
   background: white;
   border: 1px solid black;
   display: flex; }
-
-.item button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item p {
-  cursor: pointer;
-  margin: 0;
-  align-self: center; }
+  .item button {
+    align-self: center;
+    margin-right: 20px; }
+  .item p {
+    cursor: pointer;
+    margin: 0;
+    align-self: center; }
 
 .item-completed {
   list-style: none;
   background: white;
   border: 1px solid black;
   display: flex; }
-
-.item-completed button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item-completed p {
-  cursor: pointer;
-  margin: 0;
-  align-self: center; }
-
-.item-completed p {
-  text-decoration: line-through; }
+  .item-completed button {
+    align-self: center;
+    margin-right: 20px; }
+  .item-completed p {
+    cursor: pointer;
+    margin: 0;
+    align-self: center; }
+  .item-completed p {
+    text-decoration: line-through; }
 
 .tooltip {
   position: relative;
   display: inline-block;
   background-color: rgba(0, 0, 0, 0);
   color: black; }
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 250px;
-  text-align: center;
-  border-radius: 6px;
-  padding: 10px 0px;
-  position: absolute; }
-
-.tooltip .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent black transparent transparent; }
-
-.tooltip:hover .tooltiptext {
-  visibility: visible; }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0px;
+    position: absolute; }
+    .tooltip .tooltiptext::after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent black transparent transparent; }
+  .tooltip:hover .tooltiptext {
+    visibility: visible; }
 
 span {
   background-color: black;
@@ -94,18 +85,16 @@ span {
 .form {
   display: flex;
   border: 1px solid black; }
-
-.form input {
-  height: 42px;
-  margin: 0; }
+  .form input {
+    height: 42px;
+    margin: 0; }
 
 .delete {
   font-weight: bold;
   color: red;
   margin-left: 10px; }
-
-.delete:hover {
-  color: maroon; }
+  .delete:hover {
+    color: maroon; }
 
 @media (min-width: 768px) {
   .todoList {
@@ -118,9 +107,8 @@ span {
 
 .c-side-nav__item {
   list-style: none; }
-
-.c-side-nav__item a {
-  color: white; }
+  .c-side-nav__item a {
+    color: white; }
 
 .o-sidebar {
   display: none; }
@@ -165,10 +153,9 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin); }
-
-.App h1 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .App h1 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .button[disabled] {
   opacity: 0.5; }
