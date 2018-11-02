@@ -4,10 +4,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 600px;
 	margin: 100px 0px;
 	ul {
 		margin-top: 20px;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
 	}
 }
 
@@ -84,3 +87,9 @@ span {
 	}
 }
 
+
+@media (min-width: 768px) {
+	.todoList {
+		width: 600px;
+	}
+}
