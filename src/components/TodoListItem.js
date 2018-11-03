@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Consumer } from './Context';
+import { Link, Colors } from 'react-foundation';
 import PropTypes from 'prop-types';
 
 export default class TodoListItem extends Component {
@@ -15,12 +16,15 @@ export default class TodoListItem extends Component {
 				const handleRemove = (e) => actions.onHandleRemove(e);			
 
 				return(
+				
 				<li key={items[index].id} className={items[index].className}>
-					<button onClick={()=> handleRemove(items[index].id)} className="delete">x</button> 
-					<p className="tooltip" onClick={()=> handleComplete(items[index].id)}>
-						{items[index].name}
-						<span className="tooltiptext">Click to Mark Complete</span>
-					</p>
+					<Link color={Colors.ALERT} onClick={()=> handleRemove(items[index].id)} className="delete">X</Link>
+					<p>{items[index].name}</p>
+					{items[index].className === "item-completed" ? (
+						<Link color={Colors.SUCCESS} onClick={()=> handleComplete(items[index].id)} className="complete">&#x2713;</Link>
+					) : (
+						<Link color={Colors.PRIMARY} onClick={()=> handleComplete(items[index].id)} className="complete">&#x2713;</Link>
+					)}
 				</li>
 				)			
 			}

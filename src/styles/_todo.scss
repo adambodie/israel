@@ -1,9 +1,4 @@
-@import './_import.scss';
-
 .todoList {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 100px 0px;
 	ul {
 		margin-top: 20px;
@@ -11,6 +6,7 @@
 	img {
 		display: block;
 		margin: 0 auto;
+		border: 5px solid white;
 	}
 }
 
@@ -33,42 +29,6 @@
 	}	
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    background-color: rgba(0,0,0,0);
-    color: black;
-	.tooltiptext {
-		visibility: hidden;
-		width: 250px;
-		text-align: center;
-		border-radius: 6px;
-		padding: 10px 0px;
-		position: absolute;
-		&::after {
-		    content: " ";
-			position: absolute;
-			top: 50%;
-			right: 100%;
-			margin-top: -5px;
-			border-width: 5px;
-			border-style: solid;
-			border-color: transparent black transparent transparent;
-		}
-    }
-	&:hover .tooltiptext {
-		visibility: visible;
-	}
-}
-
-
-span {
-	background-color: black;
-	color: white;
-	margin-left: 10px;
-	z-index: 200;
-}
-
 .form {
 	display: flex;
 	border: 1px solid black;
@@ -78,18 +38,9 @@ span {
 	}
 }
 
-.delete {
+.delete, .complete {
 	font-weight: bold;
-	color: red;
-	margin-left: 10px;
-	&:hover {
-		color: maroon;
-	}
+	margin: 0;
+	font-size: 1em;
 }
 
-
-@media (min-width: 768px) {
-	.todoList {
-		width: 600px;
-	}
-}

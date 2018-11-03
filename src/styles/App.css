@@ -1,33 +1,28 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
-@import url("https://fonts.googleapis.com/css?family=Heebo");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
-@import url("https://fonts.googleapis.com/css?family=Heebo");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
-@import url("https://fonts.googleapis.com/css?family=Heebo");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.css");
 @import url("https://fonts.googleapis.com/css?family=Heebo");
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 10000; }
 
 .top-bar {
   background-color: #0038B8; }
-  .top-bar h4 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.top-bar h4 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
 .todoList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 100px 0px; }
-  .todoList ul {
-    margin-top: 20px; }
-  .todoList img {
-    display: block;
-    margin: 0 auto; }
+
+.todoList ul {
+  margin-top: 20px; }
+
+.todoList img {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid white; }
 
 .button {
   background-color: #0038B8; }
@@ -39,77 +34,47 @@ header {
   list-style: none;
   background: white;
   border: 1px solid black;
-  display: flex; }
-  .item button {
-    align-self: center;
-    margin-right: 20px; }
-  .item p {
-    cursor: pointer;
-    margin: 0;
-    align-self: center; }
+  display: flex;
+  justify-content: space-between; }
+
+.item button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item p {
+  margin: 0;
+  align-self: center; }
 
 .item-completed {
   list-style: none;
   background: white;
   border: 1px solid black;
-  display: flex; }
-  .item-completed button {
-    align-self: center;
-    margin-right: 20px; }
-  .item-completed p {
-    cursor: pointer;
-    margin: 0;
-    align-self: center; }
-  .item-completed p {
-    text-decoration: line-through; }
+  display: flex;
+  justify-content: space-between; }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0);
-  color: black; }
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 250px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 10px 0px;
-    position: absolute; }
-    .tooltip .tooltiptext::after {
-      content: " ";
-      position: absolute;
-      top: 50%;
-      right: 100%;
-      margin-top: -5px;
-      border-width: 5px;
-      border-style: solid;
-      border-color: transparent black transparent transparent; }
-  .tooltip:hover .tooltiptext {
-    visibility: visible; }
+.item-completed button {
+  align-self: center;
+  margin-right: 20px; }
 
-span {
-  background-color: black;
-  color: white;
-  margin-left: 10px;
-  z-index: 200; }
+.item-completed p {
+  margin: 0;
+  align-self: center; }
+
+.item-completed p {
+  text-decoration: line-through; }
 
 .form {
   display: flex;
   border: 1px solid black; }
-  .form input {
-    height: 42px;
-    margin: 0; }
 
-.delete {
+.form input {
+  height: 42px;
+  margin: 0; }
+
+.delete, .complete {
   font-weight: bold;
-  color: red;
-  margin-left: 10px; }
-  .delete:hover {
-    color: maroon; }
-
-@media (min-width: 768px) {
-  .todoList {
-    width: 600px; } }
+  margin: 0;
+  font-size: 1em; }
 
 section {
   border-bottom: 1px solid white; }
@@ -120,8 +85,9 @@ section {
 
 .c-side-nav__item {
   list-style: none; }
-  .c-side-nav__item a {
-    color: white; }
+
+.c-side-nav__item a {
+  color: white; }
 
 .o-sidebar {
   display: none; }
@@ -131,8 +97,9 @@ ul {
 
 .is-current {
   background: navy; }
-  .is-current > a {
-    font-weight: bold; }
+
+.is-current > a {
+  font-weight: bold; }
 
 .o-main {
   color: white; }
@@ -168,9 +135,10 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin); }
-  .App h1 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.App h1 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
 .button[disabled] {
   opacity: 0.5; }

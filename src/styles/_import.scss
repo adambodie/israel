@@ -1,4 +1,4 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.css");
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 $background-color: #0038B8;
 
@@ -7,14 +7,14 @@ $background-color: #0038B8;
 	background: white;
 	border: 1px solid black;
 	display: flex;
-	
+	justify-content: space-between;
 	button {
 		align-self: center;
 		margin-right: 20px;
 	}
 	p {
-		cursor: pointer;
 		margin: 0;
 		align-self: center;
 	}
 }
+

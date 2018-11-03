@@ -13,7 +13,7 @@ const TodoListForm = () => {
 				return(
 					<form onSubmit={handleSubmit} className="form">
 						<input type="text" value={value} onChange={handleChange} />
-						<input className ="button" type="submit" value="Add Item" />
+						<input className="button" type="submit" value="Add Item" />
 					</form>
 				)			
 			}
