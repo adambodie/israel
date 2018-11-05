@@ -9,7 +9,11 @@ const Scroll = (props) => {
 					{props.pages.map((x)=> { 
 						return(
 							<li className="c-side-nav__item" key={x}>
-								<a href={`#day-${x}`} className="c-side-nav__link">Day {x}</a>
+								{x.day === 0 ? (
+									<a href={`#day-${x.day}`} className="c-side-nav__link">Introduction</a>
+									) : (
+									<a href={`#day-${x.day}`} className="c-side-nav__link">Day {x.day}</a>
+								)}								
 							</li>)
 						})	
 					}
