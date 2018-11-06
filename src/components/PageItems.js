@@ -2,11 +2,14 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Row, Column } from 'react-foundation';
 import ReactMarkdown from 'react-markdown';
+import { Consumer } from './Context/main';
 
 const PageItems = (props) => {	
 	return (
-		<div>
-			{props.pages.map((x) => {
+		<Consumer>
+		{ ({ pages }) => (
+			<div>
+			{pages.map((x) => {
 				return (
 					<section key={`${x.day}`} className="o-content" style={{minHeight: '600px'}} id={`day-${x.day}`}>
 						<Row className="display grid-x">
@@ -19,7 +22,7 @@ const PageItems = (props) => {
 									)}
 								</div>
 								<div className="o-content__inner-body">
-									<h2>{x.title}</h2>
+									<h3>{x.title}</h3>
 									<img src={x.image} alt={x.title}/>
 									<ReactMarkdown source={x.intro}/>
 									<Link to={`/${x.link}`} className='button'>Read More</Link>
@@ -30,7 +33,9 @@ const PageItems = (props) => {
 				)
 			})		
 		}
-		</div>
+		</div>)
+		}
+		</Consumer>		
 	)
 }
 export default PageItems;

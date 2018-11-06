@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Consumer } from './Context';
+import { Consumer } from './Context/todo';
 import { Link, Colors } from 'react-foundation';
 import PropTypes from 'prop-types';
 
