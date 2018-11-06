@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './styles/App.css';
 import Header from './components/Header';
 import Landing from './components/Landing';
-import Main from './components/Main';
-import TodoList from './components/TodoList';
+import Main from './components/Main/Main';
+import TodoList from './components/Todo/TodoList';
 
 const App = () => {
     return (

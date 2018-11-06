@@ -1,9 +1,7 @@
 import React from 'react';
 import { Row, Column } from 'react-foundation';
 import ReactMarkdown from 'react-markdown';
-import { title, paragraph } from '../data/intro';
-
-
+import { title, paragraph } from '../../data/intro';
 
 const MainIntro = () => {
 	return (

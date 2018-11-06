@@ -3,9 +3,9 @@ import { Row, Column } from 'react-foundation';
 import ReactMarkdown from 'react-markdown';
 import TodoListForm from './TodoListForm.js';
 import TodoListItemList from './TodoListItemList.js';
-import { intro } from '../data/main';
-import image from '../images/items.jpg';
-import { Provider } from './Context/todo';
+import { intro } from '../../data/main';
+import image from '../../images/items.jpg';
+import { Provider } from '../Context/todo';
 import ReactTooltip from 'react-tooltip'
 
 
