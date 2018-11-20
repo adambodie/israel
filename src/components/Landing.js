@@ -1,18 +1,19 @@
 import React, { Component} from 'react';
-import { Link } from 'react-foundation';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-foundation';
 
 export default class Landing extends Component {
 	constructor(){
 		super();
 		this.state = {
-			disabled: true
+			disabled: false
 		}
 	}
 	render() {
 		return(
 			<div>
 				<h1>Coming Soon</h1>
-				<Link disabled={this.state.disabled} >Enter</Link>
+				<Button><Link to={'/index'} disabled={this.state.disabled}>Enter</Link></Button>
 			</div>
 		)
 	}
