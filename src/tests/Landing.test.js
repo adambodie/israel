@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { shallow, mount, render } from 'enzyme';
 import Landing from '../components/Landing';
-import { Link } from 'react-foundation';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-foundation';
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
@@ -18,6 +19,6 @@ it('renders correctly', () => {
 
 it('renders a `Link`', () => {
 	const wrapper = shallow(<Landing />);
-    expect(wrapper.find(Link).length).toEqual(1);
+    expect(wrapper.find(Button).length).toEqual(1);
 });
 

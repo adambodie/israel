@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
         className="top-bar-left"
       >
         <h4>
-          Adam's Birthright Trip to Israel
+          Adam's Birthright Trip to The Land of Israel
         </h4>
       </div>
     </div>
@@ -22,12 +22,17 @@ exports[`renders correctly 1`] = `
       <h1>
         Coming Soon
       </h1>
-      <a
+      <button
         className="button"
-        disabled={true}
       >
-        Enter
-      </a>
+        <a
+          disabled={false}
+          href="/index"
+          onClick={[Function]}
+        >
+          Enter
+        </a>
+      </button>
     </div>
   </div>
 </div>

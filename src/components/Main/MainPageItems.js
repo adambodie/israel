@@ -22,12 +22,17 @@ const MainPageItems = () => {
 											<h1 className="c-heading-4 c-heading-4--upper">Day {x.day}</h1>
 										)}
 									</div>
-									<div className="o-content__inner-body">
-										<h3>{x.title}</h3>
-										<img src={x.image} alt={x.title}/>
-										<ReactMarkdown source={x.intro}/>
-										<Link to={`/${x.link}`} className='button'>Read More</Link>
-									</div>
+									{x.items.map((y, index)=> {
+										return (
+											<div className="o-content__inner-body" key={index}>
+												<h3>{y.title}</h3>
+												<img src={y.image} alt={y.title} />
+												<ReactMarkdown source={y.intro}/>
+												<Link to={ `${y.link}` } className='button'>Read More</Link>
+											</div>
+											)
+										})
+									}
 								</Column>
 							</Row>
 						</section>
