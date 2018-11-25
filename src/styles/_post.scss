@@ -1,0 +1,63 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.post {
+	margin-top: 59px;
+	color: white;
+	h1 {
+		font-size: 2em;
+	}
+}
+
+.slick-list, .slick-slider, .slick-track {
+	width: 375px;
+	display: block;
+	margin: 0 auto;
+}
+
+.slick-arrow {
+	z-index: 1000;
+}
+
+.slick-slide img {
+    margin: 0px auto;
+	height: 225px;
+}
+
+.slick-prev {
+	left: 0!important;
+}
+
+.slick-next {
+	right: 0!important;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 550px) {
+	.slick-list, .slick-slider, .slick-track {
+		width: 625px;
+	}
+
+  .slick-slide img {
+		height: 300px;
+	}
+	.slick-prev:before, .slick-next:before {
+		font-size: 20px!important;
+		opacity: 1!important;
+	}
+}
+
+@media (min-width: 769px) {
+	.slick-list, .slick-slider, .slick-track  {
+		width: 675px;
+	}
+	.slick-slide {
+		img {
+			height: 400px;
+		}
+	}	
+}
+

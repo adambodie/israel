@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-context": "^0.0.3",
@@ -12,7 +14,9 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5",
     "react-scrollspy": "^3.3.5",
-    "react-tooltip": "^3.9.0"
+    "react-slick": "^0.23.2",
+    "react-tooltip": "^3.9.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "build-css": "node-sass src/styles/ -o src/styles/",

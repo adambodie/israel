@@ -2,6 +2,12 @@ section {
 	border-bottom: 1px solid white;
 }
 
+.o-content__inner-body {
+	img {
+		width: 50%;
+	}
+}
+
 .c-side-nav {
     background-color: $background-color;
     word-wrap: break-word;

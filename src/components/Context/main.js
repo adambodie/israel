@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { intro, dummy, jerusalemIntro } from '../../data/main';
+import { intro, dummy, elAlIntro, jerusalemIntro } from '../../data/main';
 import items from '../../images/items.jpg';
 import globe from '../../images/globe.jpg';
 import welcomeIsrael from '../../images/welcomeIsrael.jpg';
@@ -46,9 +46,9 @@ export class Provider extends Component {
 						image: items
 					},
 					{
-						title: "The Journey Begins, El AL to Israel", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: "The Journey Begins, El Al to Israel", 
+						intro: elAlIntro, 
+						link: 'el-al', 
 						image: globe
 					},					
 					]
