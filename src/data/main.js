@@ -3,12 +3,16 @@ export const dummy = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. I
 export const intro = `Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you&apos;d like to bring!`
 
 export const elAlIntro = `
-Flying to Israel, the best way to fly is through their official carrier, El Al.  The journey to Israel began at the check-in counter, where the Birthright group met.  Not wanting to stay at my hotel in North Bergen, New Jersey, for long, I left as early as I could but not arrive super early.  I ended up arriving around 8:15 or so.  The group was small, but thanks to Zach&apos;s gray Lowe&apos;s jacket he mentioned on our Facebook page, I knew I was in the right section.
+The journey to Israel began by flying to the Newark Airport, where our group met.  For plenty, it was a short or fairly short drive away.  For me, it was flying across country and spending the night in Newark.  To get to Newark, I flew first to the Detroit Airport, then to the Newark Airport.  Fortunately, the layover in Detroit was only about an hour, and the gates were basically next to each other.  That made things less stress free.  What didn&apos;t make things stress free was getting to the hotel from the airport.
 `;
 
 export const elAl = ` # The Path to Israel: El Al
 
 ${elAlIntro}
+
+I had naturally figured I&apos;d book a hotel near the airport.  My plan was to order an Uber and head to the hotel a few minutes away and I would get some sleep before going back to the airport.  But reaching the hotel, the clerk didn&apos;t recognize my name, and looking at my confirmation, I realized I had booked my room at another hotel.  Instead of being near the airport, I instead booked it in North Bergen, about 20 minutes away.  Now I needed another Uber ride to get to the right hotel.  On the one hand, I got a nice evening time tour of downtown Newark.  On the other hand, it was about 11:00 pm and I was desperate to check in, which would&apos;ve been worse if not coming from the West Coast.  By the time I got to the my hotel, it was almost Midnight, and I was ready to crash for the beginning of an eventful trip to Israel.
+
+Flying to Israel, the best way to fly is through their official carrier, El Al.  The journey to Israel began at the check-in counter, where the Birthright group met.  Not wanting to stay at my hotel in North Bergen, New Jersey, for long, I left as early as I could but not arrive super early.  I ended up arriving around 8:15 or so.  The group was small, but thanks to Zach&apos;s gray Lowe&apos;s jacket he mentioned on our Facebook page, I knew I was in the right section.
 
 For the next hour, more and more people showed up, with the early birds like me pointing out to them "Check in over there" where are staff member Anabelle was sitting, complete with name tags for everyone to wear.  Once the other staff member Jake arrived, having just flown to the aiport from Israel, we were ready to get our first instructions.
 
@@ -27,7 +31,7 @@ Thankfully, there was plenty of entertainment available, because the flight was 
 - El Al offers only kosher meals and does not fly on the Sabbath or on major Jewish holidays.
 - It’s the only commercial airline equipped with missile defense systems to protect itself from surface to air missiles
 - In 1991, El Al set a world record for most passengers on a commercial flight, 1,122 on a 747, transporting Jewish refugees from Ethiopia to Israel during Operation Solomon, a mission that helped transport over 14,000 refugees within 36 hours.
-
+- Their company slogan in Hebrew is **הכי בבית בעולם‬**, which they translate as "Home away from Home" 
 `;
 
 

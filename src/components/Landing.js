@@ -13,7 +13,7 @@ export default class Landing extends Component {
 		return(
 			<div>
 				<h1>Coming Soon</h1>
-				<Button><Link to={'/index'} disabled={this.state.disabled}>Enter</Link></Button>
+				<Button className="landingLink"><Link to={'/index'} disabled={this.state.disabled} className="landingLink">Enter</Link></Button>
 			</div>
 		)
 	}

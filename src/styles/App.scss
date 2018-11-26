@@ -24,9 +24,13 @@ body {
 		font-family: 'Heebo', sans-serif;
 		color: white;
 	}
+	
 }
 
-
+.landingLink {
+	width: 70px;
+	height: 40px;
+}
 .button[disabled] {
 	opacity: 0.5;
 }

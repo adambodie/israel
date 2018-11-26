@@ -7,7 +7,7 @@ import welcome from '../../images/welcome.jpg';
 const MainIntro = () => {
 	return (
 		<section style={{minHeight: '600px'}}>
-			<Row className="display grid-x">
+			<Row className="display grid-x welcomeIntro">
 				<Column large={10} offsetOnLarge={1} className="o-hero u-align-left">
 					<ReactMarkdown source={title}/>
 					<img src={welcome} alt='Welcome'/>

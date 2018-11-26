@@ -9,7 +9,6 @@ import TodoList from './components/Todo/TodoList';
 import Post from './components/Post';
 import { elAl } from './data/main';
 
-
 const App = () => {
     return (
 		<Router>
@@ -20,7 +19,7 @@ const App = () => {
 					<Route exact path="/" component={Landing} />
 					<Route path="/index" component={Main} />
 					<Route path="/todoList" component={TodoList} />
-					<Route path="/el-al" render={() => <Post title="El Al: The Beginning of the Trip to Israel" paragraph={elAl} data={'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=0c3f8d32a28de8434240115b85a28499&photoset_id=72157689100136400&user_id=8994820%40N07&per_page=250&format=json&nojsoncallback=1'}/>}  />
+					<Route path="/el-al" render={() => <Post title="El Al: The Beginning of the Trip to Israel" paragraph={elAl} data={"https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/el-al.json"}/>}  />
 				</div>
 			</ScrollToTop>			
 			</div>

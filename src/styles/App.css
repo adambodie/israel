@@ -81,7 +81,7 @@ header {
 section {
   border-bottom: 1px solid white; }
 
-.o-content__inner-body img {
+.o-content__inner-body img, .welcomeIntro img {
   width: 50%; }
 
 .c-side-nav {
@@ -187,6 +187,10 @@ body {
 .App h1 {
   font-family: 'Heebo', sans-serif;
   color: white; }
+
+.landingLink {
+  width: 70px;
+  height: 40px; }
 
 .button[disabled] {
   opacity: 0.5; }

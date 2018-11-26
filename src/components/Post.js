@@ -16,7 +16,7 @@ export default class Post extends Component {
 		axios.get(this.props.data)
 			.then(response => {
 				this.setState({
-					photographs: response.data.photoset.photo
+					photographs: response.data
 				});
 			})
 			.catch(error => {
