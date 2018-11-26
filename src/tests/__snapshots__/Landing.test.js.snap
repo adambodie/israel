@@ -5,11 +5,16 @@ exports[`renders correctly 1`] = `
   <h1>
     Coming Soon
   </h1>
-  <a
+  <button
     className="button"
-    disabled={true}
   >
-    Enter
-  </a>
+    <a
+      disabled={false}
+      href="/index"
+      onClick={[Function]}
+    >
+      Enter
+    </a>
+  </button>
 </div>
 `;
