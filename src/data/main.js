@@ -34,6 +34,17 @@ Thankfully, there was plenty of entertainment available, because the flight was 
 - Their company slogan in Hebrew is **הכי בבית בעולם‬**, which they translate as "Home away from Home" 
 `;
 
+export const benGurionIntro = `
+After 10 hours of flying, our plane finally landed in Israel.  Upon landing, it felt almost surreal.  It felt like the dawn of the night, but yet it was 6:30 in the morning local time.  The past week, I kept saying to myself "I can't believe I'm going to Israel."  Suddenly, it was, "I can't believe I made it to Israel."
+`;
 
-export const jerusalemIntro = `After a 10 hour flight from Newark to Israel, it was time to hit the ground running.  First arriving at the Ben Gurion Airport, the journey to Israel brought us to the holiest city in the world, Jerusalem, where a tour of the Old City began, so we could understand why Jerusalem is so important to the Jewish people, as well as the Muslims and the Christians.  As Shabbat neared, we also ventured to Machane Yehuda, a Shuk where everyone was making sure to get what they needed before sundown.`
+export const benGurion = ` # First Thoughts of Israel
 
+${benGurionIntro}
+
+What really got to me was the Hebrew writing mixed in with the English, along with Arabic as well.  I had been to Europe twice, but never in another country with a different alphabet than ours.  Eventually, after picking up our bags at Baggage Claim, with very specific instructions NOT to go through Customs, we got the lecture on how our first day would turn out.  No time for rest, but there would be plenty of that during Shabbat.  Perfect way to beat the Jet Lag!
+
+Walking outside for the first time, I noticed the sun starting to rise and all the palm trees.  I also saw what ended up being the first of many, many cats.  I found myself in awe being in Israel, definitely far away from home.  So while we were introduced to our tour guide, Hadas, I tried my best to listen but was overwhelmed with excitement.  By the time our introduction was done, it was time to put our bags on the bus and head off to Jerusalem&apos;s Old City.
+
+Leaving the airport and heading towards Jerusalem, I immediately thought of arriving in Italy years ago.  The surroundings, the vibe, the weather, reminded me of my first time in Rome.  The main difference, of course, was the Hebrew and Arabic.  I was really exhausted, but was excited for the journey ahead.  That became more clearer when entering Jerusalem, with plenty of sandstone buildings, providing a look that again, reminded me a lot of Rome.
+`;

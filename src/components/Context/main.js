@@ -1,34 +1,6 @@
 import React, {Component} from 'react';
-import { intro, dummy, elAlIntro, jerusalemIntro } from '../../data/main';
-import items from '../../images/items.jpg';
-import globe from '../../images/globe.jpg';
-import welcomeIsrael from '../../images/welcomeIsrael.jpg';
-import jerusalem from '../../images/jerusalem.jpg';
-import shukDay from '../../images/shukDay.jpg';
-import shabbat from '../../images/shabbat.jpg';
-import shukNight from '../../images/shukNight.jpg';
-import yadVashem from '../../images/yadVashem.jpg';
-import herzl from '../../images/herzl.jpg';
-import yehuda from '../../images/yehuda.jpg';
-import gilo from '../../images/gilo.jpg';
-import laqye from '../../images/laqye.jpg';
-import arad from '../../images/arad.jpg';
-import desert from '../../images/desert.jpg';
-import roman from '../../images/roman.jpg';
-import masada from '../../images/masada.jpg';
-import snake from '../../images/snake.jpg';
-import nachal from '../../images/nachal.jpg';
-import deadSea from '../../images/deadSea.jpg';
-import telAvivNight from '../../images/telAvivNight.jpg';
-import telAvivBeach from '../../images/telAvivBeach.jpg';
-import graffiti from '../../images/graffiti.jpg';
-import tama from '../../images/tama.jpg';
-import kibbutz from '../../images/kibbutz.jpg';
-import jaffa from '../../images/jaffa.jpg';
-import telAviv from '../../images/telAviv.jpg';
-import innovation from '../../images/innovation.jpg';
-import independence from '../../images/independence.jpg';
-import rothschild from '../../images/rothschild.jpg';
+import { intro, dummy, elAlIntro, benGurionIntro } from '../../data/main';
+
 
 const MainContext = React.createContext();
 
@@ -43,13 +15,13 @@ export class Provider extends Component {
 						title: "Before The Trip: Packing the Right Items", 
 						intro: intro, 
 						link: 'todoList', 
-						image: items
+						image: 'items'
 					},
 					{
 						title: "The Journey Begins, El Al to Israel", 
 						intro: elAlIntro, 
 						link: 'el-al', 
-						image: globe
+						image: 'globe'
 					},					
 					]
 				},
@@ -59,22 +31,22 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Arrival in Israel: First Thoughts", 
-						intro: jerusalemIntro, 
-						link: 'todoList', 
-						image: welcomeIsrael
+						intro: benGurionIntro, 
+						link: 'ben-gurion', 
+						image: 'welcomeIsrael'
 					},
 
 					{
 						title: "Jerusalem: The Old City", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: jerusalem
+						image: 'jerusalem'
 					},					
 					{
 						title: "Madhouse at the Shuk before Shabbat", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: shukDay
+						image: 'shukDay'
 					}					
 					]
 				},				
@@ -84,15 +56,15 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Shabbat in Jerusalem: A Day to Rest", 
-						intro: jerusalemIntro, 
+						intro: dummy, 
 						link: 'todoList', 
-						image: shabbat
+						image: 'shabbat'
 					},
 					{
 						title: "Nighttime at the Shuk", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: shukNight
+						image: 'shukNight'
 					},					
 					]
 				},	
@@ -102,21 +74,21 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Never Forget: Yad Vashem", 
-						intro: jerusalemIntro, 
+						intro: dummy, 
 						link: 'todoList', 
-						image: yadVashem
+						image: 'yadVashem'
 					},
 					{
 						title: "Zionism 101: Har Herzl", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: herzl
+						image: 'herzl'
 					},
 					{
 						title: "Ben Yehuda", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: yehuda
+						image: 'yehuda'
 					},						
 					]
 				},	
@@ -126,20 +98,20 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Leaving Jerusalem: Seeing the Israeli-Arab Conflict", 
-						intro: jerusalemIntro, 
+						intro: dummy, 
 						link: 'todoList', 
-						image: gilo
+						image: 'gilo'
 					},
 					{
 						title: "Out in the Desert with the Bedouins", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: laqye
+						image: 'laqye'
 					},	{
 						title: "Arad in the Desert: Shelter Included for the authentic Israel Experience", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: arad
+						image: 'arad'
 					},					
 					]
 				},	
@@ -149,40 +121,40 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "The Judean Desert: Hot Fun Before Masada", 
-						intro: jerusalemIntro, 
+						intro: dummy, 
 						link: 'todoList', 
-						image: desert
+						image: 'desert'
 					},
 					{
 						title: "Masada: The Roman Ramp Up", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: roman
+						image: 'roman'
 					},{
 						title: "Masada: On Top of it all", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: masada
+						image: 'masada'
 					},{
 						title: "Masada: Down the Snake Path", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: snake
+						image: 'snake'
 					},{
 						title: "Nachal: Not a Mirage", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: nachal
+						image: 'nachal'
 					},{
 						title: "The Dead Sea: Healing in the Lowest Point with Mud", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: deadSea
+						image: 'deadSea'
 					},{
 						title: "Welcome to Tel Aviv, the Greatest City in the World", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: telAvivNight
+						image: 'telAvivNight'
 					}					
 					]
 				},	
@@ -192,25 +164,25 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Morning Stroll on the beaches of Tel Aviv", 
-						intro: jerusalemIntro, 
+						intro: dummy, 
 						link: 'todoList', 
-						image: telAvivBeach
+						image: 'telAvivBeach'
 					},
 					{
 						title: "Choose Your Own Adventure: Tel Aviv Graffiti Tour: Mossad style", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: graffiti
+						image: 'graffiti'
 					},{
 						title: "Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: tama
+						image: 'tama'
 					},{
 						title: "Nice Kibbutz", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: kibbutz
+						image: 'kibbutz'
 					}										
 					]
 				},	
@@ -220,33 +192,33 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Jaffa: The Old Part of Tel Aviv", 
-						intro: jerusalemIntro, 
+						intro: dummy, 
 						link: 'todoList', 
-						image: jaffa
+						image: 'jaffa'
 					},
 					{
 						title: "Innovation Center", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: innovation
+						image: 'innovation'
 					},
 					{
 						title: "Rothschild", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: telAviv
+						image: 'telAviv'
 					},
 					{
 						title: "Independence Hall", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: independence
+						image: 'independence'
 					},
 					{
 						title: "Farewell", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: rothschild
+						image: 'rothschild'
 					}					
 					]
 				}

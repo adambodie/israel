@@ -6,8 +6,8 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Main from './components/Main/Main';
 import TodoList from './components/Todo/TodoList';
-import Post from './components/Post';
-import { elAl } from './data/main';
+import Post from './components/Posts/Post';
+import routes from './data/routes';
 
 const App = () => {
     return (
@@ -19,7 +19,7 @@ const App = () => {
 					<Route exact path="/" component={Landing} />
 					<Route path="/index" component={Main} />
 					<Route path="/todoList" component={TodoList} />
-					<Route path="/el-al" render={() => <Post title="El Al: The Beginning of the Trip to Israel" paragraph={elAl} data={"https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/el-al.json"}/>}  />
+					{routes.map((x, index) => <Route key={index} path={`/${x.link}`} render={() => <Post title={x.title} paragraph={x.paragraph} data={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/${x.link}.json`}/>}  />)}
 				</div>
 			</ScrollToTop>			
 			</div>
