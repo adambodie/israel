@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { intro, dummy, elAlIntro, benGurionIntro } from '../../data/main';
+import { intro, dummy, elAlIntro, benGurionIntro, oldJerusalemIntro } from '../../data/main';
 
 
 const MainContext = React.createContext();
@@ -38,14 +38,14 @@ export class Provider extends Component {
 
 					{
 						title: "Jerusalem: The Old City", 
-						intro: dummy, 
-						link: 'todoList', 
+						intro: oldJerusalemIntro, 
+						link: 'old-Jerusalem', 
 						image: 'jerusalem'
 					},					
 					{
 						title: "Madhouse at the Shuk before Shabbat", 
 						intro: dummy, 
-						link: 'todoList', 
+						link: 'quiz', 
 						image: 'shukDay'
 					}					
 					]

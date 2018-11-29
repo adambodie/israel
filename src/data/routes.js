@@ -1,4 +1,4 @@
-import { elAl, benGurion } from './main';
+import { elAl, benGurion, oldJerusalem } from './main';
 
 const routes = [
 	{
@@ -10,6 +10,11 @@ const routes = [
 		title: "Arriving in Israel: My First Thoughts",
 		paragraph: benGurion,
 		link: "ben-gurion"
+	},
+	{
+		title: "The Old City",
+		paragraph: oldJerusalem,
+		link: "old-jerusalem"
 	}	
 ]
 

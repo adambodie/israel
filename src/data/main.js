@@ -48,3 +48,11 @@ Walking outside for the first time, I noticed the sun starting to rise and all t
 
 Leaving the airport and heading towards Jerusalem, I immediately thought of arriving in Italy years ago.  The surroundings, the vibe, the weather, reminded me of my first time in Rome.  The main difference, of course, was the Hebrew and Arabic.  I was really exhausted, but was excited for the journey ahead.  That became more clearer when entering Jerusalem, with plenty of sandstone buildings, providing a look that again, reminded me a lot of Rome.
 `;
+
+export const oldJerusalemIntro = `
+Having arrived just outside the Old City, particularly Jaffa Gate, I once again thought of Rome and all of its historical architecture.  I got a glimpse of modernism with a Welcome to Taglit Birthright Israel sign, which I had to get a selfie in front of.  It was also my first chance to get for WiFi outside the airport, as well as my first chance to really ask, "Where's the Bathroom?"  I declined to go the first time, focusing on taking every picture I could in the park we stopped at.  But before we could actually go inside the Old City, first we needed an icebreaker and a history lesson.
+`;
+
+export const oldJerusalem = `
+${oldJerusalemIntro}
+`;
