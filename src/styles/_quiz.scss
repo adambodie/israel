@@ -1,7 +1,15 @@
+.pageTitle {
+	margin-top: 59px;
+}
+
+table thead {
+	visibility: hidden;
+}
+
 .answer {
 	opacity: 0;
 	transition: opacity .5s;
-		background: $background-color;
+	background: $background-color;
 	color: #fff;
 	position: absolute;
 	top: 0;
@@ -29,13 +37,9 @@
 	transform: translateX(0);
 }
 
-
-
-.question h3 {
-	font-size: 0.8em;
-	line-height: 1.25em;
-	margin-top: .85em;
-	margin-bottom: .5em;
+.question h2 {
+	font-size: 1.0em;
+	margin: 0px 5px;
 }
 
 
@@ -50,6 +54,7 @@
 
 td {
 	padding: 20px!important;
+	font-size: 10px;
 }
 
 .quiz {
@@ -66,15 +71,24 @@ td {
 }
 
 @media (min-width: 480px) {
-.card {
-	width: 450px;
-	height: 300px;
-}		
+	.question h2 {
+		font-size: 1.5em;
+	}
+	td {
+		font-size: 16px;
+	}	
+	.card {
+		width: 450px;
+		height: 300px;
+	}		
 }
 
 @media (min-width: 769px) {
-.card {
-	width: 600px;
-	height: 400px;
-}	
+	.card {
+		width: 525px;
+		height: 350px;
+	}
+	td {
+		font-size: 20px;
+	}		
 }

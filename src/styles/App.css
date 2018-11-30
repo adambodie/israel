@@ -10,18 +10,21 @@ header {
 
 .top-bar {
   background-color: #0038B8; }
-  .top-bar h4 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.top-bar h4 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
 .todoList {
   margin: 100px 0px; }
-  .todoList ul {
-    margin-top: 20px; }
-  .todoList img {
-    display: block;
-    margin: 0 auto;
-    border: 5px solid white; }
+
+.todoList ul {
+  margin-top: 20px; }
+
+.todoList img {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid white; }
 
 .button {
   background-color: #0038B8; }
@@ -35,12 +38,14 @@ header {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-  .item button {
-    align-self: center;
-    margin-right: 20px; }
-  .item p {
-    margin: 0;
-    align-self: center; }
+
+.item button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item p {
+  margin: 0;
+  align-self: center; }
 
 .item-completed {
   list-style: none;
@@ -48,21 +53,25 @@ header {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-  .item-completed button {
-    align-self: center;
-    margin-right: 20px; }
-  .item-completed p {
-    margin: 0;
-    align-self: center; }
-  .item-completed p {
-    text-decoration: line-through; }
+
+.item-completed button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item-completed p {
+  margin: 0;
+  align-self: center; }
+
+.item-completed p {
+  text-decoration: line-through; }
 
 .form {
   display: flex;
   border: 1px solid black; }
-  .form input {
-    height: 42px;
-    margin: 0; }
+
+.form input {
+  height: 42px;
+  margin: 0; }
 
 .delete, .complete {
   font-weight: bold;
@@ -81,8 +90,9 @@ section {
 
 .c-side-nav__item {
   list-style: none; }
-  .c-side-nav__item a {
-    color: white; }
+
+.c-side-nav__item a {
+  color: white; }
 
 .o-sidebar {
   display: none; }
@@ -92,8 +102,9 @@ ul {
 
 .is-current {
   background: navy; }
-  .is-current > a {
-    font-weight: bold; }
+
+.is-current > a {
+  font-weight: bold; }
 
 .o-main {
   color: white; }
@@ -118,8 +129,9 @@ ul {
 .post {
   margin-top: 59px;
   color: white; }
-  .post h1 {
-    font-size: 2em; }
+
+.post h1 {
+  font-size: 2em; }
 
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
@@ -157,6 +169,12 @@ ul {
   .slick-slide img {
     height: 400px; } }
 
+.pageTitle {
+  margin-top: 59px; }
+
+table thead {
+  visibility: hidden; }
+
 .answer {
   opacity: 0;
   transition: opacity .5s;
@@ -174,8 +192,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .answer:hover {
-    opacity: 1; }
+
+.answer:hover {
+  opacity: 1; }
 
 .card .answer {
   transition: transform .6s ease-out;
@@ -184,11 +203,9 @@ ul {
 .card:hover .answer {
   transform: translateX(0); }
 
-.question h3 {
-  font-size: 0.8em;
-  line-height: 1.25em;
-  margin-top: .85em;
-  margin-bottom: .5em; }
+.question h2 {
+  font-size: 1.0em;
+  margin: 0px 5px; }
 
 .card {
   position: relative;
@@ -199,7 +216,8 @@ ul {
   height: 200px; }
 
 td {
-  padding: 20px !important; }
+  padding: 20px !important;
+  font-size: 10px; }
 
 .quiz {
   margin-top: 30px;
@@ -211,14 +229,20 @@ td {
   opacity: 1; }
 
 @media (min-width: 480px) {
+  .question h2 {
+    font-size: 1.5em; }
+  td {
+    font-size: 16px; }
   .card {
     width: 450px;
     height: 300px; } }
 
 @media (min-width: 769px) {
   .card {
-    width: 600px;
-    height: 400px; } }
+    width: 525px;
+    height: 350px; }
+  td {
+    font-size: 20px; } }
 
 body {
   margin: 0;
@@ -234,9 +258,10 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin); }
-  .App h1 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.App h1 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
 .landingLink {
   width: 70px;

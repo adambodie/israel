@@ -8,24 +8,23 @@ export default class QuizItem extends Component {
 		index: PropTypes.number.isRequired,
 	}
 	render(){	
-	const { index } = this.props;
-	return (
-		<Consumer>
-			{ ({ questions }) => (
-				<div className="card">
-					<div className="question">
-						<ReactMarkdown source={questions[index].question}/>
-					</div>
-					<div className="answer">
-						<h1>{questions[index].answer}</h1> 
-					</div>
+		const { index } = this.props;
+		return (
+			<Consumer>
+				{ ({ questions }) => (
+					<div className="card">
+						<div className="question">
+							<ReactMarkdown source={questions[index].question}/>
+						</div>
+						<div className="answer">
+							<h1>{questions[index].answer}</h1> 
+						</div>
 					</div>
 				)
-			
-		}
-		</Consumer>	
-	)
-}
+			}
+			</Consumer>	
+		)
+	}
 };
 
 

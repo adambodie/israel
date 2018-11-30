@@ -1,4 +1,4 @@
-export const question1 = `
+export const question0 = `
 ## Which Israeli Prime Minister is the Airport named after?
 
 |                                                           |
@@ -8,16 +8,16 @@ export const question1 = `
 
 `;
 
-export const question2 = `
+export const question1 = `
 ## What year did Israel become an Independent State?
 |                                                           |
 | :-------------------------- | :-------------------------- |
-| A. 1914                     | B. 0 B.C.E.                 |
+| A. 1914                     | B. 1967                     |
 | C. 1948                     | D. 1999                     |
 
 `;
 
-export const question3 = `
+export const question2 = `
 ## The Old City has four Quarters: Which of these is NOT one of them?
 
 |                                                           |
@@ -27,7 +27,7 @@ export const question3 = `
 
 `;
 
-export const question4 = `
+export const question3 = `
 ## How many gates does the Old City of Jerusalem have?
 
 |                                                           |

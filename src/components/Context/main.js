@@ -57,7 +57,7 @@ export class Provider extends Component {
 					{
 						title: "Shabbat in Jerusalem: A Day to Rest", 
 						intro: dummy, 
-						link: 'todoList', 
+						link: 'quizTwo', 
 						image: 'shabbat'
 					},
 					{

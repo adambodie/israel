@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import { question1, question2, question3, question4 } from '../../data/quiz';
+import { question0, question1, question2, question3 } from '../../data/quiz';
 
 const QuizContext = React.createContext();
 
 export class Provider extends Component {
 	state = {
 			questions: [
-				{question: question1, answer: "B. David Ben-Gurion"}, 
-				{question: question2, answer: "C. 1948"},
-				{question: question3, answer: "D. Ottoman"},
-				{question: question4, answer: "B. 7"},
+				{question: question0, answer: "B. David Ben-Gurion"}, 
+				{question: question1, answer: "C. 1948"},
+				{question: question2, answer: "D. Ottoman"},
+				{question: question3, answer: "B. 7"},
 			]
 	}		
 	

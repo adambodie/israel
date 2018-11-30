@@ -20,7 +20,7 @@ const App = () => {
 					<Route exact path="/" component={Landing} />
 					<Route path="/index" component={Main} />
 					<Route path="/todoList" component={TodoList} />
-					<Route path="/quiz" component={Quiz} />
+					<Route path="/quiz" render={() => <Quiz begin={0} end={3} />} />
 					{routes.map((x, index) => <Route key={index} path={`/${x.link}`} render={() => <Post title={x.title} paragraph={x.paragraph} data={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/${x.link}.json`}/>}  />)}
 				</div>
 			</ScrollToTop>			
