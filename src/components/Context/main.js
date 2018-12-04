@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { intro, dummy, elAlIntro, benGurionIntro, oldJerusalemIntro } from '../../data/main';
+import { dummy, todoIntro, elAlIntro, benGurionIntro, oldJerusalemIntro } from '../../data/articles';
 
 
 const MainContext = React.createContext();
@@ -13,7 +13,7 @@ export class Provider extends Component {
 					items: [ 
 					{
 						title: "Before The Trip: Packing the Right Items", 
-						intro: intro, 
+						intro: todoIntro, 
 						link: 'todoList', 
 						image: 'items'
 					},

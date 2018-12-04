@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem } from './main';
+import { elAl, benGurion, oldJerusalem } from './articles';
 
 const routes = [
 	{

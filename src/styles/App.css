@@ -10,21 +10,18 @@ header {
 
 .top-bar {
   background-color: #0038B8; }
-
-.top-bar h4 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .top-bar h4 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .todoList {
   margin: 100px 0px; }
-
-.todoList ul {
-  margin-top: 20px; }
-
-.todoList img {
-  display: block;
-  margin: 0 auto;
-  border: 5px solid white; }
+  .todoList ul {
+    margin-top: 20px; }
+  .todoList img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white; }
 
 .button {
   background-color: #0038B8; }
@@ -38,14 +35,12 @@ header {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-
-.item button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item p {
-  margin: 0;
-  align-self: center; }
+  .item button {
+    align-self: center;
+    margin-right: 20px; }
+  .item p {
+    margin: 0;
+    align-self: center; }
 
 .item-completed {
   list-style: none;
@@ -53,25 +48,21 @@ header {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-
-.item-completed button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item-completed p {
-  margin: 0;
-  align-self: center; }
-
-.item-completed p {
-  text-decoration: line-through; }
+  .item-completed button {
+    align-self: center;
+    margin-right: 20px; }
+  .item-completed p {
+    margin: 0;
+    align-self: center; }
+  .item-completed p {
+    text-decoration: line-through; }
 
 .form {
   display: flex;
   border: 1px solid black; }
-
-.form input {
-  height: 42px;
-  margin: 0; }
+  .form input {
+    height: 42px;
+    margin: 0; }
 
 .delete, .complete {
   font-weight: bold;
@@ -90,9 +81,8 @@ section {
 
 .c-side-nav__item {
   list-style: none; }
-
-.c-side-nav__item a {
-  color: white; }
+  .c-side-nav__item a {
+    color: white; }
 
 .o-sidebar {
   display: none; }
@@ -102,9 +92,8 @@ ul {
 
 .is-current {
   background: navy; }
-
-.is-current > a {
-  font-weight: bold; }
+  .is-current > a {
+    font-weight: bold; }
 
 .o-main {
   color: white; }
@@ -129,12 +118,10 @@ ul {
 .post {
   margin-top: 59px;
   color: white; }
-
-.post h1 {
-  font-size: 2em; }
-
-.post li {
-  text-align: left; }
+  .post h1 {
+    font-size: 2em; }
+  .post li {
+    text-align: left; }
 
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
@@ -195,9 +182,8 @@ table thead {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-
-.answer:hover {
-  opacity: 1; }
+  .answer:hover {
+    opacity: 1; }
 
 .card .answer {
   transition: transform .6s ease-out;
@@ -261,10 +247,9 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin); }
-
-.App h1 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .App h1 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .landingLink {
   width: 70px;
