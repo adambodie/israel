@@ -55,4 +55,31 @@ Having arrived just outside the Old City, particularly Jaffa Gate, I once again 
 
 export const oldJerusalem = `
 ${oldJerusalemIntro}
+
+Like with other group activities, we were all in a circle, and we had to answer a question given to us and ask the next person another.  I was first so I couldn&apos;t think of a more creative question other than favorite animal.  Then we had to go in reverse.  The answer to my question was Jerusalem.  How original!  After the icebreaker, we walked towards to gate of the Old City, where we got a nice view of the area and got a history lesson.
+
+In order to understand the long and complicated history of Jerusalem, we got to learn from Hadas just how many people controlled the Land of Israel and the length of time.  We also learned that by positioning your body in a certain way, you can effectively make yourself resemble a map of Israel.  Once done with our history lesson, we headed towards the Zion Gate, where we entered the Old City.
+
+Looking at all the ancient history, I felt inspired and mesmerized with everything I saw.  The walls, the buildings, the scenery surrounding the gates, everything.  It was amazing to see.  Further down, you could see the temples and Mosques surrounding the area, a reminder that it&apos;s not all about Judaism in Jerusalem; that it&apos;s also important to the Muslims.  I always found myself fascinated by the architecture of the Dome of the Rock, and though I didn&apos;t see it up close, I could see the Dome and it was a sight to see.
+
+The next stop was just outside the most holiest sight in Judaism, the Western Wall.  But first, we needed to learn the significance of the Western Wall and how it became so important for the Jewish faith.  After learning about the history of the Western Wall and the Second Temple, we got to enter the plaza containing the Western Wall.  But before that, we got a chance to write a message on a piece of paper to place within the cracks of the Western Wall, as is custom.  Entering the plaza, it was admittedly weird to me to have a Male and Female entrance, but that is part of Orthodox Judaism.
+
+Upon being in the plaza and going to the Western Wall itself, I felt emotion and compassion, thinking of my message and placing it in the cracks, thankful for all of my loving family, old and new, that blessed me with love and kindness throughout this special year.  I didn&apos;t expect to feel such emotion, but I did.  And with that, I left satisfied with what I did.  Things happen for a reason, and perhaps, there was a hidden reason my trip came during the most unexpected year ever.
+
+Leaving the Western Wall, we headed towards the main square of the Jewish Quarter, but before we made it there, we had one more discussion about the area.  This time though, the majority of us were distracted by the events that were about to happen in the vicinity.  Rested along the wall were flowers with the phrase "Marry Me."  We had stumbled upon an elaborate marriage proposal.  Naturally, we wanted to see it.  A woman carrying her phone was waiting to record the whole ordeal, and a small boom box sat in the space waiting for the couple to be to make their entrance.  Eventually, the lucky couple walked in, and the whole thing was recorded for us to see.  We weren&apos;t completely certain of it, but the woman said yes.  It seems intimate touching isn&apos;t allowed, hence our confusion.  But everyone watching congratulated the couple.  It was romance at its finest.  The nugget of the day, the unexpected thing that brings joy in your life.  And whoever they are, hopefully they will be a happy couple for the rest of their lives.
+
+We made it to the center of the Jewish Quarter, home of the Hurva Synagogue.  The area was quite equisite; down to the break dancers dancing in front of the Synagogue.  I also found myself interested in the building to its left, dedicated to someone in Baltimore, Maryland an interesting thing to see in the center of the Jewish Quarter.  I also liked the Lego Guys at one of the restaurants.  That was pretty neat to see.  But after struggling to find, you guessed it, the bathroom, it was time to end our journey in the Old City, and head for the Shuk, where all the food and gifts could be bought for some Shekels.  One more chat about the Old City and the Jewish Quarter, and we left the Old City for the Shuk.
+
+
+
+# Facts about the Old City of Jerusalem
+![Old City of Jerusalem](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jerusalem_oldcity_English.jpg/400px-Jerusalem_oldcity_English.jpg)
+- There are four uneven Quarters in the Old City: Jewish Quarter, Muslim Quarter, Christian Quarter and Armenian Quarter.
+- Until 1868, the entire city of Jerusalem was within the Old City walls.
+- The wall of the Old City was built between 1535-1542 by the Turkish sultan **Suleiman the Magnificent**.
+- Within the Old City is **Temple Mount**, a hill which the Jewish faith considers the holiest place to pray.  It is also the third most holiest place in Islam, after Mecca and Medina (both in Saudi Arabia).  Christianity also considers Temple Mount to be holy.
+- Due to restrictions from entering Temple Mount itself, both political and religious, the **Western Wall**, which borders Temple Mount, is the holiest place for Jews to pray.
+- Temple Mount is where the first and second Temple were built for the Jews.  The first temple, known as **Solomon&apos;s Temple**, was destroyed in 587 BCE after the Siege of Jerusalem.  The Second Temple was created by Zerubbabel, a governor of the Persian Province of Judah, later expanded by the Roman King of Judea, **Herod the Great**, but was destroyed in 70 CE.  
+- The Western Wall was originally built as part of the expansion of the Second Temple by Herod the Great.
+- The **Hurva Synagogue**, the largest of the synagogues in the Jewish Quarter, was founded in the early 18th century but has been destroyed multiple times, most recently in 1948 during the Arab-Israeli War.  Its current reindition was completed in 2010.
 `;

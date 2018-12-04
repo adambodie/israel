@@ -133,6 +133,9 @@ ul {
 .post h1 {
   font-size: 2em; }
 
+.post li {
+  text-align: left; }
+
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
   display: block;
