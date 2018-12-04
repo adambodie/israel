@@ -13,6 +13,7 @@ body {
 
 .App {
 	text-align: center;
+	text-shadow: 2px 2px 4px black;
 	background: url('https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/background.jpg') no-repeat bottom fixed;
 	background-size: cover;
 	min-height: 100vh;
@@ -32,9 +33,7 @@ body {
 	width: 70px;
 	height: 40px;
 }
-.button[disabled] {
-	opacity: 0.5;
-}
+
 
 @media (min-width: 768px) {
 	.App {
