@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: gray;
+	padding: 10px;
+	button {
+		padding: 5px;
+		margin: 5px;
+		width: 75px;
+		height: 75px;
+		background-color: red;
+		border-radius: 100%;
+		cursor: pointer;
+		outline: none;
+		box-shadow: 0 9px #999;		
+		&:hover {
+			background-color: maroon;
+		}
+		&:active {
+			background-color: maroon;
+			box-shadow: 0 5px #666;
+			transform: translateY(4px);
+		}
+	}
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	h3 {
+		font-family: 'Faster One', cursive!important;
+		color: yellow;
+	}
+}
+
+.game {
+	margin-top: 69px;
+	width: 100%;
+	margin-bottom: 69px;
+	.columns {
+		background: black;
+		border: 10px solid yellow;
+	}
+	h1 {
+		background: blue;
+		font-family: 'Faster One', cursive!important;
+		font-size: 2em;
+	}
+}
+
+.result {
+	height: 300px;
+	h4 {
+		color: yellow;
+		font-family: 'Faster One', cursive!important;
+		text-align: center;
+	}
+	img {
+		max-width: 100px;
+		max-height: 100px;
+	}
+}
+
+.begin {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h2 {
+		font-family: 'Faster One', cursive!important;
+		color: yellow;
+		text-align: center;
+		width: 50%;
+		animation-name: begin;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		font-size: 1.5em;
+	}	
+}
+
+.score {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	div {
+		display: block;
+		margin: 0 auto;
+	}
+	h3 {
+		color: yellow;
+		font-family: 'Faster One', cursive!important;
+		text-align: center;
+	}
+}
+button {
+	font-family: 'Faster One', cursive!important;
+	font-size: 16px;
+}
+@keyframes begin {
+	0% {
+		color: yellow;
+	}
+
+	100% {
+		color: white;
+	}
+}

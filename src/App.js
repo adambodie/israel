@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Main from './components/Main/Main';
 import Quiz from './components/Quiz/Quiz';
+import Game from './components/Game/Game';
 import TodoList from './components/Todo/TodoList';
 import Post from './components/Posts/Post';
 import routes from './data/routes';
@@ -20,6 +21,7 @@ const App = () => {
 					<Route exact path="/" component={Landing} />
 					<Route path="/index" component={Main} />
 					<Route path="/todoList" component={TodoList} />
+					<Route path="/game" component={Game} />
 					<Route path="/quiz" render={() => <Quiz begin={0} end={3} />} />
 					{routes.map((x, index) => <Route key={index} path={`/${x.link}`} render={() => <Post title={x.title} paragraph={x.paragraph} data={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/${x.link}.json`}/>}  />)}
 				</div>

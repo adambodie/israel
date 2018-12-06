@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { dummy, todoIntro, elAlIntro, benGurionIntro, oldJerusalemIntro } from '../../data/articles';
+import { dummy, todoIntro, elAlIntro, benGurionIntro, oldJerusalemIntro, shukDayIntro } from '../../data/articles';
 
 
 const MainContext = React.createContext();
@@ -44,8 +44,8 @@ export class Provider extends Component {
 					},					
 					{
 						title: "Madhouse at the Shuk before Shabbat", 
-						intro: dummy, 
-						link: 'quiz', 
+						intro: shukDayIntro, 
+						link: 'shuk-Day', 
 						image: 'shukDay'
 					}					
 					]
@@ -57,7 +57,7 @@ export class Provider extends Component {
 					{
 						title: "Shabbat in Jerusalem: A Day to Rest", 
 						intro: dummy, 
-						link: 'quizTwo', 
+						link: 'game', 
 						image: 'shabbat'
 					},
 					{
