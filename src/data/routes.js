@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat } from './articles';
 
 const routes = [
 	{
@@ -15,6 +15,19 @@ const routes = [
 		title: "The Old City",
 		paragraph: oldJerusalem,
 		link: "old-jerusalem"
+	},
+	{
+		title: "Mahane Yehuda: The Shuk Experience Before Shabbat",
+		paragraph: shukDay,
+		link: "shuk-day"
+	},
+	{
+		title: "Shabbat in Jerusalem: A Day to Rest",
+		paragraph: shabbat,
+		link: "shabbat",
+		number: 1,
+		begin: 0,
+		end: 4
 	}	
 ]
 

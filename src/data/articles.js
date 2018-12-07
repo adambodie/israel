@@ -46,7 +46,7 @@ Thankfully, there was plenty of entertainment available, because the flight was 
 # Fun Facts about El Al
 - Its first flight was in September 1948 from Geneva to Tel Aviv
 - El Al offers only kosher meals and does not fly on the Sabbath or on major Jewish holidays.
-- It’s the only commercial airline equipped with missile defense systems to protect itself from surface to air missiles
+- It&aposs the only commercial airline equipped with missile defense systems to protect itself from surface to air missiles
 - In 1991, El Al set a world record for most passengers on a commercial flight, 1,122 on a 747, transporting Jewish refugees from Ethiopia to Israel during Operation Solomon, a mission that helped transport over 14,000 refugees within 36 hours.
 - Their company slogan in Hebrew is **הכי בבית בעולם‬**, which they translate as "Home away from Home" 
 `;
@@ -99,4 +99,46 @@ We made it to the center of the Jewish Quarter, home of the Hurva Synagogue.  Th
 - Temple Mount is where the first and second Temple were built for the Jews.  The first temple, known as **Solomon&apos;s Temple**, was destroyed in 587 BCE after the Siege of Jerusalem.  The Second Temple was created by Zerubbabel, a governor of the Persian Province of Judah, later expanded by the Roman King of Judea, **Herod the Great**, but was destroyed in 70 CE.  
 - The Western Wall was originally built as part of the expansion of the Second Temple by Herod the Great.
 - The **Hurva Synagogue**, the largest of the synagogues in the Jewish Quarter, was founded in the early 18th century but has been destroyed multiple times, most recently in 1948 during the Arab-Israeli War.  Its current reindition was completed in 2010.
+`;
+
+export const shukDayIntro = `
+It was time to leave the Old City behind, as our next destination awaited.  The hotel would have been quite nice at the time, but thanks to convenient timing, and the staff&apos;s desire to adjust us to local time the best they could, now was the time for our next trip, the Mahane Yehuda, a popular market known as the Shuk.
+`;
+
+export const shukDay = `
+${shukDayIntro}
+
+The Shuk, popular with locals and tourists alike, is the place to buy lots and lots of items.  Even better, we got to go to the Shuk before Shabbat, where everything closes. As such, lots and lots of people go to get everything they need before the Sabbath.
+
+On the way there, we got our first glimpse of rain. It wasn&apost too bad, but I didn&apost like seeing the rain.  But being from Portland, I was glad it wasn&apost our gloomy, constant rain.  But we eventually arrived at the Shuk, and got the chance to explore.  The Shuk was full of people, and on our first day, really overwhelming.  People left and right.  Food left and right.  Crowds of people flooding the path.  Not the best experience.  Plus we all wanted to eat something.  We didn&apos;t know what was what.  Signs in Hebrew, unsure of what to eat.  
+
+All we wanted was some Falafel or Shawarma.  But it was easy to be distracted with all the fruits, vegetables and Rugelach on each side.  I stuck with some of the group, and eventually, made a loop back where we started.  After finding a place that had just closed (or didn&apos;t want to serve a large group like ourselves, I&apos;m not even certain what ended up happening), we found another place that did serve us.  
+
+I couldn&apos;t tell you the name of the place, the items on the menu, nor the cost of meal.  All of it was in Hebrew.  But one thing I could figure out is that I could either say “Falafel” or “Shawarma” to get something to eat.  I ended up choosing option 1.  I ended up eating my meal with Andy, who I found myself getting along with quite well and easy to talk to.  After eating my delicious Falafel, I decided it was time to stop walking and rest my feet for the rest of the time.  I felt like I needed to stop walking and wanted to get off my feet.
+
+I was thankful to get off my feet.  I was thankful to be away from the crowd.  But after Hallie pointed out my head was burnt, suddenly I felt the sunburn on my head.  Of course that&apos;s what happens when you&apos;re sleep deprived and adjusting to 7-10 hours time change.  Thankfully it wasn&apos;t that bad, compared to other sunburns I&apos;ve gotten in the past.
+
+Once the group returned, shouting my favorite number of our journey for the umpeenth time, our role call number, “3!!!” It was time at last to go to our hotel.  Finally, a time to rest, just as Shabbat was about to start.  Most groups don&apos;t get that pleasure.  Most trips should be envious of how things perfectly aligned.  But there&apos;s more time to brag later.  Once we arrived at our hotel, it was time to relax, at last.
+
+The hotel itself was decent, it had a nice enough courtyard.  The rooms were okay, but missing key items, such as bar soap.  The beds were kind of small, but none of that matter as it was time to rest.  I fell asleep for about an hour or so, waking up at 6, giving me half an hour before our group met for Shabbat. But I needed to shower, as such, I ended up having to rush to get dressed.
+
+The sleep did not help me much, as I clearly needed more.  During our Shabbat activity, I attempted to light a candle with the matches (which I rarely use), but ended up blowing the other candles out after trying to blow out the match, which brought a few laughs.  Our group brought in the beginning of Shabbat, and once done, it was time to eat dinner, which was buffet style featuring standard meat dishes and lots of neat Israeli salads to try. Not particularly interesting but filling enough.  Thankfully, with Shabbat, it was time to go to bed and sleep in.
+
+
+`;
+
+export const shabbatIntro = `
+Shabbat is celebrated every week as a day of rest.  It starts on Friday night and ends the following night.  We were lucky our first night in Israel was in Shabbat, since adjusting to a different time zone, especially at least 7 hours.  Thanks to our luck, our first night was a great opportunity to sleep, sleep and sleep.  There was plenty of time to sleep, and sleep I did.
+`;
+
+export const shabbat = `
+${shabbatIntro}
+
+After getting some quality sleep and taking things easy, we had our first activity of the day, which we had to think of our Jewish identity and pick five words from a pile of words on the floor that we considered most important to us.  I focused on family and values, as that&aposs at the core of who I am. We also had to pick something we disagreed with or didn&apost know anything about.  I didn&apost know anything about the IDF.  One of the Israelis in the group, Shay, told us about the IDF, the Israel Defense Forces, and how Jews are required to serve in the military, which I found interesting.  
+
+After our activity, we had lunch then had a few hours in the afternoon to ourselves.  I mostly hung around the hotel, but seeing a red sculpture and viewpoint just outside, I walked down the street to check it out myself.  But I didn&apost stray too far from the hotel, and wound up returning not too long afterwards, where some in the group were having a yoga session. Some chatted inside, after having to leave the courtyard as a large group took the opportunity to do their Shabbat tradition (I think).
+
+But as the sun started to set, the end of Shabbat came, which we came together to mark its end for the week.  And with that, we were finally able to leave the hotel, for our first night out, a trip back to Majhane Yehuda.  But before the next part of the journey, now would be a good time for our first quiz, to test your knowledge.
+
+
 `;

@@ -37,3 +37,14 @@ export const question3 = `
 
 `;
 
+export const question4 = `
+## What is the holiest site for Jews in Jerusalem?
+
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Western Wall             | B. Knesset                  |
+| C. Temple Mount             | D. Teddy Park               |
+
+`;
+
+
