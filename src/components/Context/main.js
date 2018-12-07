@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { dummy, todoIntro, elAlIntro, benGurionIntro, oldJerusalemIntro, shukDayIntro, shabbatIntro } from '../../data/articles';
-
+import { dummy, todoIntro, elAlIntro, benGurionIntro, oldJerusalemIntro, shukDayIntro, shabbatIntro, shukNightIntro } from '../../data/articles';
+import routes from '../../data/routes';
 
 const MainContext = React.createContext();
 
@@ -12,13 +12,13 @@ export class Provider extends Component {
 					day: 0,
 					items: [ 
 					{
-						title: "Before The Trip: Packing the Right Items", 
+						title: "Things to Bring to Israel", 
 						intro: todoIntro, 
 						link: 'todoList', 
 						image: 'items'
 					},
 					{
-						title: "The Journey Begins, El Al to Israel", 
+						title: routes[0].title, 
 						intro: elAlIntro, 
 						link: 'el-al', 
 						image: 'globe'
@@ -30,20 +30,20 @@ export class Provider extends Component {
 					day: 1,
 					items: [ 
 					{
-						title: "Arrival in Israel: First Thoughts", 
+						title: routes[1].title, 
 						intro: benGurionIntro, 
 						link: 'ben-gurion', 
 						image: 'welcomeIsrael'
 					},
 
 					{
-						title: "Jerusalem: The Old City", 
+						title: routes[2].title, 
 						intro: oldJerusalemIntro, 
 						link: 'old-Jerusalem', 
 						image: 'jerusalem'
 					},					
 					{
-						title: "Madhouse at the Shuk before Shabbat", 
+						title: routes[3].title, 
 						intro: shukDayIntro, 
 						link: 'shuk-day', 
 						image: 'shukDay'
@@ -55,15 +55,15 @@ export class Provider extends Component {
 					day: 2,
 					items: [ 
 					{
-						title: "Shabbat in Jerusalem: A Day to Rest", 
+						title: routes[4].title, 
 						intro: shabbatIntro, 
 						link: 'shabbat', 
 						image: 'shabbat'
 					},
 					{
-						title: "Nighttime at the Shuk", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[5].title, 
+						intro: shukNightIntro, 
+						link: 'shuk-night', 
 						image: 'shukNight'
 					},					
 					]

@@ -14,7 +14,7 @@ export default class PhotoList extends Component {
 			<Slider ref={c => this.slider = c } {...settings}>
 				{data.map((x, index) =>
 					<div key={x.id}>
-						<Photo id={x.id} title={x.title} index={index + 1} />
+						<Photo id={x.id} title={x.title} index={index + 1} length={data.length}/>
 					</div>
 				)}
 			</Slider>

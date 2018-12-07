@@ -142,3 +142,23 @@ But as the sun started to set, the end of Shabbat came, which we came together t
 
 
 `;
+
+export const shukNightIntro = `
+Going out at night gave me my first chance to enjoy some nightlife and look hip.  But the weather was teetering between the line of “Should I bring a jacket or not?” Bring it and I risk being too warm and looking bundled up. Not bringing it makes me look hip but risks being too cold and having a possible rain shower hit.  My Mom would always tell me to bring a jacket in this type of weather and I would usually say no, and being in Jerusalem, it made no difference.  So when Hadas asked me the same question, I was more than prepared for a good response.
+`;
+
+export const shukNight = `
+${shukNightIntro}
+
+Our first night out took us back to the Shuk, but instead of huge crowds of people getting everything they need before Shabbat, there were lights above, restaurants and plenty of artwork on the walls within. Karl Berg was of interest because it was to be our meeting point back to the bus, for those who wanted to go back at 10:30.  I wound up in a large group looking for a place to eat and drink.  As we went restaurant to restaurant, with Chen asking each place whether they could hold a large group, we finally found Beer Bazaar, a pub with local craft beer and seating outside.
+
+Looking at all the beer bottles on the wall, it felt like home, except for all the Hebrew. But they had sections clearly marked for Stouts, IPA&apos;s, etc.  But it was clear we would sit outside.  But instead of a table, the staff put a long cloth over a row of small crates in the middle of the alley and grabbed some chairs. That was where we would end up seated.  With the ‘table&apos; barely reaching my knees, I felt like a giant, or at a kids table.  It was quite hilarious to me, but only in Jerusalem, I suppose.
+
+Once settled, it was time to pick a beer to try, which proved to be a tough decision. I went back and forth trying to figure out what I wanted. Stout? IPA? IPA? Stout? I was about ready to pick the IPA, but then we were handed out magnetic coasters to keep.  Looking through all of them, they had the Black Jack Stout, but not the IPA. So I opted for the Stout instead. Good decision indeed.  Now it was time to order food off the menu.
+
+The menu featured standard bar food. Nothing overly amazing. So I ordered myself a pastrami sandwich, the Tarantino. Unfortunately, as the servers were bringing out food, they couldn&apos;t get the food names right.  Josh, who joined the group late, took a &apos;Turkey Sandwich&apos; that &apos;no one&apos; ordered, having himself not yet ordered food.  What I didn&apos;t know at the time was that that the &apos;Turkey Sandwich&apos; was actually the Pastrami sandwich I had ordered.  To be fair, there was a lot of confusion for such a large group, but I was having fun being out enjoying my beer, so I wasn&apos;t too upset over that.  I would know if they called the name Tarantino.  Who can forget Quentin Tarantino?  But they didn&apos;t.
+
+Eventually, I got my food and ate my meal, which again, was standard food.  I didn&apos;t care, I just wanted to eat and enjoy myself.  After I ate, it was approaching time to get on the bus and go back, for those who wanted to get back.  I didn&apos;t want to stay out too late, so I made my way back to Kar Berg and got on the bus back to the hotel.  Sleep was needed for another day.  But Sunday would end up as our difficult day.
+
+
+`

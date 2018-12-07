@@ -7,6 +7,8 @@
 	background: gray;
 	padding: 10px;
 	button {
+		font-family: 'Faster One', cursive!important;
+		font-size: 10px;
 		padding: 5px;
 		margin: 5px;
 		width: 45px;
@@ -86,9 +88,6 @@
 	}	
 }
 
-.resultText {
-	border-top: 5px solid red;
-}
 
 .score {
 	display: flex;
@@ -104,12 +103,8 @@
 		font-family: 'Faster One', cursive!important;
 		text-align: center;
 	}
-	border-top: 5px solid red;
 }
-button {
-	font-family: 'Faster One', cursive!important;
-	font-size: 10px;
-}
+
 @keyframes begin {
 	0% {
 		color: yellow;
@@ -123,18 +118,17 @@ button {
 	.game {
 		width: 100%;
 	}
-.buttons {
-	button {
-		width: 75px;
-		height: 75px;
+	.buttons {
+		button {
+			width: 75px;
+			height: 75px;
+			font-family: 'Faster One', cursive!important;
+			font-size: 16px;		
+		}
+		img {
+			width: 50px;
+			height: 50px;
+		}
 	}
-	img {
-		width: 50px;
-		height: 50px;
-	}
-}
-button {
-	font-family: 'Faster One', cursive!important;
-	font-size: 16px;
-}	
+	
 }

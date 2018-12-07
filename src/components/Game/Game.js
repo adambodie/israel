@@ -68,22 +68,22 @@ export default class Game extends Component {
 		return (
 			<Row className="display grid-x game">
 				<Column large={6} offsetOnLarge={3}>
-				<h1>Rock, Paper, Scissors!!!</h1>
-				<GamePlayers 
-					opponentScore={this.state.opponentScore} 
-					playerScore={this.state.playerScore} 
-					playerWin={this.state.playerWin} 
-					opponentWin={this.state.opponentWin} 
-					draw={this.state.draw} 
-					start={this.state.start} 
-					handleChange={this.handleClick}
-					buttons={this.state.buttons}
-					result={this.state.result} 
-					/>
-				<div className='buttons'>
-					{this.state.buttons.map((x, index)=> <button key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
-					<button onClick={()=>this.handleReset()}>Reset</button>
-				</div>
+					<h1>Rock, Paper, Scissors!!!</h1>
+					<GamePlayers 
+						opponentScore={this.state.opponentScore} 
+						playerScore={this.state.playerScore} 
+						playerWin={this.state.playerWin} 
+						opponentWin={this.state.opponentWin} 
+						draw={this.state.draw} 
+						start={this.state.start} 
+						handleChange={this.handleClick}
+						buttons={this.state.buttons}
+						result={this.state.result} 
+						/>
+					<div className='buttons'>
+						{this.state.buttons.map((x, index)=> <button key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
+						<button onClick={()=>this.handleReset()}>Reset</button>
+					</div>
 				</Column>
 			</Row>
 		)

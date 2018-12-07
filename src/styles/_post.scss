@@ -35,6 +35,11 @@
 	right: 0!important;
 }
 
+.slick-prev:before, .slick-next:before {
+	font-size: 20px!important;
+	opacity: 1!important;
+}
+
 /* =================================
   Media Queries
 ==================================== */
@@ -48,8 +53,7 @@
 		height: 300px;
 	}
 	.slick-prev:before, .slick-next:before {
-		font-size: 20px!important;
-		opacity: 1!important;
+		font-size: 40px!important;
 	}
 }
 

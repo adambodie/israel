@@ -22,7 +22,7 @@ export default class GamePlayers extends Component {
 						</div>
 					</div>
 					<div className="resultText">
-					<h4>{result}</h4>
+						<h4>{result}</h4>
 					</div>
 					<div className="score">
 						<div>
