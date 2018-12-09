@@ -1,9 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.css");
 @import url('https://fonts.googleapis.com/css?family=Heebo');
+
 $background-color: #0038B8;
+
+$margin-top: 59px;
 
 @mixin item() {
 	list-style: none;
+	text-shadow: none;
 	background: white;
 	border: 1px solid black;
 	display: flex;
@@ -18,3 +22,13 @@ $background-color: #0038B8;
 	}
 }
 
+@mixin flex() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin center() {
+	display: block;
+	margin: 0 auto;
+}

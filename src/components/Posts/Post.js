@@ -30,7 +30,7 @@ export default class Post extends Component {
 				<Column large={8} offsetOnLarge={2}>
 					<h1>{this.props.title}</h1>
 					<PhotoList data={this.state.photographs} />
-					<ReactMarkdown source={this.props.paragraph} />
+					<ReactMarkdown source={this.props.paragraph} className="article" />
 					{this.props.begin >= 0 && (<Quiz begin={this.props.begin} end={this.props.end} number={this.props.number}/>)}
 				</Column>
 			</Row>

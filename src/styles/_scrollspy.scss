@@ -5,6 +5,12 @@ section {
 .o-content__inner-body, .welcomeIntro {
 	img {
 		width: 50%;
+		margin-bottom: 20px;
+	}
+	p {
+		width: 75%;
+		@include center;
+		margin-bottom: 20px;
 	}
 }
 
@@ -14,6 +20,7 @@ section {
 }
 .c-side-nav__item {
 	list-style: none;
+	font-size: 1.4em;
 	a {
 		color: white;
 	}

@@ -11,21 +11,18 @@ header {
 
 .top-bar {
   background-color: #0038B8; }
-
-.top-bar h4 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .top-bar h4 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .todoList {
   margin: 100px 0px; }
-
-.todoList ul {
-  margin-top: 20px; }
-
-.todoList img {
-  display: block;
-  margin: 0 auto;
-  border: 5px solid white; }
+  .todoList ul {
+    margin-top: 20px; }
+  .todoList img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white; }
 
 .button {
   background-color: #0038B8; }
@@ -35,44 +32,40 @@ header {
 
 .item {
   list-style: none;
+  text-shadow: none;
   background: white;
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-
-.item button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item p {
-  margin: 0;
-  align-self: center; }
+  .item button {
+    align-self: center;
+    margin-right: 20px; }
+  .item p {
+    margin: 0;
+    align-self: center; }
 
 .item-completed {
   list-style: none;
+  text-shadow: none;
   background: white;
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-
-.item-completed button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item-completed p {
-  margin: 0;
-  align-self: center; }
-
-.item-completed p {
-  text-decoration: line-through; }
+  .item-completed button {
+    align-self: center;
+    margin-right: 20px; }
+  .item-completed p {
+    margin: 0;
+    align-self: center; }
+  .item-completed p {
+    text-decoration: line-through; }
 
 .form {
   display: flex;
   border: 1px solid black; }
-
-.form input {
-  height: 42px;
-  margin: 0; }
+  .form input {
+    height: 42px;
+    margin: 0; }
 
 .delete, .complete {
   font-weight: bold;
@@ -83,17 +76,24 @@ section {
   border-bottom: 1px solid white; }
 
 .o-content__inner-body img, .welcomeIntro img {
-  width: 50%; }
+  width: 50%;
+  margin-bottom: 20px; }
+
+.o-content__inner-body p, .welcomeIntro p {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
 .c-side-nav {
   background-color: #0038B8;
   word-wrap: break-word; }
 
 .c-side-nav__item {
-  list-style: none; }
-
-.c-side-nav__item a {
-  color: white; }
+  list-style: none;
+  font-size: 1.4em; }
+  .c-side-nav__item a {
+    color: white; }
 
 .o-sidebar {
   display: none; }
@@ -103,9 +103,8 @@ ul {
 
 .is-current {
   background: navy; }
-
-.is-current > a {
-  font-weight: bold; }
+  .is-current > a {
+    font-weight: bold; }
 
 .o-main {
   color: white; }
@@ -130,12 +129,15 @@ ul {
 .post {
   margin-top: 59px;
   color: white; }
+  .post h1 {
+    font-size: 2em; }
+  .post li {
+    text-align: left; }
 
-.post h1 {
-  font-size: 2em; }
-
-.post li {
-  text-align: left; }
+.article {
+  display: block;
+  margin: 0 auto;
+  width: 80%; }
 
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
@@ -146,7 +148,8 @@ ul {
   z-index: 1000; }
 
 .slick-slide img {
-  margin: 0px auto;
+  display: block;
+  margin: 0 auto;
   height: 225px; }
 
 .slick-prev {
@@ -195,13 +198,11 @@ table thead {
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
-  /* For centering text inside .answer */
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
-
-.answer:hover {
-  opacity: 1; }
+  flex-direction: column; }
+  .answer:hover {
+    opacity: 1; }
 
 .card .answer {
   transition: transform .6s ease-out;
@@ -257,97 +258,85 @@ td {
   align-items: center;
   background: gray;
   padding: 10px; }
-
-.buttons button {
-  font-family: "Faster One", cursive !important;
-  font-size: 10px;
-  padding: 5px;
-  margin: 5px;
-  width: 45px;
-  height: 45px;
-  background-color: red;
-  border-radius: 100%;
-  cursor: pointer;
-  outline: none;
-  box-shadow: 0 9px #999; }
-
-.buttons button:hover {
-  background-color: maroon; }
-
-.buttons button:active {
-  background-color: maroon;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px); }
-
-.buttons img {
-  width: 30px;
-  height: 30px; }
+  .buttons button {
+    font-family: "Faster One", cursive !important;
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: red;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 9px #999; }
+    .buttons button:hover {
+      background-color: maroon; }
+    .buttons button:active {
+      background-color: maroon;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px); }
+  .buttons img {
+    width: 30px;
+    height: 30px; }
 
 .flex {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-
-.flex h3 {
-  font-family: "Faster One", cursive !important;
-  color: yellow; }
+  .flex h3 {
+    font-family: "Faster One", cursive !important;
+    color: yellow; }
 
 .game {
   margin-top: 69px;
   margin-bottom: 69px; }
-
-.game .columns {
-  background: black;
-  border: 10px solid yellow; }
-
-.game h1 {
-  background: blue;
-  font-family: "Faster One", cursive !important;
-  font-size: 2em; }
+  .game .columns {
+    background: black;
+    border: 10px solid yellow; }
+  .game h1 {
+    background: #0038B8;
+    font-family: "Faster One", cursive !important;
+    font-size: 2em; }
 
 .result {
   height: 300px; }
-
-.result h4 {
-  color: yellow;
-  font-family: "Faster One", cursive !important;
-  text-align: center; }
-
-.result img {
-  max-width: 100px;
-  max-height: 100px; }
+  .result h4 {
+    color: yellow;
+    font-family: "Faster One", cursive !important;
+    text-align: center; }
+  .result img {
+    max-width: 100px;
+    max-height: 100px; }
 
 .begin {
   height: 300px;
   display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.begin h2 {
-  font-family: "Faster One", cursive !important;
-  color: yellow;
-  text-align: center;
-  width: 50%;
-  animation-name: begin;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  font-size: 1.5em; }
+  align-items: center;
+  justify-content: center; }
+  .begin h2 {
+    font-family: "Faster One", cursive !important;
+    color: yellow;
+    text-align: center;
+    width: 50%;
+    animation-name: begin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 1.5em; }
 
 .score {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%; }
-
-.score div {
-  display: block;
-  margin: 0 auto; }
-
-.score h3 {
-  color: yellow;
-  font-family: "Faster One", cursive !important;
-  text-align: center; }
+  .score div {
+    display: block;
+    margin: 0 auto; }
+  .score h3 {
+    color: yellow;
+    font-family: "Faster One", cursive !important;
+    text-align: center; }
 
 @keyframes begin {
   0% {
@@ -378,18 +367,58 @@ body {
   background-size: cover;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   font-size: calc(10px + 1vmin); }
+  .App h1 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
-.App h1 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+.cover {
+  margin-top: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .cover img {
+    animation-name: intro;
+    animation-duration: 5s;
+    width: 400px;
+    height: 400px; }
 
 .landingLink {
-  width: 70px;
-  height: 40px; }
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  color: #0038B8;
+  position: absolute;
+  background: white;
+  border: 2px solid #0038B8;
+  text-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: appear;
+  animation-duration: 5s;
+  opacity: 1;
+  bottom: 60px; }
+  .landingLink:hover {
+    background: #0038B8;
+    color: white; }
+
+@keyframes intro {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1; }
+  100% {
+    transform: scale(1.5, 1.5);
+    opacity: 0; } }
+
+@keyframes appear {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
 
 @media (min-width: 768px) {
   .App {

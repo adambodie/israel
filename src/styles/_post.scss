@@ -2,7 +2,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .post {
-	margin-top: 59px;
+	margin-top: $margin-top;
 	color: white;
 	h1 {
 		font-size: 2em;
@@ -12,10 +12,14 @@
 	}
 }
 
+.article {
+	@include center();
+	width: 80%;
+}
+
 .slick-list, .slick-slider, .slick-track {
 	width: 375px;
-	display: block;
-	margin: 0 auto;
+	@include center();
 }
 
 .slick-arrow {
@@ -23,7 +27,7 @@
 }
 
 .slick-slide img {
-    margin: 0px auto;
+    @include center();
 	height: 225px;
 }
 
@@ -34,6 +38,7 @@
 .slick-next {
 	right: 0!important;
 }
+
 
 .slick-prev:before, .slick-next:before {
 	font-size: 20px!important;

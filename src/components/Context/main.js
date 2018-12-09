@@ -1,5 +1,14 @@
 import React, {Component} from 'react';
-import { dummy, todoIntro, elAlIntro, benGurionIntro, oldJerusalemIntro, shukDayIntro, shabbatIntro, shukNightIntro } from '../../data/articles';
+import { 
+	dummy, 
+	todoIntro, 
+	elAlIntro, 
+	benGurionIntro, 
+	oldJerusalemIntro, 
+	shukDayIntro, 
+	shabbatIntro, 
+	shukNightIntro 
+} from '../../data/articles';
 import routes from '../../data/routes';
 
 const MainContext = React.createContext();
