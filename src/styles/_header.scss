@@ -3,6 +3,10 @@ header {
 	top: 0;
 	width: 100%;
 	z-index: 10000;
+	img {
+		height: 43px;
+		margin: 0;
+	}
 }
 
 .top-bar {
@@ -10,5 +14,6 @@ header {
 	h4 {
 		font-family: 'Heebo', sans-serif;
 		color: white;
+		text-shadow: 2px 2px 4px black;
 	}
 }
