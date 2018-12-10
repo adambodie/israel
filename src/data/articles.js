@@ -162,3 +162,35 @@ Eventually, I got my food and ate my meal, which again, was standard food.  I di
 
 
 `
+
+export const yadVashemIntro = `
+Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust. And no place captures the horrific events like Yad Vashem, Israel’s National Holocaust Museum.
+`;
+
+export const yadVashem = `
+${yadVashemIntro}
+
+Close to our hotel and on the edge of Mount Herzl, our group walked down to Yad Vashem, seeing the views along the way and preparing ourselves mentally for what we were about to see.  Plenty of us had been to Holocaust Museums before, but going to Israel&apos;s brings a different light to the experience.  Entering Yad Vashem, we could see the main museum, a long triangular prism building overseeing a valley.  But first, we made our way to another building, where we got an audio player and headphones to listen to our tour guide.  I wished I had brought my headphones, earbuds never stay in my ears.  We also enjoyed some great views of the valley beyond the museum, which were breathtaking to see.
+
+Meeting our tour guide, we first stopped at a tree to honor The Righteous Among the Nations, non-Jews who sacrificed everything to help Jews in Europe during the Holocaust escape and survive.  With all the people who perished, honoring those who did the right thing, risking their own lives, made them deserving of such honor.  A nice way to start the tour.
+
+Entering the main museum, you could see a long pathway within the prism, with the exit sign at the other end.  But one cannot go straight to the exit.  Instead, you walk through the exhibits to the left and right of the main pathway, going through a curving path, with the walls of the prism closing in as you made it further in the museum, until you reach the end and everything opens up again, signifying that better things are ahead.
+
+Going through the museum and listening to our tour guide, who was quite passionate explaining things to us, you could feel the emotions listening to her speak.  Seeing all the pictures from the Holocaust, reading all the facts, learning how much preparation went into such atrocious acts, made me upset inside.  But for anyone with a conscious, you would be upset as well.  But as our tour guide told us, "Never Forget."  It&apos;s the main reason the museum was built, to remind everyone never to forget and not let it happen again.
+
+After a long winding path to the exit of the museum, I could see the view of the forest, which combined with the prism, provided an amazing view.  But there was more to see, as our group made its way to the Children&apos;s Memorial.  The saddest thing about the Holocaust, was all the children whose lives were lost.  Making our way, we entered a dark room with candles lighting the room, reflected by mirrors throughout the room, where it was dark and eerie to navigate, but touching as the candles were to honor the children&apos; lives lost.
+
+When we were done, we once again could see the forest and the valley in a wonderful view.  But what made it even better was across the valley, you could hear children at a school playing and being lively.  Leaving the Children&apos;s Memorial to contrast between the atrocities in the past and the joy of the present, was touching to say the least.  It was one of those moments that felt unbelievable.  With that part of the trip over, it was on to the next part of the trip, Mount Herzl, the Military Cemetery.  But first, a too quick lunch break...
+
+# Facts about Yad Vashem
+![Aeriel view of Yad Vashem](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Israel-2013%282%29-Aerial-Jerusalem-Yad_Vashem_01.jpg/785px-Israel-2013%282%29-Aerial-Jerusalem-Yad_Vashem_01.jpg)
+- Yad Vashem translates to "A Meaning and a Name"
+- Plans to begin building Yad Vashem, in the Jewish homeland began in September 1942
+- Yad Vashem was established in 1953, with it being opened to the public in 1957, with its current building completed in 2005
+- The Hall of Names contains the names of millions of Holocaust victims. It has two cones, an upper cone with about 600 victim images, and a lower cone, a well like structure with water to honor those who are unidentified.  Surrounding this is the repository containing millions Pages of Testimony, which carries the names of each Holocaust victim
+- The oldest part of the museum is the Archives, which contains historical photographs, items recovered from the Holocaust and the Pages of Testimony
+- Its location on the western edge of Mount Herzl was chosen as a symbolic message of "rebirth" after destruction
+- Yad Vashem is the second most visited Israeli site, behind the Western Wall
+- The largest population of Jews in Europe before the Holocaust lived in Poland, with about 3,325,000 Jews, about 10% of its population
+
+`

@@ -2,10 +2,13 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .post {
-	margin-top: $margin-top;
+	margin-top: $margin-top * 2;
 	color: white;
 	h1 {
 		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.2em;
 	}
 	li {
 		text-align: left;
@@ -15,6 +18,9 @@
 .article {
 	@include center();
 	width: 80%;
+	img {
+		max-width: 200px;
+	}
 }
 
 .slick-list, .slick-slider, .slick-track {
@@ -54,14 +60,23 @@
 		width: 625px;
 	}
 
-  .slick-slide img {
+	.slick-slide img {
 		height: 300px;
 	}
+	
 	.slick-prev:before, .slick-next:before {
 		font-size: 40px!important;
 	}
+	
+	.article {
+		img {
+			max-width: 300px;
+		}	
+	}
+	.post {
+		margin-top: $margin-top;
+	}
 }
-
 @media (min-width: 769px) {
 	.slick-list, .slick-slider, .slick-track  {
 		width: 675px;
@@ -70,6 +85,16 @@
 		img {
 			height: 400px;
 		}
-	}	
+	}
+	.article {
+		img {
+			max-width: 400px;
+		}	
+	}
+	.post {
+		h3 {
+			font-size: 1.5em;
+		}
+	}			
 }
 

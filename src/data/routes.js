@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem } from './articles';
 
 const routes = [
 	{
@@ -33,6 +33,11 @@ const routes = [
 		title: "Back to the Shuk: The Night Time Experience",
 		paragraph: shukNight,
 		link: "shuk-night"
+	},
+	{
+		title: "Never Forget: Yad Vashem",
+		paragraph: yadVashem,
+		link: "yad-vashem"
 	}	
 ]
 

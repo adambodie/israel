@@ -10,7 +10,7 @@ header {
   z-index: 10000; }
 
 header img {
-  height: 43px;
+  height: 33px;
   margin: 0; }
 
 .top-bar {
@@ -20,6 +20,12 @@ header img {
   font-family: 'Heebo', sans-serif;
   color: white;
   text-shadow: 2px 2px 4px black; }
+
+@media (min-width: 550px) {
+  .top-bar h4 {
+    font-size: 1.0em; }
+  header img {
+    height: 38px; } }
 
 .todoList {
   margin: 100px 0px; }
@@ -143,11 +149,14 @@ ul {
     margin-left: 260px; } }
 
 .post {
-  margin-top: 59px;
+  margin-top: 118px;
   color: white; }
 
 .post h1 {
   font-size: 2em; }
+
+.post h3 {
+  font-size: 1.2em; }
 
 .post li {
   text-align: left; }
@@ -156,6 +165,9 @@ ul {
   display: block;
   margin: 0 auto;
   width: 80%; }
+
+.article img {
+  max-width: 200px; }
 
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
@@ -189,13 +201,21 @@ ul {
   .slick-slide img {
     height: 300px; }
   .slick-prev:before, .slick-next:before {
-    font-size: 40px !important; } }
+    font-size: 40px !important; }
+  .article img {
+    max-width: 300px; }
+  .post {
+    margin-top: 59px; } }
 
 @media (min-width: 769px) {
   .slick-list, .slick-slider, .slick-track {
     width: 675px; }
   .slick-slide img {
-    height: 400px; } }
+    height: 400px; }
+  .article img {
+    max-width: 400px; }
+  .post h3 {
+    font-size: 1.5em; } }
 
 .pageTitle {
   margin-top: 59px; }

@@ -7,7 +7,8 @@ import {
 	oldJerusalemIntro, 
 	shukDayIntro, 
 	shabbatIntro, 
-	shukNightIntro 
+	shukNightIntro,
+	yadVashemIntro 
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -82,9 +83,9 @@ export class Provider extends Component {
 					day: 3,
 					items: [ 
 					{
-						title: "Never Forget: Yad Vashem", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[6].title, 
+						intro: yadVashemIntro, 
+						link: 'yad-vashem', 
 						image: 'yadVashem'
 					},
 					{

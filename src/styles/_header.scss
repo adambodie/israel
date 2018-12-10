@@ -4,7 +4,7 @@ header {
 	width: 100%;
 	z-index: 10000;
 	img {
-		height: 43px;
+		height: 33px;
 		margin: 0;
 	}
 }
@@ -16,4 +16,18 @@ header {
 		color: white;
 		text-shadow: 2px 2px 4px black;
 	}
+}
+
+@media (min-width: 550px) {
+	.top-bar {
+		h4 {
+			font-size: 1.0em;
+		}
+	}
+	header {
+		img {
+			height: 38px;
+		}
+	}
+
 }
