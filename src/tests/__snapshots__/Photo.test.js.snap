@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <img
+    alt="title"
+    src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_1.JPG"
+  />
+  <h3>
+    title
+  </h3>
+  <p>
+    2
+     of 
+    10
+  </p>
+</div>
+`;

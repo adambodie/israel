@@ -1,20 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  <h1>
-    Coming Soon
-  </h1>
-  <button
-    className="button"
+<div
+  className="cover"
+>
+  <img
+    alt="Cover"
+    src="cover.jpg"
+  />
+  <a
+    className="landingLink"
+    href="/index"
+    onClick={[Function]}
   >
-    <a
-      disabled={false}
-      href="/index"
-      onClick={[Function]}
-    >
-      Enter
-    </a>
-  </button>
+    Enter
+  </a>
 </div>
 `;

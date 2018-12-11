@@ -12,6 +12,10 @@ exports[`renders correctly 1`] = `
         Adam's Birthright Trip to The Land of Israel
       </h4>
     </div>
+    <img
+      alt="RT-38-1047"
+      src="header.jpg"
+    />
   </div>
 </header>
 `;
