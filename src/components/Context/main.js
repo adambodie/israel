@@ -91,7 +91,7 @@ export class Provider extends Component {
 					{
 						title: "Zionism 101: Har Herzl", 
 						intro: dummy, 
-						link: 'todoList', 
+						link: 'shakshuka', 
 						image: 'herzl'
 					},
 					{

@@ -4,6 +4,7 @@ import ScrollToTop from './ScrollToTop';
 import './styles/App.css';
 import Header from './components/Header';
 import Landing from './components/Landing';
+import Shakshuka from './components/Shakshuka';
 import Main from './components/Main/Main';
 import Game from './components/Game/Game';
 import TodoList from './components/Todo/TodoList';
@@ -20,6 +21,7 @@ const App = () => {
 					<Route exact path="/" component={Landing} />
 					<Route path="/index" component={Main} />
 					<Route path="/todoList" component={TodoList} />
+					<Route path="/shakshuka" component={Shakshuka} />
 					<Route path="/game" component={Game} />
 					{routes.map((x, index) => 
 						<Route 
