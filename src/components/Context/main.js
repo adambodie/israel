@@ -8,7 +8,8 @@ import {
 	shukDayIntro, 
 	shabbatIntro, 
 	shukNightIntro,
-	yadVashemIntro 
+	yadVashemIntro,
+	shakshukaIntro 
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -87,11 +88,17 @@ export class Provider extends Component {
 						intro: yadVashemIntro, 
 						link: 'yad-vashem', 
 						image: 'yadVashem'
+					},					
+					{
+						title: "How Not to Eat Your Shakshuka", 
+						intro: shakshukaIntro, 
+						link: 'shakshuka', 
+						image: 'shakshuka'
 					},
 					{
 						title: "Zionism 101: Har Herzl", 
 						intro: dummy, 
-						link: 'shakshuka', 
+						link: 'todoList', 
 						image: 'herzl'
 					},
 					{

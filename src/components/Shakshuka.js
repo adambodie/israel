@@ -1,6 +1,9 @@
 import React, { Component} from 'react';
+import ReactMarkdown from 'react-markdown';
+import { Link } from "react-router-dom";
 import Modal from 'react-modal';
 import { Row, Column } from 'react-foundation';
+import { shakshuka } from '../data/articles';
 
 const customStyles = {
   content : {
@@ -38,10 +41,10 @@ export default class Shakshuka extends Component {
 	  openModal(e, index) {
 		  const image = this.state.eggs[index].image;
 		  const title = this.state.eggs[index].title;
-		this.setState({
-			modalIsOpen: true,
-			image: image,
-			title: title
+			this.setState({
+				modalIsOpen: true,
+				image: image,
+				title: title
 			});
 	  }
 
@@ -59,6 +62,12 @@ export default class Shakshuka extends Component {
 							<div key={index} className={"egg " + x.class} onClick={() => this.openModal(this, index)}></div>
 							))
 						}
+					</div>
+					<p><strong>Click on each egg above to view a picture</strong></p>
+					<ReactMarkdown source={shakshuka} className="article" />
+					<div className="prev-next">
+						<Link to={ '/yad-vashem' } className='button'>Prev</Link>
+						<Link to={ '/herzl' } className='button'>Next</Link>
 					</div>
 				</Column>
 				<Modal

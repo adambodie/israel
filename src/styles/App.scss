@@ -40,6 +40,12 @@ body {
 	}
 }
 
+.prev-next {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
 .landingLink {
 	width: 90px;
 	height: 50px;

@@ -4,27 +4,37 @@ const routes = [
 	{
 		title: "El Al: The Beginning of the Trip to Israel" ,
 		paragraph: elAl,
-		link: "el-al"
+		link: "el-al",
+		prev: "todoList",
+		next: "ben-gurion",
 	},
 	{
 		title: "Arriving in Israel: My First Thoughts",
 		paragraph: benGurion,
-		link: "ben-gurion"
+		link: "ben-gurion",
+		prev: "el-al",
+		next: "old-jerusalem",		
 	},
 	{
 		title: "The Old City",
 		paragraph: oldJerusalem,
-		link: "old-jerusalem"
+		link: "old-jerusalem",
+		prev: "ben-gurion",
+		next: "shuk-day",			
 	},
 	{
 		title: "Mahane Yehuda: The Shuk Experience Before Shabbat",
 		paragraph: shukDay,
-		link: "shuk-day"
+		link: "shuk-day",
+		prev: "old-jerusalem",
+		next: "shabbat"	
 	},
 	{
 		title: "Shabbat in Jerusalem: A Day to Rest",
 		paragraph: shabbat,
 		link: "shabbat",
+		prev: "shuk-day",
+		next: "shuk-night",			
 		number: 1,
 		begin: 0,
 		end: 4
@@ -32,13 +42,17 @@ const routes = [
 	{
 		title: "Back to the Shuk: The Night Time Experience",
 		paragraph: shukNight,
-		link: "shuk-night"
+		link: "shuk-night",
+		prev: "shabbat",
+		next: "yad-vashem"			
 	},
 	{
 		title: "Never Forget: Yad Vashem",
 		paragraph: yadVashem,
-		link: "yad-vashem"
-	}	
+		link: "yad-vashem",
+		prev: "shuk-night",
+		next: "shakshuka"		
+	}
 ]
 
 export default routes;

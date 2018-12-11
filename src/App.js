@@ -23,18 +23,21 @@ const App = () => {
 					<Route path="/todoList" component={TodoList} />
 					<Route path="/shakshuka" component={Shakshuka} />
 					<Route path="/game" component={Game} />
-					{routes.map((x, index) => 
+					{routes.map((x, index) =>
 						<Route 
 							key={index} 
 							path={`/${x.link}`} 
 							render={() => 
 								<Post 
-									title={x.title} 
+									title={x.title}
 									paragraph={x.paragraph} 
 									data={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/${x.link}.json`}
+									prev={`/${x.prev}`}
+									next={`/${x.next}`}
 									begin={x.begin} 
 									end={x.end} 
-									number={x.number} 
+									number={x.number}
+									
 								/>}  
 							/>
 						)

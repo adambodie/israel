@@ -408,7 +408,8 @@ td {
     height: 50px; } }
 
 .shakshuka {
-  margin-top: 59px; }
+  margin-top: 59px;
+  color: white; }
 
 .shakshuka-button {
   background: #0038B8;
@@ -500,6 +501,11 @@ body {
   animation-duration: 5s;
   width: 400px;
   height: 400px; }
+
+.prev-next {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; }
 
 .landingLink {
   width: 90px;
