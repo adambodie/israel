@@ -28,7 +28,7 @@ const MainPageItems = () => {
 												<h3>{y.title}</h3>
 												<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${y.image}.jpg`} alt={y.title} />
 												<ReactMarkdown source={y.intro}/>
-												<Link to={ `${y.link}` } className='button'>Read More</Link>
+												<Link to={ `${y.link}` } className='custom-main custom-button'>Read More</Link>
 											</div>
 											)
 										})

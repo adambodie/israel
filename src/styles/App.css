@@ -498,42 +498,51 @@ body {
 
 .cover img {
   animation-name: intro;
-  animation-duration: 5s;
+  animation-duration: 3s;
   width: 400px;
   height: 400px; }
 
 .prev-next {
   display: flex;
   justify-content: space-evenly;
-  width: 100%; }
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px; }
 
-.landingLink {
-  width: 90px;
-  height: 50px;
-  border-radius: 10px;
-  color: #0038B8;
+.landing {
   position: absolute;
-  background: white;
-  border: 2px solid #0038B8;
-  text-shadow: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   animation-name: appear;
-  animation-duration: 5s;
+  animation-duration: 3s;
   opacity: 1;
   bottom: 60px; }
 
-.landingLink:hover {
+.custom-button {
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #0038B8;
+  background: white;
+  border: 2px solid #0038B8;
+  text-shadow: none; }
+
+.custom-button:hover {
   background: #0038B8;
   color: white; }
+
+.custom-main {
+  margin-bottom: 30px;
+  font-size: 12px; }
 
 @keyframes intro {
   0% {
     transform: scale(0, 0);
     opacity: 1; }
   100% {
-    transform: scale(1.5, 1.5);
+    transform: scale(1, 1);
     opacity: 0; } }
 
 @keyframes appear {

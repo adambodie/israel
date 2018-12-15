@@ -66,8 +66,8 @@ export default class Shakshuka extends Component {
 					<p><strong>Click on each egg above to view a picture</strong></p>
 					<ReactMarkdown source={shakshuka} className="article" />
 					<div className="prev-next">
-						<Link to={ '/yad-vashem' } className='button'>Prev</Link>
-						<Link to={ '/herzl' } className='button'>Next</Link>
+						<Link to={ '/yad-vashem' } className='custom-button'>Prev</Link>
+						<Link to={ '/herzl' } className='custom-button'>Next</Link>
 					</div>
 				</Column>
 				<Modal

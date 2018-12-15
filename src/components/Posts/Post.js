@@ -34,8 +34,8 @@ export default class Post extends Component {
 					<ReactMarkdown source={this.props.paragraph} className="article" />
 					{this.props.begin >= 0 && (<Quiz begin={this.props.begin} end={this.props.end} number={this.props.number}/>)}
 					<div className="prev-next">
-						<Link to={ this.props.prev } className='button'>Prev</Link>
-						<Link to={ this.props.next } className='button'>Next</Link>
+						<Link to={ this.props.prev } className='custom-button'>Prev</Link>
+						<Link to={ this.props.next } className='custom-button'>Next</Link>
 					</div>
 				</Column>
 			</Row>

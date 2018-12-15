@@ -47,4 +47,43 @@ export const question4 = `
 
 `;
 
+export const question5 = `
+## Who was the founder of modern Zionism?
+
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Yitzhak Rabin            | B. Benjamin Netanyahu       |
+| C. Shimon Peres             | D. Theodor Herzl            |
+
+`;
+
+export const question6 = `
+## Which Prime Minister signed the Oslo Accord with Palestine in 1993?
+
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Yitzhak Rabin            | B. Benjamin Netanyahu       |
+| C. Shimon Peres             | D. Theodor Herzl            |
+
+`;
+
+export const question7 = `
+## When was the idea of Yad Vashem first established?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. 1953                     | B. 2005                     |
+| C. 1942                     | D. 1999                     |
+
+`;
+
+export const question8 = `
+## Yad Vashem sits along the western side of which Mountain?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Mount Herzl              | B. Mount of Olives          |
+| C. Mount Zion               | D. Temple Mount             |
+
+`;
+
+
 

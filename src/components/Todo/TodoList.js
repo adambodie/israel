@@ -23,8 +23,8 @@ const TodoList = () => {
 					</ul>
 					<TodoListForm />
 					<div className="prev-next">
-						<Link to={ '/index' } className='button'>Prev</Link>
-						<Link to={ '/el-al' } className='button'>Next</Link>
+						<Link to={ '/index' } className='custom-button'>Prev</Link>
+						<Link to={ '/el-al' } className='custom-button'>Next</Link>
 					</div>
 				</Column>
 			</Row>

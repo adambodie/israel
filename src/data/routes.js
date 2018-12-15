@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda } from './articles';
 
 const routes = [
 	{
@@ -52,6 +52,23 @@ const routes = [
 		link: "yad-vashem",
 		prev: "shuk-night",
 		next: "shakshuka"		
+	},
+	{
+		title: "Zionism 101: Mount Herzl",
+		paragraph: herzl,
+		link: "herzl",
+		prev: "shakshuka",
+		next: "ben-yehuda"		
+	},
+	{
+		title: "One Last Night in Jerusalem at Ben Yehuda",
+		paragraph: benYehuda,
+		link: "ben-yehuda",
+		prev: "herzl",
+		next: "gilo",		
+		number: 2,
+		begin: 5,
+		end: 8				
 	}
 ]
 

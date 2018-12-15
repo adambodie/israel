@@ -164,7 +164,7 @@ Eventually, I got my food and ate my meal, which again, was standard food.  I di
 `
 
 export const yadVashemIntro = `
-Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust. And no place captures the horrific events like Yad Vashem, Israel’s National Holocaust Museum.
+Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust. And no place captures the horrific events like Yad Vashem, Israel&apos;s National Holocaust Museum.
 `;
 
 export const yadVashem = `
@@ -207,4 +207,47 @@ I ended up with a group that opted for a more sit down place than anticipated.  
 I also was interested in trying an Iced Coffee.  Our staff told us we had to try the Iced Coffee at some point, that it was absolutely delicious, and nothing like the Iced Coffee back home.  I passed up the opportunity to try some on the first day in the Old City, and I certainly wanted to have some better coffee than the instant coffee that was served at our hotel.  So now was to time to have some Iced Coffee.  So what makes Iced Coffee different?  Instead of being cold, it&apos;s more slushee at the top, kind of like a blended coffee but not quite completely blended.  The Iced Coffee back home can be ordered as Cold Coffee.
 
 That was cool and it came out quickly, but the Shakshuka did not.  And with limited time, we couldn&apos;t wait around for it.  After a couple times of checking to see when it would be done, our group finally got our Shakshuka&apos;s and other dishes, and made our dash towards the bus.  I flagged down our staff and warned them beforehand of the quandary, so there would be no chance we&apos;d be left behind.  So instead of enjoying Shakshuka sitting down, I and a few others ended up having to scarf it down on the bus ride to Mount Herzl and before our tour started.  The meal itself was tasty, but definitely preferred sitting down and not To-Go.  The only thing that could have been worse was for it to explode in my face, but that&apos;s not part of my story...
+`;
+
+export const herzlIntro = `
+Our next stop was at Mount Herzl, home of Israel&apos;s National Cemetery, where many influential Israelis and IDF members are buried. It was here we would learn about Zionism, a term I admit I knew of but didn&apos;t fully understand over the years.  This would be the place I would better understand Zionism.
+`;
+
+export const herzl = `
+${herzlIntro}
+
+As our group entered Mount Herzl, we made our way to a nice marble square, with flags and a tombstone on one side and a place to sit on the other side.  We sat and learned from Hadas about the founder of Zionism, Theodor Herzl.  In the late 19th Century, Jews mostly lived in Europe, with a home of their own.  They were accepted in the West, but the East, not so much.  Due to a rise in Nationalism, Jews in Eastern Europe saw a sharp rise in Anti-Semitism.  It was then that Theodor Herzl came up with Zionism, where the Jews would go back to their ancient homeland and create a state for the Jews.  He was laughed at at the time and passed away in 1904, but his vision came true in 1948 with the creation of Israel.
+
+After learning all of this, we saw the tombstone across the way, which belonged to Herzl.  It was intentionally ordinary, not the extravagant tombstones of other famous people throughout history.  But it was located at the highest point of Mount Herzl, providing a view in all directions.  After this, I added a pebble on top, which for some is traditional.  After Herzl, we headed towards more tombstones.
+
+Our next stop were the tombstones of Israel&apos;s former Prime Ministers.  I was particularly drawn to the grave of Yitzhak Rabin, who is buried next to his wife.  I was old enough to remember Rabin signing the Oslo Accord with Yasser Arafat and Bill Clinton, and I was old enough to remember when Rabin was assassinated.  As such, he always held a special spot in my heart when it comes to Israel and its leaders.  Also there were former Prime Ministers Shimon Peres and Golda Meir, the latter whom Jake loves to point out lived in his hometown of Milwaukee.  But we were there to embrace Golda&apos;s work for Israel, not Milwaukee. With that, it was off to our next stop in the cemetery.
+
+Walking through the cemetery, there were multiple memorials honoring various groups.  But our next stop was for those who served in the IDF.  We were told the tale of one particular member of the IDF, Yoni Netanyahu, who was killed in action in 1976 during Operation Entebbe, a hostage rescue mission in Uganda; he was the only casualty of that mission. We also heard the story of Michael Levin, an American Jew who came to Israel to serve in the IDF and did everything he could to join and fight.
+
+After hearing these stories and seeing the IDF members passing through the cemetery, it was time to wrap up.  We headed back the way we came, and back to the bus.  Our day of hardship was over.  We learned a lot, but it was difficult to absorb the tragedy of the Holocaust and the passing of those who fought for Israel and the leaders who helped shaped and defined a nation of the Jews.  A much needed break was waiting for us back at the hotel.
+
+# Facts about Mount Herzl
+- Mount Herzl is also known as "Mount of Rememberance"
+- Theodor Herzl, the founder of Zionism, was buried at the top of Mount Herzl in 1949, with his remains moved from its original spot in Vienna, Austria, per his wishes once his vision of a Jewish state became complete.
+- The main IDF cemetery is located on the north end of the mountain, with plots dedicated to particular battles where members fell during battle.
+- The southern slope of the mountain contains the graves of leaders of the country of Israel and those who sacrificed their lives for the country.
+- Yad Vashem is located on the western slope of Mount Herzl
+- Yoni Netanyahu, who was killed in action during Operation Entebbe, was the older brother of current Israeli Prime Minister, Benjamin Netanyahu
+
+`;
+
+export const benYehudaIntro = `
+After returning from Mount Herzl, another night out was what we needed to at least have a good time on an otherwise challenging day. It would also be our last night in Jerusalem.  With that, after eating dinner at the hotel, we headed to Ben Yehuda Street, a popular part of town in the heart of Jerusalem.
+`;
+
+export const benYehuda = `
+${benYehudaIntro}
+
+Unlike the night before, the weather was cooler, ending any debate of whether to bring a jacket or not. Also, I didn’t totally feel like dressing nice for the occasion.  So yes, I know when a jacket is needed.  Arriving in Ben Yehuda Street, it felt less of a market and more of a square, Ben Yehuda has plenty of souvenir shops, restaurant/bars and even live music in the middle of it all.
+
+It was late, so some of the gift shops I would’ve considered were closed, so I went with some looking for a bar to have a drink.  Not knowing where to go and with most everything in Hebrew, we leaned in Shay to find us a place to go.  He didn’t know where to find a place that could accommodate us, which led him to ask some locals for a recommendation. After following the path provided, it seemed there was no choices, but there was one bar open, the Fishnzon Bar.  And it had seating outside, just enough to fit the whole crew.  Though the selection wasn’t huge, I settled on getting a Tuborg, an Amber beer.  
+
+What I didn’t know at the time was that every place I went to, except for the Beer Bazaar, offered Tuborg and Carlsberg.  Over the course of the trip, I ended up having Tuborg 3 times.  But none of that matters when you’re hanging out with friends and having a good time.  Having a good time but not wanting to stay out too late, we headed back at the designated time.  Jerusalem was plenty of fun, but it was time to get ready for the next part of the journey.
+
+
 `;

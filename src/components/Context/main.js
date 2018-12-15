@@ -9,7 +9,9 @@ import {
 	shabbatIntro, 
 	shukNightIntro,
 	yadVashemIntro,
-	shakshukaIntro 
+	shakshukaIntro,
+	herzlIntro,
+	benYehudaIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -96,15 +98,15 @@ export class Provider extends Component {
 						image: 'shakshuka'
 					},
 					{
-						title: "Zionism 101: Har Herzl", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[7].title, 
+						intro: herzlIntro, 
+						link: 'herzl', 
 						image: 'herzl'
 					},
 					{
-						title: "Ben Yehuda", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[8].title, 
+						intro: benYehudaIntro, 
+						link: 'ben-yehuda', 
 						image: 'yehuda'
 					},						
 					]
@@ -124,12 +126,13 @@ export class Provider extends Component {
 						intro: dummy, 
 						link: 'todoList', 
 						image: 'laqye'
-					},	{
+					},	
+					{
 						title: "Arad in the Desert: Shelter Included for the authentic Israel Experience", 
 						intro: dummy, 
 						link: 'todoList', 
 						image: 'arad'
-					},					
+					}					
 					]
 				},	
 				{
