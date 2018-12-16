@@ -30,7 +30,7 @@ exports[`renders correctly 1`] = `
         src="cover.jpg"
       />
       <a
-        className="landingLink"
+        className="landing custom-button"
         href="/index"
         onClick={[Function]}
       >

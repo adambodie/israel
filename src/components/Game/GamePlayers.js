@@ -45,7 +45,7 @@ export default class GamePlayers extends Component {
 				</div>
 				)
 			}
-			</div>				
+			</div>
 		)
 	}
 }

@@ -41,8 +41,26 @@ exports[`renders correctly 1`] = `
       className="article"
     >
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet
       </p>
+    </div>
+    <div
+      className="prev-next"
+    >
+      <a
+        className="custom-button"
+        href="/prev"
+        onClick={[Function]}
+      >
+        Prev
+      </a>
+      <a
+        className="custom-button"
+        href="/next"
+        onClick={[Function]}
+      >
+        Next
+      </a>
     </div>
   </div>
 </div>
