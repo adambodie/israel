@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image from '../cover.jpg';
 
 const Landing = () => {
 
 		return(
 			<div className="cover">
-				<img src={image} alt="Cover" />
+				<img src={'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/cover.jpg'} alt="Cover" />
 				<Link to={'/index'} className="landing custom-button">Enter</Link>
 			</div>
 		)

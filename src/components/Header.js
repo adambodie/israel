@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '../header.jpg';
 
 const Header = () => (
 				<header>
@@ -7,7 +6,7 @@ const Header = () => (
 						<div className="top-bar-left">
 							<h4>Adam's Birthright Trip to The Land of Israel</h4>
 						</div>
-						<img src={image} alt="RT-38-1047" />
+						<img src={'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/header.jpg'} alt="RT-38-1047" />
 					</div>
 				</header>
 );
