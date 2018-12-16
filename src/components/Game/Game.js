@@ -81,8 +81,8 @@ export default class Game extends Component {
 						result={this.state.result} 
 						/>
 					<div className='buttons'>
-						{this.state.buttons.map((x, index)=> <button key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
-						<button onClick={()=>this.handleReset()}>Reset</button>
+						{this.state.buttons.map((x, index)=> <button className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
+						<button className='reset' onClick={()=>this.handleReset()}>Reset</button>
 					</div>
 				</Column>
 			</Row>

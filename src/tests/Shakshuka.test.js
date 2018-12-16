@@ -16,8 +16,21 @@ it('renders correctly', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-it('renders a `h2`', () => {
-	const wrapper = shallow(<Shakshuka />);
-	expect(wrapper.find('h2').length).toEqual(1);
- });
-
+describe('Shakshuka', () => {
+	describe('when the openModal function is called', ()=>{
+		   const spy = jest.spyOn(Shakshuka.prototype, 'openModal');
+		   const app = shallow(<Shakshuka />);
+		   it('calls the function', () => {
+				app.find('.eggOne').simulate('click');
+				expect(spy).toHaveBeenCalled()
+		   });	   
+	 });
+	 describe('when the closeModal function is called', ()=>{
+		const spy = jest.spyOn(Shakshuka.prototype, 'closeModal');
+		const app = shallow(<Shakshuka />);
+		it('calls the function', () => {
+			 app.find('.shakshuka-button').simulate('click');
+			 expect(spy).toHaveBeenCalled()
+		});	   
+  });	 	
+})

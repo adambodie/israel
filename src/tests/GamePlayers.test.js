@@ -40,3 +40,4 @@ it('renders a `h2`', () => {
 	expect(wrapper.find('h2').length).toEqual(1);
  });
 
+

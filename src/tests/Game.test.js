@@ -15,8 +15,32 @@ it('renders correctly', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-it('renders a `h1`', () => {
-	const wrapper = shallow(<Game />);
-	expect(wrapper.find('h1').length).toEqual(1);
- });
 
+
+describe('Game', () => {
+	describe('when the button is clicked', ()=>{
+		   const spy = jest.spyOn(Game.prototype, 'handleClick');
+		   const app = shallow(<Game />);
+		   it('calls the function', () => {
+				app.find('.button-rock').simulate('click');
+				expect(spy).toHaveBeenCalled()
+		   });
+		   it('calls the function', () => {
+				app.find('.button-paper').simulate('click');
+				expect(spy).toHaveBeenCalled()
+			});
+			it('calls the function', () => {
+				app.find('.button-scissors').simulate('click');
+				expect(spy).toHaveBeenCalled()
+			});
+	});
+	describe('when the reset button is clicked', ()=>{
+		const spy = jest.spyOn(Game.prototype, 'handleReset');
+		const app = shallow(<Game />);
+		it('calls the function', () => {
+			 app.find('.reset').simulate('click');
+			 expect(spy).toHaveBeenCalled()
+		});
+
+ });	
+})

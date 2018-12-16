@@ -23,6 +23,7 @@ exports[`renders correctly 1`] = `
       className="buttons"
     >
       <button
+        className="button-rock"
         onClick={[Function]}
       >
         <img
@@ -31,6 +32,7 @@ exports[`renders correctly 1`] = `
         />
       </button>
       <button
+        className="button-paper"
         onClick={[Function]}
       >
         <img
@@ -39,6 +41,7 @@ exports[`renders correctly 1`] = `
         />
       </button>
       <button
+        className="button-scissors"
         onClick={[Function]}
       >
         <img
@@ -47,6 +50,7 @@ exports[`renders correctly 1`] = `
         />
       </button>
       <button
+        className="reset"
         onClick={[Function]}
       >
         Reset
