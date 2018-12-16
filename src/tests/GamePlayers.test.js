@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import GamePlayers from '../components/Game/GamePlayers';
 
 it('renders without crashing', () => {
@@ -36,7 +36,13 @@ it('renders correctly', () => {
 });
 
 it('renders a `h2`', () => {
-	const wrapper = shallow(<GamePlayers />);
+        const wrapper = mount(<GamePlayers       
+                opponentScore={0} 
+                playerScore={0} 
+                playerWin={0} 
+                opponentWin={0} 
+                draw={0} 
+                start={false} />);
 	expect(wrapper.find('h2').length).toEqual(1);
  });
 
