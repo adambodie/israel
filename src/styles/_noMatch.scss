@@ -1,0 +1,28 @@
+.noMatch {
+	color: white;
+	img {
+		width: 100px;
+		height: 133px;
+	}
+	p {
+		line-height: 1.2;
+		font-size: 14px;
+		text-align: left;
+	}
+	a {
+		color: white;
+		font-weight: bold;
+		&:hover {
+			color: #DEDEDE;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.noMatch {
+		img {
+			width: 150px;
+			height: 200px;
+		}
+	}
+}
