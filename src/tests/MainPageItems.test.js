@@ -2,6 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 
 
+
 beforeEach(() => {
   jest.resetModules();
 });
@@ -41,10 +42,8 @@ const getMainPageItemsWithContext = (context= {
     
     describe('<MainPageItems />', () => {
         it('should return a list of pages', () => {
-          console.log(getMainPageItemsWithContext);
           const MainPageItems = getMainPageItemsWithContext();
           const wrapper = mount(<MainPageItems />);
-          wrapper.debug();
           //expect(wrapper.find('li').length).toBe(2);
         });
     })

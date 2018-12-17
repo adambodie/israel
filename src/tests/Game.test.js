@@ -36,11 +36,16 @@ describe('Game', () => {
 	});
 	describe('when the reset button is clicked', ()=>{
 		const spy = jest.spyOn(Game.prototype, 'handleReset');
-		const app = shallow(<Game />);
+		const app = shallow(<Game/>);
 		it('calls the function', () => {
 			 app.find('.reset').simulate('click');
 			 expect(spy).toHaveBeenCalled()
 		});
-
+		it('updates the state', () => {
+			app.setState({ start: true, opponentScore: 10 });
+			app.find('.reset').simulate('click');
+			expect(app.state().start).toEqual(false);
+			expect(app.state().opponentScore).toEqual(0);
+	   });
  });	
 })

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import { shallow, mount } from 'enzyme';
+import { mount } from 'enzyme';
 import GamePlayers from '../components/Game/GamePlayers';
 
 it('renders without crashing', () => {
@@ -11,7 +11,12 @@ it('renders without crashing', () => {
         playerWin={0} 
         opponentWin={0} 
         draw={0} 
-        start={false} 
+        start={false}
+        buttons={[
+                {name: 'rock', id: 0},			
+                {name: 'paper', id: 1},
+                {name: 'scissors', id: 2}
+        ]} 
         /*handleChange={this.handleClick}
         buttons={this.state.buttons}*/
         result={''}/>, div);
@@ -36,14 +41,18 @@ it('renders correctly', () => {
 });
 
 it('renders a `h2`', () => {
-        const wrapper = mount(<GamePlayers       
+        const wrapper = mount(<GamePlayers
                 opponentScore={0} 
                 playerScore={0} 
                 playerWin={0} 
                 opponentWin={0} 
-                draw={0} 
-                start={false} />);
-	expect(wrapper.find('h2').length).toEqual(1);
+                draw={0}
+                start={false}
+                buttons={[
+                        {name: 'rock', id: 0},
+                        {name: 'paper', id: 1},
+                        {name: 'scissors', id: 2}
+                ]}  
+                 />);
+        expect(wrapper.find('h2').length).toEqual(1);
  });
-
-
