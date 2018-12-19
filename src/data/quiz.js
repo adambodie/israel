@@ -85,5 +85,37 @@ export const question8 = `
 
 `;
 
+export const question9 = `
+## Who controlled the land of Israel in 1946?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Palestinians             | B. United Kingdom           |
+| C. Jews                     | D. United States            |
 
+`;
 
+export const question10 = `
+## Which nation controlled Jerusalem from 1948-1967?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Palestine                | B. Egypt                    |
+| C. Israel                   | D. Jordan                   |
+`;
+
+export const question11 = `
+## Which Arab nation became the first to agree to a peace deal with Israel?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Syria                    | B. Egypt                    |
+| C. Saudi Arabia             | D. Jordan                   |
+
+`;
+
+export const question12 = `
+## The accord from 1993 between Israel and Palestine is named from the capital of which country?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Sweden                   | B. Denmark                  |
+| C. Norway                   | D. Lithuania                |
+
+`;

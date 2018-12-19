@@ -11,7 +11,10 @@ import {
 	yadVashemIntro,
 	shakshukaIntro,
 	herzlIntro,
-	benYehudaIntro
+	benYehudaIntro,
+	giloIntro,
+	laqyeIntro,
+	aradIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -23,6 +26,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-0', 
 					day: 0,
+					date: 'November 7-8, 2018',
 					items: [ 
 					{
 						title: "Things to Bring to Israel", 
@@ -41,6 +45,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-1', 
 					day: 1,
+					date: 'November 9, 2018',
 					items: [ 
 					{
 						title: routes[1].title, 
@@ -66,6 +71,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-2', 
 					day: 2,
+					date: 'November 10, 2018',
 					items: [ 
 					{
 						title: routes[4].title, 
@@ -84,6 +90,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-3', 
 					day: 3,
+					date: 'November 11, 2018',
 					items: [ 
 					{
 						title: routes[6].title, 
@@ -114,23 +121,24 @@ export class Provider extends Component {
 				{
 					scroll: 'day-4', 
 					day: 4,
+					date: 'November 12, 2018',
 					items: [ 
 					{
-						title: "Leaving Jerusalem: Seeing the Israeli-Arab Conflict", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[9].title, 
+						intro: giloIntro, 
+						link: 'gilo', 
 						image: 'gilo'
 					},
 					{
-						title: "Out in the Desert with the Bedouins", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[10].title, 
+						intro: laqyeIntro, 
+						link: 'laqye', 
 						image: 'laqye'
 					},	
 					{
-						title: "Arad in the Desert: Shelter Included for the authentic Israel Experience", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[11].title, 
+						intro: aradIntro, 
+						link: 'arad', 
 						image: 'arad'
 					}					
 					]
@@ -138,6 +146,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-5', 
 					day: 5,
+					date: 'November 13, 2018',
 					items: [ 
 					{
 						title: "The Judean Desert: Hot Fun Before Masada", 
@@ -181,6 +190,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-6', 
 					day: 6,
+					date: 'November 14, 2018',
 					items: [ 
 					{
 						title: "Morning Stroll on the beaches of Tel Aviv", 
@@ -209,6 +219,7 @@ export class Provider extends Component {
 				{
 					scroll: 'day-7', 
 					day: 7,
+					date: 'November 15, 2018',
 					items: [ 
 					{
 						title: "Jaffa: The Old Part of Tel Aviv", 

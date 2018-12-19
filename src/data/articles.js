@@ -12,7 +12,7 @@ When I was 26 years old, I learned of Birthright Israel, a program that allowed 
 
 But the powers that be prevented me from going.  I was denied the chance; not enough room for Adam to go, Birthright told me, even though it would seem they would want someone like me who was at the age limit of 26.  So it seemed like I would never be able to go to Israel.  I'm not made of money;  and it's certainly not as easy as writing a check.  So years went by, wondering what could have been.  But then, last December, I received an e-mail I never expected: Birthright Israel was extendng the age limit to people up to 32 years old, which once again, gave myself an opportunity to go, right at the age limit.  Suddenly, a second chance at Israel presented itself.
 
-Now had to be the time.  I am far more mature this time around, and able to handle myself for such a big trip, both physically, mentally and socially.  So when I applied this time around, I was all in, applying at the very first chance I could get, with no technical issues stopping me.  I intially applied for the trip in May, unable to go in the Summer due to work scheduling issues.  But as weeks went by, I saw deja vu all over again, thinking I would be denied yet again.  They offered a fall trip, but I figured I wasn't eligible since I would be 33.  After questioning them, I was thankfully told I was wrong; I was eligible since I applied as a 32 year old.  And with that, I was accepted into Birthright Israel.  My second chance was granted.  I never thought I'd get it, but as my Mom always tells me, things happen for a reason.
+Now had to be the time.  I am far more mature this time around, and able to handle myself for such a big trip, both physically, mentally and socially.  So when I applied this time around, I was all in, applying at the very first chance I could get, with no technical issues stopping me.  I intially applied for the trip in May, unable to go in the Summer due to work scheduling issues.  But as weeks went by, I saw deja vu all over again, thinking I would be denied yet again.  They offered a fall trip, but I figured I wasn&apos;t eligible since I would be 33.  After questioning them, I was thankfully told I was wrong; I was eligible since I applied as a 32 year old.  And with that, I was accepted into Birthright Israel.  My second chance was granted.  I never thought I&apos;d get it, but as my Mom always tells me, things happen for a reason.
 `;
 
 
@@ -23,8 +23,7 @@ export const elAlIntro = `
 The journey to Israel began by flying to the Newark Airport, where our group met.  For plenty, it was a short or fairly short drive away.  For me, it was flying across country and spending the night in Newark.  To get to Newark, I flew first to the Detroit Airport, then to the Newark Airport.  Fortunately, the layover in Detroit was only about an hour, and the gates were basically next to each other.  That made things less stress free.  What didn&apos;t make things stress free was getting to the hotel from the airport.
 `;
 
-export const elAl = ` # The Path to Israel: El Al
-
+export const elAl = `
 ${elAlIntro}
 
 I had naturally figured I&apos;d book a hotel near the airport.  My plan was to order an Uber and head to the hotel a few minutes away and I would get some sleep before going back to the airport.  But reaching the hotel, the clerk didn&apos;t recognize my name, and looking at my confirmation, I realized I had booked my room at another hotel.  Instead of being near the airport, I instead booked it in North Bergen, about 20 minutes away.  Now I needed another Uber ride to get to the right hotel.  On the one hand, I got a nice evening time tour of downtown Newark.  On the other hand, it was about 11:00 pm and I was desperate to check in, which would&apos;ve been worse if not coming from the West Coast.  By the time I got to the my hotel, it was almost Midnight, and I was ready to crash for the beginning of an eventful trip to Israel.
@@ -52,7 +51,7 @@ Thankfully, there was plenty of entertainment available, because the flight was 
 `;
 
 export const benGurionIntro = `
-After 10 hours of flying, our plane finally landed in Israel.  Upon landing, it felt almost surreal.  It felt like the dawn of the night, but yet it was 6:30 in the morning local time.  The past week, I kept saying to myself "I can't believe I'm going to Israel."  Suddenly, it was, "I can't believe I made it to Israel."
+After 10 hours of flying, our plane finally landed in Israel.  Upon landing, it felt almost surreal.  It felt like the dawn of the night, but yet it was 6:30 in the morning local time.  The past week, I kept saying to myself "I can&apos;t believe I&apos;m going to Israel."  Suddenly, it was, "I can&apos;t believe I made it to Israel."
 `;
 
 export const benGurion = ` # First Thoughts of Israel
@@ -67,7 +66,7 @@ Leaving the airport and heading towards Jerusalem, I immediately thought of arri
 `;
 
 export const oldJerusalemIntro = `
-Having arrived just outside the Old City, particularly Jaffa Gate, I once again thought of Rome and all of its historical architecture.  I got a glimpse of modernism with a Welcome to Taglit Birthright Israel sign, which I had to get a selfie in front of.  It was also my first chance to get for WiFi outside the airport, as well as my first chance to really ask, "Where's the Bathroom?"  I declined to go the first time, focusing on taking every picture I could in the park we stopped at.  But before we could actually go inside the Old City, first we needed an icebreaker and a history lesson.
+Having arrived just outside the Old City, particularly Jaffa Gate, I once again thought of Rome and all of its historical architecture.  I got a glimpse of modernism with a Welcome to Taglit Birthright Israel sign, which I had to get a selfie in front of.  It was also my first chance to get for WiFi outside the airport, as well as my first chance to really ask, "Where&apos;s the Bathroom?"  I declined to go the first time, focusing on taking every picture I could in the park we stopped at.  But before we could actually go inside the Old City, first we needed an icebreaker and a history lesson.
 `;
 
 export const oldJerusalem = `
@@ -160,8 +159,7 @@ The menu featured standard bar food. Nothing overly amazing. So I ordered myself
 
 Eventually, I got my food and ate my meal, which again, was standard food.  I didn&apos;t care, I just wanted to eat and enjoy myself.  After I ate, it was approaching time to get on the bus and go back, for those who wanted to get back.  I didn&apos;t want to stay out too late, so I made my way back to Kar Berg and got on the bus back to the hotel.  Sleep was needed for another day.  But Sunday would end up as our difficult day.
 
-
-`
+`;
 
 export const yadVashemIntro = `
 Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust. And no place captures the horrific events like Yad Vashem, Israel&apos;s National Holocaust Museum.
@@ -184,12 +182,12 @@ When we were done, we once again could see the forest and the valley in a wonder
 
 # Facts about Yad Vashem
 ![Aeriel view of Yad Vashem](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Israel-2013%282%29-Aerial-Jerusalem-Yad_Vashem_01.jpg/785px-Israel-2013%282%29-Aerial-Jerusalem-Yad_Vashem_01.jpg)
-- Yad Vashem translates to "A Meaning and a Name"
+- **Yad Vashem** translates to **"A Meaning and a Name"**
 - Plans to begin building Yad Vashem, in the Jewish homeland began in September 1942
 - Yad Vashem was established in 1953, with it being opened to the public in 1957, with its current building completed in 2005
-- The Hall of Names contains the names of millions of Holocaust victims. It has two cones, an upper cone with about 600 victim images, and a lower cone, a well like structure with water to honor those who are unidentified.  Surrounding this is the repository containing millions Pages of Testimony, which carries the names of each Holocaust victim
+- The Hall of Names contains the names of millions of Holocaust victims. It has two cones, an upper cone with about 600 victim images, and a lower cone, a well like structure with water to honor those who are unidentified.  Surrounding this is the repository containing millions **Pages of Testimony**, which carries the names of each Holocaust victim
 - The oldest part of the museum is the Archives, which contains historical photographs, items recovered from the Holocaust and the Pages of Testimony
-- Its location on the western edge of Mount Herzl was chosen as a symbolic message of "rebirth" after destruction
+- Its location on the western edge of **Mount Herzl** was chosen as a symbolic message of "rebirth" after destruction
 - Yad Vashem is the second most visited Israeli site, behind the Western Wall
 - The largest population of Jews in Europe before the Holocaust lived in Poland, with about 3,325,000 Jews, about 10% of its population
 
@@ -249,5 +247,82 @@ It was late, so some of the gift shops I would’ve considered were closed, so I
 
 What I didn’t know at the time was that every place I went to, except for the Beer Bazaar, offered Tuborg and Carlsberg.  Over the course of the trip, I ended up having Tuborg 3 times.  But none of that matters when you’re hanging out with friends and having a good time.  Having a good time but not wanting to stay out too late, we headed back at the designated time.  Jerusalem was plenty of fun, but it was time to get ready for the next part of the journey.
 
+
+`;
+
+export const giloIntro = `
+After a good night sleep, it was time to get ready to leave Jerusalem and learn more about the Israeli-Arab Conflict.  With all the history of Jerusalem and the land of Israel as a whole, there are many things to consider when trying to figure out how to bring peace to the Middle East.  Layers of layers of complexity, emotion, and religiousness make the Israel issue one that cannot be figured out in a day, or a year, or perhaps a lifetime.
+`;
+
+export const gilo = `
+${giloIntro}
+
+We would get a chance to see the borders firsthand, but first, we had to get a lecture on the Israeli-Arab Conflict.  Our guest speaker, Benji, was definitely not boring, as he frequently said things to make everyone laugh, but at the same time, taught us about the conflict.  There were things I didn’t realize about it, and helped put things in perspective.
+
+After the lecture, we said goodbye to the hotel, hopeful the next place would have better amenities, like bar soap.  We drove through Jerusalem, before finding a viewpoint providing a magnificent view of Jerusalem, the Walter Haas Promenade.
+
+There you could see the city from afar, with the Old City walls in the middle. At times, it seemed like the light was shining on the Old City and the Dome of the Rock, as if it wanted to point it out from the distance.  The views were amazing, and even more unreal was when you could hear a chant from the distance, made even more interesting by the Segway group riding their Segways in the area. Something was quite fascinating with that.  After a discussion and some nice pictures, we had another stop to learn about the West Bank.
+
+With all the uncertainty of who controls what within the land of Israel, it was somewhat surprising that a small part of our view would actually be part of the West Bank, currently controlled by Palestine.  With that in mind, our next stop would provide a clearer view of the border.
+
+After going through Jerusalem, where we also caught a glimpse of where the US Embassy will be, under construction while we passed by, we stopped in the neighborhood of Gilo.  There provided a grand view of the area.  One thing that stood out, asides from seeing an office chair in the land below, was a wall.  The wall is part of the border between Israel and the West Bank.  Definitely eerie to think about, but during our discussion, we learned about border security and how and why Israel and the West Bank are divided the way it is.  We could mostly see that the border consists of fence, but only a small part of what we saw was a wall.
+
+After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typical American mall, except for the Hebrew, of course.  I ended up in the food court with more falafel and shawarma food.  I switched it up and ordered a shawarma plate, a tasty fast food style lunch.  The lunch was fine, but my mood was spoiled only slightly as Zach, on a Monday afternoon at 12:30, called me Andrew.  Naturally, I had to remind him my name is Adam, and later asked him the name of the next Andrew I saw.  Payback complete!  After getting some treats and iced coffee, it was time to leave Jerusalem and head for the desert.
+
+# A timeline of the Israeli-Arab Conflict
+
+- Before 1920 the land of Israel was controlled by the **Ottoman Empire**
+- April 25, 1920: The **United Kingdom** takes over the land of Israel and creates the **Mandate of Palestine** with the intent to eventually allow the natives to self-determination.
+- April 2, 1947: Great Britain seeks the help UN General Assembly to create up a plan to divide Palestine
+
+![UN Palestine Partition Plan](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/UN_Palestine_Partition_Versions_1947.jpg/320px-UN_Palestine_Partition_Versions_1947.jpg)
+
+- November 29, 1947: The UN votes on the **Partition Plan**, which narrowly passes.  The Israeli&apos;s accept the plan, wanting security more than anything even if it meant giving up land, but the Palestinians reject the plan, believe they were entitled to all of it since they had previous control and the Jews left before they arrived.
+- May 14, 1948: The Jews declare independence, creating the state of Israel
+- May 15, 1948: The **Arab-Israeli War** begins, pitting Israel against the Arab League, primarily consisting of Egypt, Jordan, Syria, Iraq, Saudi Arabia, Yemen (and briefly Lebanon).
+
+![1949 Armistice Line]
+(https://fanack.com/wp-content/uploads/sites/5/2014/10/the-state-of-israel_israel_armisticemap0002.jpg)
+- March 10, 1949: Israel wins the war, keeping the land given to them in the Partition Plan with additional Arab land. Egypt takes control of the **Gaza Strip**, and Jordan takes control of the **West Bank**.
+- June 5-10, 1967: The **Six-Day War** occurs, as Israel reclaims the West Bank, Gaza Strip and takes over Egypt&apos;s **Sinai Peninsula** (**Golan Heights** was also part of the conflict but we didn&apos;t even talk about Golan Heights)
+
+![Six-Day War Map of Israel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Six_Day_War_Territories.svg/1200px-Six_Day_War_Territories.svg.png)
+- March 26, 1979: Israel and Egypt sign the Egypt-Israel Peace Treaty, in which Israel agrees to return the Sinai Peninsula to Egypt
+- September 13, 1993: Israel and Palestine, with the help of the United States, agree to the Oslo Accord, their first face-to-face meeting, with the intent to resolve the Arab-Israeli Conflict.
+- 1995: The Oslo Accord II is created in addition with the intention of creating a Palestinian statehood within 5 years
+- July 25, 2000: The Camp David Summit to finalize the end of the Israel-Arab Conflict is held, but no agreement is reached  
+
+![Oslo Accords](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Oslo_Areas_and_barrier_projection_2005.png/320px-Oslo_Areas_and_barrier_projection_2005.png)
+
+# Other facts about the Conflict
+- **West Bank** refers to being west of the Jordan River. 
+- Tel Aviv can reach part of the West Bank within 9 miles.
+- The Jews see the conflict as wanting **Security**.  The Arabs see the conflict as fixing an **Injustice** for losing the Arab-Israeli War of 1948
+- Before 1948, there were significant Jewish communities in all he Arab countries.  But after the war, they were all expelled.
+- The Islamic view of their leadership resides as one big empire known as a **Caliphate**, which for them, stretches from Northern Africa to Asia.  Connecting the two regions is Israel, hence a reason they consider Israel important to them.
+`;
+
+export const laqyeIntro = `
+Though Jerusalem is a beautiful city full of history and culture, it was time to leave and see other parts of Israel.  On a 7 Day trip, we can only get a taste of what Israel has to offer.  We would have to spend months, seeing everything Israel had to offer.  But a small piece of the pie is better than no piece of the pie.  With that in mind, the adventure headed south towards the desert.  Our first stop was in the town of Laqye, within the Southern District.
+
+`;
+
+export const laqye = `
+${laqyeIntro}
+
+Driving through the desert was typical of what I’d expect, really dry, sunny, little signs of civilization and green.  Not that much different from the deserts on the west coast.  But entering Laqye, things started to change.  It felt like I was looking at pictures of Africa, with its architecture, vegetation and surrounding scenery.  A few mosques were in the distance, which were beautiful to see.  It was clear we were in a different place.  So where were we? In a village of the Bedouins.
+
+Who are the Bedouins?  They are an Arab minority known for their nomadic lifestyle.  There are a few communities in the area that the Bedouins live in Israel.  Our bus driver, Ahmed, we learned, is a Bedouin, though from the northern part of Israel, which makes him not so much of a desert dweller as the ones we saw in Laqye.
+
+Our next stop was at the business of a Bedouin female Oncologist named Amal.  Entering her room, it was clear how much of a different world we were in, the room was a hut with artifacts on the wall, rugs on the floor and little to no electricity.  A different experience, but neat to see nonetheless.
+
+Amal told us her story about how she overcame being a female minority in her community to become a successful oncologist.  I expected her speech to be more about being a Bedouin minority in Israel, but nonetheless, it was an impressive story of hard work and persistence.  During her talk, a young boy brought everyone a little cup of tea, which I thought was really tasty.  In the end, Amal answered our questions and pointed us to the gift shop with various handmade items.  As we left Laqye, we enjoyed a beautiful sunset.  But it was time to go to our hotel in Arad, and prepare ourselves for Masada.
+`;
+
+export const aradIntro = `
+`;
+
+export const arad = `
+${aradIntro}
 
 `;

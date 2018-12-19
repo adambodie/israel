@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad } from './articles';
 
 const routes = [
 	{
@@ -69,7 +69,29 @@ const routes = [
 		number: 2,
 		begin: 5,
 		end: 8				
+	},{
+		title: "Leaving Jerusalem: Seeing the Israeli-Arab Conflict",
+		paragraph: gilo,
+		link: "gilo",
+		prev: "ben-yehuda",
+		next: "laqye"			
+	},{
+		title: "Out in the Desert with the Bedouins",
+		paragraph: laqye,
+		link: "laqye",
+		prev: "gilo",
+		next: "arad"			
+	},{
+		title: "Arad in the Desert: Shelter Included for the Authentic Israel Experience",
+		paragraph: arad,
+		link: "arad",
+		prev: "laqye",
+		next: "desert",
+		number: 3,
+		begin: 9,
+		end: 12					
 	}
+	
 ]
 
 export default routes;

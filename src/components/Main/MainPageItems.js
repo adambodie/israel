@@ -21,6 +21,7 @@ const MainPageItems = () => {
 											) : (
 											<h1 className="c-heading-4 c-heading-4--upper">Day {x.day}</h1>
 										)}
+										<h5>{x.date}</h5>
 									</div>
 									{x.items.map((y, index)=> {
 										return (
