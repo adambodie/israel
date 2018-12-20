@@ -166,9 +166,6 @@ ul {
   margin: 0 auto;
   width: 80%; }
 
-.article img {
-  max-width: 200px; }
-
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
   display: block;
@@ -202,8 +199,6 @@ ul {
     height: 300px; }
   .slick-prev:before, .slick-next:before {
     font-size: 40px !important; }
-  .article img {
-    max-width: 300px; }
   .post {
     margin-top: 59px; } }
 
@@ -212,8 +207,6 @@ ul {
     width: 675px; }
   .slick-slide img {
     height: 400px; }
-  .article img {
-    max-width: 400px; }
   .post h3 {
     font-size: 1.5em; } }
 

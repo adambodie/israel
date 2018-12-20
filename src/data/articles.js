@@ -89,7 +89,7 @@ We made it to the center of the Jewish Quarter, home of the Hurva Synagogue.  Th
 
 
 # Facts about the Old City of Jerusalem
-![Old City of Jerusalem](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jerusalem_oldcity_English.jpg/400px-Jerusalem_oldcity_English.jpg)
+![Old City of Jerusalem](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/old-city-jerusalem.jpg)
 - There are four uneven Quarters in the Old City: Jewish Quarter, Muslim Quarter, Christian Quarter and Armenian Quarter.
 - Until 1868, the entire city of Jerusalem was within the Old City walls.
 - The wall of the Old City was built between 1535-1542 by the Turkish sultan **Suleiman the Magnificent**.
@@ -181,7 +181,7 @@ After a long winding path to the exit of the museum, I could see the view of the
 When we were done, we once again could see the forest and the valley in a wonderful view.  But what made it even better was across the valley, you could hear children at a school playing and being lively.  Leaving the Children&apos;s Memorial to contrast between the atrocities in the past and the joy of the present, was touching to say the least.  It was one of those moments that felt unbelievable.  With that part of the trip over, it was on to the next part of the trip, Mount Herzl, the Military Cemetery.  But first, a too quick lunch break...
 
 # Facts about Yad Vashem
-![Aeriel view of Yad Vashem](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Israel-2013%282%29-Aerial-Jerusalem-Yad_Vashem_01.jpg/785px-Israel-2013%282%29-Aerial-Jerusalem-Yad_Vashem_01.jpg)
+![Aeriel view of Yad Vashem](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/aerial-yad-vashem.jpg)
 - **Yad Vashem** translates to **"A Meaning and a Name"**
 - Plans to begin building Yad Vashem, in the Jewish homeland began in September 1942
 - Yad Vashem was established in 1953, with it being opened to the public in 1957, with its current building completed in 2005
@@ -275,24 +275,22 @@ After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typ
 - April 25, 1920: The **United Kingdom** takes over the land of Israel and creates the **Mandate of Palestine** with the intent to eventually allow the natives to self-determination.
 - April 2, 1947: Great Britain seeks the help UN General Assembly to create up a plan to divide Palestine
 
-![UN Palestine Partition Plan](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/UN_Palestine_Partition_Versions_1947.jpg/320px-UN_Palestine_Partition_Versions_1947.jpg)
-
+![UN Partition Plan](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/un-partition-map.jpg)
 - November 29, 1947: The UN votes on the **Partition Plan**, which narrowly passes.  The Israeli&apos;s accept the plan, wanting security more than anything even if it meant giving up land, but the Palestinians reject the plan, believe they were entitled to all of it since they had previous control and the Jews left before they arrived.
 - May 14, 1948: The Jews declare independence, creating the state of Israel
 - May 15, 1948: The **Arab-Israeli War** begins, pitting Israel against the Arab League, primarily consisting of Egypt, Jordan, Syria, Iraq, Saudi Arabia, Yemen (and briefly Lebanon).
 
-![1949 Armistice Line]
-(https://fanack.com/wp-content/uploads/sites/5/2014/10/the-state-of-israel_israel_armisticemap0002.jpg)
+![1949 Armistice Line](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/1949-israel-map.jpg)
 - March 10, 1949: Israel wins the war, keeping the land given to them in the Partition Plan with additional Arab land. Egypt takes control of the **Gaza Strip**, and Jordan takes control of the **West Bank**.
 - June 5-10, 1967: The **Six-Day War** occurs, as Israel reclaims the West Bank, Gaza Strip and takes over Egypt&apos;s **Sinai Peninsula** (**Golan Heights** was also part of the conflict but we didn&apos;t even talk about Golan Heights)
 
-![Six-Day War Map of Israel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Six_Day_War_Territories.svg/1200px-Six_Day_War_Territories.svg.png)
+![Six-Day War Map](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/1967-israel-map.png)
 - March 26, 1979: Israel and Egypt sign the Egypt-Israel Peace Treaty, in which Israel agrees to return the Sinai Peninsula to Egypt
 - September 13, 1993: Israel and Palestine, with the help of the United States, agree to the Oslo Accord, their first face-to-face meeting, with the intent to resolve the Arab-Israeli Conflict.
 - 1995: The Oslo Accord II is created in addition with the intention of creating a Palestinian statehood within 5 years
 - July 25, 2000: The Camp David Summit to finalize the end of the Israel-Arab Conflict is held, but no agreement is reached  
 
-![Oslo Accords](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Oslo_Areas_and_barrier_projection_2005.png/320px-Oslo_Areas_and_barrier_projection_2005.png)
+![Oslo Accords](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/oslo-accord-map.png)
 
 # Other facts about the Conflict
 - **West Bank** refers to being west of the Jordan River. 
@@ -300,6 +298,9 @@ After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typ
 - The Jews see the conflict as wanting **Security**.  The Arabs see the conflict as fixing an **Injustice** for losing the Arab-Israeli War of 1948
 - Before 1948, there were significant Jewish communities in all he Arab countries.  But after the war, they were all expelled.
 - The Islamic view of their leadership resides as one big empire known as a **Caliphate**, which for them, stretches from Northern Africa to Asia.  Connecting the two regions is Israel, hence a reason they consider Israel important to them.
+
+![Caliphate](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/caliphate.png)
+
 `;
 
 export const laqyeIntro = `
@@ -320,9 +321,23 @@ Amal told us her story about how she overcame being a female minority in her com
 `;
 
 export const aradIntro = `
+We arrived in the town of Arad, where our hotel was for the night.  Since it was dark, we couldn’t get a few of Arad, but entering the hotel area, we could see how spread out it was compared to Bait Vagan.  The rooms looked more modern, had more amenities, including hand soap, as well as a TV.  
+
 `;
 
 export const arad = `
 ${aradIntro}
 
+Curious as to what was on the TV and the Hebrew associated with it, I flipped through some channels and saw an NBA game being played, between Detroit and Charlotte.  I found it to be funny that most of it was in English with small parts of the broadcast being in Hebrew.  Of course, the game had already been played the day before (Charlotte won), which explained why there were no commercials, but it was fun to watch a game to see if there was any Hebrew in the broadcast.
+
+TV aside, the room was bigger, and with the other Adam joining for the night, we also had more beds, including bunk beds.  Fortunately, no one had to share a bunk bed, which Adam ended up taking. But while the rooms were an upgrade, an unscheduled part of the trip lurked in our path.
+
+Having just learned about the Arab-Israeli Conflict, it seemed, perhaps ironic, that Hamas, the group in control of Gaza, would take this opportunity to fire off 460 rockets towards Israel, in what was deemed their highest intensity of attacks since the 2014 war between Israel and Gaza that had lasted 50 days.  Israel intercepted some of the rockets and fired back, causing buildings on both sides to be damaged.
+
+That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel’s bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  I ended up scraping my arm at one point and admitting to once driving 100 mph (I accomplished that the year before in Idaho).  A perfect way to forget that rockets were being fired from Gaza.
+
+But with the day I’d been waiting for the whole trip coming, I went to sleep wondering what would happen.  I didn’t feel Gaza would escalate their attacks, but you never know. Would I spend the next day on top of Masada, or stuck in a bomb shelter with our group and a bunch of screaming kids?
+
+# Where in the world are we now?
+![Road to Arad](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/arad-map.png)
 `;
