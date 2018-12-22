@@ -571,3 +571,24 @@ body {
 @media (min-width: 768px) {
   .App {
     background-position: top; } }
+
+.map-button {
+  background: yellow;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  position: absolute; }
+
+.map-button:hover {
+  background: gold; }
+
+.map {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  background: url("../jerusalem-map.png");
+  display: block;
+  margin: 0 auto; }
+
+.jerusalem-map {
+  margin-top: 59px; }

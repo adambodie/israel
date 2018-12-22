@@ -14,7 +14,8 @@ import {
 	benYehudaIntro,
 	giloIntro,
 	laqyeIntro,
-	aradIntro
+	aradIntro,
+	desertIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -149,15 +150,15 @@ export class Provider extends Component {
 					date: 'November 13, 2018',
 					items: [ 
 					{
-						title: "The Judean Desert: Hot Fun Before Masada", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[12].title, 
+						intro: desertIntro, 
+						link: 'desert', 
 						image: 'desert'
 					},
 					{
 						title: "Masada: The Roman Ramp Up", 
 						intro: dummy, 
-						link: 'todoList', 
+						link: 'map', 
 						image: 'roman'
 					},{
 						title: "Masada: On Top of it all", 

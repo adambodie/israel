@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad, desert } from './articles';
 
 const routes = [
 	{
@@ -90,6 +90,13 @@ const routes = [
 		number: 3,
 		begin: 9,
 		end: 12					
+	},{
+		title: "The Negev Desert: Hot Fun Before Masada",
+		paragraph: desert,
+		link: "desert",
+		prev: "arad",
+		next: "roman",
+		map: true			
 	}
 	
 ]

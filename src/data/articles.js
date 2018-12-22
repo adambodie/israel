@@ -341,3 +341,15 @@ But with the day I’d been waiting for the whole trip coming, I went to sleep w
 # Where in the world are we now?
 ![Road to Arad](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/arad-map.png)
 `;
+
+
+export const desertIntro = `
+The following morning, I woke up to a beautiful day, with the sun rising, and some rather cute cats our group fell in love with.  It was clear that there would be no escalation from Gaza.  And with that, after breakfast, our day of exercise would begin with a trip to Masada.
+
+`;
+
+export const desert = `
+${desertIntro}
+
+After leaving Arad and the cute kitties behind, it was a half an hour away to Masada, which took us through various twists and turns in the desert.  The music was playing on the bus, with a little karaoke, particularly The Notorious B.I.G. classic Juicy performed by Boston Andrew, which brought cheers. The scenery was typical of the desert, until we could see the Dead Sea in the distance.  Suddenly, views of the sea appeared, which were beautiful to see.  Before we knew it, we’d arrive at Masada.
+`;

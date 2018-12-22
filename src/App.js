@@ -39,7 +39,7 @@ const App = () => {
 										begin={x.begin} 
 										end={x.end} 
 										number={x.number}
-										
+										map={x.map}							
 									/>}  
 								/>
 							)
