@@ -463,6 +463,157 @@ td {
   left: 1%;
   top: 20%; }
 
+.item-0 {
+  right: 63.33333px;
+  top: 60px; }
+
+.item-1 {
+  right: 73.33333px;
+  top: 70px; }
+
+.item-2 {
+  right: 95.33333px;
+  top: 65.33333px; }
+
+.item-3 {
+  right: 75.33333px;
+  top: 162px; }
+
+.item-4 {
+  right: 154px;
+  top: 24px; }
+
+.item-5 {
+  right: 132.66667px;
+  top: 37.33333px; }
+
+.item-6 {
+  right: 252.66667px;
+  top: 271.33333px; }
+
+.item-7 {
+  right: 252.66667px;
+  top: 66.66667px; }
+
+.item-8 {
+  right: 272px;
+  top: 88px; }
+
+.item-9 {
+  right: 298.66667px;
+  top: 71.33333px; }
+
+.item-10 {
+  right: 279.33333px;
+  top: 71.33333px; }
+
+.map-button {
+  background: yellow;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  font-size: 9.33333px; }
+
+.map-button:hover {
+  background: gold; }
+
+.map {
+  position: relative;
+  width: 333.33333px;
+  height: 300px;
+  background-image: url("../jerusalem-map.png");
+  background-size: cover;
+  display: block;
+  margin: 0 auto; }
+
+.jerusalem-map {
+  margin-top: 59px; }
+
+@media (min-width: 512px) {
+  .item-0 {
+    right: 76px;
+    top: 72px; }
+  .item-1 {
+    right: 88px;
+    top: 84px; }
+  .item-2 {
+    right: 114.4px;
+    top: 78.4px; }
+  .item-3 {
+    right: 90.4px;
+    top: 194.4px; }
+  .item-4 {
+    right: 184.8px;
+    top: 28.8px; }
+  .item-5 {
+    right: 159.2px;
+    top: 44.8px; }
+  .item-6 {
+    right: 303.2px;
+    top: 325.6px; }
+  .item-7 {
+    right: 303.2px;
+    top: 80px; }
+  .item-8 {
+    right: 326.4px;
+    top: 105.6px; }
+  .item-9 {
+    right: 358.4px;
+    top: 85.6px; }
+  .item-10 {
+    right: 335.2px;
+    top: 85.6px; }
+  .map-button {
+    width: 14.4px;
+    height: 14.4px;
+    font-size: 11.2px; }
+  .map {
+    width: 400px;
+    height: 360px; } }
+
+@media (min-width: 768px) {
+  .item-0 {
+    right: 95px;
+    top: 90px; }
+  .item-1 {
+    right: 110px;
+    top: 105px; }
+  .item-2 {
+    right: 143px;
+    top: 98px; }
+  .item-3 {
+    right: 113px;
+    top: 243px; }
+  .item-4 {
+    right: 231px;
+    top: 36px; }
+  .item-5 {
+    right: 199px;
+    top: 56px; }
+  .item-6 {
+    right: 379px;
+    top: 407px; }
+  .item-7 {
+    right: 379px;
+    top: 100px; }
+  .item-8 {
+    right: 408px;
+    top: 132px; }
+  .item-9 {
+    right: 448px;
+    top: 107px; }
+  .item-10 {
+    right: 419px;
+    top: 107px; }
+  .map-button {
+    width: 18px;
+    height: 18px;
+    font-size: 14px; }
+  .map {
+    width: 500px;
+    height: 450px; } }
+
 .noMatch {
   color: white; }
 
@@ -571,24 +722,3 @@ body {
 @media (min-width: 768px) {
   .App {
     background-position: top; } }
-
-.map-button {
-  background: yellow;
-  border-radius: 100%;
-  width: 18px;
-  height: 18px;
-  position: absolute; }
-
-.map-button:hover {
-  background: gold; }
-
-.map {
-  position: relative;
-  width: 500px;
-  height: 450px;
-  background: url("../jerusalem-map.png");
-  display: block;
-  margin: 0 auto; }
-
-.jerusalem-map {
-  margin-top: 59px; }

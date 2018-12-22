@@ -6,6 +6,7 @@
 @import './_quiz.scss';
 @import './_game.scss';
 @import './_shakshuka.scss';
+@import './_map.scss';
 @import './_noMatch.scss';
 
 body {
@@ -94,28 +95,4 @@ body {
 	}
 }
 
-
-.map-button {
-	background: yellow;
-	border-radius: 100%;
-	width: 18px;
-	height: 18px;
-	position: absolute;
-	&:hover {
-		background: gold;
-	}
-}
-
-
-.map {
-	position: relative;
-	width: 500px;
-	height: 450px;
-	background: url('../jerusalem-map.png');
-	@include center(); 
-}
-
-.jerusalem-map {
-	margin-top: $margin-top;
-}
 
