@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad, desert } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad, desert, roman } from './articles';
 
 const routes = [
 	{
@@ -97,6 +97,12 @@ const routes = [
 		prev: "arad",
 		next: "roman",
 		map: true			
+	},{
+		title: "Masada: The Roman Ramp Up",
+		paragraph: roman,
+		link: "roman",
+		prev: "desert",
+		next: "masada",	
 	}
 	
 ]

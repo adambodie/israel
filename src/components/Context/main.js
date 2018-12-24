@@ -15,7 +15,8 @@ import {
 	giloIntro,
 	laqyeIntro,
 	aradIntro,
-	desertIntro
+	desertIntro,
+	romanIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -156,9 +157,9 @@ export class Provider extends Component {
 						image: 'desert'
 					},
 					{
-						title: "Masada: The Roman Ramp Up", 
-						intro: dummy, 
-						link: 'map', 
+						title: routes[13].title, 
+						intro: romanIntro, 
+						link: 'roman', 
 						image: 'roman'
 					},{
 						title: "Masada: On Top of it all", 

@@ -166,6 +166,13 @@ ul {
   margin: 0 auto;
   width: 80%; }
 
+.article a {
+  color: white;
+  font-weight: bold; }
+
+.article a:hover {
+  color: #808080; }
+
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
   display: block;

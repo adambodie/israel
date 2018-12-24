@@ -18,6 +18,13 @@
 .article {
 	@include center();
 	width: 80%;
+	a {
+		color: white;
+		font-weight: bold;
+		&:hover {
+			color: #808080;
+		}
+	}
 }
 
 .slick-list, .slick-slider, .slick-track {

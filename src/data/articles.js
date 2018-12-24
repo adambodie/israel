@@ -334,7 +334,7 @@ TV aside, the room was bigger, and with the other Adam joining for the night, we
 
 Having just learned about the Arab-Israeli Conflict, it seemed, perhaps ironic, that Hamas, the group in control of Gaza, would take this opportunity to fire off 460 rockets towards Israel, in what was deemed their highest intensity of attacks since the 2014 war between Israel and Gaza that had lasted 50 days.  Israel intercepted some of the rockets and fired back, causing buildings on both sides to be damaged.
 
-That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel’s bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  I ended up scraping my arm at one point and admitting to once driving 100 mph (I accomplished that the year before in Idaho).  A perfect way to forget that rockets were being fired from Gaza.
+That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel’s bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  I ended up scraping my arm at one point and admitting to once driving 100 mph (I accomplished that the year before in [Idaho](https://wildwildwest.bodiewebdesign.com)).  A perfect way to forget that rockets were being fired from Gaza.
 
 But with the day I’d been waiting for the whole trip coming, I went to sleep wondering what would happen.  I didn’t feel Gaza would escalate their attacks, but you never know. Would I spend the next day on top of Masada, or stuck in a bomb shelter with our group and a bunch of screaming kids?
 
@@ -353,3 +353,18 @@ ${desertIntro}
 
 After leaving Arad and the cute kitties behind, it was a half an hour away to Masada, which took us through various twists and turns in the desert.  The music was playing on the bus, with a little karaoke, particularly The Notorious B.I.G. classic Juicy performed by Boston Andrew, which brought cheers. The scenery was typical of the desert, until we could see the Dead Sea in the distance.  Suddenly, views of the sea appeared, which were beautiful to see.  Before we knew it, we’d arrive at Masada.
 `;
+
+export const romanIntro = `
+Before my trip to Israel and learning of the itinerary, there was one place I wasn’t aware of that got me really excited upon research.  That of course, was Masada National Park.  Knowing I would have to hike up and down Masada, I spent more time being physically active to prepare myself.  Sure, I had done hikes longer, higher and more treacherous. 
+[Smith Rock](https://adventures.bodiewebdesign.com/smith-rock)
+in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
+`;
+
+export const roman = `
+${romanIntro}
+
+Arriving at Masada, I was amazed with the scenery.  Masada itself, a Mesa in the desert, was beautiful to see.  Also visible was again, the Dead Sea.  An amazing view.  On the other side was still the desert.  A beautiful and not too hot day as it usually gets in the summer, made this a sight to see.  In addition to getting our first answer questioned (the bathroom was to the left of the bus), we managed to get plenty of pictures showing our excitement by jumping at all once.  We were really excited!
+
+Heading up the Roman Ramp wasn’t too much of a hassle.  It only took about 15 minutes.  The views of the desert were incredible.  Seeing IDF soldiers marching down brought a sense of pride.  In all, the Roman Ramp provided a good introduction.  Not quite the Rocky moment I thought I would get, but there was more to come.
+
+`
