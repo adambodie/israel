@@ -96,7 +96,21 @@ const routes = [
 		link: "desert",
 		prev: "arad",
 		next: "roman",
-		map: true			
+		map: true,
+		locations: [
+			{name: 'Western Wall'},
+			{name: 'Jewish Quarter'},
+			{name: 'Teddy Park'},
+			{name: 'Walter Haas Promenade'},
+			{name: 'Mahane Yehuda'},
+			{name: 'Ben Yehuda Street'},
+			{name: 'Gilo'},
+			{name: 'Keres Shopping Mall'},
+			{name: 'Bait Vagan Guest House'},
+			{name: 'Yad Vashem'},
+			{name: 'Mount Herzl'},
+		],
+		locationName: "Jerusalem"			
 	},{
 		title: "Masada: The Roman Ramp Up",
 		paragraph: roman,

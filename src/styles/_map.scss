@@ -1,11 +1,11 @@
-$rightValues: 95, 110, 143, 113, 231, 199, 379, 379, 408, 448, 419;
-$topValues: 90, 105, 98, 243, 36, 56, 407, 100, 132, 107, 107;
-$ids: 0,1,2,3,4,5,6,7,8,9,10;
+$jerusalemRightValues: 95, 110, 143, 113, 231, 199, 379, 379, 408, 448, 419;
+$jerusalemTopValues: 90, 105, 98, 243, 36, 56, 407, 100, 132, 107, 107;
+$jerusalemIds: 0,1,2,3,4,5,6,7,8,9,10;
 
-@for $i from 1 through length($rightValues) {
-  $rightValue: nth($rightValues, $i);
-  $topValue: nth($topValues, $i);
-  $id: nth($ids, $i);
+@for $i from 1 through length($jerusalemRightValues) {
+  $rightValue: nth($jerusalemRightValues, $i);
+  $topValue: nth($jerusalemTopValues, $i);
+  $id: nth($jerusalemIds, $i);
     .item-#{$id} {
        right: #{$rightValue / 1.5}px;
        top: #{$topValue / 1.5}px;
@@ -28,22 +28,24 @@ $ids: 0,1,2,3,4,5,6,7,8,9,10;
 
 .map {
 	position: relative;
-	width: (500px/1.5);
-	height: (450px/1.5);
-	background-image: url('../jerusalem-map.png');
 	background-size: cover;
 	@include center(); 
 }
 
 .jerusalem-map {
 	margin-top: $margin-top;
+	.map {
+		width: (500px/1.5);
+		height: (450px/1.5);
+		background-image: url('../jerusalem-map.png');
+	}
 }
 
 @media (min-width: 512px) {
-	@for $i from 1 through length($rightValues) {
-	  $rightValue: nth($rightValues, $i);
-	  $topValue: nth($topValues, $i);
-	  $id: nth($ids, $i);
+	@for $i from 1 through length($jerusalemRightValues) {
+	  $rightValue: nth($jerusalemRightValues, $i);
+	  $topValue: nth($jerusalemTopValues, $i);
+	  $id: nth($jerusalemIds, $i);
 		.item-#{$id} {
 		   right: #{$rightValue/1.25}px;
 		   top: #{$topValue/1.25}px;
@@ -54,18 +56,20 @@ $ids: 0,1,2,3,4,5,6,7,8,9,10;
 		height: (18px/1.25);
 		font-size: (14px/1.25);
 	}
-	.map {
-		width: (500px/1.25);
-		height: (450px/1.25);
+	.jerusalem-map {
+		.map {
+			width: (500px/1.25);
+			height: (450px/1.25);
+		}
 	}		
 }
 
 
 @media (min-width: 768px) {
-	@for $i from 1 through length($rightValues) {
-	  $rightValue: nth($rightValues, $i);
-	  $topValue: nth($topValues, $i);
-	  $id: nth($ids, $i);
+	@for $i from 1 through length($jerusalemRightValues) {
+	  $rightValue: nth($jerusalemRightValues, $i);
+	  $topValue: nth($jerusalemTopValues, $i);
+	  $id: nth($jerusalemIds, $i);
 		.item-#{$id} {
 		   right: #{$rightValue}px;
 		   top: #{$topValue}px;
@@ -76,9 +80,11 @@ $ids: 0,1,2,3,4,5,6,7,8,9,10;
 		height: 18px;
 		font-size: 14px;
 	}
-	.map {
-		width: 500px;
-		height: 450px;
+	.jerusalem-map {
+		.map {
+			width: 500px;
+			height: 450px;
+		}
 	}		
 }
 

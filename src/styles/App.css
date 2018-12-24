@@ -527,15 +527,17 @@ td {
 
 .map {
   position: relative;
-  width: 333.33333px;
-  height: 300px;
-  background-image: url("../jerusalem-map.png");
   background-size: cover;
   display: block;
   margin: 0 auto; }
 
 .jerusalem-map {
   margin-top: 59px; }
+
+.jerusalem-map .map {
+  width: 333.33333px;
+  height: 300px;
+  background-image: url("../jerusalem-map.png"); }
 
 @media (min-width: 512px) {
   .item-0 {
@@ -575,7 +577,7 @@ td {
     width: 14.4px;
     height: 14.4px;
     font-size: 11.2px; }
-  .map {
+  .jerusalem-map .map {
     width: 400px;
     height: 360px; } }
 
@@ -617,7 +619,7 @@ td {
     width: 18px;
     height: 18px;
     font-size: 14px; }
-  .map {
+  .jerusalem-map .map {
     width: 500px;
     height: 450px; } }
 

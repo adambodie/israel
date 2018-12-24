@@ -39,7 +39,9 @@ const App = () => {
 										begin={x.begin} 
 										end={x.end} 
 										number={x.number}
-										map={x.map}							
+										map={x.map}
+										locations={x.locations}
+										locationName={x.locationName}							
 									/>}  
 								/>
 							)
