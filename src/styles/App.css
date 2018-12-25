@@ -3,6 +3,9 @@
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 @import url("https://fonts.googleapis.com/css?family=Faster+One");
+.debug {
+  border: 2px solid red; }
+
 header {
   position: fixed;
   top: 0;
@@ -13,19 +16,35 @@ header img {
   height: 33px;
   margin: 0; }
 
+.top-bar-left {
+  display: flex; }
+
+.top-bar-left a {
+  margin-left: 5px;
+  color: white;
+  font-size: 1em; }
+
 .top-bar {
   background-color: #0038B8; }
 
 .top-bar h4 {
   font-family: 'Heebo', sans-serif;
   color: white;
-  text-shadow: 2px 2px 4px black; }
+  text-shadow: 2px 2px 4px black;
+  font-size: 1em; }
 
 @media (min-width: 550px) {
   .top-bar h4 {
-    font-size: 1.0em; }
-  header img {
-    height: 38px; } }
+    font-size: 1.25em; }
+  .top-bar-left a {
+    font-size: 1.25em; } }
+
+@media (min-width: 769px) {
+  .top-bar h4 {
+    font-size: 1.8em; }
+  .top-bar-left a {
+    margin-left: 30px;
+    font-size: 1.8em; } }
 
 .todoList {
   margin: 100px 0px; }
@@ -149,7 +168,7 @@ ul {
     margin-left: 260px; } }
 
 .post {
-  margin-top: 118px;
+  margin-top: 128px;
   color: white; }
 
 .post h1 {
@@ -207,7 +226,7 @@ ul {
   .slick-prev:before, .slick-next:before {
     font-size: 40px !important; }
   .post {
-    margin-top: 59px; } }
+    margin-top: 64px; } }
 
 @media (min-width: 769px) {
   .slick-list, .slick-slider, .slick-track {
@@ -218,7 +237,7 @@ ul {
     font-size: 1.5em; } }
 
 .pageTitle {
-  margin-top: 59px; }
+  margin-top: 64px; }
 
 table thead {
   visibility: hidden; }
@@ -333,8 +352,8 @@ td {
   color: yellow; }
 
 .game {
-  margin-top: 69px;
-  margin-bottom: 69px; }
+  margin-top: 74px;
+  margin-bottom: 74px; }
 
 .game .columns {
   background: black;
@@ -408,7 +427,7 @@ td {
     height: 50px; } }
 
 .shakshuka {
-  margin-top: 59px;
+  margin-top: 64px;
   color: white; }
 
 .shakshuka-button {
@@ -532,7 +551,7 @@ td {
   margin: 0 auto; }
 
 .jerusalem-map {
-  margin-top: 59px; }
+  margin-top: 64px; }
 
 .jerusalem-map .map {
   width: 333.33333px;
@@ -668,7 +687,7 @@ body {
   color: white; }
 
 .cover {
-  margin-top: 59px;
+  margin-top: 64px;
   display: flex;
   align-items: center;
   justify-content: center; }

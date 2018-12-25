@@ -9,6 +9,7 @@
     "react": "^16.5.2",
     "react-context": "^0.0.3",
     "react-dom": "^16.5.2",
+    "react-fontawesome": "^1.6.1",
     "react-foundation": "^0.9.6",
     "react-markdown": "^4.0.3",
     "react-modal": "^3.6.1",

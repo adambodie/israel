@@ -1,9 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.css");
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
+
+.debug {
+	border: 2px solid red;
+}
+
 $background-color: #0038B8;
 
-$margin-top: 59px;
+$margin-top: 64px;
 
 @mixin item() {
 	list-style: none;

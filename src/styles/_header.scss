@@ -8,6 +8,14 @@ header {
 		margin: 0;
 	}
 }
+.top-bar-left {
+	display: flex;
+	a {
+		margin-left: 5px;
+		color: white;
+		font-size: 1em;
+	}
+}
 
 .top-bar {
 	background-color: $background-color;
@@ -15,19 +23,36 @@ header {
 		font-family: 'Heebo', sans-serif;
 		color: white;
 		text-shadow: 2px 2px 4px black;
+		font-size: 1em;
 	}
 }
 
 @media (min-width: 550px) {
 	.top-bar {
 		h4 {
-			font-size: 1.0em;
+			font-size: 1.25em;
 		}
 	}
-	header {
-		img {
-			height: 38px;
+	.top-bar-left {
+		a {
+			font-size: 1.25em;
 		}
+	}	
+	header {
 	}
 
+}
+
+@media (min-width: 769px) {
+	.top-bar {
+		h4 {
+			font-size: 1.8em;
+		}
+	}
+	.top-bar-left {
+		a {
+			margin-left: 30px;
+			font-size: 1.8em;
+		}
+	}	
 }
