@@ -1,4 +1,4 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad, desert, roman } from './articles';
+import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad, desert, roman, masada } from './articles';
 
 const routes = [
 	{
@@ -117,6 +117,25 @@ const routes = [
 		link: "roman",
 		prev: "desert",
 		next: "masada",	
+	},{
+		title: "Masada: On Top of it All!",
+		paragraph: masada,
+		link: "masada",
+		prev: "roman",
+		next: "snake",
+		map: true,
+		locations: [
+			{name: 'Synagogue'},
+			{name: 'Byzantine Church'},
+			{name: 'Southern Cistern'},
+			{name: 'Northern Palace'},
+			{name: 'Snake Path Gate'},
+			{name: 'Western Byzantine Gate'},
+			{name: 'Southern Observation Point'},
+			{name: 'Western Palace'}
+
+		],
+		locationName: "Masada"			
 	}
 	
 ]

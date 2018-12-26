@@ -489,47 +489,47 @@ td {
   left: 1%;
   top: 20%; }
 
-.item-0 {
+.jerusalem-item-0 {
   right: 63.33333px;
   top: 60px; }
 
-.item-1 {
+.jerusalem-item-1 {
   right: 73.33333px;
   top: 70px; }
 
-.item-2 {
+.jerusalem-item-2 {
   right: 95.33333px;
   top: 65.33333px; }
 
-.item-3 {
+.jerusalem-item-3 {
   right: 75.33333px;
   top: 162px; }
 
-.item-4 {
+.jerusalem-item-4 {
   right: 154px;
   top: 24px; }
 
-.item-5 {
+.jerusalem-item-5 {
   right: 132.66667px;
   top: 37.33333px; }
 
-.item-6 {
+.jerusalem-item-6 {
   right: 252.66667px;
   top: 271.33333px; }
 
-.item-7 {
+.jerusalem-item-7 {
   right: 252.66667px;
   top: 66.66667px; }
 
-.item-8 {
+.jerusalem-item-8 {
   right: 272px;
   top: 88px; }
 
-.item-9 {
+.jerusalem-item-9 {
   right: 298.66667px;
   top: 71.33333px; }
 
-.item-10 {
+.jerusalem-item-10 {
   right: 279.33333px;
   top: 71.33333px; }
 
@@ -559,37 +559,37 @@ td {
   background-image: url("../jerusalem-map.png"); }
 
 @media (min-width: 512px) {
-  .item-0 {
+  .jerusalem-item-0 {
     right: 76px;
     top: 72px; }
-  .item-1 {
+  .jerusalem-item-1 {
     right: 88px;
     top: 84px; }
-  .item-2 {
+  .jerusalem-item-2 {
     right: 114.4px;
     top: 78.4px; }
-  .item-3 {
+  .jerusalem-item-3 {
     right: 90.4px;
     top: 194.4px; }
-  .item-4 {
+  .jerusalem-item-4 {
     right: 184.8px;
     top: 28.8px; }
-  .item-5 {
+  .jerusalem-item-5 {
     right: 159.2px;
     top: 44.8px; }
-  .item-6 {
+  .jerusalem-item-6 {
     right: 303.2px;
     top: 325.6px; }
-  .item-7 {
+  .jerusalem-item-7 {
     right: 303.2px;
     top: 80px; }
-  .item-8 {
+  .jerusalem-item-8 {
     right: 326.4px;
     top: 105.6px; }
-  .item-9 {
+  .jerusalem-item-9 {
     right: 358.4px;
     top: 85.6px; }
-  .item-10 {
+  .jerusalem-item-10 {
     right: 335.2px;
     top: 85.6px; }
   .map-button {
@@ -601,37 +601,37 @@ td {
     height: 360px; } }
 
 @media (min-width: 768px) {
-  .item-0 {
+  .jerusalem-item-0 {
     right: 95px;
     top: 90px; }
-  .item-1 {
+  .jerusalem-item-1 {
     right: 110px;
     top: 105px; }
-  .item-2 {
+  .jerusalem-item-2 {
     right: 143px;
     top: 98px; }
-  .item-3 {
+  .jerusalem-item-3 {
     right: 113px;
     top: 243px; }
-  .item-4 {
+  .jerusalem-item-4 {
     right: 231px;
     top: 36px; }
-  .item-5 {
+  .jerusalem-item-5 {
     right: 199px;
     top: 56px; }
-  .item-6 {
+  .jerusalem-item-6 {
     right: 379px;
     top: 407px; }
-  .item-7 {
+  .jerusalem-item-7 {
     right: 379px;
     top: 100px; }
-  .item-8 {
+  .jerusalem-item-8 {
     right: 408px;
     top: 132px; }
-  .item-9 {
+  .jerusalem-item-9 {
     right: 448px;
     top: 107px; }
-  .item-10 {
+  .jerusalem-item-10 {
     right: 419px;
     top: 107px; }
   .map-button {
@@ -641,6 +641,46 @@ td {
   .jerusalem-map .map {
     width: 500px;
     height: 450px; } }
+
+.masada-map {
+  margin-top: 64px; }
+
+.masada-map .map {
+  width: 533.33333px;
+  height: 266.66667px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
+
+.masada-item-0 {
+  right: 406px;
+  top: 162px; }
+
+.masada-item-1 {
+  right: 314px;
+  top: 159px; }
+
+.masada-item-2 {
+  right: 67px;
+  top: 173px; }
+
+.masada-item-3 {
+  right: 410px;
+  top: 106px; }
+
+.masada-item-4 {
+  right: 337px;
+  top: 56px; }
+
+.masada-item-5 {
+  right: 301px;
+  top: 207px; }
+
+.masada-item-6 {
+  right: 34px;
+  top: 199px; }
+
+.masada-item-7 {
+  right: 273px;
+  top: 187px; }
 
 .noMatch {
   color: white; }

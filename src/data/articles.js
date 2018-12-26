@@ -367,6 +367,40 @@ Arriving at Masada, I was amazed with the scenery.  Masada itself, a Mesa in the
 
 Heading up the Roman Ramp wasn't too much of a hassle.  It only took about 15 minutes.  The views of the desert were incredible.  Seeing IDF soldiers marching down brought a sense of pride.  In all, the Roman Ramp provided a good introduction.  Not quite the Rocky moment I thought I would get, but there was more to come.
 
-`
+`;
+
+export const masadaIntro = `
+After heading through the gate on top of Masada, we were treated with ancient architecture, sweeping views all around, and plenty of desert to go around.  Enough to make you feel like you’re on top of the world, with the sun shining through the clouds, as if you’re someplace special.
+
+`;
+
+export const masada = `
+${masadaIntro}
 
 
+After getting plenty of pictures surrounding and of myself showcasing exactly how I felt in such a special place, we briefly stopped for a little rest.  Perfect seeing that we walked up the Roman ramp.  After resting, we headed to the area of the Northern Palace, where we learned about Herod the Great and his palaces on Masada.  But it was a little difficult to pay attention at times with all the birds chirping and flying to our area.  Known as Tristram’s Starling, these little black birds were quite the entertainment. 
+
+Afterwards, we headed to the Western Palace and entered a bathhouse, where we could see the remains.  It was rather interesting to see the black line throughout the structure indicating everything that was original on the bottom, and everything that was reconstructed on the top.
+
+Our next stop on Masada was the Synagogue, which was neat knowing had once been on Masada.  The remains were mostly seating area with a few pillars and one room you could look inside, but not go into.  Despite this, I found the Synagogue interesting.  But the two spots on the southern end of Masada would prove to be the coolest parts of Masada we saw.
+
+Somewhere along the way, I received a text message from T-Mobile's international carrier, Cellcom, welcoming me to Jordan, which was odd considering I wasn’t in Jordan. I could see Jordan on the other side of the Dead Sea, but I definitely didn’t set foot in Jordan. I found that to be quite amusing.  It definitely put things in perspective as to how close I was to another country.
+
+Heading to the south, I figured we would head to the end, but I was surprised to see the group go down into a cistern.  It was clear why we were here, as the sun shined perfectly into the cistern, creating a beam of light.  It was quite an event to see, one that appears to only occur at a certain time of day.  Plenty of picture opportunities in such limited time, I managed to get one of myself just before we had to leave.  And though others got a better picture, it’s better than nothing.  But the experience was definitely a highlight.
+
+Finally, we headed to a viewpoint along the edge, providing an amazing view of the surrounding desert and mountains.  While the views were awesome, it was what we were told to do that made it more amazing.  We were told to shout the name of someone we wanted to come visit Masada.  We did, and an amazing echo could be heard across the way about a second later.  It was quite surreal.  We shouted a few more times, one of which was to go “Quack!”  Someone was inspired because of the person who wore an Oregon Ducks shirt, which of course was me.  It felt like the perfect shirt to wear on Masada, to spread my wings on top of Masada. 
+
+Ducks aside, the views were quite amazing and the ruins on Masada were awesome to see.  But it was time to leave Masada and head down the more challenging Snake Path, estimated time 45 minutes down to the bottom.
+
+![Welcome to Jordan](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/cellcom.png)
+
+# Masada facts
+- Masada is the Hebrew translation for the word "Fortress"
+- The fortress on Masada was built by King Herod between 37-31 BCE
+- The cliffs of Masada are about 300 feet on the west side, but about 1,300 feet on the east side
+- One of the final battles of the First Jewish-Roman War, the siege of Masada, took place on top of Masada around 73 CE.  It ended in a mass suicide of 960 Sicarii Jews, who committed suicide rather than be conquered.
+- Due to its remoteness and arid environment, it wasn’t for almost 2,000 years until Masada had human contact.
+- Due to the extreme heat, summertime visits to Masada usually start hiking before sunrise, closing in the afternoon when temperatures reach over 100 degrees.
+- The Masada Cableway has a bottom station elevation of 257 m below sea level, and an upper station elevation of 33 m above sea level, making it the lower tramway in the world
+
+`;

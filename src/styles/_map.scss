@@ -2,11 +2,15 @@ $jerusalemRightValues: 95, 110, 143, 113, 231, 199, 379, 379, 408, 448, 419;
 $jerusalemTopValues: 90, 105, 98, 243, 36, 56, 407, 100, 132, 107, 107;
 $jerusalemIds: 0,1,2,3,4,5,6,7,8,9,10;
 
+$masadaRightValues: 406, 314, 67, 410, 337, 301, 34, 273;
+$masadaTopValues: 162, 159, 173, 106, 56, 207, 199, 187;
+$masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
+
 @for $i from 1 through length($jerusalemRightValues) {
   $rightValue: nth($jerusalemRightValues, $i);
   $topValue: nth($jerusalemTopValues, $i);
   $id: nth($jerusalemIds, $i);
-    .item-#{$id} {
+    .jerusalem-item-#{$id} {
        right: #{$rightValue / 1.5}px;
        top: #{$topValue / 1.5}px;
     }
@@ -46,7 +50,7 @@ $jerusalemIds: 0,1,2,3,4,5,6,7,8,9,10;
 	  $rightValue: nth($jerusalemRightValues, $i);
 	  $topValue: nth($jerusalemTopValues, $i);
 	  $id: nth($jerusalemIds, $i);
-		.item-#{$id} {
+		.jerusalem-item-#{$id} {
 		   right: #{$rightValue/1.25}px;
 		   top: #{$topValue/1.25}px;
 		}
@@ -70,7 +74,7 @@ $jerusalemIds: 0,1,2,3,4,5,6,7,8,9,10;
 	  $rightValue: nth($jerusalemRightValues, $i);
 	  $topValue: nth($jerusalemTopValues, $i);
 	  $id: nth($jerusalemIds, $i);
-		.item-#{$id} {
+		.jerusalem-item-#{$id} {
 		   right: #{$rightValue}px;
 		   top: #{$topValue}px;
 		}
@@ -88,3 +92,24 @@ $jerusalemIds: 0,1,2,3,4,5,6,7,8,9,10;
 	}		
 }
 
+
+
+
+.masada-map {
+	margin-top: $margin-top;
+	.map {
+		width: (800px/1.5);
+		height: (400px/1.5);
+		background-image: url('https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg');
+	}
+}
+
+@for $i from 1 through length($masadaRightValues) {
+  $rightValue: nth($masadaRightValues, $i);
+  $topValue: nth($masadaTopValues, $i);
+  $id: nth($masadaIds, $i);
+    .masada-item-#{$id} {
+       right: #{$rightValue}px;
+       top: #{$topValue}px;
+    }
+}

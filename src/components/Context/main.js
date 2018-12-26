@@ -16,7 +16,8 @@ import {
 	laqyeIntro,
 	aradIntro,
 	desertIntro,
-	romanIntro
+	romanIntro,
+	masadaIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -162,9 +163,9 @@ export class Provider extends Component {
 						link: 'roman', 
 						image: 'roman'
 					},{
-						title: "Masada: On Top of it all", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[14].title, 
+						intro: masadaIntro, 
+						link: 'masada', 
 						image: 'masada'
 					},{
 						title: "Masada: Down the Snake Path", 
