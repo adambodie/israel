@@ -17,7 +17,8 @@ import {
 	aradIntro,
 	desertIntro,
 	romanIntro,
-	masadaIntro
+	masadaIntro,
+	snakeIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -168,14 +169,14 @@ export class Provider extends Component {
 						link: 'masada', 
 						image: 'masada'
 					},{
-						title: "Masada: Down the Snake Path", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[15].title,
+						intro: snakeIntro, 
+						link: 'snake', 
 						image: 'snake'
 					},{
 						title: "Nachal: Not a Mirage", 
 						intro: dummy, 
-						link: 'todoList', 
+						link: 'jukebox', 
 						image: 'nachal'
 					},{
 						title: "The Dead Sea: Healing in the Lowest Point with Mud", 

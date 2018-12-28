@@ -404,3 +404,19 @@ Ducks aside, the views were quite amazing and the ruins on Masada were awesome t
 - The Masada Cableway has a bottom station elevation of 257 m below sea level, and an upper station elevation of 33 m above sea level, making it the lower tramway in the world
 
 `;
+
+export const snakeIntro = `
+Going up the Roman Path to Masada wasn't too painful.  It didn't take too long.  But the real challenge was going down, as the east side of Masada dropped down a much higher elevation than the west side of Masada.  As such, the estimated time we were given was 45 minutes.  After making sure we had gone to the bathroom and filling up our water bottles all the way to the top, the time to go down Masada began, with me wanting to track my time and effort on my Apple Watch.
+`;
+
+export const snake = `
+${snakeIntro}
+
+Once we were prepared, the journey down the Snake Path began with amazing views of the Dead Sea and Desert, along with the Cableway going up and down to the surface.  The switchbacks were steep, but not too steep.  At first, there were railings to assist, but about halfway through, the rails were no longer there.  It was going to be a long trip down, but thankfully I had someone to talk to for half of the walk down.  That might not be a big deal for most, but for someone as shy as myself, having Pittsburgh Andrew to talk with for half of the way down was kind of a big deal for me.  
+
+After making it to the bottom, we were relieved to have completed the walk down.  Perhaps this was more of the Rocky moment I had anticipated would be walking up to Masada.  In all, it took me 38 minutes to go from the top of Masada to the bottom, an elevation drop of about 1000 feet, at a distance of 1.2 miles.  Though I was quite exhausted, it was well worth all of it.  Going up to Masada, seeing all the ruins and natural sights, and the views going down.  Everything is better when you work at it and savor the experience.
+
+Afterwards, we entered the Visitor Center.  There I entered the Gift Shop to look around.  Seeing postcards, I thought this would be the perfect chance to buy postcards for my wonderful new Auntie Pam and Uncle Randy.  I picked a Masada postcard for Auntie Pam because the desert landscape is similar to Utah, while I picked a Jerusalem postcard for Uncle Randy because of his passion to religion.  I bought the post cards, but unfortunately, I wound up misplacing them somewhere in Tel Aviv later on.  Sorry Auntie Pam and Uncle Randy.  Though our trip to Masada was over, the nature and walking was far from over.  We had more stops on the way, not to mention a drive to Tel Aviv.  Today was going to be an awesome day! 
+
+
+`;

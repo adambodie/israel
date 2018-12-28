@@ -1,4 +1,21 @@
-import { elAl, benGurion, oldJerusalem, shukDay, shabbat, shukNight, yadVashem, herzl, benYehuda, gilo, laqye, arad, desert, roman, masada } from './articles';
+import { 
+	elAl, 
+	benGurion, 
+	oldJerusalem, 
+	shukDay, 
+	shabbat, 
+	shukNight, 
+	yadVashem, 
+	herzl, 
+	benYehuda, 
+	gilo, 
+	laqye, 
+	arad, 
+	desert, 
+	roman, 
+	masada, 
+	snake
+	} from './articles';
 
 const routes = [
 	{
@@ -136,6 +153,12 @@ const routes = [
 
 		],
 		locationName: "Masada"			
+	},{
+		title: "Masada: Down the Snake Path",
+		paragraph: snake,
+		link: "snake",
+		prev: "masada",
+		next: "nachal"			
 	}
 	
 ]

@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo");
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
-@import url("https://fonts.googleapis.com/css?family=Faster+One");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Monoton");
 .debug {
   border: 2px solid red; }
 
@@ -318,7 +319,7 @@ td {
   padding: 10px; }
 
 .buttons button {
-  font-family: "Faster One", cursive !important;
+  font-family: "Press Start 2P", cursive !important;
   font-size: 10px;
   padding: 5px;
   margin: 5px;
@@ -348,7 +349,7 @@ td {
   align-items: center; }
 
 .flex h3 {
-  font-family: "Faster One", cursive !important;
+  font-family: "Press Start 2P", cursive !important;
   color: yellow; }
 
 .game {
@@ -361,7 +362,7 @@ td {
 
 .game h1 {
   background: #0038B8;
-  font-family: "Faster One", cursive !important;
+  font-family: "Press Start 2P", cursive !important;
   font-size: 2em; }
 
 .result {
@@ -369,7 +370,7 @@ td {
 
 .result h4 {
   color: yellow;
-  font-family: "Faster One", cursive !important;
+  font-family: "Press Start 2P", cursive !important;
   text-align: center; }
 
 .result img {
@@ -383,7 +384,7 @@ td {
   justify-content: center; }
 
 .begin h2 {
-  font-family: "Faster One", cursive !important;
+  font-family: "Press Start 2P", cursive !important;
   color: yellow;
   text-align: center;
   width: 50%;
@@ -405,7 +406,7 @@ td {
 
 .score h3 {
   color: yellow;
-  font-family: "Faster One", cursive !important;
+  font-family: "Press Start 2P", cursive !important;
   text-align: center; }
 
 @keyframes begin {
@@ -420,7 +421,7 @@ td {
   .buttons button {
     width: 75px;
     height: 75px;
-    font-family: "Faster One", cursive !important;
+    font-family: "Press Start 2P", cursive !important;
     font-size: 16px; }
   .buttons img {
     width: 50px;
@@ -681,6 +682,67 @@ td {
 .masada-item-7 {
   right: 273px;
   top: 187px; }
+
+.big-jukebox {
+  display: block;
+  margin: 0 auto; }
+
+.jukebox {
+  margin-top: 128px;
+  width: 350px; }
+
+.jukebox h1 {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  animation-name: gradient;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-bottom: -10px;
+  border: 30px solid yellow;
+  border-style: groove;
+  font-family: "Monoton", cursive !important; }
+
+.playlist {
+  background: black;
+  border-bottom: 30px solid yellow;
+  border-left: 30px solid yellow;
+  border-right: 30px solid yellow;
+  border-style: groove;
+  width: 350px; }
+
+.playlist iframe {
+  margin-top: 10px;
+  width: 236.66667px;
+  height: 133.33333px; }
+
+@keyframes gradient {
+  0% {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); }
+  16% {
+    background-image: linear-gradient(to right, orange, yellow, green, blue, indigo, violet, red); }
+  33% {
+    background-image: linear-gradient(to right, yellow, green, blue, indigo, violet, red, orange); }
+  50% {
+    background-image: linear-gradient(to right, green, blue, indigo, violet, red, orange, yellow); }
+  66% {
+    background-image: linear-gradient(to right, blue, indigo, violet, red, orange, yellow, green); }
+  83% {
+    background-image: linear-gradient(to right, indigo, violet, red, orange, yellow, green, blue); }
+  100% {
+    background-image: linear-gradient(to right, violet, red, orange, yellow, green, blue, indigo); } }
+
+@media (min-width: 769px) {
+  .jukebox {
+    width: 614px; }
+  .playlist iframe {
+    margin-top: 10px;
+    width: 355px;
+    height: 200px; } }
 
 .noMatch {
   color: white; }
