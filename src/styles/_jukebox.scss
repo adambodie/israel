@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+$border-color: 30px solid yellow;
+$iframe-width: 355px;
+$iframe-height: 200px;
+
+.big-jukebox {
+	@include center();
+}
+
+.jukebox {
+	margin-top: $margin-top * 2;
+	width: 350px;
+	h1 {
+		background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+		animation-name: gradient;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		border-top-left-radius: 100%;
+		border-top-right-radius: 100%;
+		@include flex();
+		height: 200px;
+		margin-bottom: -10px;
+		border: $border-color;
+		border-style: groove;
+		font-family: 'Monoton', cursive!important;
+
+	}
+}
+
+.playlist {
+	background: black;
+	border-bottom: $border-color;
+	border-left: $border-color;
+	border-right: $border-color;
+	border-style: groove;
+	width: 350px;
+	iframe {
+		margin-top: 10px;
+		width: $iframe-width/1.5;
+		height: $iframe-height/1.5;
+	}
+}
+
+
+
+@keyframes gradient {
+  0%   {background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)}
+  16%  {background-image: linear-gradient(to right, orange,yellow,green,blue,indigo,violet,red)}
+  33%  {background-image: linear-gradient(to right, yellow,green,blue,indigo,violet,red,orange)}
+  50% {background-image: linear-gradient(to right, green,blue,indigo,violet,red,orange,yellow)}
+  66% {background-image: linear-gradient(to right, blue,indigo,violet,red,orange,yellow,green)}
+  83% {background-image: linear-gradient(to right, indigo,violet,red,orange,yellow,green,blue)}
+  100% {background-image: linear-gradient(to right, violet,red,orange,yellow,green,blue,indigo)}
+}
+
+@media (min-width: 769px) {
+.jukebox {
+	width: 614px;
+}
+
+.playlist {
+	iframe {
+		margin-top: 10px;
+		width: $iframe-width;
+		height: $iframe-height;
+	}
+}
+
+}
