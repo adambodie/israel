@@ -18,7 +18,8 @@ import {
 	desertIntro,
 	romanIntro,
 	masadaIntro,
-	snakeIntro
+	snakeIntro,
+	nachalIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -174,9 +175,9 @@ export class Provider extends Component {
 						link: 'snake', 
 						image: 'snake'
 					},{
-						title: "Nachal: Not a Mirage", 
-						intro: dummy, 
-						link: 'jukebox', 
+						title: routes[16].title, 
+						intro: nachalIntro, 
+						link: 'nachal', 
 						image: 'nachal'
 					},{
 						title: "The Dead Sea: Healing in the Lowest Point with Mud", 

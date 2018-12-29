@@ -418,5 +418,23 @@ After making it to the bottom, we were relieved to have completed the walk down.
 
 Afterwards, we entered the Visitor Center.  There I entered the Gift Shop to look around.  Seeing postcards, I thought this would be the perfect chance to buy postcards for my wonderful new Auntie Pam and Uncle Randy.  I picked a Masada postcard for Auntie Pam because the desert landscape is similar to Utah, while I picked a Jerusalem postcard for Uncle Randy because of his passion to religion.  I bought the post cards, but unfortunately, I wound up misplacing them somewhere in Tel Aviv later on.  Sorry Auntie Pam and Uncle Randy.  Though our trip to Masada was over, the nature and walking was far from over.  We had more stops on the way, not to mention a drive to Tel Aviv.  Today was going to be an awesome day! 
 
+`;
+
+export const nachalIntro = `
+After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at Nachal, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
+`;
+
+export const nachal = `
+${nachalIntro}
+
+There were a lot of people at the entrance, and it did feel crowded, but once we started walking, it felt like we were in an Oasis.  We were told they would be a few opportunities to see some wildlife.  But few wasn’t enough.  There ended up being plenty of animals to see. 
+
+Most prominent was the Ibex, which I recognized as the logo featured on Masada National Park.  At first there were a few in the distance, but heading up the path, more of them approached, passing through the area.  Some of them were quite majestic, especially the male Ibexes with the horns.  My only concern was a couple of them had collars placed around their necks.  It made me wonder how wild they really are.
+
+Also present along the trail were cute little marmot like creatures known as the Hyrax.  These little guys were also found, and though there weren’t as many, they were adorable to watch.
+
+But none of this could match the waterfalls along the path.  The last thing I expected to see in Israel were waterfalls, especially in the desert.  And while they weren’t as tall or powerful like the many waterfalls found in Oregon (Multnomah Falls and the others on the Columbia River Gorge, along with the 10 waterfalls at Silver Falls are amongst the best), they desert scene made these waterfalls truly photogenic and majestic.  It was quite inspiring to see.
+
+We reached the end of our path at a waterfall with a pool of water to go into.  Some jumped right in, though I put my feet in the water.  I didn’t go too far in, I figured I would save that for the Dead Sea.  But with a perfect blend of desert, water and green, this area was quite amazing to me, and totally unexpected.  It was reasons like this that I chose not to research all the places on the itinerary beforehand.  After this, we headed back in preparation for our next stop, the lowest place on Earth: the Dead Sea.
 
 `;
