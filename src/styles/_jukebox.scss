@@ -4,12 +4,12 @@ $border-color: 30px solid yellow;
 $iframe-width: 355px;
 $iframe-height: 200px;
 
-.big-jukebox {
+.jukebox {
 	@include center();
+	margin-top: $margin-top + 10;
 }
 
-.jukebox {
-	margin-top: $margin-top * 2;
+.jukebox-title {
 	width: 350px;
 	h1 {
 		background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
@@ -21,28 +21,52 @@ $iframe-height: 200px;
 		@include flex();
 		height: 200px;
 		margin-bottom: -10px;
-		border: $border-color;
+		border: 45px solid yellow;
 		border-style: groove;
 		font-family: 'Monoton', cursive!important;
 
 	}
 }
-
-.playlist {
-	background: black;
+.legs {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.leg {
+	width: 70px;
+	height: 70px;
+	background: yellow;
+	margin-top: -20px;
+	border: $border-color;
+	border-style: groove;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%;		
+}
+.area	{
+	margin: 0 auto;
+    height: 500px;
+    width: 350px;
+    background: black;
 	border-bottom: $border-color;
 	border-left: $border-color;
 	border-right: $border-color;
-	border-style: groove;
-	width: 350px;
-	iframe {
-		margin-top: 10px;
-		width: $iframe-width/1.5;
-		height: $iframe-height/1.5;
-	}
+	border-style: groove;    
+    margin-bottom: 20px;
+    .content {
+		height: 1100px;
+		iframe {
+			margin-top: 10px;
+			width: $iframe-width/1.5;
+			height: $iframe-height/1.5;
+		}
+    }
 }
 
-
+.scrollarea .scrollbar-container {
+    opacity: 1!important;
+    background: white!important;
+}
 
 @keyframes gradient {
   0%   {background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)}
@@ -55,16 +79,34 @@ $iframe-height: 200px;
 }
 
 @media (min-width: 769px) {
-.jukebox {
-	width: 614px;
+
+.legs {
+	width: 500px;
+}
+.leg {
+	width: 100px;
+	height: 100px;	
 }
 
-.playlist {
-	iframe {
-		margin-top: 10px;
-		width: $iframe-width;
-		height: $iframe-height;
+.jukebox-title {
+	width: 500px;
+}
+
+.area {
+    width: 500px;
+	.content {
+		height: 1600px;
+		iframe {
+			margin-top: 10px;
+			width: $iframe-width;
+			height: $iframe-height;
+		}
 	}
-}
 
 }
+}
+
+
+
+
+
