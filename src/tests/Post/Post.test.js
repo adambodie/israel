@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow, mount } from 'enzyme';
 import { MemoryRouter } from 'react-router';
-import Post from '../components/Posts/Post';
+import Post from '../../components/Posts/Post';
 import sinon from 'sinon';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';

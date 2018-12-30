@@ -11,6 +11,20 @@ exports[`renders correctly 1`] = `
       <h4>
         Adam's Birthright Trip to The Land of Israel
       </h4>
+      <a
+        href="/index"
+        onClick={[Function]}
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-home"
+          style={
+            Object {
+              "textShadow": "2px 2px 4px black",
+            }
+          }
+        />
+      </a>
     </div>
     <img
       alt="RT-38-1047"

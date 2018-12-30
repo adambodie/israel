@@ -40,8 +40,16 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
   "devDependencies": {
     "axios-mock-adapter": "^1.15.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^7.0.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "node-sass": "^4.9.4",

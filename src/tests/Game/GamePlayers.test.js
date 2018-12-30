@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { mount } from 'enzyme';
-import GamePlayers from '../components/Game/GamePlayers';
+import GamePlayers from '../../components/Game/GamePlayers';
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');

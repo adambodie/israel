@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router';
-import PhotoList from '../components/Posts/PhotoList';
+import PhotoList from '../../components/Posts/PhotoList';
 
 it('renders correctly', () => {
 	const tree = renderer.create(
