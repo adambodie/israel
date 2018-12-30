@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router';
-import { shallow, mount } from 'enzyme';
+import { mount } from 'enzyme';
 import Header from '../components/Header';
 
 it('renders without crashing', () => {

@@ -5,28 +5,40 @@ beforeEach(() => {
   jest.resetModules();
 });
 
-const getMainPageItemsWithContext = (context= {
-    pages: [
+const contextPages = { pages: [
+    {
+        scroll: 'day-0', 
+        day: 0,
+        items: [ 
         {
-            scroll: 'day-0', 
-            day: 0,
-            items: [ 
-            {
-                title: "Things to Bring to Israel", 
-                intro: "intro intro intro", 
-                link: 'todoList', 
-                image: 'items'
-            },
-            {
-                title: "Title", 
-                intro: "El Al El Al El Al", 
-                link: 'el-al', 
-                image: 'globe'
-            }
-            ]
+            title: "Things to Bring to Israel", 
+            intro: "intro intro intro", 
+            link: 'todoList', 
+            image: 'items'
+        },
+        {
+            title: "Title", 
+            intro: "El Al El Al El Al", 
+            link: 'el-al', 
+            image: 'globe'
         }
-    ]
-}) => {
+        ]
+    },            {
+        scroll: 'day-1', 
+        day: 1,
+        items: [ 
+        {
+            title: "Things to Bring to Israel", 
+            intro: "intro intro intro", 
+            link: 'todoList', 
+            image: 'items'
+        }
+        ]
+    }
+] };
+
+
+const getMainPageItemsWithContext = (context= contextPages) => {
 
     jest.doMock('../../components/Context/main', () => {
         return {
@@ -39,30 +51,11 @@ const getMainPageItemsWithContext = (context= {
     };
     
     describe('<MainPageItems />', () => {
+        const MainPageItems = getMainPageItemsWithContext();
+        const outer = shallow(<MainPageItems />);
+        const Children = outer.props().children(contextPages);
+        const wrapper = shallow(Children);        
         it('should return a list of pages', () => {
-          const MainPageItems = getMainPageItemsWithContext();
-          const outer = shallow(<MainPageItems />);
-          const Children = outer.props().children({ pages: [
-            {
-                scroll: 'day-0', 
-                day: 0,
-                items: [ 
-                {
-                    title: "Things to Bring to Israel", 
-                    intro: "intro intro intro", 
-                    link: 'todoList', 
-                    image: 'items'
-                },
-                {
-                    title: "Title", 
-                    intro: "El Al El Al El Al", 
-                    link: 'el-al', 
-                    image: 'globe'
-                }
-                ]
-            }
-        ] });
-          const wrapper = shallow(Children);
-          expect(wrapper.find('.o-content__inner-body').length).toBe(2);
+          expect(wrapper.find('.o-content__inner-body').length).toBe(3);
         });       
     });

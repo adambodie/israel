@@ -1,0 +1,1086 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="o-wrapper"
+>
+  <div
+    className="o-sidebar o-sidebar--fixed-left c-side-nav"
+  >
+    <nav
+      className="c-side-nav__body"
+    >
+      <ul
+        className="c-side-nav__list nav-list"
+        style={Object {}}
+      >
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-0"
+          >
+            Introduction
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-1"
+          >
+            Day 
+            1
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-2"
+          >
+            Day 
+            2
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-3"
+          >
+            Day 
+            3
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-4"
+          >
+            Day 
+            4
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-5"
+          >
+            Day 
+            5
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-6"
+          >
+            Day 
+            6
+          </a>
+        </li>
+        <li
+          className="c-side-nav__item"
+        >
+          <a
+            className="c-side-nav__link"
+            href="#day-7"
+          >
+            Day 
+            7
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div
+    className="o-main o-main--with-sidebar o-main--fixed-left-sidebar"
+  >
+    <div
+      className="container"
+      style={
+        Object {
+          "marginTop": 59,
+        }
+      }
+    >
+      <section
+        style={
+          Object {
+            "minHeight": "600px",
+          }
+        }
+      >
+        <div
+          className="row display grid-x welcomeIntro"
+        >
+          <div
+            className="columns o-hero u-align-left large-10 large-offset-1"
+          >
+            <h1>
+              Welcome
+            </h1>
+            <img
+              alt="Welcome"
+              src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/welcome.jpg"
+            />
+            <p>
+              Growing up as a Jewish American in Portland, Oregon, I often heard about the land of the Jewish people: Israel.  Attending Jewish School, studying to become a Bar Mitzvah, going to the Portland Jewish Academy (PJA) in the 7th Grade, I often wondered what life would be like in the land of Israel.  Jerusalem, Tel Aviv, the Dead Sea, all the places mentioned in the Torah.  To me, an important step of understanding Judaism is to experience it in Israel.
+            </p>
+            <p>
+              I could've taken the opportunity in the 8th Grade at the PJA, but was it worth it to be the only boy in my class that year, at a school where I didn't fit in?  The clear answer was no, and thus, I went back to public Middle School and didn't go to Israel.  Years went by before I had another opportunity to go to Israel.
+            </p>
+            <p>
+              When I was 26 years old, I learned of Birthright Israel, a program that allowed people who have never been to Israel before, an opportunity to travel there with little or no cost to get and stay there.  After all, it's important for people of the Jewish faith to visit the land of Israel at least once in their life.  I was psyched having learned this, to help me get in touch with my Jewish roots.
+            </p>
+            <p>
+              But the powers that be prevented me from going.  I was denied the chance; not enough room for Adam to go, Birthright told me, even though it would seem they would want someone like me who was at the age limit of 26.  So it seemed like I would never be able to go to Israel.  I'm not made of money;  and it's certainly not as easy as writing a check.  So years went by, wondering what could have been.  But then, last December, I received an email I never expected: Birthright Israel was extending the age limit to people up to 32 years old, which once again, gave myself an opportunity to go, right at the age limit.  Suddenly, a second chance at Israel presented itself.
+            </p>
+            <p>
+              Now had to be the time.  I am far more mature this time around, and able to handle myself for such a big trip, both physically, mentally and socially.  So when I applied this time around, I was all in, applying at the very first chance I could get, with no technical issues stopping me.  I initially applied for the trip in May, unable to go in the Summer due to work scheduling issues.  But as weeks went by, I saw deja vu all over again, thinking I would be denied yet again.  They offered a fall trip, but I figured I wasn't eligible since I would be 33.  After questioning them, I was thankfully told I was wrong; I was eligible since I applied as a 32 year old.  And with that, I was accepted into Birthright Israel.  My second chance was granted.  I never thought I'd get it, but as my Mom always tells me, things happen for a reason.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div>
+        <section
+          className="o-content"
+          id="day-0"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Introduction
+                </h1>
+                <h5>
+                  November 7-8, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Things to Bring to Israel
+                </h3>
+                <img
+                  alt="Things to Bring to Israel"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/items.jpg"
+                />
+                <p>
+                  Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you'd like to bring!
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  El Al: The Beginning of the Trip to Israel
+                </h3>
+                <img
+                  alt="El Al: The Beginning of the Trip to Israel"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/globe.jpg"
+                />
+                <p>
+                  The journey to Israel began by flying to the Newark Airport, where our group met.  For plenty, it was a short or fairly short drive away.  For me, it was flying across country and spending the night in Newark.  To get to Newark, I flew first to the Detroit Airport, then to the Newark Airport.  Fortunately, the layover in Detroit was only about an hour, and the gates were basically next to each other.  That made things less stress free.  What didn't make things stress free was getting to the hotel from the airport.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/el-al"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-1"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  1
+                </h1>
+                <h5>
+                  November 9, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Arriving in Israel: My First Thoughts
+                </h3>
+                <img
+                  alt="Arriving in Israel: My First Thoughts"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/welcomeIsrael.jpg"
+                />
+                <p>
+                  After 10 hours of flying, our plane finally landed in Israel.  Upon landing, it felt almost surreal.  It felt like the dawn of the night, but yet it was 6:30 in the morning local time.  The past week, I kept saying to myself "I can't believe I'm going to Israel."  Suddenly, it was, "I can't believe I made it to Israel."
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/ben-gurion"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  The Old City
+                </h3>
+                <img
+                  alt="The Old City"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem.jpg"
+                />
+                <p>
+                  Having arrived just outside the Old City, particularly Jaffa Gate, I once again thought of Rome and all of its historical architecture.  I got a glimpse of modernism with a Welcome to Taglit Birthright Israel sign, which I had to get a selfie in front of.  It was also my first chance to get for WiFi outside the airport, as well as my first chance to really ask, "Where's the Bathroom?"  I declined to go the first time, focusing on taking every picture I could in the park we stopped at.  But before we could actually go inside the Old City, first we needed an icebreaker and a history lesson.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/old-Jerusalem"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Mahane Yehuda: The Shuk Experience Before Shabbat
+                </h3>
+                <img
+                  alt="Mahane Yehuda: The Shuk Experience Before Shabbat"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shukDay.jpg"
+                />
+                <p>
+                  It was time to leave the Old City behind, as our next destination awaited.  The hotel would have been quite nice at the time, but thanks to convenient timing, and the staff's desire to adjust us to local time the best they could, now was the time for our next trip, the Mahane Yehuda, a popular market known as the Shuk.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/shuk-day"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-2"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  2
+                </h1>
+                <h5>
+                  November 10, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Shabbat in Jerusalem: A Day to Rest
+                </h3>
+                <img
+                  alt="Shabbat in Jerusalem: A Day to Rest"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shabbat.jpg"
+                />
+                <p>
+                  Shabbat is celebrated every week as a day of rest.  It starts on Friday night and ends the following night.  We were lucky our first night in Israel was in Shabbat, since adjusting to a different time zone, especially at least 7 hours.  Thanks to our luck, our first night was a great opportunity to sleep, sleep and sleep.  There was plenty of time to sleep, and sleep I did.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/shabbat"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Back to the Shuk: The Night Time Experience
+                </h3>
+                <img
+                  alt="Back to the Shuk: The Night Time Experience"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shukNight.jpg"
+                />
+                <p>
+                  Going out at night gave me my first chance to enjoy some nightlife and look hip.  But the weather was teetering between the line of “Should I bring a jacket or not?” Bring it and I risk being too warm and looking bundled up. Not bringing it makes me look hip but risks being too cold and having a possible rain shower hit.  My Mom would always tell me to bring a jacket in this type of weather and I would usually say no, and being in Jerusalem, it made no difference.  So when Hadas asked me the same question, I was more than prepared for a good response.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/shuk-night"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-3"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  3
+                </h1>
+                <h5>
+                  November 11, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Never Forget: Yad Vashem
+                </h3>
+                <img
+                  alt="Never Forget: Yad Vashem"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/yadVashem.jpg"
+                />
+                <p>
+                  Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust. And no place captures the horrific events like Yad Vashem, Israel's National Holocaust Museum.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/yad-vashem"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  How Not to Eat Your Shakshuka
+                </h3>
+                <img
+                  alt="How Not to Eat Your Shakshuka"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shakshuka.jpg"
+                />
+                <p>
+                  Between Yad Vashem and the Herzl Cemetery was a quick lunch break nearby. Within a nice little mall was a few places to eat.  The first one I saw was McDonalds.  I've been there, done that from my trips to Europe.  I still remember being charged Euro cents for ketchup packets in Austria.  Are you kidding me?  So I passed up the chance at McDonalds.  So what would I have for lunch on this date?   
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/shakshuka"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Zionism 101: Mount Herzl
+                </h3>
+                <img
+                  alt="Zionism 101: Mount Herzl"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/herzl.jpg"
+                />
+                <p>
+                  Our next stop was at Mount Herzl, home of Israel's National Cemetery, where many influential Israelis and IDF members are buried. It was here we would learn about Zionism, a term I admit I knew of but didn't fully understand over the years.  This would be the place I would better understand Zionism.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/herzl"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  One Last Night in Jerusalem at Ben Yehuda
+                </h3>
+                <img
+                  alt="One Last Night in Jerusalem at Ben Yehuda"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/yehuda.jpg"
+                />
+                <p>
+                  After returning from Mount Herzl, another night out was what we needed to at least have a good time on an otherwise challenging day. It would also be our last night in Jerusalem.  With that, after eating dinner at the hotel, we headed to Ben Yehuda Street, a popular part of town in the heart of Jerusalem.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/ben-yehuda"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-4"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  4
+                </h1>
+                <h5>
+                  November 12, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Leaving Jerusalem: Seeing the Israeli-Arab Conflict
+                </h3>
+                <img
+                  alt="Leaving Jerusalem: Seeing the Israeli-Arab Conflict"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/gilo.jpg"
+                />
+                <p>
+                  After a good night sleep, it was time to get ready to leave Jerusalem and learn more about the Israeli-Arab Conflict.  With all the history of Jerusalem and the land of Israel as a whole, there are many things to consider when trying to figure out how to bring peace to the Middle East.  Layers of layers of complexity, emotion, and religiousness make the Israel issue one that cannot be figured out in a day, or a year, or perhaps a lifetime.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/gilo"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Out in the Desert with the Bedouins
+                </h3>
+                <img
+                  alt="Out in the Desert with the Bedouins"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/laqye.jpg"
+                />
+                <p>
+                  Though Jerusalem is a beautiful city full of history and culture, it was time to leave and see other parts of Israel.  On a 7 Day trip, we can only get a taste of what Israel has to offer.  We would have to spend months, seeing everything Israel had to offer.  But a small piece of the pie is better than no piece of the pie.  With that in mind, the adventure headed south towards the desert.  Our first stop was in the town of Laqye, within the Southern District.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/laqye"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Arad in the Desert: Shelter Included for the Authentic Israel Experience
+                </h3>
+                <img
+                  alt="Arad in the Desert: Shelter Included for the Authentic Israel Experience"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/arad.jpg"
+                />
+                <p>
+                  We arrived in the town of Arad, where our hotel was for the night.  Since it was dark, we couldn't get a few of Arad, but entering the hotel area, we could see how spread out it was compared to Bait Vagan.  The rooms looked more modern, had more amenities, including hand soap, as well as a TV.  
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/arad"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-5"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  5
+                </h1>
+                <h5>
+                  November 13, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  The Negev Desert: Hot Fun Before Masada
+                </h3>
+                <img
+                  alt="The Negev Desert: Hot Fun Before Masada"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/desert.jpg"
+                />
+                <p>
+                  The following morning, I woke up to a beautiful day, with the sun rising, and some rather cute cats our group fell in love with.  It was clear that there would be no escalation from Gaza.  And with that, after breakfast, our day of exercise would begin with a trip to Masada.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/desert"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Masada: The Roman Ramp Up
+                </h3>
+                <img
+                  alt="Masada: The Roman Ramp Up"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/roman.jpg"
+                />
+                <p>
+                  Before my trip to Israel and learning of the itinerary, there was one place I wasn't aware of that got me really excited upon research.  That of course, was Masada National Park.  Knowing I would have to hike up and down Masada, I spent more time being physically active to prepare myself.  Sure, I had done hikes longer, higher and more treacherous. 
+
+                  <a
+                    href="https://adventures.bodiewebdesign.com/smith-rock"
+                  >
+                    Smith Rock
+                  </a>
+                  
+in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/roman"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Masada: On Top of it All!
+                </h3>
+                <img
+                  alt="Masada: On Top of it All!"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada.jpg"
+                />
+                <p>
+                  After heading through the gate on top of Masada, we were treated with ancient architecture, sweeping views all around, and plenty of desert to go around.  Enough to make you feel like you’re on top of the world, with the sun shining through the clouds, as if you’re someplace special.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/masada"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Masada: Down the Snake Path
+                </h3>
+                <img
+                  alt="Masada: Down the Snake Path"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/snake.jpg"
+                />
+                <p>
+                  Going up the Roman Path to Masada wasn't too painful.  It didn't take too long.  But the real challenge was going down, as the east side of Masada dropped down a much higher elevation than the west side of Masada.  As such, the estimated time we were given was 45 minutes.  After making sure we had gone to the bathroom and filling up our water bottles all the way to the top, the time to go down Masada began, with me wanting to track my time and effort on my Apple Watch.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/snake"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Nachal: Not a Mirage
+                </h3>
+                <img
+                  alt="Nachal: Not a Mirage"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/nachal.jpg"
+                />
+                <p>
+                  After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at Nachal, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/nachal"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  The Dead Sea: Healing in the Lowest Point with Mud
+                </h3>
+                <img
+                  alt="The Dead Sea: Healing in the Lowest Point with Mud"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/deadSea.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Welcome to Tel Aviv, the Greatest City in the World
+                </h3>
+                <img
+                  alt="Welcome to Tel Aviv, the Greatest City in the World"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAvivNight.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-6"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  6
+                </h1>
+                <h5>
+                  November 14, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Morning Stroll on the beaches of Tel Aviv
+                </h3>
+                <img
+                  alt="Morning Stroll on the beaches of Tel Aviv"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAvivBeach.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Choose Your Own Adventure: Tel Aviv Graffiti Tour: Mossad style
+                </h3>
+                <img
+                  alt="Choose Your Own Adventure: Tel Aviv Graffiti Tour: Mossad style"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/graffiti.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City
+                </h3>
+                <img
+                  alt="Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tama.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Nice Kibbutz
+                </h3>
+                <img
+                  alt="Nice Kibbutz"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/kibbutz.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="o-content"
+          id="day-7"
+          style={
+            Object {
+              "minHeight": "600px",
+            }
+          }
+        >
+          <div
+            className="row display grid-x"
+          >
+            <div
+              className="columns o-content__inner large-10 large-offset-1"
+              style={
+                Object {
+                  "marginTop": "59px",
+                }
+              }
+            >
+              <div
+                className="o-content__inner-head"
+              >
+                <h1
+                  className="c-heading-4 c-heading-4--upper"
+                >
+                  Day 
+                  7
+                </h1>
+                <h5>
+                  November 15, 2018
+                </h5>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Jaffa: The Old Part of Tel Aviv
+                </h3>
+                <img
+                  alt="Jaffa: The Old Part of Tel Aviv"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jaffa.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Innovation Center
+                </h3>
+                <img
+                  alt="Innovation Center"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/innovation.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Rothschild
+                </h3>
+                <img
+                  alt="Rothschild"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAviv.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Independence Hall
+                </h3>
+                <img
+                  alt="Independence Hall"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/independence.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Farewell
+                </h3>
+                <img
+                  alt="Farewell"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rothschild.jpg"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/todoList"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;

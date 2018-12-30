@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row display grid-x todoList"
+>
+  <div
+    className="columns large-6 large-offset-3"
+  >
+    <h1>
+      Things to Bring to Israel
+    </h1>
+    <div
+      className="todoListIntro"
+    >
+      <p>
+        Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you'd like to bring!
+      </p>
+    </div>
+    <img
+      alt="bunch of items"
+      data-tip="A Bunch of Items (Not all of these items are needed for this trip)"
+      src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/items.jpg"
+    />
+    <div
+      className="__react_component_tooltip place-top type-dark "
+      data-id="tooltip"
+    />
+    <ul>
+      <li
+        className="item"
+      >
+        <a
+          className="button delete alert"
+          onClick={[Function]}
+        >
+          X
+        </a>
+        <p>
+          Shirts
+        </p>
+        <a
+          className="button complete primary"
+          onClick={[Function]}
+        >
+          ✓
+        </a>
+      </li>
+      <li
+        className="item"
+      >
+        <a
+          className="button delete alert"
+          onClick={[Function]}
+        >
+          X
+        </a>
+        <p>
+          Pants
+        </p>
+        <a
+          className="button complete primary"
+          onClick={[Function]}
+        >
+          ✓
+        </a>
+      </li>
+      <li
+        className="item"
+      >
+        <a
+          className="button delete alert"
+          onClick={[Function]}
+        >
+          X
+        </a>
+        <p>
+          Passport
+        </p>
+        <a
+          className="button complete primary"
+          onClick={[Function]}
+        >
+          ✓
+        </a>
+      </li>
+      <li
+        className="item"
+      >
+        <a
+          className="button delete alert"
+          onClick={[Function]}
+        >
+          X
+        </a>
+        <p>
+          Shoes
+        </p>
+        <a
+          className="button complete primary"
+          onClick={[Function]}
+        >
+          ✓
+        </a>
+      </li>
+      <li
+        className="item"
+      >
+        <a
+          className="button delete alert"
+          onClick={[Function]}
+        >
+          X
+        </a>
+        <p>
+          Camera
+        </p>
+        <a
+          className="button complete primary"
+          onClick={[Function]}
+        >
+          ✓
+        </a>
+      </li>
+    </ul>
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <input
+        className="button"
+        type="submit"
+        value="Add Item"
+      />
+    </form>
+    <div
+      className="prev-next"
+    >
+      <a
+        className="custom-button"
+        href="/index"
+        onClick={[Function]}
+      >
+        Prev
+      </a>
+      <a
+        className="custom-button"
+        href="/el-al"
+        onClick={[Function]}
+      >
+        Next
+      </a>
+    </div>
+  </div>
+</div>
+`;
