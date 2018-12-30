@@ -1,29 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
-$border-color: 30px solid yellow;
+$border-color: 40px solid rgb(196, 196, 0);
 $iframe-width: 355px;
 $iframe-height: 200px;
+$leg-color: rgb(50, 50, 50);
 
 .jukebox {
 	@include center();
-	margin-top: $margin-top + 10;
+	margin-top: $margin-top + 20;
+	width: 350px;
+	height: 600px;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	background: yellow;
+	background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
+	animation-name: side-gradient;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;		
 }
 
 .jukebox-title {
-	width: 350px;
+	@include flex();
 	h1 {
-		background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-		animation-name: gradient;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-		border-top-left-radius: 100%;
-		border-top-right-radius: 100%;
 		@include flex();
-		height: 200px;
-		margin-bottom: -10px;
-		border: 45px solid yellow;
-		border-style: groove;
+		height: 170px;
+		width: 300px;
+		margin-top: 20px;
 		font-family: 'Monoton', cursive!important;
+		background: rgb(160, 97, 38);
+		border-top-left-radius: 150px;
+		border-top-right-radius: 150px;
+		border-bottom: $border-color;
+		border-style: groove;
+		margin-bottom: -10px;
 
 	}
 }
@@ -31,28 +40,32 @@ $iframe-height: 200px;
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-bottom: 20px;
 }
+.leg-bottom {
+	width: 100%;
+	background: $leg-color;
+    border-right: 10px solid $leg-color;
+    border-right-style: groove;
+	height: 30px;
+}
 .leg {
-	width: 70px;
-	height: 70px;
-	background: yellow;
-	margin-top: -20px;
-	border: $border-color;
-	border-style: groove;
+	width: 50px;
+	height: 50px;
+	background: $leg-color;
+    border-bottom: 10px solid $leg-color;
+    border-right: 10px solid $leg-color;
+    border-bottom-style: groove;
+    border-right-style: groove;
 	border-bottom-left-radius: 25%;
 	border-bottom-right-radius: 25%;		
 }
 .area	{
 	margin: 0 auto;
-    height: 500px;
-    width: 350px;
+    height: 390px;
+    width: 300px;
     background: black;
-	border-bottom: $border-color;
-	border-left: $border-color;
-	border-right: $border-color;
-	border-style: groove;    
-    margin-bottom: 20px;
     .content {
 		height: 1100px;
 		iframe {
@@ -68,44 +81,65 @@ $iframe-height: 200px;
     background: white!important;
 }
 
-@keyframes gradient {
-  0%   {background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)}
-  16%  {background-image: linear-gradient(to right, orange,yellow,green,blue,indigo,violet,red)}
-  33%  {background-image: linear-gradient(to right, yellow,green,blue,indigo,violet,red,orange)}
-  50% {background-image: linear-gradient(to right, green,blue,indigo,violet,red,orange,yellow)}
-  66% {background-image: linear-gradient(to right, blue,indigo,violet,red,orange,yellow,green)}
-  83% {background-image: linear-gradient(to right, indigo,violet,red,orange,yellow,green,blue)}
-  100% {background-image: linear-gradient(to right, violet,red,orange,yellow,green,blue,indigo)}
+.jukebox-text {
+	margin-top: 100px;
+	color: white;
 }
 
+
+
+  
 @media (min-width: 769px) {
-
-.legs {
-	width: 500px;
-}
-.leg {
-	width: 100px;
-	height: 100px;	
-}
-
-.jukebox-title {
-	width: 500px;
-}
-
-.area {
-    width: 500px;
-	.content {
-		height: 1600px;
-		iframe {
-			margin-top: 10px;
-			width: $iframe-width;
-			height: $iframe-height;
-		}
+	.jukebox {
+		width: 500px;
+		height: 600px;		
 	}
 
-}
+	.jukebox-title {
+		h1 {
+			@include flex();
+			height: 200px;
+			width: 450px;	
+		}
+	}	
+	.legs {
+		width: 500px;
+	}
+	.leg-bottom {
+		width: 100%;
+		background: $leg-color;
+		border-right: 10px solid $leg-color;
+		border-right-style: groove;
+		height: 30px;
+	}
+	.leg {
+		width: 70px;
+		height: 70px;	
+	}
+
+	.area {
+		height: 390px;
+		width: 450px;
+		.content {
+			height: 1600px;
+			iframe {
+				margin-top: 10px;
+				width: $iframe-width;
+				height: $iframe-height;
+			}
+		}
+	}
 }
 
+@keyframes side-gradient {
+	0%   {background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet)}
+	16%  {background-image: linear-gradient(to bottom, orange,yellow,green,blue,indigo,violet,red)}
+	33%  {background-image: linear-gradient(to bottom, yellow,green,blue,indigo,violet,red,orange)}
+	50% {background-image: linear-gradient(to bottom, green,blue,indigo,violet,red,orange,yellow)}
+	66% {background-image: linear-gradient(to bottom, blue,indigo,violet,red,orange,yellow,green)}
+	83% {background-image: linear-gradient(to bottom, indigo,violet,red,orange,yellow,green,blue)}
+	100% {background-image: linear-gradient(to bottom, violet,red,orange,yellow,green,blue,indigo)}
+}
 
 
 

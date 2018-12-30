@@ -12,6 +12,7 @@ const songs = [
 ]
 const Jukebox = () => {
   return (
+	  <div>
 		<div className="jukebox">
 			<div className="jukebox-title">
 				<h1>Sababa!</h1>
@@ -25,9 +26,15 @@ const Jukebox = () => {
 				{songs.map((x, index) => <iframe title={x.title} key={index}  src={`https://www.youtube.com/embed/${x.src}`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>)}
 			</ScrollArea>
 			<div className="legs">
+				<div className="leg-bottom"></div>
 				<div className="leg"></div>
 				<div className="leg"></div>
-			</div>
+  			</div>
+		</div>
+		<div className="jukebox-text">
+		<h1>Jukebox!</h1>
+		<p>Over the course of our trip, we managed to hear a few songs, mostly on the bus.  From karaoke jams to popular Israeli songs, and of course, Take Me Home Country Roads, there were quite a few songs. Check out the Jukebox to play the most memorable songs of the trip.</p>
+		</div>
 		</div>
   );
 };
