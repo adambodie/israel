@@ -320,7 +320,8 @@ td {
 
 .buttons button {
   font-family: "Press Start 2P", cursive !important;
-  font-size: 10px;
+  text-align: center;
+  font-size: 8px;
   padding: 5px;
   margin: 5px;
   width: 45px;
@@ -363,7 +364,7 @@ td {
 .game h1 {
   background: #0038B8;
   font-family: "Press Start 2P", cursive !important;
-  font-size: 2em; }
+  font-size: 1.75em; }
 
 .result {
   height: 300px; }
@@ -371,7 +372,8 @@ td {
 .result h4 {
   color: yellow;
   font-family: "Press Start 2P", cursive !important;
-  text-align: center; }
+  text-align: center;
+  font-size: 1em; }
 
 .result img {
   max-width: 100px;
@@ -422,7 +424,7 @@ td {
     width: 75px;
     height: 75px;
     font-family: "Press Start 2P", cursive !important;
-    font-size: 16px; }
+    font-size: 12px; }
   .buttons img {
     width: 50px;
     height: 50px; } }
