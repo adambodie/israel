@@ -20,7 +20,8 @@ import {
 	masadaIntro,
 	snakeIntro,
 	nachalIntro,
-	deadSeaIntro
+	deadSeaIntro,
+	telAvivNightIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -186,9 +187,9 @@ export class Provider extends Component {
 						link: 'dead-sea', 
 						image: 'deadSea'
 					},{
-						title: "Welcome to Tel Aviv, the Greatest City in the World", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[18].title, 
+						intro: telAvivNightIntro, 
+						link: 'tel-aviv-night', 
 						image: 'telAvivNight'
 					}					
 					]

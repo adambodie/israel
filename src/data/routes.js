@@ -16,7 +16,8 @@ import {
 	masada, 
 	snake,
 	nachal,
-	deadSea
+	deadSea,
+	telAvivNight
 	} from './articles';
 
 const routes = [
@@ -173,6 +174,12 @@ const routes = [
 		link: "dead-sea",
 		prev: "nachal",
 		next: "tel-aviv-night"	
+	},{
+		title: "Welcome to Tel Aviv, the Greatest City in the World",
+		paragraph: telAvivNight,
+		link: "tel-aviv-night",
+		prev: "dead-sea",
+		next: "tel-aviv-beach"	
 	}		
 	
 ]

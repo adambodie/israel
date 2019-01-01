@@ -249,7 +249,7 @@ table thead {
 
 .answer {
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity .8s;
   background: #0038B8;
   color: #fff;
   position: absolute;
@@ -269,14 +269,24 @@ table thead {
 
 .card .answer {
   transition: transform .6s ease-out;
-  transform: translateX(-100%); }
+  transform: translateX(100%); }
 
 .card:hover .answer {
   transform: translateX(0); }
 
+.question {
+  text-shadow: none; }
+
+.question tbody {
+  border: none !important; }
+
+.question tr {
+  background: white !important; }
+
 .question h2 {
   font-size: 1.0em;
-  margin: 0px 5px; }
+  margin: 0px 5px;
+  margin-top: 20px; }
 
 .card {
   position: relative;
@@ -299,7 +309,7 @@ td {
 .card .answer {
   opacity: 1; }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .question h2 {
     font-size: 1.5em; }
   td {
@@ -307,13 +317,6 @@ td {
   .card {
     width: 450px;
     height: 300px; } }
-
-@media (min-width: 769px) {
-  .card {
-    width: 525px;
-    height: 350px; }
-  td {
-    font-size: 20px; } }
 
 .buttons {
   display: flex;

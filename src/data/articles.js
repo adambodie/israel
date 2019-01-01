@@ -477,4 +477,19 @@ Afterwards, there was a shower on the coast to clean off any excess mud I missed
 `;
 
 
+export const telAvivNightIntro = `
+It was quite an adventure going from our hotel in Arad to Masada, the nature hike in Ein Gedi and the Dead Sea.  These were some of the things, particularly Masada, that I had been looking forward to the most.  But the day was far from over.  Now it was time for a bus ride to the coolest, modern, partying city in Israel, which of course, is Tel Aviv.
+`;
+
+export const telAvivNight = `
+${telAvivNightIntro}
+
+Arriving in the evening, the city from what I could see, was lit up with plenty of tall buildings surrounding the area.  We arrived at our hotel, basically right on the beach, providing a great location.  Unfortunately, I was quite terrified, along with my new roommate Jaron, that our room only had one measly bed.  Something didn’t seem right, as I was first given a key to another room.  So after a shower in a small bathroom, I found Hadas, who tried her best with such a raspy voice, to explain to the hotel clerk of this mixup.  We wound up with a bigger room with two beds, a much bigger bathroom.  More on that later.
+
+Once that frustrating ordeal was over, it was time to eat.  We walked to a restaurant called Maganda, which Jake told us he was paying for (which proved to be false). But regardless of that, despite my prior frustrations, ended up being the best meal of the trip, complete with appetizers, kabobs, and some wine we got separately, I wound up sharing some Israeli Sauvignon Blanc.  A great way to celebrate a wonderful day of fun.  But things were just beginning in Tel Aviv.  After dinner, we got a chance to explore Tel Aviv at night.
+
+I wound up joining Zack, Andy, Sammie and Paige after Zack asked if I wanted to join them for a drink.  I was cool with that, and asking Hadas where the Flea Market was, we opted to walk down to the Flea Market, which wasn't too far from the restaurant and hotel.  Heading down, the city lit up , with a vibe similar to Miami (a place I've never been to, but with the skyscrapers along the beach and tropical feel, it made perfect sense).  The skyscrapers were tall, not super-tall, but quite pretty to see in the night.  Also visible and quite beautiful was a view of the historic part of Tel Aviv, Jaffa.  Even the beach looked beautiful in the night, with just enough light to actually see the beach, but dark enough to know it was the evening.  Eventually, we found ourselves approaching the Flea Market with the Clock Tower in the middle, which itself was quite pretty lit up as well.  
+
+At the Flea Market, we found a hip looking bar and ordered a drink.  I had something I hadn't had in a while, a Negroni, with equal parts Gin, Sweet Vermouth and Campari.  A nice drink to have that I don't usually have, so whenever I have one in the future, I'll remember Tel Aviv.  The waitress even gave us free shots of some liquor, which I believe is something popular in Israel.  Whatever it was called, I had a sip of the anise flavored liquor, but wasn't quite eager to take the shot with the Negroni and the wine I had during dinner.  Next time, I'll take the shot.  After the bar, we walked back to the Hotel, about 20-30 minutes away, but easy to find since all we needed to do was to find the beach and follow it up north.  It was 12:30 am, technically the next day, but who cares about semantics, right?  
+`;
 
