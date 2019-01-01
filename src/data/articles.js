@@ -276,7 +276,7 @@ After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typ
 - April 2, 1947: Great Britain seeks the help UN General Assembly to create up a plan to divide Palestine
 
 ![UN Partition Plan](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/un-partition-map.jpg)
-- November 29, 1947: The UN votes on the **Partition Plan**, which narrowly passes.  The Israeli's accept the plan, wanting security more than anything even if it meant giving up land, but the Palestinians reject the plan, believe they were entitled to all of it since they had previous control and the Jews left before they arrived.
+- November 29, 1947: The UN votes on the **Partition Plan**, which narrowly passes.  The Israelis accept the plan, wanting security more than anything even if it meant giving up land, but the Palestinians reject the plan, believe they were entitled to all of it since they had previous control and the Jews left before they arrived.
 - May 14, 1948: The Jews declare independence, creating the state of Israel
 - May 15, 1948: The **Arab-Israeli War** begins, pitting Israel against the Arab League, primarily consisting of Egypt, Jordan, Syria, Iraq, Saudi Arabia, Yemen (and briefly Lebanon).
 
@@ -378,7 +378,7 @@ export const masada = `
 ${masadaIntro}
 
 
-After getting plenty of pictures surrounding and of myself showcasing exactly how I felt in such a special place, we briefly stopped for a little rest.  Perfect seeing that we walked up the Roman ramp.  After resting, we headed to the area of the Northern Palace, where we learned about Herod the Great and his palaces on Masada.  But it was a little difficult to pay attention at times with all the birds chirping and flying to our area.  Known as Tristram’s Starling, these little black birds were quite the entertainment. 
+After getting plenty of pictures surrounding and of myself showcasing exactly how I felt in such a special place, we briefly stopped for a little rest.  Perfect seeing that we walked up the Roman ramp.  After resting, we headed to the area of the Northern Palace, where we learned about Herod the Great and his palaces on Masada.  But it was a little difficult to pay attention at times with all the birds chirping and flying to our area.  Known as Tristram’s Starling, these little black birds were quite the entertainment.  A more serious issue that we had was that Hadas was beginning to lose her voice; by the end of the day, it would be down to a rasp.
 
 Afterwards, we headed to the Western Palace and entered a bathhouse, where we could see the remains.  It was rather interesting to see the black line throughout the structure indicating everything that was original on the bottom, and everything that was reconstructed on the top.
 
@@ -414,14 +414,14 @@ ${snakeIntro}
 
 Once we were prepared, the journey down the Snake Path began with amazing views of the Dead Sea and Desert, along with the Cableway going up and down to the surface.  The switchbacks were steep, but not too steep.  At first, there were railings to assist, but about halfway through, the rails were no longer there.  It was going to be a long trip down, but thankfully I had someone to talk to for half of the walk down.  That might not be a big deal for most, but for someone as shy as myself, having Pittsburgh Andrew to talk with for half of the way down was kind of a big deal for me.  
 
-After making it to the bottom, we were relieved to have completed the walk down.  Perhaps this was more of the Rocky moment I had anticipated would be walking up to Masada.  In all, it took me 38 minutes to go from the top of Masada to the bottom, an elevation drop of about 1000 feet, at a distance of 1.2 miles.  Though I was quite exhausted, it was well worth all of it.  Going up to Masada, seeing all the ruins and natural sights, and the views going down.  Everything is better when you work at it and savor the experience.
+After making it to the bottom, we were relieved to have completed the walk down.  Perhaps this was more of the Rocky moment I had anticipated would be walking up to Masada.  In all, it took me 38 minutes to go from the top of Masada to the bottom, an elevation drop of about 1000 feet, at a distance of 1.2 miles.  Though I was quite exhausted, it was well worth all of it.  Going up to Masada, seeing all the ruins and natural sights, and the views going down.  Everything's better when you work at it and savor the experience.
 
 Afterwards, we entered the Visitor Center.  There I entered the Gift Shop to look around.  Seeing postcards, I thought this would be the perfect chance to buy postcards for my wonderful new Auntie Pam and Uncle Randy.  I picked a Masada postcard for Auntie Pam because the desert landscape is similar to Utah, while I picked a Jerusalem postcard for Uncle Randy because of his passion to religion.  I bought the post cards, but unfortunately, I wound up misplacing them somewhere in Tel Aviv later on.  Sorry Auntie Pam and Uncle Randy.  Though our trip to Masada was over, the nature and walking was far from over.  We had more stops on the way, not to mention a drive to Tel Aviv.  Today was going to be an awesome day! 
 
 `;
 
 export const nachalIntro = `
-After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at Nachal, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
+After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at the Ein Gedi Nature Reserve, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
 `;
 
 export const nachal = `
@@ -437,4 +437,44 @@ But none of this could match the waterfalls along the path.  The last thing I ex
 
 We reached the end of our path at a waterfall with a pool of water to go into.  Some jumped right in, though I put my feet in the water.  I didn’t go too far in, I figured I would save that for the Dead Sea.  But with a perfect blend of desert, water and green, this area was quite amazing to me, and totally unexpected.  It was reasons like this that I chose not to research all the places on the itinerary beforehand.  After this, we headed back in preparation for our next stop, the lowest place on Earth: the Dead Sea.
 
+# Ein Gedi Nature Reserve Facts
+- The Nubian Ibex is a member of the goat family, with the Nubian Ibex, a desert-dwelling variety, being found in mountainous desert areas in Africa and the Middle East.
+- The Rock Hyrax is a small mammal that looks similar to a marmot, but like other Hyraxes, has more in common with elephants and manatees, in part due to its genital location and flattened nails
+- Hyraxes are also known by some as Dassies.
+- The stream running through the nature reserve is named after King David
+- Yael, a biblical heroine from the Book of Judges, is the hebrew translation of Ibex
+- The Rock Hyrax typically spends about 95% of its time resting, usually basking in the sun in what some consider to be their way of thermoregulation
 `;
+
+export const deadSeaIntro = `
+After a lot of hiking, we all needed to rest.  And what a better way to relax and take it easy than going to the Dead Sea, where you can float in the water, cover yourself in its healing mud and otherwise just have fun on the salty beach.  Fortunately, it wasn’t too far from the nature hike, and equally fortunate, there was a spa to eat.
+`;
+
+export const deadSea = `
+${deadSeaIntro}
+
+After arriving at the Ein Gedi Spa, I ate a little lunch, not too appetizing, but enough to fill me up.  Then it was time to get into my beach clothes.  Off came the shoes and socks, on came the sandals.  Off came the shorts, on came the swimsuit.  I waited to take my shirt off until I reached the sea itself.  After changing, we hopped on a tractor bus to take us to the Dead Sea itself.  Thanks to the rapid decline in water levels over the last 15+ years, this mode of transportation was created, as the Spa was originally built on the coastline.  An interesting fact, but a sad reminder of how man can decimate the natural beauty in this world.
+
+Reaching the Dead Sea, it was time to jump in the water.  As it was quite salty, the Dead Sea provided opportunities to float regardless of depth and also gave way to fascinating salt formations and other unique landscapes.  The views of the Dead Sea, the Moab Mountains across the sea in Jordan, and everything else were quite beautiful to see.  I wanted to focus first on taking pictures, so I didn’t tread too far within the water.  
+
+Afterwards, I walked over to a muddy part of the grounds to try the healing mud.  Having scraped my arm the night before when the wind blew, I thought I try it on there.  Attempting to cross the mud, I soon found myself getting my sandals stuck in the mud, barely able to get my sandals out of the mud.  At one point, I nearly lost my balance and came extremely close to dropping my phone in the mud.  That would’ve been a complete disaster, but thankfully it was diverted.
+
+That led me to take a break from picture taking, as I found myself wanting to enjoy myself and not worry about my phone.  I washed off the little bit of mud in the sea, but then went back to the mud to cover myself completely in mud, minus the face, swimsuit and sandals.  Soon I looked like a mud man and joined the others in the group covered in mud.  Some had ended up looking darker with their mud, and wondering why, I found out that they had purchased their mud at the Spa.  I enjoyed being in the real mud, a definite once-in-a-lifetime experience.
+
+But the mud couldn’t stay on forever, so I walked back in the Dead Sea to clean the mud off of me.  I then took the opportunity to float in the sea.  As I don’t know how to swim, I felt uneasy, despite the saltiness of the water, of floating on my back, as plenty of people do in the Dead Sea.  But I still managed to get off my feet and float from within.  It was a fun way to spend the afternoon after such a long day of hiking.  But there were a lot of annoying bugs flying around, which I didn't particularly care for.  That part I was glad to get rid of.
+
+Afterwards, there was a shower on the coast to clean off any excess mud I missed.  Then it was time to hop back on the tractor bus back to the spa.  Another shower soon awaited at the spa and I cleaned myself off one last time, to put on my regular clothes back on.  The day in nature was over, and it was the best day of the trip.  But it wasn’t quite over.  An extended bus ride was just what we needed, as it was a two hour drive to the greatest city in the world: Tel Aviv.
+
+# Dead Sea Facts
+![Dead Sea Level Comparison](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/dead-sea-level.jpg)
+- Though named the Dead Sea, as it is not connected to any Ocean, it is technically a lake
+- At about 418 feet below sea level, the Dead Sea is the lowest elevation on land in the world
+- The Dead Sea contains about 35% salt, one of the most saltiest bodies of water in the world.  The typical body of water contains about 3%
+- The water level of the Dead Sea has been rapidly declining since the 1930s, going from 410 sq mi to 234 sq mi, primarily caused by diverting water from the Jordan River from the north, the only connecting body of water to the Dead Sea
+- Plans to connect a waterway between the Dead Sea and the Red Sea, known as the Red Sea-Dead Sea Waterway Conveyance, are currently underway to stabilize the water within the Dead Sea and provide drinking water for Israel/Jordan/Palestine
+- Its name come from the fact that most organisms can't live in it; only miniscule bacteria and fungi can survive in the Dead Sea
+
+`;
+
+
+

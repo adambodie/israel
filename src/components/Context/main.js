@@ -19,7 +19,8 @@ import {
 	romanIntro,
 	masadaIntro,
 	snakeIntro,
-	nachalIntro
+	nachalIntro,
+	deadSeaIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -180,9 +181,9 @@ export class Provider extends Component {
 						link: 'nachal', 
 						image: 'nachal'
 					},{
-						title: "The Dead Sea: Healing in the Lowest Point with Mud", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[17].title, 
+						intro: deadSeaIntro, 
+						link: 'dead-sea', 
 						image: 'deadSea'
 					},{
 						title: "Welcome to Tel Aviv, the Greatest City in the World", 

@@ -125,6 +125,10 @@ section {
   margin: 0 auto;
   margin-bottom: 20px; }
 
+.o-content__inner-body a, .welcomeIntro a {
+  color: white;
+  font-weight: bold; }
+
 .c-side-nav {
   background-color: #0038B8;
   word-wrap: break-word; }
@@ -891,14 +895,14 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  color: #0038B8;
+  color: #0038B8 !important;
   background: white;
   border: 2px solid #0038B8;
   text-shadow: none; }
 
 .custom-button:hover {
   background: #0038B8;
-  color: white; }
+  color: white !important; }
 
 .custom-main {
   margin-bottom: 30px;

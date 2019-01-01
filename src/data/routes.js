@@ -15,7 +15,8 @@ import {
 	roman, 
 	masada, 
 	snake,
-	nachal
+	nachal,
+	deadSea
 	} from './articles';
 
 const routes = [
@@ -160,14 +161,19 @@ const routes = [
 		link: "snake",
 		prev: "masada",
 		next: "nachal"			
-	}
-,{
+	},{
 		title: "Nachal: Not a Mirage",
 		paragraph: nachal,
 		link: "nachal",
 		prev: "snake",
 		next: "dead-sea"			
-	}	
+	},{
+		title: "The Dead Sea: Healing in the Mud",
+		paragraph: deadSea,
+		link: "dead-sea",
+		prev: "nachal",
+		next: "tel-aviv-night"	
+	}		
 	
 ]
 

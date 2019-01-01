@@ -15,7 +15,6 @@ body {
 	padding: 0;
 }
 
-
 .App {
 	text-align: center;
 	text-shadow: 2px 2px 4px black;
@@ -66,13 +65,13 @@ body {
 	border-radius: 10px;
 	@include flex();
 	margin: 0 auto;
-	color: $background-color;
+	color: $background-color!important;
 	background: white;
 	border: 2px solid $background-color;
 	text-shadow: none;
 	&:hover {
 		background: $background-color;
-		color: white;
+		color: white!important;
 	}
 }
 
