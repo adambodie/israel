@@ -493,3 +493,20 @@ I wound up joining Zack, Andy, Sammie and Paige after Zack asked if I wanted to 
 At the Flea Market, we found a hip looking bar and ordered a drink.  I had something I hadn't had in a while, a Negroni, with equal parts Gin, Sweet Vermouth and Campari.  A nice drink to have that I don't usually have, so whenever I have one in the future, I'll remember Tel Aviv.  The waitress even gave us free shots of some liquor, which I believe is something popular in Israel.  Whatever it was called, I had a sip of the anise flavored liquor, but wasn't quite eager to take the shot with the Negroni and the wine I had during dinner.  Next time, I'll take the shot.  After the bar, we walked back to the Hotel, about 20-30 minutes away, but easy to find since all we needed to do was to find the beach and follow it up north.  It was 12:30 am, technically the next day, but who cares about semantics, right?  
 `;
 
+export const telAvivBeachIntro = `
+I woke up in Tel Aviv, in a bigger room with my own bed, wondering what Tel Aviv would look like in the sun.  To say the least, I got a great first impression.  I had no idea in the dark, but our room had a patio door with an outside view.  Looking at the view, I could see the beautiful Mediterranean Sea and the buildings within view.  It was going to be a wonderful day!
+
+`;
+
+export const telAvivBeach = `
+${telAvivBeachIntro}
+
+First I needed to eat some breakfast.  I arrived fairly early, around 7:30 am, with no one in my group there.  The breakfast food wasn’t all that appetizing to me, but one thing that was noticeably missing (thankfully) was the instant coffee.  Instead, they had an espresso machine.  A much better alternative than the instant crap.  That alone made breakfast better, but I wasn’t that hungry anyhow.
+
+Walking outside the hotel, I saw the beach across the street and walked around a little bit along the coast.  I didn’t want to get any sand in my shoes, so I didn’t stray on the beach itself, but the water was beautiful, unlike any sea or ocean I’d ever seen before (on that note, Crater Lake and Lake Tahoe have far bluer waters, but both of those are lakes).  It was so beautiful to walk around, and the temperature was warmer than in Jerusalem, which in November was pleasant temperatures of 60s-70s throughout the day.  The buildings I could see from the beach were neat and fascinating, not like your typical American skyscrapers.
+
+It was unfortunate that I didn’t get that much time at the beach nor at the hotel.  It appeared the room I was in was a suite, with its large size and its own private patio.  The rooms next to ours had a shared patio you could enter in the hallway.  But Room 308, on the top floor, was at the end of the hall.  Perfect for being originally placed in a one bedroom dinky room with a small bathroom.  If those who hadn’t made dumb jokes about the situation only knew what we wound up with.  And I initially thought the patio needed a key, but Jaron informed me I had turned the patio door the wrong way, thus I was able to enjoy the private patio for a few extra minutes.  If only I could have forced the staff to keep the room indefinitely, but I couldn’t do that.  Plus the Wi-Fi signal didn’t reach the top floor, so it was time to leave for my first choose your own adventure of the day.  
+
+
+`;
+

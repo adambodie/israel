@@ -17,7 +17,8 @@ import {
 	snake,
 	nachal,
 	deadSea,
-	telAvivNight
+	telAvivNight,
+	telAvivBeach
 	} from './articles';
 
 const routes = [
@@ -180,7 +181,13 @@ const routes = [
 		link: "tel-aviv-night",
 		prev: "dead-sea",
 		next: "tel-aviv-beach"	
-	}		
+	},{
+		title: "Morning Stroll along the beaches of Tel Aviv",
+		paragraph: telAvivBeach,
+		link: "tel-aviv-beach",
+		prev: "tel-aviv-night",
+		next: "graffiti"	
+	}			
 	
 ]
 

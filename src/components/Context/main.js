@@ -21,7 +21,8 @@ import {
 	snakeIntro,
 	nachalIntro,
 	deadSeaIntro,
-	telAvivNightIntro
+	telAvivNightIntro,
+	telAvivBeachIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -200,9 +201,9 @@ export class Provider extends Component {
 					date: 'November 14, 2018',
 					items: [ 
 					{
-						title: "Morning Stroll on the beaches of Tel Aviv", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[19].title, 
+						intro: telAvivBeachIntro, 
+						link: 'tel-aviv-beach', 
 						image: 'telAvivBeach'
 					},
 					{
@@ -210,7 +211,14 @@ export class Provider extends Component {
 						intro: dummy, 
 						link: 'todoList', 
 						image: 'graffiti'
-					},{
+					},
+					{
+						title: "In Search of A Hebrew Sports Shirt", 
+						intro: dummy, 
+						link: 'todoList', 
+						image: 'carmel'
+					},
+					{
 						title: "Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City", 
 						intro: dummy, 
 						link: 'todoList', 

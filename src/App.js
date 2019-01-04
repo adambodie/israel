@@ -9,6 +9,7 @@ import NoMatch from './components/NoMatch';
 import Main from './components/Main/Main';
 import Game from './components/Game/Game';
 import Jukebox from './components/Jukebox';
+import Graffiti from './components/Graffiti/Graffiti';
 import TodoList from './components/Todo/TodoList';
 import Post from './components/Posts/Post';
 import routes from './data/routes';
@@ -27,6 +28,7 @@ const App = () => {
 						<Route path="/shakshuka" component={Shakshuka} />
 						<Route path="/game" component={Game} />
 						<Route path="/jukebox" component={Jukebox} />
+						<Route path="/graffiti" component={Graffiti} />
 						{routes.map((x, index) =>
 							<Route 
 								key={index} 
