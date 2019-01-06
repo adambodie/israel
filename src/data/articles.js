@@ -510,3 +510,23 @@ It was unfortunate that I didn’t get that much time at the beach nor at the ho
 
 `;
 
+export const graffitiIntro = `
+For our main activities of the day, we were given two choices for our morning activity.  For the morning, we could either go on a bike tour or a graffiti tour.  To me, the choice was fairly simple.  Though I would have covered more ground in a bike, and seen more, it would have been harder to get pictures.  Plus I haven’t ridden a bike in years. So I chose the Graffiti tour to see a fascinating and unique part of Tel Aviv.
+
+`;
+
+export const graffiti = `
+${graffitiIntro}
+
+As the bus dropped our Graffiti group off in an ordinary, somewhat hip neighborhood of Florentin, we met our tour guide, Yaara, who showed us various samples of graffiti throughout, teaching us the differences between Graffiti and Street Art, the stories behind some particular paintings, and the intuitive ways graffiti artists used to avoid getting in trouble for their illegal artwork.  Who knew there are tours for things that technically aren’t even legal…
+
+I found some of the stories to be quite entertaining and the graffiti to be quite clever.  I loved seeing a part of a city I’ve never seen before anywhere.  It almost made me want to grab a spray can and tag a wall.  At the end of the tour, we were given the opportunity to do just that.  Unfortunately, we only got 5 minutes and I barely got any time to try my magic at all, tagging my initials in green.  But it was the thought that counts and it was still cool regardless
+
+# Rules about Graffiti
+- If it’s Graffiti, it’s illegal, if it’s Street Art, it’s legal
+- The harder it is to read your tagged name, the more respect you get
+- If you do something that’s disrespectful or if you tag a rival area, said rival will tag over your work
+- Certain pieces of art are considered untouchable.
+
+
+`;

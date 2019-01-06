@@ -18,7 +18,8 @@ import {
 	nachal,
 	deadSea,
 	telAvivNight,
-	telAvivBeach
+	telAvivBeach,
+	graffiti
 	} from './articles';
 
 const routes = [
@@ -187,6 +188,13 @@ const routes = [
 		link: "tel-aviv-beach",
 		prev: "tel-aviv-night",
 		next: "graffiti"	
+	},{
+		title: "Choose Your Own Adventure: Tagging Tel Aviv with Graffiti",
+		paragraph: graffiti,
+		link: "graffiti",
+		prev: "tel-aviv-beach",
+		next: "carmel",
+		graffiti: true	
 	}			
 	
 ]

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import PhotoList from './PhotoList';
 import Quiz from '../Quiz/Quiz';
 import Map from '../Map';
+import Graffiti from '../Graffiti/Graffiti';
 export default class Post extends Component {
 
 	constructor() {
@@ -34,6 +35,7 @@ export default class Post extends Component {
 					<ReactMarkdown source={this.props.paragraph} className="article" />
 					{this.props.begin >= 0 && (<Quiz begin={this.props.begin} end={this.props.end} number={this.props.number}/>)}
 					{this.props.map === true && (<Map locations={this.props.locations} locationName={this.props.locationName} />)}
+					{this.props.graffiti === true && (<Graffiti />)}
 					<div className="prev-next">
 						<Link to={ this.props.prev } className='custom-button'>Prev</Link>
 						<Link to={ this.props.next } className='custom-button'>Next</Link>

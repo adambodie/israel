@@ -1,3 +1,6 @@
+$rabin-width: 400px;
+$rabin-height: 253px;
+
 .graffiti {
 	margin-top: $margin-top;
 	color: white;
@@ -7,10 +10,12 @@
 	}
 }
 
+/* Rabin SCSS
+-------------------------*/
 .rabin {
 	position: relative;
-	height: 300px;
-	width: 421px;
+	height: calc(257px/1.20);
+	width: calc(407px/1.20);
 	@include flex();
 	margin: 0 auto;
 
@@ -26,21 +31,26 @@
 	animation-fill-mode: forwards;
 }
 
-
-#rabin2 {
-	top: -5px;
-}
-
 @keyframes disappear {
 	0%   {opacity: 1}
 	100% {opacity: 0}
 }
 
+@media (min-width: 512px) {
+	.rabin {
+		height: $rabin-height;
+		width: $rabin-width;
 
+	}
+}
+
+/* Thanks SCSS
+--------------------*/
 .thanks {
 	display: flex;
 	position: relative;
-	height: 198px;
+	height: 398px;
+	justify-content: center;
 }
 
 .thanks-cover {
@@ -59,15 +69,19 @@
 #thanks-image {
 	position: absolute;
 	z-index: 999;
-	right: 0;
+	right: auto;
+	top: 100px;
+	
 }
 
+/* 27 Club SCSS
+-----------------*/
 .club {
 	position: relative;
 	@include flex();
 	margin: 0 auto;
-	width: 600px;
-	height: 268px;
+	width: 300px;
+	height: 134px;
 }
 .club-image {
 	position: absolute;
@@ -75,48 +89,111 @@
 .club-cover {
 	position: absolute;
 	background: transparent;
-	height: 268px;
+	height: 134px;
 	&:focus {
 		outline: none;
 	}
 }
 
 .cover-one {
-	width: 100px;
+	width: 50px;
 	left: 0px;
 }
 
 .cover-two {
-	width: 75px;
-	left: 100px;
+	width: 33px;
+	left: 50px;
 }
 
 .cover-three {
-	width: 60px;
-	left: 175px;
+	width: 33px;
+	left: 82px;
 }
 
 .cover-four {
-	width: 66px;
-	left: 235px;
+	width: 36px;
+	left: 114px;
 }
 .cover-five {
-	width: 66px;
-	left: 300px;
+	width: 33px;
+	left: 150px;
 }
 .cover-six {
-	width: 55px;
-	left: 366px;
+	width: 28px;
+	left: 183px;
 }
 .cover-seven {
-	width: 70px;
-	left: 420px;
+	width: 35px;
+	left: 210px;
 }
 .cover-eight {
-	width: 111px;
-	left: 489px;
+	width: 55px;
+	left: 245px;
 }
 
 .ReactModal__Overlay, .ReactModal__Overlay--after-open {
 	background: transparent!important;
+}
+
+@media (min-width: 768px) {
+	.club {
+		width: 600px;
+		height: 268px;
+	}
+	.club-cover {
+		height: 268px;
+	}
+	.cover-one {
+		width: 100px;
+		left: 0px;
+	}
+
+	.cover-two {
+		width: 75px;
+		left: 100px;
+	}
+
+	.cover-three {
+		width: 60px;
+		left: 175px;
+	}
+
+	.cover-four {
+		width: 66px;
+		left: 235px;
+	}
+	.cover-five {
+		width: 66px;
+		left: 300px;
+	}
+	.cover-six {
+		width: 55px;
+		left: 366px;
+	}
+	.cover-seven {
+		width: 70px;
+		left: 420px;
+	}
+	.cover-eight {
+		width: 111px;
+		left: 489px;
+	}		
+}
+
+/* Stories SCSS
+------------------*/
+.story {
+	display: flex;
+	flex-wrap: wrap;
+	p, img {
+		@include center();
+	}
+}
+@media (min-width: 768px) {
+	.story {
+		flex-wrap: nowrap;
+		p, img {
+			padding: 20px;
+		}
+	}
 }

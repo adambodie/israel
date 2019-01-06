@@ -207,9 +207,9 @@ export class Provider extends Component {
 						image: 'telAvivBeach'
 					},
 					{
-						title: "Choose Your Own Adventure: Tel Aviv Graffiti Tour: Mossad style", 
+						title: routes[20].title, 
 						intro: dummy, 
-						link: 'todoList', 
+						link: 'graffiti', 
 						image: 'graffiti'
 					},
 					{
