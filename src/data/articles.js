@@ -522,11 +522,7 @@ As the bus dropped our Graffiti group off in an ordinary, somewhat hip neighborh
 
 I found some of the stories to be quite entertaining and the graffiti to be quite clever.  I loved seeing a part of a city I’ve never seen before anywhere.  It almost made me want to grab a spray can and tag a wall.  At the end of the tour, we were given the opportunity to do just that.  Unfortunately, we only got 5 minutes and I barely got any time to try my magic at all, tagging my initials in green.  But it was the thought that counts and it was still cool regardless
 
-# Rules about Graffiti
-- If it’s Graffiti, it’s illegal, if it’s Street Art, it’s legal
-- The harder it is to read your tagged name, the more respect you get
-- If you do something that’s disrespectful or if you tag a rival area, said rival will tag over your work
-- Certain pieces of art are considered untouchable.
-
+![Adam could have gone on a Bike Ride](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tel-aviv-bike.jpg)
+##### This could've been me...
 
 `;
