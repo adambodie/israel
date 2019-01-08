@@ -518,6 +518,8 @@ For our main activities of the day, we were given two choices for our morning ac
 export const graffiti = `
 ${graffitiIntro}
 
+Before the activity started, we learned that a cease-fire between Israel and Gaza had been agreed to.  So thankfully for us, we no longer had to worry about that.  Even more eventful for some, in addition to the cease-fire, was that Israel's Minister of Defense, Avigdor Lieberman, resigned in protest to that cease-fire.  Though I hadn't followed too much into Israel Politics, Lieberman was described as a far-right racist.  Further educating myself on him, I would not consider myself a fan.  But we could enjoy Tel Aviv and the rest of the trip without worry from Gaza, which is only an hour away.   
+
 As the bus dropped our Graffiti group off in an ordinary, somewhat hip neighborhood of Florentin, we met our tour guide, Yaara, who showed us various samples of graffiti throughout, teaching us the differences between Graffiti and Street Art, the stories behind some particular paintings, and the intuitive ways graffiti artists used to avoid getting in trouble for their illegal artwork.  Who knew there are tours for things that technically aren’t even legal…
 
 I found some of the stories to be quite entertaining and the graffiti to be quite clever.  I loved seeing a part of a city I’ve never seen before anywhere.  It almost made me want to grab a spray can and tag a wall.  At the end of the tour, we were given the opportunity to do just that.  Unfortunately, we only got 5 minutes and I barely got any time to try my magic at all, tagging my initials in green.  But it was the thought that counts and it was still cool regardless
@@ -526,3 +528,19 @@ I found some of the stories to be quite entertaining and the graffiti to be quit
 ##### This could've been me...
 
 `;
+
+export const carmelIntro = `After keeping it real on the Graffiti tour, we were given a chance to do some souvenir shopping and have lunch before our afternoon activity, so we headed to Carmel Market, Tel Aviv’s popular Shuk.  I had been thinking about getting souvenirs for myself and my family, so I was determined to find something there.  When someone had mentioned Hebrew Sport team shirts, I knew I had to find one.
+`;
+
+export const carmel = `
+${carmelIntro}
+
+Arriving in Magen David Square, with the Market across the street, I went along with a few to look for gifts.  There was a lot of things left and right, like Mahane Yehuda, but this time around, I was more rested, prepared, and not looking just before Shabbat, so it was easier to stay focused.
+
+There was plenty of food, Hebrew themed souvenirs, and other stuff left and right.  For a while, I didn’t see anything worth getting at a reasonable price.  But eventually, I found the Sports shirt shop I had been looking for.  To my surprise, they only had a limited number of teams, but the shop-keep made them on site with a presser.  The selection of teams appeared random and somewhat odd.  UCF (University of Central Florida) seemed to stick out like a sore thumb since they were the only Power 5 FBS football team on the list.  A couple were misspelled, thankfully I’m not a fan of the **Pitsburgh** Steelers or the Baltimore **Revens**.    Some of the logos were outdated (though I like some of the old logos), like the Miami Hurricanes and the Toronto Raptors.
+
+But thankfully for me, they (surprisingly) had my alma mater, the Minnesota Golden Gophers, on the list.  I honestly thought they would have had the Oregon Ducks (where I spent my first three years) over the Golden Gophers if they could only have one.  But it didn’t turn out that way.  I also knew this would be the perfect Hanukkah gift for my Dad.  Without a Ducks shirt, I needed another option for my Dad (just a fan, never a student, sorry Dad).  So I ended up getting him a shirt for his favorite NFL team, the Dallas Cowboys.
+
+With that mission accomplished, it was time to eat.  Hadas had recommended a restaurant along King George street, opposite Magen David Square.  It was a bit hard to find, partly because we lacked Wi-Fi to search for directions, partly because we were unfamiliar with the area and with street and address names in Hebrew, we couldn’t read it or make a pattern.  But someone else had been there earlier and told us where to find it.  Eventually, we did and enjoyed some yummy pita filled with meats and veggies.  After lunch, we met at Magen David Square (though some of us, including me, got some Iced Coffee first).  Now it was time for our afternoon activity, another Choose Your Adventure option, this time with three Museum choices.  
+
+`

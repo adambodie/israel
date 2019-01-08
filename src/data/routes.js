@@ -19,7 +19,8 @@ import {
 	deadSea,
 	telAvivNight,
 	telAvivBeach,
-	graffiti
+	graffiti,
+	carmel
 	} from './articles';
 
 const routes = [
@@ -195,8 +196,13 @@ const routes = [
 		prev: "tel-aviv-beach",
 		next: "carmel",
 		graffiti: true	
-	}			
-	
+	},{
+		title: "In Search of A Hebrew Sports Shirt",
+		paragraph: carmel,
+		link: "carmel",
+		prev: "graffiti",
+		next: "tama"	
+	}
 ]
 
 export default routes;

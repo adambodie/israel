@@ -42,6 +42,7 @@ $font-family: 'Press Start 2P', cursive!important;
 	h3 {
 		font-family: $font-family;
 		color: yellow;
+		font-size: 1.5em;
 	}
 }
 
@@ -70,6 +71,10 @@ $font-family: 'Press Start 2P', cursive!important;
 	img {
 		max-width: 100px;
 		max-height: 100px;
+		position: absolute;
+		opacity: 1;
+		left: 25%;
+		right: 25%;
 	}
 }
 
@@ -115,6 +120,56 @@ $font-family: 'Press Start 2P', cursive!important;
 		color: white;
 	}
 }
+
+
+
+.player-pick {
+		animation-name: playerPick;
+		animation-duration: 1s;	
+}
+
+.loss {
+		animation-name: playerLoss;
+		animation-delay: 0.5s;
+		animation-duration: 1.5s;
+		animation-fill-mode: forwards;	
+}
+
+
+.computer-pick {
+		animation-name: computerPick;
+		animation-duration: 1s;	
+}
+@keyframes playerPick {
+	0% {
+		margin-left: 0;
+		z-index: 1;
+	}
+	100% {
+		margin-left: 300px;
+		z-index: 100;
+	}
+}
+
+@keyframes playerLoss {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes computerPick {
+	0% {
+		margin-left: 0;
+		z-index: 1;
+	}
+	100% {
+		margin-left: -300px;
+		z-index: 100;
+	}
+}
 @media (min-width: 769px) {
 	.game {
 		width: 100%;
@@ -132,4 +187,15 @@ $font-family: 'Press Start 2P', cursive!important;
 		}
 	}
 	
+}
+
+
+.playerResult {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#playerOne {
+	transform: rotateY(180deg);
 }

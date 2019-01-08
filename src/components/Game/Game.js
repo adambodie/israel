@@ -2,15 +2,18 @@ import React, { Component} from 'react';
 import { Row, Column } from 'react-foundation';
 import GamePlayers from './GamePlayers';
 
+// p = player, o = opponent
 export default class Game extends Component {
 	constructor(){
 		super();
 		this.state = {
 			result: '',
-			playerScore: 0,
-			opponentScore: 0,
-			playerWin: 0,
-			opponentWin: 0,
+			pScore: 0,
+			pClassName: '',
+			oScore: 0,
+			oClassName: '',
+			pWin: 0,
+			oWin: 0,
 			draw: 0,
 			start: false,
 			buttons: [
@@ -24,41 +27,55 @@ export default class Game extends Component {
 	}
 	handleReset() {
 		this.setState({
-			opponentScore: 0,
-			playerScore: 0,
-			playerWin: 0,
-			opponentWin: 0,
+			pScore: 0,
+			pClassName: '',
+			pWin: 0,
+			oScore: 0,			
+			oWin: 0,
+			oClassName: '',
 			draw: 0,
 			result: '',
 			start: false
 		})		
 	}
+	
+
 	handleClick(e, index) {
-		const buttons = this.state.buttons
-		const opponentNewScore = Math.floor(Math.random() * 3);
-		const playerNewScore = this.state.buttons[index].id;
-		let addPlayerWin = this.state.playerWin;
-		let addOpponentWin = this.state.opponentWin;
+		const buttons = this.state.buttons;
+		const oNewScore = Math.floor(Math.random() * 3);
+		const pNewScore = buttons[index].id;
+		let pNewWin = this.state.pWin;
+		let pNewClassName = this.state.pClassName;
+		pNewClassName = '';
+		let oNewClassName = this.state.oClassName;
+		oNewClassName = '';
+		let oNewWin = this.state.oWin;
 		let addDraw = this.state.draw;
 		let newResult = '';
-		if (opponentNewScore === playerNewScore) {
+		if (oNewScore === pNewScore) {
 			newResult = "It's a Draw";
 			addDraw++;
-		}  else if 	((opponentNewScore === 2 && playerNewScore === 0) 
-					|| (opponentNewScore === 1 && playerNewScore === 2) 
-					|| (opponentNewScore === 0 && playerNewScore === 1)) {
-			newResult = `${buttons[playerNewScore].name} beats ${buttons[opponentNewScore].name}. Player wins`;
-			addPlayerWin++;
+		}  else if 	((oNewScore === 2 && pNewScore === 0) 
+					|| (oNewScore === 1 && pNewScore === 2) 
+					|| (oNewScore === 0 && pNewScore === 1)) {
+			newResult = `Player wins`;
+			pNewClassName = 'player-pick';
+			oNewClassName = 'loss';
+			pNewWin++;
 			
 		} else {
-			newResult = `${buttons[opponentNewScore].name} beats ${buttons[playerNewScore].name}. Computer wins`;
-			addOpponentWin++;
+			newResult = `Computer wins`;
+			oNewWin++;
+			oNewClassName = 'computer-pick';
+			pNewClassName = 'loss';
 		}
 		this.setState({
-			opponentScore: opponentNewScore,
-			playerScore: playerNewScore,
-			playerWin: addPlayerWin,
-			opponentWin: addOpponentWin,
+			pScore: pNewScore,
+			pClassName: pNewClassName,
+			pWin: pNewWin,
+			oScore: oNewScore,
+			oClassName: oNewClassName,
+			oWin: oNewWin,
 			draw: addDraw,
 			result: newResult,
 			start: true
@@ -70,10 +87,12 @@ export default class Game extends Component {
 				<Column large={6} offsetOnLarge={3}>
 					<h1>Rock, Paper, Scissors!!!</h1>
 					<GamePlayers 
-						opponentScore={this.state.opponentScore} 
-						playerScore={this.state.playerScore} 
-						playerWin={this.state.playerWin} 
-						opponentWin={this.state.opponentWin} 
+						pScore={this.state.pScore} 
+						pClassName={this.state.pClassName} 
+						pWin={this.state.pWin}
+						oScore={this.state.oScore} 
+						oClassName={this.state.oClassName} 						 
+						oWin={this.state.oWin} 
 						draw={this.state.draw} 
 						start={this.state.start} 
 						handleChange={this.handleClick}

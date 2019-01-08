@@ -22,7 +22,9 @@ import {
 	nachalIntro,
 	deadSeaIntro,
 	telAvivNightIntro,
-	telAvivBeachIntro
+	telAvivBeachIntro,
+	graffitiIntro,
+	carmelIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -208,14 +210,14 @@ export class Provider extends Component {
 					},
 					{
 						title: routes[20].title, 
-						intro: dummy, 
+						intro: graffitiIntro, 
 						link: 'graffiti', 
 						image: 'graffiti'
 					},
 					{
-						title: "In Search of A Hebrew Sports Shirt", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[21].title, 
+						intro: carmelIntro, 
+						link: 'carmel', 
 						image: 'carmel'
 					},
 					{

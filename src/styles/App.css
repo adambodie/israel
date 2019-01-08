@@ -12,24 +12,27 @@ header {
   top: 0;
   width: 100%;
   z-index: 10000; }
-  header img {
-    height: 33px;
-    margin: 0; }
+
+header img {
+  height: 33px;
+  margin: 0; }
 
 .top-bar-left {
   display: flex; }
-  .top-bar-left a {
-    margin-left: 5px;
-    color: white;
-    font-size: 1em; }
+
+.top-bar-left a {
+  margin-left: 5px;
+  color: white;
+  font-size: 1em; }
 
 .top-bar {
   background-color: #0038B8; }
-  .top-bar h4 {
-    font-family: 'Heebo', sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-    font-size: 1em; }
+
+.top-bar h4 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1em; }
 
 @media (min-width: 550px) {
   .top-bar h4 {
@@ -46,12 +49,14 @@ header {
 
 .todoList {
   margin: 100px 0px; }
-  .todoList ul {
-    margin-top: 20px; }
-  .todoList img {
-    display: block;
-    margin: 0 auto;
-    border: 5px solid white; }
+
+.todoList ul {
+  margin-top: 20px; }
+
+.todoList img {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid white; }
 
 .button {
   background-color: #0038B8; }
@@ -66,12 +71,14 @@ header {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-  .item button {
-    align-self: center;
-    margin-right: 20px; }
-  .item p {
-    margin: 0;
-    align-self: center; }
+
+.item button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item p {
+  margin: 0;
+  align-self: center; }
 
 .item-completed {
   list-style: none;
@@ -80,21 +87,25 @@ header {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-  .item-completed button {
-    align-self: center;
-    margin-right: 20px; }
-  .item-completed p {
-    margin: 0;
-    align-self: center; }
-  .item-completed p {
-    text-decoration: line-through; }
+
+.item-completed button {
+  align-self: center;
+  margin-right: 20px; }
+
+.item-completed p {
+  margin: 0;
+  align-self: center; }
+
+.item-completed p {
+  text-decoration: line-through; }
 
 .form {
   display: flex;
   border: 1px solid black; }
-  .form input {
-    height: 42px;
-    margin: 0; }
+
+.form input {
+  height: 42px;
+  margin: 0; }
 
 .delete, .complete {
   font-weight: bold;
@@ -125,8 +136,9 @@ section {
 .c-side-nav__item {
   list-style: none;
   font-size: 1.4em; }
-  .c-side-nav__item a {
-    color: white; }
+
+.c-side-nav__item a {
+  color: white; }
 
 .o-sidebar {
   display: none; }
@@ -136,8 +148,9 @@ ul {
 
 .is-current {
   background: navy; }
-  .is-current > a {
-    font-weight: bold; }
+
+.is-current > a {
+  font-weight: bold; }
 
 .o-main {
   color: white; }
@@ -162,22 +175,27 @@ ul {
 .post {
   margin-top: 128px;
   color: white; }
-  .post h1 {
-    font-size: 2em; }
-  .post h3 {
-    font-size: 1.2em; }
-  .post li {
-    text-align: left; }
+
+.post h1 {
+  font-size: 2em; }
+
+.post h3 {
+  font-size: 1.2em; }
+
+.post li {
+  text-align: left; }
 
 .article {
   display: block;
   margin: 0 auto;
   width: 80%; }
-  .article a {
-    color: white;
-    font-weight: bold; }
-    .article a:hover {
-      color: #808080; }
+
+.article a {
+  color: white;
+  font-weight: bold; }
+
+.article a:hover {
+  color: #808080; }
 
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
@@ -245,8 +263,9 @@ table thead {
   align-items: center;
   justify-content: center;
   flex-direction: column; }
-  .answer:hover {
-    opacity: 1; }
+
+.answer:hover {
+  opacity: 1; }
 
 .card .answer {
   transition: transform .6s ease-out;
@@ -257,14 +276,17 @@ table thead {
 
 .question {
   text-shadow: none; }
-  .question tbody {
-    border: none !important; }
-  .question tr {
-    background: white !important; }
-  .question h2 {
-    font-size: 1.0em;
-    margin: 0px 5px;
-    margin-top: 20px; }
+
+.question tbody {
+  border: none !important; }
+
+.question tr {
+  background: white !important; }
+
+.question h2 {
+  font-size: 1.0em;
+  margin: 0px 5px;
+  margin-top: 20px; }
 
 .card {
   position: relative;
@@ -302,93 +324,146 @@ td {
   align-items: center;
   background: gray;
   padding: 10px; }
-  .buttons button {
-    font-family: "Press Start 2P", cursive !important;
-    text-align: center;
-    font-size: 8px;
-    padding: 5px;
-    margin: 5px;
-    width: 45px;
-    height: 45px;
-    background-color: red;
-    border-radius: 100%;
-    cursor: pointer;
-    outline: none;
-    box-shadow: 0 9px #999; }
-    .buttons button:hover {
-      background-color: maroon; }
-    .buttons button:active {
-      background-color: maroon;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px); }
-  .buttons img {
-    width: 30px;
-    height: 30px; }
+
+.buttons button {
+  font-family: "Press Start 2P", cursive !important;
+  text-align: center;
+  font-size: 8px;
+  padding: 5px;
+  margin: 5px;
+  width: 45px;
+  height: 45px;
+  background-color: red;
+  border-radius: 100%;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999; }
+
+.buttons button:hover {
+  background-color: maroon; }
+
+.buttons button:active {
+  background-color: maroon;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); }
+
+.buttons img {
+  width: 30px;
+  height: 30px; }
 
 .flex {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-  .flex h3 {
-    font-family: "Press Start 2P", cursive !important;
-    color: yellow; }
+
+.flex h3 {
+  font-family: "Press Start 2P", cursive !important;
+  color: yellow;
+  font-size: 1.5em; }
 
 .game {
   margin-top: 74px;
   margin-bottom: 74px; }
-  .game .columns {
-    background: black;
-    border: 10px solid yellow; }
-  .game h1 {
-    background: #0038B8;
-    font-family: "Press Start 2P", cursive !important;
-    font-size: 1.75em; }
+
+.game .columns {
+  background: black;
+  border: 10px solid yellow; }
+
+.game h1 {
+  background: #0038B8;
+  font-family: "Press Start 2P", cursive !important;
+  font-size: 1.75em; }
 
 .result {
   height: 300px; }
-  .result h4 {
-    color: yellow;
-    font-family: "Press Start 2P", cursive !important;
-    text-align: center;
-    font-size: 1em; }
-  .result img {
-    max-width: 100px;
-    max-height: 100px; }
+
+.result h4 {
+  color: yellow;
+  font-family: "Press Start 2P", cursive !important;
+  text-align: center;
+  font-size: 1em; }
+
+.result img {
+  max-width: 100px;
+  max-height: 100px;
+  position: absolute;
+  opacity: 1;
+  left: 25%;
+  right: 25%; }
 
 .begin {
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center; }
-  .begin h2 {
-    font-family: "Press Start 2P", cursive !important;
-    color: yellow;
-    text-align: center;
-    width: 50%;
-    animation-name: begin;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    font-size: 1.5em; }
+
+.begin h2 {
+  font-family: "Press Start 2P", cursive !important;
+  color: yellow;
+  text-align: center;
+  width: 50%;
+  animation-name: begin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-size: 1.5em; }
 
 .score {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%; }
-  .score div {
-    display: block;
-    margin: 0 auto; }
-  .score h3 {
-    color: yellow;
-    font-family: "Press Start 2P", cursive !important;
-    text-align: center; }
+
+.score div {
+  display: block;
+  margin: 0 auto; }
+
+.score h3 {
+  color: yellow;
+  font-family: "Press Start 2P", cursive !important;
+  text-align: center; }
 
 @keyframes begin {
   0% {
     color: yellow; }
   100% {
     color: white; } }
+
+.player-pick {
+  animation-name: playerPick;
+  animation-duration: 1s; }
+
+.loss {
+  animation-name: playerLoss;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards; }
+
+.computer-pick {
+  animation-name: computerPick;
+  animation-duration: 1s; }
+
+@keyframes playerPick {
+  0% {
+    margin-left: 0;
+    z-index: 1; }
+  100% {
+    margin-left: 300px;
+    z-index: 100; } }
+
+@keyframes playerLoss {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes computerPick {
+  0% {
+    margin-left: 0;
+    z-index: 1; }
+  100% {
+    margin-left: -300px;
+    z-index: 100; } }
 
 @media (min-width: 769px) {
   .game {
@@ -401,6 +476,14 @@ td {
   .buttons img {
     width: 50px;
     height: 50px; } }
+
+.playerResult {
+  height: 200px;
+  width: 200px;
+  position: relative; }
+
+#playerOne {
+  transform: rotateY(180deg); }
 
 .shakshuka {
   margin-top: 64px;
@@ -438,8 +521,9 @@ td {
   border-radius: 100%;
   border: 20px solid white;
   position: absolute; }
-  .egg:hover {
-    background: gold; }
+
+.egg:hover {
+  background: gold; }
 
 .thumbnail {
   width: 400px;
@@ -515,8 +599,9 @@ td {
   height: 12px;
   position: absolute;
   font-size: 9.33333px; }
-  .map-button:hover {
-    background: gold; }
+
+.map-button:hover {
+  background: gold; }
 
 .map {
   position: relative;
@@ -526,10 +611,11 @@ td {
 
 .jerusalem-map {
   margin-top: 64px; }
-  .jerusalem-map .map {
-    width: 333.33333px;
-    height: 300px;
-    background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png"); }
+
+.jerusalem-map .map {
+  width: 333.33333px;
+  height: 300px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png"); }
 
 @media (min-width: 512px) {
   .jerusalem-item-0 {
@@ -617,10 +703,11 @@ td {
 
 .masada-map {
   margin-top: 64px; }
-  .masada-map .map {
-    width: 533.33333px;
-    height: 266.66667px;
-    background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
+
+.masada-map .map {
+  width: 533.33333px;
+  height: 266.66667px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
 
 .masada-item-0 {
   right: 406px;
@@ -672,20 +759,21 @@ td {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .jukebox-title h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 170px;
-    width: 300px;
-    margin-top: 20px;
-    font-family: "Monoton", cursive !important;
-    background: #a06126;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
-    border-bottom: 40px solid #c4c400;
-    border-style: groove;
-    margin-bottom: -10px; }
+
+.jukebox-title h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 300px;
+  margin-top: 20px;
+  font-family: "Monoton", cursive !important;
+  background: #a06126;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-bottom: 40px solid #c4c400;
+  border-style: groove;
+  margin-bottom: -10px; }
 
 .legs {
   width: 350px;
@@ -717,12 +805,14 @@ td {
   height: 390px;
   width: 300px;
   background: black; }
-  .area .content {
-    height: 1100px; }
-    .area .content iframe {
-      margin-top: 10px;
-      width: 236.66667px;
-      height: 133.33333px; }
+
+.area .content {
+  height: 1100px; }
+
+.area .content iframe {
+  margin-top: 10px;
+  width: 236.66667px;
+  height: 133.33333px; }
 
 .scrollarea .scrollbar-container {
   opacity: 1 !important;
@@ -756,12 +846,12 @@ td {
   .area {
     height: 390px;
     width: 450px; }
-    .area .content {
-      height: 1600px; }
-      .area .content iframe {
-        margin-top: 10px;
-        width: 355px;
-        height: 200px; } }
+  .area .content {
+    height: 1600px; }
+  .area .content iframe {
+    margin-top: 10px;
+    width: 355px;
+    height: 200px; } }
 
 @keyframes side-gradient {
   0% {
@@ -782,9 +872,10 @@ td {
 .graffiti {
   margin-top: 64px;
   color: white; }
-  .graffiti h1 {
-    text-align: center;
-    width: 100%; }
+
+.graffiti h1 {
+  text-align: center;
+  width: 100%; }
 
 /* Rabin SCSS
 -------------------------*/
@@ -861,8 +952,9 @@ td {
   position: absolute;
   background: transparent;
   height: 134px; }
-  .club-cover:focus {
-    outline: none; }
+
+.club-cover:focus {
+  outline: none; }
 
 .cover-one {
   width: 50px;
@@ -935,30 +1027,35 @@ td {
 .story {
   display: flex;
   flex-wrap: wrap; }
-  .story p, .story img {
-    display: block;
-    margin: 0 auto; }
+
+.story p, .story img {
+  display: block;
+  margin: 0 auto; }
 
 @media (min-width: 768px) {
   .story {
     flex-wrap: nowrap; }
-    .story p, .story img {
-      padding: 20px; } }
+  .story p, .story img {
+    padding: 20px; } }
 
 .noMatch {
   color: white; }
-  .noMatch img {
-    width: 100px;
-    height: 133px; }
-  .noMatch p {
-    line-height: 1.2;
-    font-size: 14px;
-    text-align: left; }
-  .noMatch a {
-    color: white;
-    font-weight: bold; }
-    .noMatch a:hover {
-      color: #DEDEDE; }
+
+.noMatch img {
+  width: 100px;
+  height: 133px; }
+
+.noMatch p {
+  line-height: 1.2;
+  font-size: 14px;
+  text-align: left; }
+
+.noMatch a {
+  color: white;
+  font-weight: bold; }
+
+.noMatch a:hover {
+  color: #DEDEDE; }
 
 @media (min-width: 768px) {
   .noMatch img {
@@ -980,20 +1077,22 @@ body {
   justify-content: center;
   flex-direction: column;
   font-size: calc(10px + 1vmin); }
-  .App h1 {
-    font-family: 'Heebo', sans-serif;
-    color: white; }
+
+.App h1 {
+  font-family: 'Heebo', sans-serif;
+  color: white; }
 
 .cover {
   margin-top: 64px;
   display: flex;
   align-items: center;
   justify-content: center; }
-  .cover img {
-    animation-name: intro;
-    animation-duration: 3s;
-    width: 400px;
-    height: 400px; }
+
+.cover img {
+  animation-name: intro;
+  animation-duration: 3s;
+  width: 400px;
+  height: 400px; }
 
 .prev-next {
   display: flex;
@@ -1021,9 +1120,10 @@ body {
   background: white;
   border: 2px solid #0038B8;
   text-shadow: none; }
-  .custom-button:hover {
-    background: #0038B8;
-    color: white !important; }
+
+.custom-button:hover {
+  background: #0038B8;
+  color: white !important; }
 
 .custom-main {
   margin-bottom: 30px;
