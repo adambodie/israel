@@ -34,6 +34,7 @@ const App = () => {
 								render={() => 
 									<Post 
 										title={x.title}
+										link={x.link}
 										paragraph={x.paragraph} 
 										data={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/${x.link}.json`}
 										prev={`/${x.prev}`}

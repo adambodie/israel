@@ -27,18 +27,20 @@ export default class Post extends Component {
 			});
 	}
 	render() {
+		const { title, paragraph, link, begin, end, number, map, locations, locationName, graffiti, prev, next } = this.props;
+		const { photographs } = this.state;
 		return (
 			<Row className="display grid-x post">
 				<Column large={8} offsetOnLarge={2}>
-					<h1>{this.props.title}</h1>
-					<PhotoList data={this.state.photographs} />
-					<ReactMarkdown source={this.props.paragraph} className="article" />
-					{this.props.begin >= 0 && (<Quiz begin={this.props.begin} end={this.props.end} number={this.props.number}/>)}
-					{this.props.map === true && (<Map locations={this.props.locations} locationName={this.props.locationName} />)}
-					{this.props.graffiti === true && (<Graffiti />)}
+					<h1>{title}</h1>
+					<PhotoList data={photographs} />
+					<ReactMarkdown source={paragraph} className={`article article-${link}`} />
+					{begin >= 0 && (<Quiz begin={begin} end={end} number={number}/>)}
+					{map === true && (<Map locations={locations} locationName={locationName} />)}
+					{graffiti === true && (<Graffiti />)}
 					<div className="prev-next">
-						<Link to={ this.props.prev } className='custom-button'>Prev</Link>
-						<Link to={ this.props.next } className='custom-button'>Next</Link>
+						<Link to={ prev } className='custom-button'>Prev</Link>
+						<Link to={ next } className='custom-button'>Next</Link>
 					</div>
 				</Column>
 			</Row>
