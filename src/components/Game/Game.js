@@ -38,19 +38,16 @@ export default class Game extends Component {
 			start: false
 		})		
 	}
-	
 
 	handleClick(e, index) {
-		const buttons = this.state.buttons;
+		const { buttons, pWin, pClassName, oClassName, oWin, draw } = this.state;
 		const oNewScore = Math.floor(Math.random() * 3);
 		const pNewScore = buttons[index].id;
-		let pNewWin = this.state.pWin;
-		let pNewClassName = this.state.pClassName;
-		pNewClassName = '';
-		let oNewClassName = this.state.oClassName;
-		oNewClassName = '';
-		let oNewWin = this.state.oWin;
-		let addDraw = this.state.draw;
+		let pNewWin = pWin;
+		let pNewClassName = pClassName;
+		let oNewClassName = oClassName;
+		let oNewWin = oWin;
+		let addDraw = draw;
 		let newResult = '';
 		if (oNewScore === pNewScore) {
 			newResult = "It's a Draw";
@@ -82,25 +79,26 @@ export default class Game extends Component {
 		})
   }
 	render() {
+		const { buttons, pWin, pClassName, pScore, oClassName, oWin, oScore, draw, start, result } = this.state;
 		return (
 			<Row className="display grid-x game">
 				<Column large={6} offsetOnLarge={3}>
 					<h1>Rock, Paper, Scissors!!!</h1>
 					<GamePlayers 
-						pScore={this.state.pScore} 
-						pClassName={this.state.pClassName} 
-						pWin={this.state.pWin}
-						oScore={this.state.oScore} 
-						oClassName={this.state.oClassName} 						 
-						oWin={this.state.oWin} 
-						draw={this.state.draw} 
-						start={this.state.start} 
+						pScore={pScore} 
+						pClassName={pClassName} 
+						pWin={pWin}
+						oScore={oScore} 
+						oClassName={oClassName} 						 
+						oWin={oWin} 
+						draw={draw} 
+						start={start} 
 						handleChange={this.handleClick}
-						buttons={this.state.buttons}
-						result={this.state.result} 
+						buttons={buttons}
+						result={result} 
 						/>
 					<div className='buttons'>
-						{this.state.buttons.map((x, index)=> <button className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
+						{buttons.map((x, index)=> <button className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
 						<button className='reset' onClick={()=>this.handleReset()}>Reset</button>
 					</div>
 				</Column>

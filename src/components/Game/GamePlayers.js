@@ -5,6 +5,7 @@ export default class GamePlayers extends Component {
 	handleChange() {
 		this.props.handleClick();
 	}
+	
 	render() {
 		const { start, result, buttons, pScore, pClassName, pWin, oClassName, oScore, oWin, draw } = this.props;
 		return (
@@ -18,7 +19,7 @@ export default class GamePlayers extends Component {
 						</div>
 						<div className="playerResult">
 							<h3>Computer</h3>
-							<img className={oClassName}  src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${buttons[oScore].name}.png`} alt={buttons[oScore].name} />
+							<img className={oClassName} src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${buttons[oScore].name}.png`} alt={buttons[oScore].name} />
 						</div>
 					</div>
 					<div className="resultText">
