@@ -544,3 +544,47 @@ But thankfully for me, they (surprisingly) had my alma mater, the Minnesota Gold
 With that mission accomplished, it was time to eat.  Hadas had recommended a restaurant along King George street, opposite Magen David Square.  It was a bit hard to find, partly because we lacked Wi-Fi to search for directions, partly because we were unfamiliar with the area and with street and address names in Hebrew, we couldn’t read it or make a pattern.  But someone else had been there earlier and told us where to find it.  Eventually, we did and enjoyed some yummy pita filled with meats and veggies.  After lunch, we met at Magen David Square (though some of us, including me, got some Iced Coffee first).  Now it was time for our afternoon activity, another Choose Your Adventure option, this time with three Museum choices.  
 
 `
+
+
+export const tamaIntro = `After lunch, our afternoon activity was to be at a Museum, with three options provided to us: Tel Aviv Museum of Art, the Diaspora Museum or the Yitzhak Rabin Museum.  Though in a perfect world I could have gone to all three, I ended up going to the Art Museum due to my affinity for Art.`;
+
+export const tama = `
+${tamaIntro}
+
+Arriving at the Art Museum, I found myself in awe over the architecture of the museum and other buildings, along with the skyscrapers surrounding the museum.  It was quite marvelous to look at.  Some of the buildings looked unique, like they were from the future.  The same with the design of the Art Museum.  Though I’ve seen some unique looking art museum’s before (University of Minnesota and Milwaukee’s come immediately to mind), seeing one in Israel surrounded by equally fascinating architecture was astounding.
+
+Entering the Art Museum, we were given the option to explore the museum for ourselves.  There were multiple exhibits with numerous pieces of art.  One piece of art I found myself impressed with was a big canvas on a wall consisting of a bunch of color squares, which depending on your angle, produced multiple designs.  It made me think of some of the artwork by late cousin Channa did.  She was quite a fascinating person in the family and had a successful art career, perhaps she’s had art displayed at this very museum.  If only I knew.
+
+I felt like I had seen enough, and my feet were starting to feel quite fatigued.  With that and the plenty of time remaining, I opted to take it easy for the rest of the duration.  I explored the gift shop and found a nice Hamsa that made me think of my Grandma, so I bought it for her as a gift.  I then sat in the cafeteria. Fortunately, the Art Museum had great Wifi connection, which allowed me to change my flight back home.  I didn’t give myself enough layover time to get through customs and get my bag, thus I had to change my flight to a later time. Fortunately, I found another flight on the way home a few hours later.  Thankfully I did that when I did.
+
+After the Museum, if was off to our last hotel for the trip.  But first we had to pick up the group at the Diaspora Museum and the Yitzhak Rabin Museum.  Though I certainly saw some nice pictures from those two spots on the Facebook page, I felt like I had made the right choice.  But the realization starting kicking in ever so slightly that the trip was almost over and we would have to go back home and resume our normal lives.
+
+# Fascinating Tel Aviv Skyscrapers
+
+![Marganit Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/marganit-tower.jpg "Marganit Tower") 
+
+### Marganit Tower
+This tower, at 453 feet fall, only has 17 stories, as much of its height is due to its ‘finger’ antenna.  It is currently used by the IDF.
+
+![Matcal Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/matcal-tower.jpg "Matcal Tower")
+
+### Matcal Tower 
+This building is the headquarters for the Israel Ministry of Defense and holds the offices for the IDF General Staff.
+
+![Azrieli Sarona](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/azrieli-sarona.jpg "Azrieli Sarona")
+
+### Azrieli Sarona 
+This skyscraper, completed in 2017, is currently the tallest building in Israel at 782 feet.
+
+![Azrieli Center](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/azrieli-center.jpg "Azrieli Center")
+
+### Azrieli Center 
+The Azrieli Center is a complex of skyscrapers in Tel Aviv.  In the center of the Azrieli Center is a shopping mall, one of Israel's largest.
+
+
+![Amot Investments Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/amot-investments.jpg "Amot Investments Tower")
+
+### Amot Investments Tower
+Amot Investments, had this skyscraper built for IBM, with its design intended to resemble a keyboard.  Today, it it home of numerous entities including the Embassy of Latvia on the 15th floor.
+
+`;

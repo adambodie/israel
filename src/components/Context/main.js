@@ -24,7 +24,8 @@ import {
 	telAvivNightIntro,
 	telAvivBeachIntro,
 	graffitiIntro,
-	carmelIntro
+	carmelIntro,
+	tamaIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -221,9 +222,9 @@ export class Provider extends Component {
 						image: 'carmel'
 					},
 					{
-						title: "Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[22].title, 
+						intro: tamaIntro, 
+						link: 'tama', 
 						image: 'tama'
 					},{
 						title: "Nice Kibbutz", 

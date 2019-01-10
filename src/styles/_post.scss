@@ -92,3 +92,35 @@
 	}			
 }
 
+/* Feature Article CSS
+------------------------*/
+
+.article-tama {
+	img {
+		width: calc(250px * 0.5);
+		height: calc(445px * 0.5);
+	}
+
+	p:nth-child(3n + 9) {
+		border-bottom: 1px solid black;
+		@include center();
+		margin-bottom: 10px;
+	}
+}
+
+
+@media (min-width: 550px) {
+	.article-tama {
+		img {
+			width: calc(250px * 0.7);
+			height: calc(445px * 0.7);
+		}
+
+		p:nth-child(3n + 9) {
+			border-bottom: 1px solid black;
+			width: 80%;
+			@include center();
+			margin-bottom: 10px;
+		}
+	}
+}

@@ -20,7 +20,8 @@ import {
 	telAvivNight,
 	telAvivBeach,
 	graffiti,
-	carmel
+	carmel,
+	tama
 	} from './articles';
 
 const routes = [
@@ -202,6 +203,12 @@ const routes = [
 		link: "carmel",
 		prev: "graffiti",
 		next: "tama"	
+	},{
+		title: "Choose Your Own Adventure: Tel Aviv Museum of Art",
+		paragraph: tama,
+		link: "tama",
+		prev: "carmel",
+		next: "kibbutz"	
 	}
 ]
 
