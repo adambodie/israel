@@ -341,11 +341,14 @@ td {
     width: 450px;
     height: 300px; } }
 
+.game-text {
+  color: white; }
+
 .buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: gray;
+  background: #525252;
   padding: 10px; }
 
 .buttons button {
@@ -360,14 +363,14 @@ td {
   border-radius: 100%;
   cursor: pointer;
   outline: none;
-  box-shadow: 0 9px #999; }
+  box-shadow: 0 10px #990000; }
 
 .buttons button:hover {
-  background-color: maroon; }
+  background-color: #660000; }
 
 .buttons button:active {
-  background-color: maroon;
-  box-shadow: 0 5px #666;
+  background-color: #660000;
+  box-shadow: 0 5px #330000;
   transform: translateY(4px); }
 
 .buttons img {
@@ -382,7 +385,7 @@ td {
 .flex h3 {
   font-family: "Press Start 2P", cursive !important;
   color: yellow;
-  font-size: 1.5em; }
+  font-size: 1.15em; }
 
 .game {
   margin-top: 74px;
@@ -390,12 +393,12 @@ td {
 
 .game .columns {
   background: black;
-  border: 10px solid yellow; }
+  border: 20px groove #FCD526; }
 
 .game h1 {
   background: #0038B8;
   font-family: "Press Start 2P", cursive !important;
-  font-size: 1.75em; }
+  font-size: 1.5em; }
 
 .result {
   height: 300px; }
@@ -407,8 +410,8 @@ td {
   font-size: 1em; }
 
 .result img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 75px;
+  max-height: 75px;
   position: absolute;
   opacity: 1;
   left: 25%;
@@ -446,32 +449,46 @@ td {
   font-family: "Press Start 2P", cursive !important;
   text-align: center; }
 
+.playerResult {
+  height: 160px;
+  width: 160px;
+  position: relative; }
+
+.playerResult:first-child img {
+  transform: rotateY(180deg); }
+
+.player-draw {
+  animation: playerDraw 1.5s; }
+
+.computer-draw {
+  animation: computerDraw 1.5s; }
+
+.player-pick {
+  animation: playerPick 1s; }
+
+.computer-pick {
+  animation: computerPick 1s; }
+
+.loss {
+  animation-name: playerLoss;
+  animation-delay: 0.5s;
+  animation-duration: 1.25s;
+  animation-fill-mode: forwards; }
+
+/* Keyframes
+-------------------*/
 @keyframes begin {
   0% {
     color: yellow; }
   100% {
     color: white; } }
 
-.player-pick {
-  animation-name: playerPick;
-  animation-duration: 1s; }
-
-.loss {
-  animation-name: playerLoss;
-  animation-delay: 0.5s;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards; }
-
-.computer-pick {
-  animation-name: computerPick;
-  animation-duration: 1s; }
-
 @keyframes playerPick {
   0% {
     margin-left: 0;
     z-index: 1; }
   100% {
-    margin-left: 300px;
+    margin-left: 175px;
     z-index: 100; } }
 
 @keyframes playerLoss {
@@ -480,17 +497,40 @@ td {
   100% {
     opacity: 0; } }
 
+@keyframes playerDraw {
+  0% {
+    margin-left: 0; }
+  50% {
+    margin-left: 75px; }
+  100% {
+    margin-left: 0; } }
+
+@keyframes computerDraw {
+  0% {
+    margin-left: 0; }
+  50% {
+    margin-left: -75px; }
+  100% {
+    margin-left: 0; } }
+
 @keyframes computerPick {
   0% {
     margin-left: 0;
     z-index: 1; }
   100% {
-    margin-left: -300px;
+    margin-left: -175px;
     z-index: 100; } }
 
 @media (min-width: 769px) {
+  .flex h3 {
+    font-size: 1.5em; }
+  .result img {
+    max-width: 100px;
+    max-height: 100px; }
   .game {
     width: 100%; }
+  .game h1 {
+    font-size: 1.75em; }
   .buttons button {
     width: 75px;
     height: 75px;
@@ -498,15 +538,22 @@ td {
     font-size: 12px; }
   .buttons img {
     width: 50px;
-    height: 50px; } }
-
-.playerResult {
-  height: 200px;
-  width: 200px;
-  position: relative; }
-
-#playerOne {
-  transform: rotateY(180deg); }
+    height: 50px; }
+  .playerResult {
+    width: 200px;
+    height: 200px; }
+  @keyframes playerDraw {
+    50% {
+      margin-left: 125px; } }
+  @keyframes computerDraw {
+    50% {
+      margin-left: -125px; } }
+  @keyframes playerPick {
+    100% {
+      margin-left: -250px; } }
+  @keyframes computerPick {
+    100% {
+      margin-left: -250px; } } }
 
 .shakshuka {
   margin-top: 64px;

@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 $font-family: 'Press Start 2P', cursive!important;
+
+.game-text {
+	color: white;
+}
+
 .buttons {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: gray;
+	background: #525252;
 	padding: 10px;
 	button {
 		font-family: $font-family;
@@ -19,13 +24,13 @@ $font-family: 'Press Start 2P', cursive!important;
 		border-radius: 100%;
 		cursor: pointer;
 		outline: none;
-		box-shadow: 0 9px #999;
+		box-shadow: 0 10px darken(red, 20%);
 		&:hover {
-			background-color: maroon;
+			background-color: darken(red, 30%);
 		}
 		&:active {
-			background-color: maroon;
-			box-shadow: 0 5px #666;
+			background-color: darken(red, 30%);
+			box-shadow: 0 5px darken(red, 40%);
 			transform: translateY(4px);
 		}
 	}
@@ -42,7 +47,7 @@ $font-family: 'Press Start 2P', cursive!important;
 	h3 {
 		font-family: $font-family;
 		color: yellow;
-		font-size: 1.5em;
+		font-size: 1.15em;
 	}
 }
 
@@ -51,12 +56,12 @@ $font-family: 'Press Start 2P', cursive!important;
 	margin-bottom: $margin-top + 10px;
 	.columns {
 		background: black;
-		border: 10px solid yellow;
+		border: 20px groove #FCD526;
 	}
 	h1 {
 		background: $background-color;
 		font-family: $font-family;
-		font-size: 1.75em;
+		font-size: 1.5em;
 	}
 }
 
@@ -69,8 +74,8 @@ $font-family: 'Press Start 2P', cursive!important;
 		font-size: 1em;
 	}
 	img {
-		max-width: 100px;
-		max-height: 100px;
+		max-width: 75px;
+		max-height: 75px;
 		position: absolute;
 		opacity: 1;
 		left: 25%;
@@ -111,53 +116,75 @@ $font-family: 'Press Start 2P', cursive!important;
 	}
 }
 
-@keyframes begin {
-	0% {
-		color: yellow;
-	}
-
-	100% {
-		color: white;
+.playerResult {
+	height: 160px;
+	width: 160px;
+	position: relative;
+	&:first-child {
+		img {
+			transform: rotateY(180deg);
+		}		
 	}
 }
 
+.player-draw {
+		animation: playerDraw 1.5s;
+}
 
+.computer-draw {
+		animation: computerDraw 1.5s;	
+}
 
 .player-pick {
-		animation-name: playerPick;
-		animation-duration: 1s;	
+		animation: playerPick 1s;	
 }
 
+.computer-pick {
+		animation: computerPick 1s;	
+}
 .loss {
 		animation-name: playerLoss;
 		animation-delay: 0.5s;
-		animation-duration: 1.5s;
+		animation-duration: 1.25s;
 		animation-fill-mode: forwards;	
 }
 
 
-.computer-pick {
-		animation-name: computerPick;
-		animation-duration: 1s;	
+/* Keyframes
+-------------------*/
+@keyframes begin {
+	0% {color: yellow;}
+	100% {color: white;}
 }
+
+
 @keyframes playerPick {
 	0% {
 		margin-left: 0;
 		z-index: 1;
 	}
 	100% {
-		margin-left: 300px;
+		margin-left: 175px;
 		z-index: 100;
 	}
 }
 
 @keyframes playerLoss {
-	0% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@keyframes playerDraw {
+	0% {margin-left: 0;}
+	50% {margin-left: 75px;}
+	100% {margin-left: 0;}
+}
+
+
+@keyframes computerDraw {
+	0% {margin-left: 0;}
+	50% {margin-left: -75px;}
+	100% {margin-left: 0;}
 }
 
 @keyframes computerPick {
@@ -166,13 +193,29 @@ $font-family: 'Press Start 2P', cursive!important;
 		z-index: 1;
 	}
 	100% {
-		margin-left: -300px;
+		margin-left: -175px;
 		z-index: 100;
 	}
 }
+
+
 @media (min-width: 769px) {
+	.flex {
+		h3 {
+			font-size: 1.5em;
+		}
+	}
+	.result {
+		img {
+			max-width: 100px;
+			max-height: 100px;
+		}
+	}
 	.game {
 		width: 100%;
+		h1 {
+			font-size: 1.75em;
+		}		
 	}
 	.buttons {
 		button {
@@ -186,16 +229,29 @@ $font-family: 'Press Start 2P', cursive!important;
 			height: 50px;
 		}
 	}
+	.playerResult {
+		width: 200px;
+		height: 200px;
+	}
 	
-}
+	@keyframes playerDraw {
+		50% {margin-left: 125px;}
+	}
 
 
-.playerResult {
-	height: 200px;
-	width: 200px;
-	position: relative;
+	@keyframes computerDraw {
+		50% {margin-left: -125px;}
+	}
+	@keyframes playerPick {
+		100% {
+			margin-left: -250px;
+		}
+	}
+
+	@keyframes computerPick {
+		100% {
+			margin-left: -250px;
+		}
+	}	
 }
 
-#playerOne {
-	transform: rotateY(180deg);
-}

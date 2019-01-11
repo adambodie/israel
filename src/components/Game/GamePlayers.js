@@ -7,20 +7,20 @@ export default class GamePlayers extends Component {
 	}
 	
 	render() {
-		const { start, result, buttons, pScore, pClassName, pWin, oClassName, oScore, oWin, draw } = this.props;
+		const { players, start, result, buttons, draw } = this.props;
 		return (
 		<div>
 			{start ? (
 				<div className='result'>
-					<div className="flex">
-						<div className="playerResult">
-							<h3>Player</h3>
-							<img id="playerOne" className={pClassName} src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${buttons[pScore].name}.png`} alt={buttons[pScore].name} />
-						</div>
-						<div className="playerResult">
-							<h3>Computer</h3>
-							<img className={oClassName} src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${buttons[oScore].name}.png`} alt={buttons[oScore].name} />
-						</div>
+					<div className="flex">					
+						{players.map((x, index) => {
+							return (
+							<div key={index} className="playerResult">
+								<h3>{x.name}</h3>
+								<img className={x.className} src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${buttons[x.score].name}.png`} alt={buttons[x.score].name} />
+							</div>						
+							)
+						})}
 					</div>
 					<div className="resultText">
 						<h4>{result}</h4>
@@ -28,7 +28,7 @@ export default class GamePlayers extends Component {
 					<div className="score">
 						<div>
 							<h4>Player</h4>
-							<h4>{pWin}</h4>
+							<h4>{players[0].win}</h4>
 						</div>
 						<div>
 							<h4>Draw</h4>
@@ -36,7 +36,7 @@ export default class GamePlayers extends Component {
 						</div>
 						<div>
 							<h4>Computer</h4>
-							<h4>{oWin}</h4>
+							<h4>{players[1].win}</h4>
 						</div>
 					</div>
 				</div>
