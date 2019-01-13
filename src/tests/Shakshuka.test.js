@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
 import { MemoryRouter } from 'react-router';
 import Shakshuka from '../components/Shakshuka';
+import {
+	render,
+	cleanup,
+	fireEvent
+  } from 'react-testing-library'
+  
+  afterEach(cleanup)
+
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
@@ -16,21 +23,13 @@ it('renders correctly', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-describe('Shakshuka', () => {
-	describe('when the openModal function is called', ()=>{
-		   const spy = jest.spyOn(Shakshuka.prototype, 'openModal');
-		   const app = shallow(<Shakshuka />);
-		   it('calls the function', () => {
-				app.find('.eggOne').simulate('click');
-				expect(spy).toHaveBeenCalled()
-		   });	   
-	 });
-	 describe('when the closeModal function is called', ()=>{
-		const spy = jest.spyOn(Shakshuka.prototype, 'closeModal');
-		const app = shallow(<Shakshuka />);
-		it('calls the function', () => {
-			 app.find('.shakshuka-button').simulate('click');
-			 expect(spy).toHaveBeenCalled()
-		});	   
-  });	 	
-})
+it('opens a modal and closes it', () => {
+	const spyOpen = jest.spyOn(Shakshuka.prototype, 'openModal');
+	const spyClose = jest.spyOn(Shakshuka.prototype, 'closeModal');
+	const { getByText, getByTestId, rerender } = render(<MemoryRouter><Shakshuka /></MemoryRouter>);
+	fireEvent.click(getByTestId('egg eggOne'));
+	expect(spyOpen).toHaveBeenCalled();
+	rerender(<MemoryRouter><Shakshuka /></MemoryRouter>);
+	fireEvent.click(getByText('x'));
+	expect(spyClose).toHaveBeenCalled();
+});

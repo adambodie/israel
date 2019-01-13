@@ -15,7 +15,7 @@ const Jukebox = () => {
 	  <div>
 		<div className="jukebox">
 			<div className="jukebox-title">
-				<h1>Sababa!</h1>
+				<h1 data-testid="title-display">Sababa!</h1>
 			</div>
 			<ScrollArea
 				speed={0.8}

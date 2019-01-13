@@ -38,7 +38,7 @@ exports[`renders correctly 1`] = `
       
     </div>
     <div
-      className="article"
+      className="article article-undefined"
     >
       <p>
         Lorem ipsum dolor sit amet

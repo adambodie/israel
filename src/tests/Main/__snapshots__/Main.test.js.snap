@@ -763,7 +763,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/nachal.jpg"
                 />
                 <p>
-                  After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at Nachal, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
+                  After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at the Ein Gedi Nature Reserve, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
                 </p>
                 <a
                   className="custom-main custom-button"
@@ -777,18 +777,18 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                 className="o-content__inner-body"
               >
                 <h3>
-                  The Dead Sea: Healing in the Lowest Point with Mud
+                  The Dead Sea: Healing in the Mud
                 </h3>
                 <img
-                  alt="The Dead Sea: Healing in the Lowest Point with Mud"
+                  alt="The Dead Sea: Healing in the Mud"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/deadSea.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  After a lot of hiking, we all needed to rest.  And what a better way to relax and take it easy than going to the Dead Sea, where you can float in the water, cover yourself in its healing mud and otherwise just have fun on the salty beach.  Fortunately, it wasn’t too far from the nature hike, and equally fortunate, there was a spa to eat.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/dead-sea"
                   onClick={[Function]}
                 >
                   Read More
@@ -805,11 +805,11 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAvivNight.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  It was quite an adventure going from our hotel in Arad to Masada, the nature hike in Ein Gedi and the Dead Sea.  These were some of the things, particularly Masada, that I had been looking forward to the most.  But the day was far from over.  Now it was time for a bus ride to the coolest, modern, partying city in Israel, which of course, is Tel Aviv.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/tel-aviv-night"
                   onClick={[Function]}
                 >
                   Read More
@@ -855,18 +855,18 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                 className="o-content__inner-body"
               >
                 <h3>
-                  Morning Stroll on the beaches of Tel Aviv
+                  Morning Stroll along the beaches of Tel Aviv
                 </h3>
                 <img
-                  alt="Morning Stroll on the beaches of Tel Aviv"
+                  alt="Morning Stroll along the beaches of Tel Aviv"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAvivBeach.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  I woke up in Tel Aviv, in a bigger room with my own bed, wondering what Tel Aviv would look like in the sun.  To say the least, I got a great first impression.  I had no idea in the dark, but our room had a patio door with an outside view.  Looking at the view, I could see the beautiful Mediterranean Sea and the buildings within view.  It was going to be a wonderful day!
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/tel-aviv-beach"
                   onClick={[Function]}
                 >
                   Read More
@@ -876,18 +876,18 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                 className="o-content__inner-body"
               >
                 <h3>
-                  Choose Your Own Adventure: Tel Aviv Graffiti Tour: Mossad style
+                  Choose Your Own Adventure: Tagging Tel Aviv with Graffiti
                 </h3>
                 <img
-                  alt="Choose Your Own Adventure: Tel Aviv Graffiti Tour: Mossad style"
+                  alt="Choose Your Own Adventure: Tagging Tel Aviv with Graffiti"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/graffiti.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  For our main activities of the day, we were given two choices for our morning activity.  For the morning, we could either go on a bike tour or a graffiti tour.  To me, the choice was fairly simple.  Though I would have covered more ground in a bike, and seen more, it would have been harder to get pictures.  Plus I haven’t ridden a bike in years. So I chose the Graffiti tour to see a fascinating and unique part of Tel Aviv.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/graffiti"
                   onClick={[Function]}
                 >
                   Read More
@@ -897,18 +897,39 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                 className="o-content__inner-body"
               >
                 <h3>
-                  Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City
+                  In Search of A Hebrew Sports Shirt
                 </h3>
                 <img
-                  alt="Choose Your Own Adventure: Tel Aviv Art Museum in an Amazing City"
+                  alt="In Search of A Hebrew Sports Shirt"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/carmel.jpg"
+                />
+                <p>
+                  After keeping it real on the Graffiti tour, we were given a chance to do some souvenir shopping and have lunch before our afternoon activity, so we headed to Carmel Market, Tel Aviv’s popular Shuk.  I had been thinking about getting souvenirs for myself and my family, so I was determined to find something there.  When someone had mentioned Hebrew Sport team shirts, I knew I had to find one.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/carmel"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Choose Your Own Adventure: Tel Aviv Museum of Art
+                </h3>
+                <img
+                  alt="Choose Your Own Adventure: Tel Aviv Museum of Art"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tama.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  After lunch, our afternoon activity was to be at a Museum, with three options provided to us: Tel Aviv Museum of Art, the Diaspora Museum or the Yitzhak Rabin Museum.  Though in a perfect world I could have gone to all three, I ended up going to the Art Museum due to my affinity for Art.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/tama"
                   onClick={[Function]}
                 >
                   Read More
@@ -918,18 +939,39 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                 className="o-content__inner-body"
               >
                 <h3>
-                  Nice Kibbutz
+                  Shhhhhh!  We're going to a Kibbutz Styled Hotel!
                 </h3>
                 <img
-                  alt="Nice Kibbutz"
+                  alt="Shhhhhh!  We're going to a Kibbutz Styled Hotel!"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/kibbutz.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  With our own adventures chosen completed, we headed off to our last hotel for the trip, a Kibbutz styled hotel located a little bit north of Tel Aviv.  I was slightly concerned because of the word Kibbutz that it would lack technology.  But entering Shefayim, I quickly realized there was nothing to be concerned about.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/kibbutz"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+              >
+                <h3>
+                  Rock, Paper, Scissors Showdown at the Kibbutz
+                </h3>
+                <img
+                  alt="Rock, Paper, Scissors Showdown at the Kibbutz"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/game.jpg"
+                />
+                <p>
+                  Rock, Paper, Scissors.  A classic game of chance where two people face off and select either Rock, Paper or Scissors.  You all know the rules:  Rock smashes Scissors.  Scissors cuts Paper.  Paper covers Rock.  You either win, you lose, or you tie.  So what does this have to do with the trip?
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/game"
                   onClick={[Function]}
                 >
                   Read More

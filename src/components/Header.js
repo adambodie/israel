@@ -6,7 +6,7 @@ const Header = () => (
 				<header>
 					<div className="top-bar">
 						<div className="top-bar-left">
-							<h4>Adam's Birthright Trip to The Land of Israel</h4>
+							<h4 data-testid="title-display">Adam's Birthright Trip to The Land of Israel</h4>
 							<Link to={'/index'}>
 								<FontAwesome
 									name='home'

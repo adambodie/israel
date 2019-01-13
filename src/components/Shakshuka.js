@@ -16,7 +16,7 @@ const customStyles = {
   }
 };
 
-Modal.setAppElement(document.getElementById('root'));
+
 
 export default class Shakshuka extends Component {
 	  constructor() {
@@ -59,7 +59,7 @@ export default class Shakshuka extends Component {
 					<h1>How Not to Enjoy Your Shakshuka</h1>
 					<div className="tomato">
 						{this.state.eggs.map((x, index) => (
-							<div key={index} className={"egg " + x.class} onClick={() => this.openModal(this, index)}></div>
+							<div key={index} data-testid={"egg " + x.class} className={"egg " + x.class} onClick={() => this.openModal(this, index)}></div>
 							))
 						}
 					</div>
@@ -75,6 +75,7 @@ export default class Shakshuka extends Component {
 					onRequestClose={this.closeModal}
 					style={customStyles}
 					contentLabel="Shakshuka Modal"
+					appElement={document.getElementById('root')}
 				>
 				  <h2>{this.state.title}</h2>
 				  <img className='thumbnail' src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_45${this.state.image}.JPG`} alt="title"/>

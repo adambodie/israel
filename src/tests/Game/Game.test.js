@@ -1,51 +1,43 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
 import Game from '../../components/Game/Game';
+import { MemoryRouter } from 'react-router';
+
+import {
+	render,
+	cleanup,
+	fireEvent
+  } from 'react-testing-library'
+
+afterEach(cleanup)
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
-	ReactDOM.render(<Game />, div);
+	ReactDOM.render(<MemoryRouter><Game /></MemoryRouter>, div);
 	ReactDOM.unmountComponentAtNode(div);
 });
 
 it('renders correctly', () => {
-	const tree = renderer.create(<Game />).toJSON();
+	const tree = renderer.create(<MemoryRouter><Game /></MemoryRouter>).toJSON();
 	expect(tree).toMatchSnapshot();
 });
 
 
 
-describe('Game', () => {
-	describe('when the button is clicked', ()=>{
-		   const spy = jest.spyOn(Game.prototype, 'handleClick');
-		   const app = shallow(<Game />);
-		   it('calls the function', () => {
-				app.find('.button-rock').simulate('click');
-				expect(spy).toHaveBeenCalled()
-		   });
-		   it('calls the function', () => {
-				app.find('.button-paper').simulate('click');
-				expect(spy).toHaveBeenCalled()
-			});
-			it('calls the function', () => {
-				app.find('.button-scissors').simulate('click');
-				expect(spy).toHaveBeenCalled()
-			});
-	});
-	describe('when the reset button is clicked', ()=>{
+
+	it('calls "onClick" prop on button click and changes text', () => {
 		const spy = jest.spyOn(Game.prototype, 'handleReset');
-		const app = shallow(<Game/>);
-		it('calls the function', () => {
-			 app.find('.reset').simulate('click');
-			 expect(spy).toHaveBeenCalled()
-		});
-		it('updates the state', () => {
-			app.setState({ start: true, opponentScore: 10 });
-			app.find('.reset').simulate('click');
-			expect(app.state().start).toEqual(false);
-			expect(app.state().opponentScore).toEqual(0);
-	   });
- });	
-})
+		const { getByText } = render(<MemoryRouter><Game /></MemoryRouter>);
+		fireEvent.click(getByText('Reset'));
+		expect(spy).toHaveBeenCalled();
+	
+	  });
+	
+	  it('calls "onClick" prop on button click and changes text', () => {
+		const spy = jest.spyOn(Game.prototype, 'handleClick');
+		const { getByTestId } = render(<MemoryRouter><Game /></MemoryRouter>);
+		fireEvent.click(getByTestId('button-rock'));
+		expect(spy).toHaveBeenCalled();
+	
+	  });

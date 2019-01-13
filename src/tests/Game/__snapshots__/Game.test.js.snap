@@ -1,60 +1,106 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="row display grid-x game"
->
+<div>
   <div
-    className="columns large-6 large-offset-3"
+    className="row display grid-x game"
   >
-    <h1>
-      Rock, Paper, Scissors!!!
-    </h1>
-    <div>
+    <div
+      className="columns large-6 large-offset-3"
+    >
+      <h1>
+        Rock, Paper, Scissors!!!
+      </h1>
+      <div>
+        <div
+          className="begin"
+        >
+          <h2>
+            Press any button to begin
+          </h2>
+        </div>
+      </div>
       <div
-        className="begin"
+        className="buttons"
       >
-        <h2>
-          Press any button to begin
-        </h2>
+        <button
+          className="button-rock"
+          data-testid="button-rock"
+          onClick={[Function]}
+        >
+          <img
+            alt="rock"
+            src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rock.png"
+          />
+        </button>
+        <button
+          className="button-paper"
+          data-testid="button-paper"
+          onClick={[Function]}
+        >
+          <img
+            alt="paper"
+            src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/paper.png"
+          />
+        </button>
+        <button
+          className="button-scissors"
+          data-testid="button-scissors"
+          onClick={[Function]}
+        >
+          <img
+            alt="scissors"
+            src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/scissors.png"
+          />
+        </button>
+        <button
+          className="reset"
+          onClick={[Function]}
+        >
+          Reset
+        </button>
       </div>
     </div>
+  </div>
+  <div
+    className="row display grid-x game-text"
+  >
     <div
-      className="buttons"
+      className="columns large-6 large-offset-3"
     >
-      <button
-        className="button-rock"
-        onClick={[Function]}
+      <h1>
+        The Rock Paper Scissors Episode
+      </h1>
+      <p>
+        Rock, Paper, Scissors.  A classic game of chance where two people face off and select either Rock, Paper or Scissors.  You all know the rules:  Rock smashes Scissors.  Scissors cuts Paper.  Paper covers Rock.  You either win, you lose, or you tie.  So what does this have to do with the trip?
+      </p>
+      <p>
+        Our first activity for the evening, for some reason, was to challenge someone to Rock, Paper, Scissors, with the loser cheering the winner's name.  The winner then challenged another winner all the while your previous opponent chanting your name until there were just two people left to challenge for supremacy.
+      </p>
+      <p>
+        I found myself completely going through the motions, not really knowing what the heck was going on, not really paying any attention to the objective of this game or where it would end.  But before I knew it, I somehow found myself in the final match, against Boris, the security guard.  I certainly didn't think much of it, but all I could hear was my name being chanted: "Adam, Adam, Adam!"  Suddenly, I realized what was going on.
+      </p>
+      <p>
+        It went to a Round of Three.  Boris won the first round, but I won the second round.  Could I pull off the Rocky over Drago victory in the final round?  Sadly, no... Boris won, perhaps due to luck, perhaps due to Russian Interference.  But there was no prize money, no medals, no rugelach (I would have gladly taken that!), but I was the People's Champ!  And that, my friend, is why we play Rock, Paper, Scissors here.  Enjoy!
+      </p>
+      <div
+        className="prev-next"
       >
-        <img
-          alt="rock"
-          src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rock.png"
-        />
-      </button>
-      <button
-        className="button-paper"
-        onClick={[Function]}
-      >
-        <img
-          alt="paper"
-          src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/paper.png"
-        />
-      </button>
-      <button
-        className="button-scissors"
-        onClick={[Function]}
-      >
-        <img
-          alt="scissors"
-          src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/scissors.png"
-        />
-      </button>
-      <button
-        className="reset"
-        onClick={[Function]}
-      >
-        Reset
-      </button>
+        <a
+          className="custom-button"
+          href="/kibbutz"
+          onClick={[Function]}
+        >
+          Prev
+        </a>
+        <a
+          className="custom-button"
+          href="/jaffa"
+          onClick={[Function]}
+        >
+          Next
+        </a>
+      </div>
     </div>
   </div>
 </div>

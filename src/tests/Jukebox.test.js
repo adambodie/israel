@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import renderer from 'react-test-renderer';
-import { mount } from 'enzyme';
 import Jukebox from '../components/Jukebox';
+import {
+	render,
+	cleanup
+  } from 'react-testing-library'
+  
+  afterEach(cleanup)
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
@@ -10,8 +14,7 @@ it('renders without crashing', () => {
 	ReactDOM.unmountComponentAtNode(div);
 });
 
-it('renders a `title`', () => {
-	const wrapper = mount(<Jukebox />);
-	console.log(wrapper.debug());
-	expect(wrapper.find('.jukebox-title h1').text()).toBe('Sababa!');
- });
+test('calls correct title', () => {
+	const { getByTestId } = render(<Jukebox />)
+	expect(getByTestId('title-display').textContent).toBe("Sababa!")
+  })

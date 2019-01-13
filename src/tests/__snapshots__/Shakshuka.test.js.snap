@@ -15,22 +15,27 @@ exports[`renders correctly 1`] = `
     >
       <div
         className="egg eggOne"
+        data-testid="egg eggOne"
         onClick={[Function]}
       />
       <div
         className="egg eggTwo"
+        data-testid="egg eggTwo"
         onClick={[Function]}
       />
       <div
         className="egg eggThree"
+        data-testid="egg eggThree"
         onClick={[Function]}
       />
       <div
         className="egg eggFour"
+        data-testid="egg eggFour"
         onClick={[Function]}
       />
       <div
         className="egg eggFive"
+        data-testid="egg eggFive"
         onClick={[Function]}
       />
     </div>

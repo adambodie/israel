@@ -2,8 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router';
-import { mount } from 'enzyme';
 import Header from '../components/Header';
+import {
+  render,
+  cleanup
+} from 'react-testing-library'
+
+afterEach(cleanup)
+
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
@@ -16,7 +22,7 @@ it('renders correctly', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-it('renders a `header`', () => {
-	const wrapper = mount(<MemoryRouter><Header /></MemoryRouter>);
-    expect(wrapper.find('header').length).toEqual(1);
- });
+test('calls correct title', () => {
+  const { getByTestId } = render(<MemoryRouter><Header /></MemoryRouter>)
+  expect(getByTestId('title-display').textContent).toBe("Adam's Birthright Trip to The Land of Israel")
+})
