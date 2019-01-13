@@ -25,7 +25,9 @@ import {
 	telAvivBeachIntro,
 	graffitiIntro,
 	carmelIntro,
-	tamaIntro
+	tamaIntro,
+	kibbutzIntro,
+	gameIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -227,10 +229,15 @@ export class Provider extends Component {
 						link: 'tama', 
 						image: 'tama'
 					},{
-						title: "Nice Kibbutz", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[23].title, 
+						intro: kibbutzIntro, 
+						link: 'kibbutz', 
 						image: 'kibbutz'
+					},{
+						title: "Rock, Paper, Scissors Showdown at the Kibbutz", 
+						intro: gameIntro, 
+						link: 'game', 
+						image: 'game'
 					}										
 					]
 				},	

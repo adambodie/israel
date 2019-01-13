@@ -550,7 +550,7 @@ td {
       margin-left: -125px; } }
   @keyframes playerPick {
     100% {
-      margin-left: -250px; } }
+      margin-left: 250px; } }
   @keyframes computerPick {
     100% {
       margin-left: -250px; } } }
@@ -880,7 +880,11 @@ td {
   height: 1100px; }
 
 .area .content iframe {
-  margin-top: 10px;
+  position: absolute;
+  top: 29px;
+  right: 0;
+  bottom: 0;
+  left: 23px;
   width: 236.66667px;
   height: 133.33333px; }
 
@@ -919,9 +923,9 @@ td {
   .area .content {
     height: 1600px; }
   .area .content iframe {
-    margin-top: 10px;
     width: 355px;
-    height: 200px; } }
+    height: 200px;
+    z-index: 10000; } }
 
 @keyframes side-gradient {
   0% {
@@ -938,6 +942,104 @@ td {
     background-image: linear-gradient(to bottom, indigo, violet, red, orange, yellow, green, blue); }
   100% {
     background-image: linear-gradient(to bottom, violet, red, orange, yellow, green, blue, indigo); } }
+
+.jukebox-flex {
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.flipper {
+  perspective: 1200px;
+  transform: translate3d(0, 0, 0);
+  overflow: visible;
+  width: 400px;
+  height: 250px;
+  margin-bottom: 30px; }
+
+.flipper.flipped .card {
+  transform: rotateY(-180deg); }
+
+.flipper.flipped .card > .back {
+  backface-visibility: visible; }
+
+.card {
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.card > .front,
+.card > .back {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.card > .front {
+  transform: rotateY(0deg) !important;
+  color: #FFFFFF;
+  background-color: #009CDF;
+  font-size: 36px; }
+
+.card > .back {
+  transform: rotateY(180deg) !important;
+  color: #FFFFFF;
+  padding: 0 50px;
+  top: 29px;
+  left: 23px;
+  right: 20px;
+  bottom: 19px; }
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .card > .front {
+    font-size: 36px; }
+  .card > .back {
+    font-size: 15px;
+    padding: 0 25px; }
+  .flipper.flipped .back {
+    font-size: 36px; }
+  .card > .front,
+  .card > .back {
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px; } }
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .card > .front {
+    font-size: 24px; }
+  .card > .back {
+    font-size: 14px;
+    padding: 0 14px; }
+  .flipper.flipped .back {
+    font-size: 20px; }
+  .card > .front,
+  .card > .back {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    border: solid 2px #FFFFFF; } }
+
+.jukebox-button {
+  padding: 7px;
+  background: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999; }
 
 .graffiti {
   margin-top: 64px;

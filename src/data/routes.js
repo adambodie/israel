@@ -21,7 +21,8 @@ import {
 	telAvivBeach,
 	graffiti,
 	carmel,
-	tama
+	tama,
+	kibbutz
 	} from './articles';
 
 const routes = [
@@ -209,6 +210,12 @@ const routes = [
 		link: "tama",
 		prev: "carmel",
 		next: "kibbutz"	
+	},{
+		title: "Shhhhhh!  We're going to a Kibbutz Styled Hotel!",
+		paragraph: kibbutz,
+		link: "kibbutz",
+		prev: "tama",
+		next: "game"	
 	}
 ]
 

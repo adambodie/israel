@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import { Row, Column } from 'react-foundation';
 import GamePlayers from './GamePlayers';
+import { Link } from "react-router-dom";
 
 export default class Game extends Component {
 	constructor(){
@@ -96,6 +97,10 @@ export default class Game extends Component {
 					<p>Our first activity for the evening, for some reason, was to challenge someone to Rock, Paper, Scissors, with the loser cheering the winner's name.  The winner then challenged another winner all the while your previous opponent chanting your name until there were just two people left to challenge for supremacy.</p>
 					<p>I found myself completely going through the motions, not really knowing what the heck was going on, not really paying any attention to the objective of this game or where it would end.  But before I knew it, I somehow found myself in the final match, against Boris, the security guard.  I certainly didn't think much of it, but all I could hear was my name being chanted: "Adam, Adam, Adam!"  Suddenly, I realized what was going on.</p>
 					<p>It went to a Round of Three.  Boris won the first round, but I won the second round.  Could I pull off the Rocky over Drago victory in the final round?  Sadly, no... Boris won, perhaps due to luck, perhaps due to Russian Interference.  But there was no prize money, no medals, no rugelach (I would have gladly taken that!), but I was the People's Champ!  And that, my friend, is why we play Rock, Paper, Scissors here.  Enjoy!</p>
+					<div className="prev-next">
+						<Link to={ '/kibbutz' } className='custom-button'>Prev</Link>
+						<Link to={ '/jaffa' } className='custom-button'>Next</Link>
+					</div>
 				</Column>
 			</Row>
 		</div>

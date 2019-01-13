@@ -585,6 +585,25 @@ The Azrieli Center is a complex of skyscrapers in Tel Aviv.  In the center of th
 ![Amot Investments Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/amot-investments.jpg "Amot Investments Tower")
 
 ### Amot Investments Tower
-Amot Investments, had this skyscraper built for IBM, with its design intended to resemble a keyboard.  Today, it it home of numerous entities including the Embassy of Latvia on the 15th floor.
+Amot Investments (a company with basically the same logo as Target) had this skyscraper built for IBM, with its design intended to resemble a keyboard.  Today, it it home of numerous entities including the Embassy of Latvia on the 15th floor.
 
+`;
+
+export const kibbutzIntro = `With our own adventures chosen completed, we headed off to our last hotel for the trip, a Kibbutz styled hotel located a little bit north of Tel Aviv.  I was slightly concerned because of the word Kibbutz that it would lack technology.  But entering Shefayim, I quickly realized there was nothing to be concerned about.`;
+
+export const kibbutz = `
+${kibbutzIntro}
+
+The hotel had a modern resort like feel it, with amenities including a gaming console room.  There were multiple sections of rooms spread out with a nice and expansive courtyard.  It was a tad confusing to find the rooms because there was a bank located within the building which made it seem like we were heading to a bank, not a hotel room.  The rooms were the nicest and most modern looking of all our rooms, and I walked in seeing two beds, which was an obvious improvement from the night before; the toilets even had a strip of paper wrapped around it stating it was “Specially Sterilized for You,” which I found humorous.
+
+Once settled, we ate our dinner and after dinner, had a few activities.  The first was the Rock Paper Scissors extravaganza which is covered more in depth on the next page, the second one consisted of a group of us reenacting the events from our trip in a humorous way.
+
+But my group, with me, Andrew (Pittsburgh), Andy and Jaron, got lucky day #3, which, of course, was our trip to Yad Vashem and Mt. Herzl.  Certainly, we couldn’t present THAT part of the trip in a humorous way.  So we were given the task of presenting the final day of the trip and what we could have expected in the humorous way.  That resulted in recapping what to expect in a raspy voice and me shushing everyone.  About as good as one can do considering the hand being dealt with.
+
+Afterwards, we got to go to the hotel bar (the only one we were at to have one) and enjoy ourselves with late night socializing and having drinks.  Again, I was faced with Tuborg or Carlsberg, and had the Tuborg, since the draft was out, I had one in a bottle, which was fine except it slightly exploded over my hand.  A nice way to have our last night before flying back home.  But it was a little more difficult to sleep at this hotel because across the courtyard (quite a bit aways) was an extremely loud party in an event space.  I could see the lights flashing from my room window.  It didn’t last too terribly long but it was the last night.  Still easier to sleep than on an airplane... 
+
+`;
+
+export const gameIntro = `
+Rock, Paper, Scissors.  A classic game of chance where two people face off and select either Rock, Paper or Scissors.  You all know the rules:  Rock smashes Scissors.  Scissors cuts Paper.  Paper covers Rock.  You either win, you lose, or you tie.  So what does this have to do with the trip?
 `;
