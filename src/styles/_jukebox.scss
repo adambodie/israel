@@ -36,6 +36,88 @@ $leg-color: rgb(50, 50, 50);
 
 	}
 }
+
+.jukebox-flex {
+	@include flex();
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.jukebox-button {
+	padding: 5px;
+	background: rgb(160, 97, 38);
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99999;
+}
+
+
+.flipper {
+    perspective: 1200px;
+    transform: translate3d(0, 0, 0);
+    overflow: visible;
+    width: 240px;
+    height: 138px;
+    margin-bottom: 30px; 
+}
+
+.flipper.flipped .card {
+    transform: rotateY(-180deg);
+}
+.flipper.flipped .card > .back {
+	backface-visibility: visible;
+}
+.card {
+    transform: translate3d(0, 0, 0);
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    position: relative;
+	width: $iframe-width/1.5;
+	height: $iframe-height/1.5;
+    text-align: center;
+}
+
+.card > .front,
+.card > .back {
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    @include absolute();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.card > .front {
+    transform: rotateY(0deg) !important;
+    color: #FFFFFF;
+    
+    p {
+		background: black;
+		font-family: 'Monoton', cursive!important;
+		width: $iframe-width/1.5;
+		height: $iframe-height/1.5;
+		font-size: 18px;
+		margin-top: 25px;
+		@include flex();
+    }
+}
+
+.card > .back {
+    transform: rotateY(180deg) !important;
+    color: #FFFFFF;
+    padding: 0 50px;
+	top: 29px;
+    left: 23px;
+    right: 20px;
+    bottom: 19px;
+}
+
+
 .legs {
 	width: 350px;
 	display: flex;
@@ -67,9 +149,9 @@ $leg-color: rgb(50, 50, 50);
     width: 300px;
     background: black;
     .content {
-		height: 1100px;
+		height: 1200px;
 		iframe {
-			margin-top: 10px;
+			@include absolute();			
 			width: $iframe-width/1.5;
 			height: $iframe-height/1.5;
 		}
@@ -85,11 +167,8 @@ $leg-color: rgb(50, 50, 50);
 	margin-top: 100px;
 	color: white;
 }
-
-
-
   
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 	.jukebox {
 		width: 500px;
 		height: 600px;		
@@ -101,7 +180,12 @@ $leg-color: rgb(50, 50, 50);
 			height: 200px;
 			width: 450px;	
 		}
+	}
+	
+	.jukebox-button {
+		padding: 7px;
 	}	
+		
 	.legs {
 		width: 500px;
 	}
@@ -123,12 +207,37 @@ $leg-color: rgb(50, 50, 50);
 		.content {
 			height: 1600px;
 			iframe {
-				margin-top: 10px;
 				width: $iframe-width;
 				height: $iframe-height;
+				z-index: 10000;
 			}
 		}
 	}
+	
+.flipper {
+		width: 400px;
+		height: 250px;
+		margin-bottom: 30px; 
+	}
+	.card {
+		width: 100%;
+		height: 100%;
+
+	}
+	.card > .front {		
+		p {
+			background: black;
+			font-family: 'Monoton', cursive!important;
+			width: 355px;
+			height: 200px;
+			font-size: 36px;
+			margin-top: 25px;
+			@include flex();
+		}
+	}
+    .flipper.flipped .back {
+        font-size: 36px;
+    }	
 }
 
 @keyframes side-gradient {
@@ -140,7 +249,3 @@ $leg-color: rgb(50, 50, 50);
 	83% {background-image: linear-gradient(to bottom, indigo,violet,red,orange,yellow,green,blue)}
 	100% {background-image: linear-gradient(to bottom, violet,red,orange,yellow,green,blue,indigo)}
 }
-
-
-
-

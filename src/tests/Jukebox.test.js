@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Jukebox from '../components/Jukebox';
+import Jukebox from '../components/Jukebox/Jukebox';
 import {
 	render,
 	cleanup

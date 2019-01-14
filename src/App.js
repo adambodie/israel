@@ -8,7 +8,7 @@ import Shakshuka from './components/Shakshuka';
 import NoMatch from './components/NoMatch';
 import Main from './components/Main/Main';
 import Game from './components/Game/Game';
-import Jukebox from './components/Jukebox';
+import Jukebox from './components/Jukebox/Jukebox';
 import TodoList from './components/Todo/TodoList';
 import Post from './components/Posts/Post';
 import routes from './data/routes';
