@@ -1,0 +1,59 @@
+.cat {
+	margin-top: $margin-top + 10;
+}
+
+.cat-button {
+	width: 110px!important;
+	height: 60px!important;
+	line-height: 1.4;
+	margin-bottom: 20px!important;
+}
+
+.cat-gifs {
+	@include flex();
+	flex-wrap: wrap;
+}
+.cat-gif {
+	margin: 10px;
+	@include flex();
+	background: black;
+	width: 200px;
+	height: 200px;
+}
+
+.cat-post {
+	color: white;
+	img {
+		width: 300px;
+		height: 225px;
+	}
+}
+.cat-modal {
+	width: 75%;
+	height: inherit;
+}
+
+.cat-modal-button {
+	background: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+	
+}
+
+
+@media (min-width: 768px) {
+.cat-post {
+	img {
+		width: 400px;
+		height: 300px;
+	}
+}
+	.cat-modal {
+		width: inherit;
+		height: 75%;
+	}
+}

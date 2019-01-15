@@ -27,7 +27,8 @@ import {
 	carmelIntro,
 	tamaIntro,
 	kibbutzIntro,
-	gameIntro
+	gameIntro,
+	catIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -246,6 +247,12 @@ export class Provider extends Component {
 					day: 7,
 					date: 'November 15, 2018',
 					items: [ 
+					{
+						title: "Cats!!!", 
+						intro: catIntro, 
+						link: 'cat', 
+						image: 'cat'
+					},
 					{
 						title: "Jaffa: The Old Part of Tel Aviv", 
 						intro: dummy, 

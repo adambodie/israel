@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Shakshuka from './components/Shakshuka';
 import NoMatch from './components/NoMatch';
+import Cat from './components/Cat';
 import Main from './components/Main/Main';
 import Game from './components/Game/Game';
 import Jukebox from './components/Jukebox/Jukebox';
@@ -25,6 +26,7 @@ const App = () => {
 						<Route path="/index" component={Main} />
 						<Route path="/todoList" component={TodoList} />
 						<Route path="/shakshuka" component={Shakshuka} />
+						<Route path="/cat" component={Cat} />
 						<Route path="/game" component={Game} />
 						<Route path="/jukebox" component={Jukebox} />
 						{routes.map((x, index) =>

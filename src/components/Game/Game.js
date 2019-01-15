@@ -99,7 +99,7 @@ export default class Game extends Component {
 					<p>It went to a Round of Three.  Boris won the first round, but I won the second round.  Could I pull off the Rocky over Drago victory in the final round?  Sadly, no... Boris won, perhaps due to luck, perhaps due to Russian Interference.  But there was no prize money, no medals, no rugelach (I would have gladly taken that!), but I was the People's Champ!  And that, my friend, is why we play Rock, Paper, Scissors here.  Enjoy!</p>
 					<div className="prev-next">
 						<Link to={ '/kibbutz' } className='custom-button'>Prev</Link>
-						<Link to={ '/jaffa' } className='custom-button'>Next</Link>
+						<Link to={ '/cat' } className='custom-button'>Next</Link>
 					</div>
 				</Column>
 			</Row>
