@@ -115,15 +115,27 @@ header img {
 section {
   border-bottom: 1px solid white; }
 
-.o-content__inner-body img, .welcomeIntro img {
-  width: 50%;
-  margin-bottom: 20px; }
+.o-content__inner {
+  margin-top: 64px; }
 
-.o-content__inner-body p, .welcomeIntro p {
-  width: 75%;
+.o-content__inner-body, .welcomeIntro {
+  border-bottom: 1px solid white; }
+
+.o-content__inner-body h3, .welcomeIntro h3 {
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.o-content__inner-body img, .welcomeIntro img {
+  width: 33%;
+  margin-bottom: 10px; }
+
+.o-content__inner-body p, .welcomeIntro p {
+  width: 66%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; }
 
 .o-content__inner-body a, .welcomeIntro a {
   color: white;

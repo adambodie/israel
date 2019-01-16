@@ -12,9 +12,9 @@ const MainPageItems = () => {
 				<div>
 				{pages.map((x) => {
 					return (
-						<section key={`${x.day}`} className="o-content" style={{minHeight: '600px'}} id={`day-${x.day}`}>
+						<section key={`${x.day}`} className="o-content" id={`day-${x.day}`}>
 							<Row className="display grid-x">
-								<Column large={10} offsetOnLarge={1} className="o-content__inner" style={{marginTop: '59px'}}>
+								<Column className="o-content__inner">
 									<div className="o-content__inner-head">
 										{x.day === 0 ? (
 											<h1 className="c-heading-4 c-heading-4--upper">Introduction</h1>

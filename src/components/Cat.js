@@ -102,18 +102,20 @@ export default class Cat extends Component {
 
 	render() {
 		const { cats } = this.state;
-		console.log(cats);
 		const shuffleCats = this.shuffle(cats).filter((x, index) => index < 9);
 		return (
 		<div className="cat">
-			<h1>Cats!</h1>
+			<h1>Cats: the True Story</h1>
 			<Row className="display grid-x cat-post">
 				<Column large={6} offsetOnLarge={3}>
 					<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_6294.JPG`} alt={'View from Shefayim'}/>
+					<h4>View from Shefayim</h4>
 					<p>Though our group all shared our Jewish faith, no matter the level of religion, there were plenty of other things we bonded over.  Aside from the obvious (sightseeing) and the necessities (bathrooms and Wi-Fi), there were the little things which brought joy.  One of those things were cats.  There were lots of cats in Israel.  But why?</p>
-					<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_6296.JPG`} alt={'View from Shefayim'}/>
+					<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_6296.JPG`} alt={'Shefayim Kibbutz Hotel Courtyard'}/>
+					<h4>Shefayim Kibbutz Hotel Courtyard</h4>
 					<p>According to the story, Israel once had a mouse problem.  So how did Israel manage to get rid of all of these mice?  By bringing in a whole bunch of cats to take care of the problem.  Whether it be the classic way of solving problems or if Tom & Jerry inspired them, it’s far better to have a bunch of cute cats than some pesky rodent.  Of course, to those who don’t like cats or are allergic might disagree, but at least there are plenty of pictures and gifs to enjoy. Welcome to the Internet!</p>
 					<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_6302.JPG`} alt={'Shefayim Kibbutz Hotel'}/>
+					<h4>Shefayim Kibbutz Hotel</h4>
 				</Column>
 			</Row>
 			<Row className="display grid-x">

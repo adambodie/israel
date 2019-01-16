@@ -2,15 +2,25 @@ section {
 	border-bottom: 1px solid white;
 }
 
+.o-content__inner {
+	margin-top: $margin-top;
+}
+
 .o-content__inner-body, .welcomeIntro {
+	border-bottom: 1px solid white;
+	h3 {
+		@include center();
+		margin-top: 10px;
+		margin-bottom: 10px; 
+	}
 	img {
-		width: 50%;
-		margin-bottom: 20px;
+		width: 33%;
+		margin-bottom: 10px;
 	}
 	p {
-		width: 75%;
+		width: 66%;
 		@include center;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	a {
 		color: white;
