@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
-
+import { Column } from 'react-foundation';
 const customStyles = {
   content : {
     top                   : '0%',
@@ -84,15 +84,18 @@ export default class CatList extends Component {
 	render() {
 		const { cats } = this.props;
 		return(
-		<div>
-			{this.shuffle(cats).filter((x, index) => index < 9).map((x, index) => {
-				return (
-					<div key={index} className="cat-gif">
-						<img src={x.images.fixed_height.url} alt="Cat" onClick={() => this.openModal(this, index)}/>
-					</div>	
-						)	
-					}
-				)}
+		<Column large={6} offsetOnLarge={3}>
+			<h1>Cats, Cats, Cats!!!</h1>
+			<div className="cat-gifs">
+				{this.shuffle(cats).filter((x, index) => index < 9).map((x, index) => {
+					return (
+						<div key={index} className="cat-gif">
+							<img src={x.images.fixed_height.url} alt="Cat" onClick={() => this.openModal(this, index)}/>
+						</div>	
+							)	
+						}
+					)}
+				</div>
 				<button className="cat-button custom-button" onClick={this.newCats}>See More Cats!</button>
 				<Modal
 					isOpen={this.state.modalIsOpen}
@@ -114,7 +117,7 @@ export default class CatList extends Component {
 				  <h1>New Cats have been loaded</h1>
 				  <button className="cat-modal-button" onClick={this.closeCatModal}>x</button>
 				</Modal>
-			</div>				
+			</Column>
 		);
 	}
 }

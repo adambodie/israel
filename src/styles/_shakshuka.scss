@@ -1,7 +1,16 @@
 .shakshuka {
-	margin-top: $margin-top;
+	margin-top: $margin-top + 20px;
 	color: white;
 }
+
+.fork {
+	position: absolute;
+    left: 0%;
+    top: 40%;
+    width: 40%;
+    z-index: 999;	
+}
+
 
 .shakshuka-button {
 	@include modal-button(5px, $background-color, white);
@@ -28,6 +37,8 @@
 	background: yellow;
 	border-radius: 100%;
 	border: 20px solid white;
+	border-left-width: 35px;
+	border-right-width: 35px;
 	position: absolute;
 	&:hover {
 		background: gold;
@@ -61,3 +72,10 @@
 	top: 20%;
 }
 
+@media (min-width: 769px) {
+	.fork {
+		left: 20%;
+		top: 33%;
+		width: 20%;
+	}		
+}

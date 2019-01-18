@@ -89,7 +89,7 @@ We made it to the center of the Jewish Quarter, home of the Hurva Synagogue.  Th
 
 
 # Facts about the Old City of Jerusalem
-![Old City of Jerusalem](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/old-city-jerusalem.jpg)
+![Old City of Jerusalem](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/old-jerusalem-map.jpg)
 - There are four uneven Quarters in the Old City: Jewish Quarter, Muslim Quarter, Christian Quarter and Armenian Quarter.
 - Until 1868, the entire city of Jerusalem was within the Old City walls.
 - The wall of the Old City was built between 1535-1542 by the Turkish sultan **Suleiman the Magnificent**.

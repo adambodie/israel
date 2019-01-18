@@ -8,7 +8,7 @@ export default class QuizList extends Component {
 		return(
 			<Consumer>
 				{ ({ questions }) => (
-				<div className="quiz">
+				<div className="quiz article">
 					{questions.map((x, index) =>
 						<div key={index}>
 							<QuizItem index={index}/>

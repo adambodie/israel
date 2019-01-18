@@ -34,12 +34,13 @@
 }
 
 .cat-modal-button {
-	@include modal-button(10px, 'white', 'black');
+	@include modal-button(10px, white, black);
 	
 }
 
 
 @media (min-width: 768px) {
+
 .cat-post {
 	img {
 		width: 400px;

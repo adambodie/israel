@@ -48,7 +48,7 @@ header img {
     font-size: 1.8em; } }
 
 .todoList {
-  margin: 100px 0px; }
+  margin-top: 64px !important; }
 
 .todoList ul {
   margin-top: 20px; }
@@ -320,8 +320,7 @@ table thead {
 
 .question h2 {
   font-size: 1.0em;
-  margin: 0px 5px;
-  margin-top: 20px; }
+  margin: 0px 5px; }
 
 .card {
   position: relative;
@@ -332,7 +331,6 @@ table thead {
   height: 200px; }
 
 td {
-  padding: 20px !important;
   font-size: 10px; }
 
 .quiz {
@@ -346,8 +344,10 @@ td {
 
 @media (min-width: 769px) {
   .question h2 {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    margin-top: 20px; }
   td {
+    padding: 20px !important;
     font-size: 16px; }
   .card {
     width: 450px;
@@ -568,8 +568,15 @@ td {
       margin-left: -250px; } } }
 
 .shakshuka {
-  margin-top: 64px;
+  margin-top: 84px;
   color: white; }
+
+.fork {
+  position: absolute;
+  left: 0%;
+  top: 40%;
+  width: 40%;
+  z-index: 999; }
 
 .shakshuka-button {
   position: absolute;
@@ -602,6 +609,8 @@ td {
   background: yellow;
   border-radius: 100%;
   border: 20px solid white;
+  border-left-width: 35px;
+  border-right-width: 35px;
   position: absolute; }
 
 .egg:hover {
@@ -629,6 +638,12 @@ td {
 .eggFive {
   left: 1%;
   top: 20%; }
+
+@media (min-width: 769px) {
+  .fork {
+    left: 20%;
+    top: 33%;
+    width: 20%; } }
 
 .jerusalem-item-0 {
   right: 63.33333px;
@@ -1263,8 +1278,8 @@ td {
   position: absolute;
   top: 0;
   right: 0;
-  background: "white";
-  color: "black";
+  background: white;
+  color: black;
   padding: 10px;
   font-weight: bold; }
 

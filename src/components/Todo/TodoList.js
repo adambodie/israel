@@ -12,7 +12,7 @@ import ReactTooltip from 'react-tooltip'
 const TodoList = () => {	
 	return(
 		<Provider>
-			<Row className="display grid-x todoList">
+			<Row className="display grid-x todoList article">
 				<Column large={6} offsetOnLarge={3}>
 					<h1>Things to Bring to Israel</h1>
 					<ReactMarkdown source={todoIntro} className="todoListIntro"/>

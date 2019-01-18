@@ -12,7 +12,7 @@ export class Provider extends Component {
 				{question: question3, answer: "B. 7"},
 				{question: question4, answer: "C. Temple Mount"},
 				{question: question5, answer: "D. Theodor Herzl"},
-				{question: question6, answer: "A. Yitkhak Rabin"},
+				{question: question6, answer: "A. Yitzhak Rabin"},
 				{question: question7, answer: "C. 1942"},
 				{question: question8, answer: "A. Mount Herzl"},				
 				{question: question9, answer: "B. United Kingdom"},				
