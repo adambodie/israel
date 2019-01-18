@@ -28,7 +28,8 @@ import {
 	tamaIntro,
 	kibbutzIntro,
 	gameIntro,
-	catIntro
+	catIntro,
+	jaffaIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -46,7 +47,7 @@ export class Provider extends Component {
 						title: "Things to Bring to Israel", 
 						intro: todoIntro, 
 						link: 'todoList', 
-						image: 'items'
+						image: 'item'
 					},
 					{
 						title: routes[0].title, 
@@ -254,9 +255,9 @@ export class Provider extends Component {
 						image: 'cat'
 					},
 					{
-						title: "Jaffa: The Old Part of Tel Aviv", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[24].title,  
+						intro: jaffaIntro, 
+						link: 'jaffa', 
 						image: 'jaffa'
 					},
 					{

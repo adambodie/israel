@@ -34,13 +34,7 @@
 }
 
 .cat-modal-button {
-	background: white;
-	position: absolute;
-	top: 0;
-	right: 0;
-	color: black;
-	padding: 10px;
-	font-weight: bold;
+	@include modal-button(10px, 'white', 'black');
 	
 }
 

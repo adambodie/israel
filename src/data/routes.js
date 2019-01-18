@@ -22,7 +22,8 @@ import {
 	graffiti,
 	carmel,
 	tama,
-	kibbutz
+	kibbutz,
+	jaffa
 	} from './articles';
 
 const routes = [
@@ -216,6 +217,36 @@ const routes = [
 		link: "kibbutz",
 		prev: "tama",
 		next: "game"	
+	},{
+		title: "Jaffa: The Old Part of Tel Aviv",
+		paragraph: jaffa,
+		link: "jaffa",
+		prev: "cat",
+		next: "innovation"	
+	},{
+		title: "Innovation: How Israel provides a Path to the Future",
+		paragraph: jaffa,
+		link: "innovation",
+		prev: "jaffa",
+		next: "telaviv"	
+	},{
+		title: "One Last Lunch along Rothschild, the Heart of Tel Aviv",
+		paragraph: jaffa,
+		link: "telaviv",
+		prev: "innovation",
+		next: "independence"	
+	},{
+		title: "Independence Hall: Where Israel became Israel",
+		paragraph: jaffa,
+		link: "independence",
+		prev: "telaviv",
+		next: "rothschild"	
+	},{
+		title: "Farewell Israel, What a Wonderful Trip",
+		paragraph: jaffa,
+		link: "rothschild",
+		prev: "independence",
+		next: "jukebox"	
 	}
 ]
 

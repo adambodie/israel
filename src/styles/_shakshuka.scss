@@ -4,13 +4,8 @@
 }
 
 .shakshuka-button {
-	background: $background-color;
-	position: absolute;
-	top: 0;
-	right: 0;
-	color: white;
-	padding: 5px;
-	font-weight: bold;
+	@include modal-button(5px, $background-color, white);
+
 }
 .ReactModal__Overlay, .ReactModal__Overlay--after-open {
 	z-index: 99999

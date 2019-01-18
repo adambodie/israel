@@ -45,3 +45,13 @@ $margin-top: 64px;
 	bottom: 0;
 	right: 0;
 }
+
+@mixin modal-button($padding, $background, $color) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: $background;	
+	color: $color;
+	padding: $padding;	
+	font-weight: bold;
+}

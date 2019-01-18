@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Shakshuka from './components/Shakshuka';
 import NoMatch from './components/NoMatch';
-import Cat from './components/Cat';
+import Cat from './components/Cat/Cat';
 import Main from './components/Main/Main';
 import Game from './components/Game/Game';
 import Jukebox from './components/Jukebox/Jukebox';

@@ -334,7 +334,7 @@ TV aside, the room was bigger, and with the other Adam joining for the night, we
 
 Having just learned about the Arab-Israeli Conflict, it seemed, perhaps ironic, that Hamas, the group in control of Gaza, would take this opportunity to fire off 460 rockets towards Israel, in what was deemed their highest intensity of attacks since the 2014 war between Israel and Gaza that had lasted 50 days.  Israel intercepted some of the rockets and fired back, causing buildings on both sides to be damaged.
 
-That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel's bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  I ended up scraping my arm at one point and admitting to once driving 100 mph (I accomplished that the year before in [Idaho](https://wildwildwest.bodiewebdesign.com)).  A perfect way to forget that rockets were being fired from Gaza.
+That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel's bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  A perfect way to forget that rockets were being fired from Gaza.
 
 But with the day I'd been waiting for the whole trip coming, I went to sleep wondering what would happen.  I didn't feel Gaza would escalate their attacks, but you never know. Would I spend the next day on top of Masada, or stuck in a bomb shelter with our group and a bunch of screaming kids?
 
@@ -543,6 +543,14 @@ But thankfully for me, they (surprisingly) had my alma mater, the Minnesota Gold
 
 With that mission accomplished, it was time to eat.  Hadas had recommended a restaurant along King George street, opposite Magen David Square.  It was a bit hard to find, partly because we lacked Wi-Fi to search for directions, partly because we were unfamiliar with the area and with street and address names in Hebrew, we couldn’t read it or make a pattern.  But someone else had been there earlier and told us where to find it.  Eventually, we did and enjoyed some yummy pita filled with meats and veggies.  After lunch, we met at Magen David Square (though some of us, including me, got some Iced Coffee first).  Now it was time for our afternoon activity, another Choose Your Adventure option, this time with three Museum choices.  
 
+# Tel Aviv Facts
+
+- The name **Tel Aviv** comes from the Hebrew translation of Theodor Herzl’s novel **Altneuland** (which translates to English as **Old New Land**), which he wrote to expand his views on Zionism
+- Tel Aviv was founded in 1909 by Jewish refugees, who wanted it to be a future city, modeled after fun European cities, primarily **Odessa** (Ukraine, not Texas) and **Warsaw**
+- Initially built as an outskirt of the historic city of **Jaffa**, Tel Aviv eventually incorporated Jaffa as a part of Tel Aviv in 1950
+- Today, Tel Aviv is officially known as Tel Aviv-Yafo, with Yafo bring the Hebrew translation of Jaffa
+- Tel Aviv is home of Israel’s economic and technological center, with the city also known for its nightlife and secularism.
+
 `
 
 
@@ -611,3 +619,25 @@ Rock, Paper, Scissors.  A classic game of chance where two people face off and s
 export const catIntro = `
 Though our group all shared our Jewish faith, no matter the level of religion, there were plenty of other things we bonded over.  Aside from the obvious (sightseeing) and the necessities (bathrooms and Wi-Fi), there were the little things which brought joy.  One of those things were cats.  There were lots of cats in Israel.  But why?
 `;
+
+export const jaffaIntro = `The last day of the trip had at last arrived.  While it was so great to be in Israel, seeing all the beauty and history, a part of me wanted to stop living in my suitcase.  We saw some cool sights in Tel Aviv, but the last day would give us a chance to see some of its history.  Our first stop on the final day would bring us to Jaffa, the historic part of town.`;
+
+export const jaffa = `
+${jaffaIntro}
+
+I had previously seen Jaffa from the beach in the distance, and had walked in the vicinity of the area on the first night in Tel Aviv, primarily the Clock Tower.  But now was the time to see the rest of it in the day.  The first stop was at Ramses II Gate Garden, an interesting spot and history.  I didn’t think the Egyptians would have been there 3500 years ago.
+
+After seeing the gate, we headed towards the port, which was pretty to see.  I’ve seen plenty of ports back home along the Pacific Coast (among other places) but none quite had the history and ancient feel that Jaffa did.
+
+Walking along the path, the feeling of history was replaced with a feeling of modernism as the coastline appeared with an incredible view of the skyscrapers and the sea.  It was beautiful to see, and with the contrast to the history of Jaffa, provided two very different vibes.  I made sure to get a picture of the skyline.  It was further available to see going up a hill, where more views of the buildings, including the church and the mosque, provided a unique backdrop.
+
+After seeing Jaffa, we walked around the flea market.  I still needed a gift for my Mom and sis, but couldn’t figure out what I should get.  After a few shops, I found a nice rainbow colored Temple Menorah (with only 7 branches, not the Hanukkah Menorah with 9), and got my sis a nice Mezuzah and a little frog sculpture since she likes frogs.  All my gifts were done, now I could enjoy the rest of the day with that checked off my list.
+
+# Jaffa Facts
+- Jaffa is known for it association with many biblical tales, including Jonah, Solomon and Saint Peter
+- According to mythology, Jaffa is named after Yafet, the son of Noah (the one who built the Ark)
+- Archeological evidence suggests inhabitants in Jaffa around 7500 BCE
+- Due to a large Muslim population, Jaffa was to be included as part of Palestine in the 1947 UN Partition plan, isolated from the other parts of Palestine, as surrounding areas including Tel Aviv were to be given to Israel
+
+`;
+
