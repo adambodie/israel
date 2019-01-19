@@ -1,9 +1,15 @@
-section {
-	border-bottom: 1px solid white;
+.logo {
+	background-color: white;
+	width: 125px;
+	height: 125px;
+	border-radius: 100%;
+	@include center();
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.o-content__inner {
-	margin-top: $margin-top;
+section {
+	border-bottom: 1px solid white;
 }
 
 .o-content__inner-body, .welcomeIntro {
@@ -60,16 +66,87 @@ ul {
 	color: white;
 }
 
+
+.Collapsible {
+  background-color: $background-color;
+}
+
+.Collapsible__contentInner {
+  padding: 10px;
+  border-top: 0;
+
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+.Collapsible__trigger {
+	display: block;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	color: white;
+
+
+  &:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: -30px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open {
+    &:after {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
+}
+
+.CustomTriggerCSS {
+  background-color: lightcoral;
+  transition: background-color 200ms ease;
+  
+  
+}
+
+.CustomTriggerCSS--open {
+  background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #CBB700;
+  color: black;
+}
+
+
 @media (min-width: 768px) {
 
-	.c-side-nav__body {
-		margin-top: 60px;
-	}
 	
 	.o-sidebar {
 		width: 260px;
 		overflow-y: scroll;
 		display: inherit;
+		h3 {
+			color: white;
+		}
 	}
 	
 	.o-sidebar--fixed-left {

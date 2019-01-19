@@ -29,7 +29,8 @@ import {
 	kibbutzIntro,
 	gameIntro,
 	catIntro,
-	jaffaIntro
+	jaffaIntro,
+	innovationIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -47,13 +48,15 @@ export class Provider extends Component {
 						title: "Things to Bring to Israel", 
 						intro: todoIntro, 
 						link: 'todoList', 
-						image: 'item'
+						image: 'item',
+						linkTitle: 'Todo List'
 					},
 					{
 						title: routes[0].title, 
 						intro: elAlIntro, 
 						link: 'el-al', 
-						image: 'globe'
+						image: 'globe',
+						linkTitle: 'El Al'
 					},					
 					]
 				},
@@ -66,20 +69,23 @@ export class Provider extends Component {
 						title: routes[1].title, 
 						intro: benGurionIntro, 
 						link: 'ben-gurion', 
-						image: 'welcomeIsrael'
+						image: 'welcomeIsrael',
+						linkTitle: 'Ben Gurion'
 					},
 
 					{
 						title: routes[2].title, 
 						intro: oldJerusalemIntro, 
-						link: 'old-Jerusalem', 
-						image: 'jerusalem'
+						link: 'old-jerusalem', 
+						image: 'jerusalem',
+						linkTitle: 'Old Jerusalem'
 					},					
 					{
 						title: routes[3].title, 
 						intro: shukDayIntro, 
 						link: 'shuk-day', 
-						image: 'shukDay'
+						image: 'shukDay',
+						linkTitle: 'Shuk Day'
 					}					
 					]
 				},				
@@ -92,13 +98,15 @@ export class Provider extends Component {
 						title: routes[4].title, 
 						intro: shabbatIntro, 
 						link: 'shabbat', 
-						image: 'shabbat'
+						image: 'shabbat',
+						linkTitle: 'Shabbat'
 					},
 					{
 						title: routes[5].title, 
 						intro: shukNightIntro, 
 						link: 'shuk-night', 
-						image: 'shukNight'
+						image: 'shukNight',
+						linkTitle: 'Shuk Night'
 					},					
 					]
 				},	
@@ -111,25 +119,29 @@ export class Provider extends Component {
 						title: routes[6].title, 
 						intro: yadVashemIntro, 
 						link: 'yad-vashem', 
-						image: 'yadVashem'
+						image: 'yadVashem',
+						linkTitle: 'Yad Vashem'
 					},					
 					{
 						title: "How Not to Eat Your Shakshuka", 
 						intro: shakshukaIntro, 
 						link: 'shakshuka', 
-						image: 'shakshuka'
+						image: 'shakshuka',
+						linkTitle: 'Shakshuka'
 					},
 					{
 						title: routes[7].title, 
 						intro: herzlIntro, 
 						link: 'herzl', 
-						image: 'herzl'
+						image: 'herzl',
+						linkTitle: 'Mount Herzl'
 					},
 					{
 						title: routes[8].title, 
 						intro: benYehudaIntro, 
 						link: 'ben-yehuda', 
-						image: 'yehuda'
+						image: 'yehuda',
+						linkTitle: 'Ben Yehuda'
 					},						
 					]
 				},	
@@ -142,19 +154,22 @@ export class Provider extends Component {
 						title: routes[9].title, 
 						intro: giloIntro, 
 						link: 'gilo', 
-						image: 'gilo'
+						image: 'gilo',
+						linkTitle: 'Gilo'
 					},
 					{
 						title: routes[10].title, 
 						intro: laqyeIntro, 
 						link: 'laqye', 
-						image: 'laqye'
+						image: 'laqye',
+						linkTitle: 'Laqye'
 					},	
 					{
 						title: routes[11].title, 
 						intro: aradIntro, 
 						link: 'arad', 
-						image: 'arad'
+						image: 'arad',
+						linkTitle: 'Arad'
 					}					
 					]
 				},	
@@ -167,38 +182,45 @@ export class Provider extends Component {
 						title: routes[12].title, 
 						intro: desertIntro, 
 						link: 'desert', 
-						image: 'desert'
+						image: 'desert',
+						linkTitle: 'Negev Desert'
 					},
 					{
 						title: routes[13].title, 
 						intro: romanIntro, 
 						link: 'roman', 
-						image: 'roman'
+						image: 'roman',
+						linkTitle: 'Roman Ramp'
 					},{
 						title: routes[14].title, 
 						intro: masadaIntro, 
 						link: 'masada', 
-						image: 'masada'
+						image: 'masada',
+						linkTitle: 'Masada'
 					},{
 						title: routes[15].title,
 						intro: snakeIntro, 
 						link: 'snake', 
-						image: 'snake'
+						image: 'snake',
+						linkTitle: 'Snake Path'
 					},{
 						title: routes[16].title, 
 						intro: nachalIntro, 
 						link: 'nachal', 
-						image: 'nachal'
+						image: 'nachal',
+						linkTitle: 'Ein Gedi'
 					},{
 						title: routes[17].title, 
 						intro: deadSeaIntro, 
 						link: 'dead-sea', 
-						image: 'deadSea'
+						image: 'deadSea',
+						linkTitle: 'Dead Sea'
 					},{
 						title: routes[18].title, 
 						intro: telAvivNightIntro, 
 						link: 'tel-aviv-night', 
-						image: 'telAvivNight'
+						image: 'telAvivNight',
+						linkTitle: 'Tel Aviv Night'
 					}					
 					]
 				},	
@@ -211,35 +233,41 @@ export class Provider extends Component {
 						title: routes[19].title, 
 						intro: telAvivBeachIntro, 
 						link: 'tel-aviv-beach', 
-						image: 'telAvivBeach'
+						image: 'telAvivBeach',
+						linkTitle: 'Tel Aviv Beach'
 					},
 					{
 						title: routes[20].title, 
 						intro: graffitiIntro, 
 						link: 'graffiti', 
-						image: 'graffiti'
+						image: 'graffiti',
+						linkTitle: 'Graffiti'
 					},
 					{
 						title: routes[21].title, 
 						intro: carmelIntro, 
 						link: 'carmel', 
-						image: 'carmel'
+						image: 'carmel',
+						linkTitle: 'Carmel Market'
 					},
 					{
 						title: routes[22].title, 
 						intro: tamaIntro, 
 						link: 'tama', 
-						image: 'tama'
+						image: 'tama',
+						linkTitle: 'Tel Aviv Museum of Art'
 					},{
 						title: routes[23].title, 
 						intro: kibbutzIntro, 
 						link: 'kibbutz', 
-						image: 'kibbutz'
+						image: 'kibbutz',
+						linkTitle: 'Kibbutz'
 					},{
 						title: "Rock, Paper, Scissors Showdown at the Kibbutz", 
 						intro: gameIntro, 
 						link: 'game', 
-						image: 'game'
+						image: 'game',
+						linkTitle: 'Game'
 					}										
 					]
 				},	
@@ -252,37 +280,43 @@ export class Provider extends Component {
 						title: "Cats!!!", 
 						intro: catIntro, 
 						link: 'cat', 
-						image: 'cat'
+						image: 'cat',
+						linkTitle: 'Cats'
 					},
 					{
 						title: routes[24].title,  
 						intro: jaffaIntro, 
 						link: 'jaffa', 
-						image: 'jaffa'
+						image: 'jaffa',
+						linkTitle: 'Jaffa'
 					},
 					{
-						title: "Innovation Center", 
-						intro: dummy, 
-						link: 'todoList', 
-						image: 'innovation'
+						title: routes[25].title, 
+						intro: innovationIntro, 
+						link: 'innovation', 
+						image: 'innovation',
+						linkTitle: 'Innovation'
 					},
 					{
 						title: "Rothschild", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: 'telAviv'
+						image: 'telAviv',
+						linkTitle: 'Rothschild'
 					},
 					{
 						title: "Independence Hall", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: 'independence'
+						image: 'independence',
+						linkTitle: 'Independence Hall'
 					},
 					{
 						title: "Farewell", 
 						intro: dummy, 
 						link: 'todoList', 
-						image: 'rothschild'
+						image: 'rothschild',
+						linkTitle: 'Farewell'
 					}					
 					]
 				}

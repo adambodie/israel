@@ -9,7 +9,7 @@ const MainPage = () => {
 		<Consumer>
 			{ ({ pages }) => (
 				<div className="o-main o-main--with-sidebar o-main--fixed-left-sidebar">
-					<div className="container" style={{"marginTop": 59}}>
+					<div className="container">
 						<MainIntro />
 						<MainPageItems />
 					</div>

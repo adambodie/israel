@@ -641,3 +641,15 @@ After seeing Jaffa, we walked around the flea market.  I still needed a gift for
 
 `;
 
+export const innovationIntro = `With Jaffa complete, we headed towards the Taglit Innovation Center, which I thought was connected to Birthright, due to the use of the word Taglit, but ended up being more about Innovation towards the future.`;
+
+export const innovation = `
+${innovationIntro}
+
+Oddly located inside Tel Aviv Stock Exchange, the building home of Israel’s only public stock exchange, we entered a room with some really fascinating things in it.  I was reminded of my trip to Europe, particularly the Ars Electronica Center in Linz, Austria, which had a simile presence of futuristic innovation.
+
+A few things that stood out were a virtual boxing game that also measures health metrics, a machine that can turn moisture to water, which I tried a little sample of, and other unique things.  It was fun looking at what they had to offer.
+
+Afterwards, we watched a presentation about Israel’s role in innovation and startups, which only the United States create more startups than in Israel.  The speaker described some of the things that occur in Israel with some of their innovative companies. Some even have “Fuck up Nights” to go over their failures to learn from their mistakes.  After the presentation, we were given the chance to enjoy some lunch before the next activity.
+
+`;

@@ -5,7 +5,7 @@ import { mainTitle, mainParagraph } from '../../data/articles';
 
 const MainIntro = () => {
 	return (
-		<section style={{minHeight: '600px'}}>
+		<section>
 			<Row className="display grid-x welcomeIntro">
 				<Column large={10} offsetOnLarge={1} className="o-hero u-align-left">
 					<ReactMarkdown source={mainTitle}/>

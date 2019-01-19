@@ -23,7 +23,8 @@ import {
 	carmel,
 	tama,
 	kibbutz,
-	jaffa
+	jaffa,
+	innovation
 	} from './articles';
 
 const routes = [
@@ -225,14 +226,14 @@ const routes = [
 		next: "innovation"	
 	},{
 		title: "Innovation: How Israel provides a Path to the Future",
-		paragraph: jaffa,
+		paragraph: innovation,
 		link: "innovation",
 		prev: "jaffa",
-		next: "telaviv"	
+		next: "telAviv"	
 	},{
 		title: "One Last Lunch along Rothschild, the Heart of Tel Aviv",
 		paragraph: jaffa,
-		link: "telaviv",
+		link: "telAviv",
 		prev: "innovation",
 		next: "independence"	
 	},{

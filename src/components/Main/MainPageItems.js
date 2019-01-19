@@ -25,7 +25,7 @@ const MainPageItems = () => {
 									</div>
 									{x.items.map((y, index)=> {
 										return (
-											<div className="o-content__inner-body" key={index}>
+											<div className="o-content__inner-body" key={index} id={y.link}>
 												<h3>{y.title}</h3>
 												<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${y.image}.jpg`} alt={y.title} />
 												<ReactMarkdown source={y.intro}/>

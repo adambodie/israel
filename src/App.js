@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from './ScrollToTop';
 import './styles/App.css';
-import Header from './components/Header';
 import Landing from './components/Landing';
 import Shakshuka from './components/Shakshuka';
 import NoMatch from './components/NoMatch';
@@ -18,7 +17,6 @@ const App = () => {
     return (
 		<Router>
 			<div>
-			<Header />
 			<ScrollToTop >
 				<div className="App">
 					<Switch>
