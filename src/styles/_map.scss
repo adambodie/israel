@@ -7,15 +7,23 @@ $masadaTopValues: 162, 159, 173, 106, 56, 207, 199, 187;
 $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 
 @for $i from 1 through length($jerusalemRightValues) {
-  $rightValue: nth($jerusalemRightValues, $i);
-  $topValue: nth($jerusalemTopValues, $i);
-  $id: nth($jerusalemIds, $i);
-    .jerusalem-item-#{$id} {
-       right: #{$rightValue / 1.5}px;
-       top: #{$topValue / 1.5}px;
+	$rightValue: nth($jerusalemRightValues, $i);
+	$topValue: nth($jerusalemTopValues, $i);
+	$id: nth($jerusalemIds, $i);
+	.jerusalem-item-#{$id} {
+		right: #{$rightValue / 1.5}px;
+		top: #{$topValue / 1.5}px;
     }
 }
-
+@for $i from 1 through length($masadaRightValues) {
+	$rightValue: nth($masadaRightValues, $i);
+	$topValue: nth($masadaTopValues, $i);
+	$id: nth($masadaIds, $i);
+	.masada-item-#{$id} {
+		right: #{$rightValue / 1.5}px;
+		top: #{$topValue / 1.5}px;
+	}
+}
 
 .map-button {
 	background: yellow;
@@ -34,6 +42,15 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 	position: relative;
 	background-size: cover;
 	@include center(); 
+}
+
+.masada-map {
+	margin-top: $margin-top;
+	.map {
+		width: (800px/2.25);
+		height: (400px/2.25);
+		background-image: url('https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg');
+	}
 }
 
 .jerusalem-map {
@@ -79,6 +96,16 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 		   top: #{$topValue}px;
 		}
 	}
+	@for $i from 1 through length($masadaRightValues) {
+	  $rightValue: nth($masadaRightValues, $i);
+	  $topValue: nth($masadaTopValues, $i);
+	  $id: nth($masadaIds, $i);
+		.masada-item-#{$id} {
+		   right: #{$rightValue/1.2}px;
+		   top: #{$topValue/1.2}px;
+		}
+	}
+	
 	.map-button {
 		width: 18px;
 		height: 18px;
@@ -89,27 +116,18 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 			width: 500px;
 			height: 450px;
 		}
-	}		
-}
-
-
-
-
-.masada-map {
-	margin-top: $margin-top;
-	.map {
-		width: (800px/1.5);
-		height: (400px/1.5);
-		background-image: url('https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg');
 	}
+	.masada-map {
+		.map {
+			width: (800px/1.75);
+			height: (400px/1.75);
+		}
+	}			
 }
 
-@for $i from 1 through length($masadaRightValues) {
-  $rightValue: nth($masadaRightValues, $i);
-  $topValue: nth($masadaTopValues, $i);
-  $id: nth($masadaIds, $i);
-    .masada-item-#{$id} {
-       right: #{$rightValue}px;
-       top: #{$topValue}px;
-    }
-}
+
+
+
+
+
+

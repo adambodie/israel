@@ -752,6 +752,38 @@ td {
   right: 279.33333px;
   top: 71.33333px; }
 
+.masada-item-0 {
+  right: 270.66667px;
+  top: 108px; }
+
+.masada-item-1 {
+  right: 209.33333px;
+  top: 106px; }
+
+.masada-item-2 {
+  right: 44.66667px;
+  top: 115.33333px; }
+
+.masada-item-3 {
+  right: 273.33333px;
+  top: 70.66667px; }
+
+.masada-item-4 {
+  right: 224.66667px;
+  top: 37.33333px; }
+
+.masada-item-5 {
+  right: 200.66667px;
+  top: 138px; }
+
+.masada-item-6 {
+  right: 22.66667px;
+  top: 132.66667px; }
+
+.masada-item-7 {
+  right: 182px;
+  top: 124.66667px; }
+
 .map-button {
   background: yellow;
   border-radius: 100%;
@@ -768,6 +800,14 @@ td {
   background-size: cover;
   display: block;
   margin: 0 auto; }
+
+.masada-map {
+  margin-top: 64px; }
+
+.masada-map .map {
+  width: 355.55556px;
+  height: 177.77778px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
 
 .jerusalem-map {
   margin-top: 64px; }
@@ -853,53 +893,40 @@ td {
   .jerusalem-item-10 {
     right: 419px;
     top: 107px; }
+  .masada-item-0 {
+    right: 338.33333px;
+    top: 135px; }
+  .masada-item-1 {
+    right: 261.66667px;
+    top: 132.5px; }
+  .masada-item-2 {
+    right: 55.83333px;
+    top: 144.16667px; }
+  .masada-item-3 {
+    right: 341.66667px;
+    top: 88.33333px; }
+  .masada-item-4 {
+    right: 280.83333px;
+    top: 46.66667px; }
+  .masada-item-5 {
+    right: 250.83333px;
+    top: 172.5px; }
+  .masada-item-6 {
+    right: 28.33333px;
+    top: 165.83333px; }
+  .masada-item-7 {
+    right: 227.5px;
+    top: 155.83333px; }
   .map-button {
     width: 18px;
     height: 18px;
     font-size: 14px; }
   .jerusalem-map .map {
     width: 500px;
-    height: 450px; } }
-
-.masada-map {
-  margin-top: 64px; }
-
-.masada-map .map {
-  width: 533.33333px;
-  height: 266.66667px;
-  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
-
-.masada-item-0 {
-  right: 406px;
-  top: 162px; }
-
-.masada-item-1 {
-  right: 314px;
-  top: 159px; }
-
-.masada-item-2 {
-  right: 67px;
-  top: 173px; }
-
-.masada-item-3 {
-  right: 410px;
-  top: 106px; }
-
-.masada-item-4 {
-  right: 337px;
-  top: 56px; }
-
-.masada-item-5 {
-  right: 301px;
-  top: 207px; }
-
-.masada-item-6 {
-  right: 34px;
-  top: 199px; }
-
-.masada-item-7 {
-  right: 273px;
-  top: 187px; }
+    height: 450px; }
+  .masada-map .map {
+    width: 457.14286px;
+    height: 228.57143px; } }
 
 .jukebox {
   display: block;
