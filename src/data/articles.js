@@ -155,6 +155,8 @@ Looking at all the beer bottles on the wall, it felt like home, except for all t
 
 Once settled, it was time to pick a beer to try, which proved to be a tough decision. I went back and forth trying to figure out what I wanted. Stout? IPA? IPA? Stout? I was about ready to pick the IPA, but then we were handed out magnetic coasters to keep.  Looking through all of them, they had the Black Jack Stout, but not the IPA. So I opted for the Stout instead. Good decision indeed.  Now it was time to order food off the menu.
 
+![Black Jack Stout](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/stout.gif)
+
 The menu featured standard bar food. Nothing overly amazing. So I ordered myself a pastrami sandwich, the Tarantino. Unfortunately, as the servers were bringing out food, they couldn't get the food names right.  Josh, who joined the group late, took a 'Turkey Sandwich' that 'no one' ordered, having himself not yet ordered food.  What I didn't know at the time was that that the 'Turkey Sandwich' was actually the Pastrami sandwich I had ordered.  To be fair, there was a lot of confusion for such a large group, but I was having fun being out enjoying my beer, so I wasn't too upset over that.  I would know if they called the name Tarantino.  Who can forget Quentin Tarantino?  But they didn't.
 
 Eventually, I got my food and ate my meal, which again, was standard food.  I didn't care, I just wanted to eat and enjoy myself.  After I ate, it was approaching time to get on the bus and go back, for those who wanted to get back.  I didn't want to stay out too late, so I made my way back to Kar Berg and got on the bus back to the hotel.  Sleep was needed for another day.  But Sunday would end up as our difficult day.

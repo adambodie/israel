@@ -1,3 +1,14 @@
+$card-width: 450px;
+$card-height: 300px;
+
+.quiz-cards {
+	@include flex();
+	flex-wrap: wrap;
+}
+
+.quiz-card {
+	margin: 10px;
+}
 .pageTitle {
 	margin-top: $margin-top;
 }
@@ -21,68 +32,62 @@ table thead {
 	}
 }
 
-
-.card .answer {
-	transition: transform .6s ease-out;
-	transform: translateX(100%);
-}
-
-.card:hover .answer {
-	transform: translateX(0);
-}
-
-.question {
-	text-shadow: none;
-	tbody {
-		border: none!important;
-	}
-	tr {
-		background: white!important;
-	}
-	h2 {
-		font-size: 1.0em;
-		margin: 0px 5px;
-	}
-}
-
-
-.card {
-	position: relative;
-	line-height: 0;
-	margin-bottom: 2em;
-	overflow: hidden;
+.quiz-card, .question, .answer {
 	width: 300px;
 	height: 200px;
 }
 
+.quiz-card {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow: hidden;
+	.question {
+		text-shadow: none;
+		background: white;
+		tbody {
+			border: none!important;
+		}
+		tr {
+			background: white!important;
+		}
+		h2 {
+			font-size: 1.0em;
+			margin: 0px 5px;
+			color: black;
+		}
+	}	
+}
+
+.quiz-card .answer {
+	transition: transform .6s ease-out;
+	transform: translateX(100%);
+}
+
+.quiz-card:hover .answer {
+	transform: translateX(0);
+}
+
+
 td {
 	font-size: 10px;
+	color: black;
 }
 
-.quiz {
-	margin-top: 30px;
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-}
-
-
-.card .answer {
+.quiz-card .answer {
 	opacity: 1;
-
 }
 
 @media (min-width: 769px) {
-	.question h2 {
+	.quiz-card .question h2 {
 		font-size: 1.5em;
-		margin-top: 20px;
 	}
 	td {
 		padding: 20px!important;
 		font-size: 16px;
 	}	
-	.card {
-		width: 450px;
-		height: 300px;
+	.quiz-card, .question, .answer {
+		width: $card-width/1.2;
+		height: $card-height/1.2;
 	}		
 }

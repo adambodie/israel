@@ -2,7 +2,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .post {
-	margin-top: $margin-top * 2;
+	margin-top: $margin-top + 15;
 	color: white;
 	h1 {
 		font-size: 2em;
@@ -95,6 +95,11 @@
 /* Feature Article CSS
 ------------------------*/
 
+.article-shuk-night {
+	img {
+		float: right;
+	}
+}
 .article-tama {
 	img {
 		width: calc(250px * 0.5);

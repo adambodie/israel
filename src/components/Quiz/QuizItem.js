@@ -12,7 +12,7 @@ export default class QuizItem extends Component {
 		return (
 			<Consumer>
 				{ ({ questions }) => (
-					<div className="card">
+					<div className="quiz-card">
 						<div className="question">
 							<ReactMarkdown source={questions[index].question}/>
 						</div>

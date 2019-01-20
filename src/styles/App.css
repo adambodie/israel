@@ -238,7 +238,7 @@ ul {
     margin-left: 260px; } }
 
 .post {
-  margin-top: 128px;
+  margin-top: 79px;
   color: white; }
 
 .post h1 {
@@ -308,6 +308,9 @@ ul {
 
 /* Feature Article CSS
 ------------------------*/
+.article-shuk-night img {
+  float: right; }
+
 .article-tama img {
   width: calc(250px * 0.5);
   height: calc(445px * 0.5); }
@@ -328,6 +331,15 @@ ul {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px; } }
+
+.quiz-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.quiz-card {
+  margin: 10px; }
 
 .pageTitle {
   margin-top: 64px; }
@@ -355,56 +367,54 @@ table thead {
 .answer:hover {
   opacity: 1; }
 
-.card .answer {
-  transition: transform .6s ease-out;
-  transform: translateX(100%); }
-
-.card:hover .answer {
-  transform: translateX(0); }
-
-.question {
-  text-shadow: none; }
-
-.question tbody {
-  border: none !important; }
-
-.question tr {
-  background: white !important; }
-
-.question h2 {
-  font-size: 1.0em;
-  margin: 0px 5px; }
-
-.card {
-  position: relative;
-  line-height: 0;
-  margin-bottom: 2em;
-  overflow: hidden;
+.quiz-card, .question, .answer {
   width: 300px;
   height: 200px; }
 
+.quiz-card {
+  position: relative;
+  line-height: 0;
+  margin-bottom: 2em;
+  overflow: hidden; }
+
+.quiz-card .question {
+  text-shadow: none;
+  background: white; }
+
+.quiz-card .question tbody {
+  border: none !important; }
+
+.quiz-card .question tr {
+  background: white !important; }
+
+.quiz-card .question h2 {
+  font-size: 1.0em;
+  margin: 0px 5px;
+  color: black; }
+
+.quiz-card .answer {
+  transition: transform .6s ease-out;
+  transform: translateX(100%); }
+
+.quiz-card:hover .answer {
+  transform: translateX(0); }
+
 td {
-  font-size: 10px; }
+  font-size: 10px;
+  color: black; }
 
-.quiz {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
-
-.card .answer {
+.quiz-card .answer {
   opacity: 1; }
 
 @media (min-width: 769px) {
-  .question h2 {
-    font-size: 1.5em;
-    margin-top: 20px; }
+  .quiz-card .question h2 {
+    font-size: 1.5em; }
   td {
     padding: 20px !important;
     font-size: 16px; }
-  .card {
-    width: 450px;
-    height: 300px; } }
+  .quiz-card, .question, .answer {
+    width: 375px;
+    height: 250px; } }
 
 .game-text {
   color: white; }
