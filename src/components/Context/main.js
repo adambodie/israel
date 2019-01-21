@@ -30,7 +30,8 @@ import {
 	gameIntro,
 	catIntro,
 	jaffaIntro,
-	innovationIntro
+	innovationIntro,
+	telAvivIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -298,9 +299,9 @@ export class Provider extends Component {
 						linkTitle: 'Innovation'
 					},
 					{
-						title: "Rothschild", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[26].title, 
+						intro: telAvivIntro, 
+						link: 'tel-aviv', 
 						image: 'telAviv',
 						linkTitle: 'Rothschild'
 					},

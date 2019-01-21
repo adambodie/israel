@@ -24,7 +24,8 @@ import {
 	tama,
 	kibbutz,
 	jaffa,
-	innovation
+	innovation,
+	telAviv
 	} from './articles';
 
 const routes = [
@@ -229,11 +230,11 @@ const routes = [
 		paragraph: innovation,
 		link: "innovation",
 		prev: "jaffa",
-		next: "telAviv"	
+		next: "tel-aviv"	
 	},{
 		title: "One Last Lunch along Rothschild, the Heart of Tel Aviv",
-		paragraph: jaffa,
-		link: "telAviv",
+		paragraph: telAviv,
+		link: "tel-aviv",
 		prev: "innovation",
 		next: "independence"	
 	},{

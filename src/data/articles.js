@@ -655,3 +655,45 @@ A few things that stood out were a virtual boxing game that also measures health
 Afterwards, we watched a presentation about Israel’s role in innovation and startups, which only the United States create more startups than in Israel.  The speaker described some of the things that occur in Israel with some of their innovative companies. Some even have “Fuck up Nights” to go over their failures to learn from their mistakes.  After the presentation, we were given the chance to enjoy some lunch before the next activity.
 
 `;
+
+export const telAvivIntro = `Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.`;
+
+export const telAviv = `
+${telAvivIntro}
+
+Trying to find a decent open place for lunch that was authentic led us crossing a few blocks away from Rothschild.  But it did provide some interesting views of the skyscrapers.  I felt like I was in New York with some of the designs, though the buildings in New York were a lot taller.  It was nice eating outside and admiring the views while having lunch, though we could see an old man in an apartment across the street in nothing but a Speedo.  Fortunately, we weren’t too close to that one.  But the food was good, I had a pita with Chicken Liver, which was something I rarely, if ever, have.  And with that, we headed back to Rothschild, where Independence Hall was.
+
+# More Fascinating Tel Aviv Skyscrapers
+
+![Shalom Meir Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shalom-meir.jpg "Shalom Meir Tower") 
+
+### Shalom Meir Tower
+This tower, completed in 1965, was the first skyscraper built in Israel, becoming the tallest building at the time in the Middle East.  At 390 feet, it remained the tallest building in Israel until 1987.
+
+![First International Bank Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/first-international-bank-tower.jpg "First International Bank Tower")
+
+### First International Bank Tower 
+This tower completed in 2005, was Israel's first green tower, as well as the first to feature a double curtain wall system.  The design features 5 equilateral triangular prisms, set on top of each other at different heights.
+
+![Bank Discount Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/bank-discount.jpg "Azrieli Sarona")
+
+### Bank Discount Tower 
+This tower is the home of the headquarters of Israel's third largest bank
+
+![Leumi Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/leumi-tower.jpg "Leumi Tower")
+
+### Leumi Tower
+This tower is home of Israel's second largest bank.  It has two sections, a lower section with 43 windows on each floor, and an upper high-rise section with 32 windows on each floor.
+
+![Alrov Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/alrov-tower.jpg "Alrov Tower")
+
+### Alrov Tower
+This tower, according to its designer, features three design parts, the Box (general shape), the Triangular Sawmill (northern facade) and the Cylinder (southern facade).
+
+![Meier on Rothschild Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/meier-on-rothschild.jpg "Meier on Rothschild Tower")
+
+### Meier on Rothschild Tower
+This tower is currently the tallest building located on Rothschild Boulevard.
+
+
+`;

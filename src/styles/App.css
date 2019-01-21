@@ -321,11 +321,30 @@ ul {
   margin: 0 auto;
   margin-bottom: 10px; }
 
+.article-tel-aviv img {
+  width: calc(250px * 0.5);
+  height: calc(445px * 0.5); }
+
+.article-tel-aviv p:nth-child(3n + 6) {
+  border-bottom: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
 @media (min-width: 550px) {
   .article-tama img {
     width: calc(250px * 0.7);
     height: calc(445px * 0.7); }
   .article-tama p:nth-child(3n + 9) {
+    border-bottom: 1px solid black;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .article-tel-aviv img {
+    width: calc(250px * 0.7);
+    height: calc(445px * 0.7); }
+  .article-tel-aviv p:nth-child(3n + 6) {
     border-bottom: 1px solid black;
     width: 80%;
     display: block;
