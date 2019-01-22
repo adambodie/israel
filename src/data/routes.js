@@ -93,10 +93,10 @@ const routes = [
 		paragraph: benYehuda,
 		link: "ben-yehuda",
 		prev: "herzl",
-		next: "gilo",		
+		next: "gilo",
 		number: 2,
 		begin: 5,
-		end: 8				
+		end: 8
 	},{
 		title: "Leaving Jerusalem: Seeing the Israeli-Arab Conflict",
 		paragraph: gilo,
@@ -117,7 +117,7 @@ const routes = [
 		next: "desert",
 		number: 3,
 		begin: 9,
-		end: 12					
+		end: 12
 	},{
 		title: "The Negev Desert: Hot Fun Before Masada",
 		paragraph: desert,
@@ -187,7 +187,10 @@ const routes = [
 		paragraph: telAvivNight,
 		link: "tel-aviv-night",
 		prev: "dead-sea",
-		next: "tel-aviv-beach"	
+		next: "tel-aviv-beach",
+		number: 4,
+		begin: 13,
+		end: 16
 	},{
 		title: "Morning Stroll along the beaches of Tel Aviv",
 		paragraph: telAvivBeach,

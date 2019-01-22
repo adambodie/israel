@@ -119,3 +119,76 @@ export const question12 = `
 | C. Norway                   | D. Lithuania                |
 
 `;
+
+export const question13 = `
+## About what percentage of salinity does the Dead Sea have?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. 5%                       | B. 35%                      |
+| C. 40%                      | D. 20%                      |
+
+`;
+
+export const question14 = `
+## Which historical figure built palaces on Masada?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Herod the Great          | B. Alexander the Great      |
+| C. David Ben-Gurion         | D. Jesus Christ             |
+
+`;
+
+export const question15 = `
+## Is the Dead Sea the Earth's lowest elevation on land?
+|                                                           |
+| :-------------------------- | :-------------------------- |
+| A. Yes                      | B. No                       |
+| C. Not sure                 | D. What's the Dead Sea?     |
+
+`;
+
+export const question16 = `
+## Why do you have to take a tractor-bus ride from the Ein Gedi Spa to the Dead Sea?
+|                                                                              |
+| :-------------------------------------------| :----------------------------- |
+| A. Just for fun                             | B. Spa policy                  |
+| C. Declining sea levels after Spa was built | D. Keep sand out of your shoes |
+
+`;
+
+
+export const question17 = `
+## What year was Tel Aviv founded?
+|                                                              |
+| :-------------------------- | :----------------------------- |
+| A. 2000 BCE                 | B. 1909                        |
+| C. 31                       | D. 1948                        |
+
+`;
+
+export const question18 = `
+## Under the 1947 UN Partition Plan, Jaffa would have been part of which nation?
+|                                                              |
+| :-------------------------- | :----------------------------- |
+| A. Israel                   | B. United Kingdom              |
+| C. Palestine                | D. Gaza                        |
+
+`;
+
+export const question19 = `
+## Where was Israel's Declaration of Independence Signed?
+|                                                              |
+| :-------------------------- | :----------------------------- |
+| A. Dizengoff House          | B. Independence Hall           |
+| C. Knesset                  | D. Both A and B                |
+
+`;
+
+export const question20 = `
+## Which port did Jonah allegedly sail from before being swallowed by a whale?
+|                                                              |
+| :-------------------------- | :----------------------------- |
+| A. Haifa                    | B. Jaffa                       |
+| C. Alexandria               | D. Beirut                      |
+
+`;

@@ -404,7 +404,8 @@ table thead {
   border: none !important; }
 
 .quiz-card .question tr {
-  background: white !important; }
+  background: white !important;
+  line-height: 1.1; }
 
 .quiz-card .question h2 {
   font-size: 1.0em;
@@ -952,7 +953,7 @@ td {
   margin: 0 auto;
   margin-top: 84px;
   width: 350px;
-  height: 600px;
+  height: 460px;
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
   background: yellow;
@@ -970,9 +971,10 @@ td {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 170px;
+  height: 150px;
   width: 300px;
   margin-top: 20px;
+  font-size: 2em;
   font-family: "Monoton", cursive !important;
   background: #a06126;
   border-top-left-radius: 150px;
@@ -989,7 +991,7 @@ td {
   margin-top: 10px; }
 
 .jukebox-button {
-  padding: 5px;
+  padding: 4px;
   background: #a06126;
   position: absolute;
   top: 0;
@@ -1000,15 +1002,28 @@ td {
   perspective: 1200px;
   transform: translate3d(0, 0, 0);
   overflow: visible;
-  width: 240px;
-  height: 138px;
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
 
 .flipper.flipped .card {
   transform: rotateY(-180deg); }
 
 .flipper.flipped .card > .back {
-  backface-visibility: visible; }
+  backface-visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation-name: wait-for-back;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards; }
+
+.flipper.flipped-complete .card .front + .back {
+  animation-name: wait-for-front;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards; }
 
 .card {
   transform: translate3d(0, 0, 0);
@@ -1023,15 +1038,10 @@ td {
 .card > .back {
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   overflow: hidden;
   background-size: 100% 100%;
   background-repeat: no-repeat; }
@@ -1041,12 +1051,13 @@ td {
   color: #FFFFFF; }
 
 .card > .front p {
-  background: black;
+  background: #0038B8;
   font-family: "Monoton", cursive !important;
   width: 236.66667px;
   height: 133.33333px;
   font-size: 18px;
   margin-top: 25px;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -1055,10 +1066,7 @@ td {
   transform: rotateY(180deg) !important;
   color: #FFFFFF;
   padding: 0 50px;
-  top: 29px;
-  left: 23px;
-  right: 20px;
-  bottom: 19px; }
+  opacity: 0; }
 
 .legs {
   width: 350px;
@@ -1087,21 +1095,18 @@ td {
 
 .area {
   margin: 0 auto;
-  height: 390px;
+  height: 300px;
   width: 300px;
   background: black; }
 
 .area .content {
-  height: 1200px; }
+  height: 1750px; }
 
 .area .content iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 236.66667px;
-  height: 133.33333px; }
+  bottom: 5px;
+  width: 177.5px;
+  height: 100px; }
 
 .scrollarea .scrollbar-container {
   opacity: 1 !important;
@@ -1110,58 +1115,6 @@ td {
 .jukebox-text {
   margin-top: 100px;
   color: white; }
-
-@media (min-width: 768px) {
-  .jukebox {
-    width: 500px;
-    height: 600px; }
-  .jukebox-title h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 450px; }
-  .jukebox-button {
-    padding: 7px; }
-  .legs {
-    width: 500px; }
-  .leg-bottom {
-    width: 100%;
-    background: #323232;
-    border-right: 10px solid #323232;
-    border-right-style: groove;
-    height: 30px; }
-  .leg {
-    width: 70px;
-    height: 70px; }
-  .area {
-    height: 390px;
-    width: 450px; }
-  .area .content {
-    height: 1600px; }
-  .area .content iframe {
-    width: 355px;
-    height: 200px;
-    z-index: 10000; }
-  .flipper {
-    width: 400px;
-    height: 250px;
-    margin-bottom: 30px; }
-  .card {
-    width: 100%;
-    height: 100%; }
-  .card > .front p {
-    background: black;
-    font-family: "Monoton", cursive !important;
-    width: 355px;
-    height: 200px;
-    font-size: 36px;
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .flipper.flipped .back {
-    font-size: 36px; } }
 
 @keyframes side-gradient {
   0% {
@@ -1178,6 +1131,18 @@ td {
     background-image: linear-gradient(to bottom, indigo, violet, red, orange, yellow, green, blue); }
   100% {
     background-image: linear-gradient(to bottom, violet, red, orange, yellow, green, blue, indigo); } }
+
+@keyframes wait-for-back {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes wait-for-front {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .graffiti {
   margin-top: 64px;
