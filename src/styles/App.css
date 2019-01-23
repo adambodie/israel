@@ -148,7 +148,7 @@ section {
 
 .c-side-nav__item {
   list-style: none;
-  font-size: 1.4em; }
+  font-size: 1.2em; }
 
 .c-side-nav__item a {
   color: white; }
@@ -330,6 +330,10 @@ ul {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px; }
+
+.article-epilogue img {
+  width: 400px;
+  height: 300px; }
 
 @media (min-width: 550px) {
   .article-tama img {

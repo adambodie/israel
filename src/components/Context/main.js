@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { 
-	dummy, 
 	todoIntro, 
 	elAlIntro, 
 	benGurionIntro, 
@@ -32,7 +31,9 @@ import {
 	jaffaIntro,
 	innovationIntro,
 	telAvivIntro,
-	independenceIntro
+	independenceIntro,
+	farewellIntro,
+	epilogueIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -314,12 +315,26 @@ export class Provider extends Component {
 						linkTitle: 'Independence Hall'
 					},
 					{
-						title: "Farewell", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[28].title, 
+						intro: farewellIntro, 
+						link: 'farewell', 
 						image: 'rothschild',
 						linkTitle: 'Farewell'
-					}					
+					},
+					{
+						title: "Rockin' Jukebox: Sababa!", 
+						intro: farewellIntro, 
+						link: 'jukebox', 
+						image: 'jukebox',
+						linkTitle: 'Jukebox'
+					},
+					{
+						title: routes[29].title, 
+						intro: epilogueIntro, 
+						link: 'epilogue', 
+						image: 'home',
+						linkTitle: 'Epilogue'
+					}				
 					]
 				}
 			]

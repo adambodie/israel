@@ -26,7 +26,9 @@ import {
 	jaffa,
 	innovation,
 	telAviv,
-	independence
+	independence,
+	farewell,
+	epilogue
 	} from './articles';
 
 const routes = [
@@ -246,13 +248,19 @@ const routes = [
 		paragraph: independence,
 		link: "independence",
 		prev: "tel-aviv",
-		next: "rothschild"	
+		next: "farewell"	
 	},{
 		title: "Farewell Israel, What a Wonderful Trip",
-		paragraph: jaffa,
-		link: "rothschild",
+		paragraph: farewell,
+		link: "farewell",
 		prev: "independence",
 		next: "jukebox"	
+	},{
+		title: "This is the End: Heading Back Home",
+		paragraph: epilogue,
+		link: "epilogue",
+		prev: "jukebox",
+		next: "/index"	
 	}
 ]
 

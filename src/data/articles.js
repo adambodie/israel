@@ -1,5 +1,3 @@
-export const dummy = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.`
-
 export const mainTitle = '# Welcome';
 
 export const mainParagraph = 
@@ -716,5 +714,38 @@ But with this done, our journey was almost complete.  The end was near, and with
 - As it was on a Friday, the time of 16:00 was chosen to avoid any interference with Shabbat.
 - **David Ben-Gurion**, the leader of the Yishuv, a group of Jewish residents before independence, was the first to sign the Declaration of Independence
 - Though there were 37 members of the Moetzet HaAm, the first state council, set to sign the Declaration of Independence, only 25 members were present to sign it.  They did so, after Ben-Gurion, in alphabetical order.
+
+`;
+
+export const farewellIntro = `After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.`;
+
+export const farewell = `
+${farewellIntro}
+
+There wasn’t too much to explore within the vicinity of our area, without getting too far away and lost, but when someone mentioned Ice Cream, I knew I had to go find some ice cream.  I hadn’t had any on the trip, and what a better treat to have than ice cream.  The place was called Anita, and they had plenty of classic, as well as unique flavors.  I could have had about 10 scoops of things I wanted to try, but I certainly couldn’t have done that, so I picked 3 I found intriguing.  So I picked three that stood out at that moment: Chocolate Pistachio, Salted Cashew, and Cookieman.  It was quite delicious, a perfect way to enjoy one last treat before going back home.
+
+After ice cream, and waiting at the meeting spot, we headed to have our last meal together.  The food was good, typical of what we had been having throughout the trip, but before eating, we were given a chance to say our final thoughts on the trip in general.  After first being told of this, a variety of emotions crossed my mind.  I thought back to where I was when the trip began, and how my life in general had changed in the past year, having found my new family who accepted my with arms wide open, providing me a sense of importance with community.  I certainly wasn’t the type to be the first to speak, but when I was ready, I started reflecting on how far I progressed and how thankful I was for such a great opportunity.  But something happened while I was talking I never expected.
+
+I decided I wasn’t done talking yet.  Probably the last thing I’d ever do, but why stop?  So I kept on talking, bringing up how much has changed for me throughout the year and how much it affected me in a great way.  To me, it was a sign of how much I’ve accomplished.  Now I felt like I could take on the challenges I never felt confident I could before (at the time I’m writing this, I can say that I have done just that).  With that, I ended my speech by saying that things would be going up for me.  I appreciated the nice comments I received, and equally appreciated what everybody else said as well. 
+
+`;
+
+export const epilogueIntro = `From the start of the trip to the end, I could feel the evolution of our group bond, and could see how much similarity, asides from being young Jewish adults, there truly was between all of us.  But knowing it would be the last time we would all be together, it made it a little sad as well.  Now it was time to go back to the airport, back to the normal life at home, back to the ordinary.  After saying goodbye to those who extended our trip, it was on to the airport, where we had plenty of time to relax, probably too much time to relax with a 10 hour flight back to New York, and for me, an additional 6 hour flight back to Portland.`;
+
+export const epilogue = `
+
+![Back to New York](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_6704.JPG)
+
+${epilogueIntro}
+
+By the time we reached the gate, I was too exhausted to do much of anything, so I sat and relaxed, waiting for the flight which took off at 12:30 am.  Back in the states, we had heard there was snow in New York, and that caused some concern over the status of our flight.  Someone in the group had told us our flight would be delayed.  Fortunately, it wasn’t delayed, thankfully said person received false info.  In hindsight, I wish I had included my Israeli charger for my phone, since my backup battery had died.  I was close to getting a hand on one.  But I decided to be nice and let Josh know he had placed his charger in my bag (despite the fact he was holding his own bag while this was happening).  A funny moment indeed, and with my new sense of confidence, was able to talk about it on the WhatsApp chat recently created for our group.
+
+Despite these moments, the flight home was quite atrocious compared to the flight there.  It was bad enough I couldn’t bring any water on the flight that I got past the checkpoints.  Why that would be an issue is beyond me.  If that were the worst thing, I would have been okay, but the plane going back to New York was akin to a third-world airplane compared to the nice, modern model we had going to Israel.  The seats weren’t nearly as nice (I was again in the very last row), the entertainment screen in front of us consisted of a little screen the size of my iPhone, and the worst part, there was no place to charge our electronics.  How could anyone survive that long of a flight without this going across the Atlantic is unfathomable.  But that wasn’t the worst part of the flight experience.  The flight itself was rocky for the first few hours of the trip, which was incredibly uncomfortable.  Without any charges for the electronics, I didn’t want to use my battery up.  So I tried to sleep.  I did manage to sleep a little (thank you Whitney for informing me of my snoring, hopefully it wasn’t too loud).  The turbulence became heavy again while reaching North America; by the time the plane landed, people started clapping once we got on the ground.
+
+After going through customs, which was a bit long, but not as long as first anticipated, even at 5:00 am in the morning, and getting our bags, it was time for us to say our last goodbyes.  Some of the group got off earlier since they were closer to the front than I was, but I was at least able to say my last goodbyes to some.  Eric, the only member of the group besides me on the West Coast, was headed to the same terminal as I, so after checking my bag with Alaska Airlines for my direct flight to Portland, I was alone again.  With another six hours on a plane, which thankfully I had rescheduled my flight, since I would not have made the initial flight, I was ready to get home.  By the time I got back home, I was completely out of it, barely able to comprehend much of anything.  Thankfully, my Mom picked me up, and waited inside the airport before the checkpoints to surprise me.  Thankfully, my luggage came back in one piece, which had gotten lost on the way home of my two prior trips to Europe.   
+
+The journey was over, but the memories will last a lifetime.  I would love to go back to Israel again to see more; it’s an amazing place.  I learned a lot of Israel, Judaism, and most importantly, about myself.  And it’s with this that I end my story with my final words:
+
+# Thank you!
 
 `;
