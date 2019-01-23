@@ -8,10 +8,10 @@ export default class JukeboxItem extends Component {
     }
 
     clickHandler(event) {
-        if (this.state.view === 'front' || this.state.view ==='front-complete') {
+        if (this.state.view === 'front') {
             this.setState({view: 'back'});
         } else {
-            this.setState({view: 'front-complete'});
+            this.setState({view: 'front'});
         }
     }
 

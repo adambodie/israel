@@ -25,7 +25,8 @@ import {
 	kibbutz,
 	jaffa,
 	innovation,
-	telAviv
+	telAviv,
+	independence
 	} from './articles';
 
 const routes = [
@@ -242,9 +243,9 @@ const routes = [
 		next: "independence"	
 	},{
 		title: "Independence Hall: Where Israel became Israel",
-		paragraph: jaffa,
+		paragraph: independence,
 		link: "independence",
-		prev: "telaviv",
+		prev: "tel-aviv",
 		next: "rothschild"	
 	},{
 		title: "Farewell Israel, What a Wonderful Trip",

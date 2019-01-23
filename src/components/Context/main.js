@@ -31,7 +31,8 @@ import {
 	catIntro,
 	jaffaIntro,
 	innovationIntro,
-	telAvivIntro
+	telAvivIntro,
+	independenceIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
 
@@ -306,9 +307,9 @@ export class Provider extends Component {
 						linkTitle: 'Rothschild'
 					},
 					{
-						title: "Independence Hall", 
-						intro: dummy, 
-						link: 'todoList', 
+						title: routes[27].title, 
+						intro: independenceIntro, 
+						link: 'independence', 
 						image: 'independence',
 						linkTitle: 'Independence Hall'
 					},

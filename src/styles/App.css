@@ -1019,12 +1019,6 @@ td {
   animation-delay: 0.5s;
   animation-fill-mode: forwards; }
 
-.flipper.flipped-complete .card .front + .back {
-  animation-name: wait-for-front;
-  animation-duration: 1s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards; }
-
 .card {
   transform: translate3d(0, 0, 0);
   transform-style: preserve-3d;
@@ -1133,12 +1127,6 @@ td {
     background-image: linear-gradient(to bottom, violet, red, orange, yellow, green, blue, indigo); } }
 
 @keyframes wait-for-back {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes wait-for-front {
   0% {
     opacity: 0; }
   100% {

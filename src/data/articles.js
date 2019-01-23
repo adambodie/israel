@@ -695,5 +695,26 @@ This tower, according to its designer, features three design parts, the Box (gen
 ### Meier on Rothschild Tower
 This tower is currently the tallest building located on Rothschild Boulevard.
 
+`;
+
+export const independenceIntro = `Located along Rothschild Boulevard is Independence Hall, the place where the Jewish leaders declared the land of Israel as a Jewish state.  While visiting on our last day, we got to visit Independence Hall, the place where it all happened, where we learned about the history.`;
+
+export const independence = `
+${independenceIntro}
+
+The building itself was unassuming compared to everything else, but that was expected for a building with so much history.  First we went into a room off the main hall, where we watched a movie which lasted 12 minutes.  A nice introduction,  but the real treat inside was the main hall where the Declaration of Independence was signed.
+
+The main room had a big painting of Theodor Herzl in the Wall surrounded by Israeli flags, with a judge seat where David Ben Gurion signed the Declaration of Independence, and all the seats in both sides in the front where the other Israeli leaders participated in the signing.  We sat in a row of seats looking at all of this.  I felt a sense of honor knowing it was in this room, 70 years ago, that Israel became a Jewish state.  I didn’t know too much about the specifics of the signing of the Independence, but I learned just how it came down.  My journey of knowledge on the creation of Israel was complete.
+
+But with this done, our journey was almost complete.  The end was near, and within hours, things would go back to normal.  No more Israel, no more sightseeing, no more constant bathroom and WiFi searching, no more living in a suitcase.  It would be soon that we would be together for the very last time.  But there was a big, unexpected event in my horizon.
+
+# Independence Hall Facts
+- This building was built in 1909, when Tel Aviv was founded, and housed the home of their first mayor, **Meir Dizengoff**
+- From 1932 to 1971, the **Dizengoff House**, the original name of Independence Hall, was home of the Tel Aviv Museum of Art
+- This house was chosen as the site of the signing of the Declaration of Independence due to its location and structure of the building, which prevented possible attacks during the signing
+- Because of the fear of attacks from Arab armies and British authorities preventing a declaration, the event was not widely publicized. Invitations were sent on the morning of **May 14, 1948**, the day it was signed, to those who wished to attend.  
+- As it was on a Friday, the time of 16:00 was chosen to avoid any interference with Shabbat.
+- **David Ben-Gurion**, the leader of the Yishuv, a group of Jewish residents before independence, was the first to sign the Declaration of Independence
+- Though there were 37 members of the Moetzet HaAm, the first state council, set to sign the Declaration of Independence, only 25 members were present to sign it.  They did so, after Ben-Gurion, in alphabetical order.
 
 `;
