@@ -1,11 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 
 beforeEach(() => {
   jest.resetModules();
 });
 
-const contextPages = { pages: [
+/*const contextPages = { pages: [
     {
         scroll: 'day-0', 
         day: 0,
@@ -62,4 +61,4 @@ const getMainScrollSpyWithContext = (context= contextPages) => {
         it('should change the text to Introduction', () => {
             expect(wrapper.find('.c-side-nav__item').first().text()).toBe('Introduction');
         });
-    });
+    });*/

@@ -527,7 +527,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     className="c-side-nav__link"
-                    href="#nachal"
+                    href="#ein-gedi"
                   >
                     Ein Gedi
                   </a>
@@ -779,7 +779,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     className="c-side-nav__link"
-                    href="#tel-aviv"
+                    href="#rothschild"
                   >
                     Rothschild
                   </a>
@@ -1444,21 +1444,21 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
-                id="nachal"
+                id="ein-gedi"
               >
                 <h3>
-                  Nachal: Not a Mirage
+                  Ein Gedi: Not a Mirage
                 </h3>
                 <img
-                  alt="Nachal: Not a Mirage"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/nachal.jpg"
+                  alt="Ein Gedi: Not a Mirage"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/einGedi.jpg"
                 />
                 <p>
                   After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at the Ein Gedi Nature Reserve, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/nachal"
+                  href="/ein-gedi"
                   onClick={[Function]}
                 >
                   Read More
@@ -1760,21 +1760,21 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
-                id="tel-aviv"
+                id="rothschild"
               >
                 <h3>
                   One Last Lunch along Rothschild, the Heart of Tel Aviv
                 </h3>
                 <img
                   alt="One Last Lunch along Rothschild, the Heart of Tel Aviv"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAviv.jpg"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rothschild.jpg"
                 />
                 <p>
                   Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/tel-aviv"
+                  href="/rothschild"
                   onClick={[Function]}
                 >
                   Read More
@@ -1811,7 +1811,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                 </h3>
                 <img
                   alt="Farewell Israel, What a Wonderful Trip"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rothschild.jpg"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/farewell.jpg"
                 />
                 <p>
                   After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.
@@ -1836,7 +1836,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jukebox.jpg"
                 />
                 <p>
-                  After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.
+                  Over the course of our trip, we managed to hear a few songs, mostly on the bus.  From karaoke jams to popular Israeli songs, and of course, Take Me Home Country Roads, there were quite a few songs we heard. Check out the Jukebox to play the most memorable songs of the trip.
                 </p>
                 <a
                   className="custom-main custom-button"

@@ -1,11 +1,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { shallow, mount } from 'enzyme';
 import { MemoryRouter } from 'react-router';
 import Post from '../../components/Posts/Post';
 import sinon from 'sinon';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
+import {
+  render,
+  cleanup
+} from 'react-testing-library'
 
 beforeEach(() => {
 	const mock = new MockAdapter(axios);
@@ -29,20 +32,10 @@ it('renders correctly', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-it('renders a `title`', () => {
-	const wrapper = shallow(<Post title='Title' 
-								paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'} 
-								prev={'prev'} 
-								next={'next'} 
-								/>
-							);
-	expect(wrapper.find('h1').length).toEqual(1);
- });
-
- it('calls componentDidMount', () => {
+it('calls componentDidMount', () => {
 	const mockData = {data: {title: 'Picture', id:'4000'}};
     sinon.spy(Post.prototype, 'componentDidMount');
-    const wrapper = mount(<MemoryRouter>
+    const { getByText, getByTestId } = render(<MemoryRouter>
 		<Post
 			title='Title' 
 			paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'} 

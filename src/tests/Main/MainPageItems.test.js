@@ -1,11 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 
 beforeEach(() => {
   jest.resetModules();
 });
 
-const contextPages = { pages: [
+/*const contextPages = { pages: [
     {
         scroll: 'day-0', 
         day: 0,
@@ -58,4 +57,4 @@ const getMainPageItemsWithContext = (context= contextPages) => {
         it('should return a list of pages', () => {
           expect(wrapper.find('.o-content__inner-body').length).toBe(3);
         });       
-    });
+    });*/

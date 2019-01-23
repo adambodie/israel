@@ -2,10 +2,7 @@ import 'core-js/es6/map';
 import 'core-js/es6/set';
 import 'raf/polyfill';
 import 'jest-dom/extend-expect'
-import Enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
 
-Enzyme.configure({ adapter: new Adapter() });
 window.matchMedia =
   window.matchMedia ||
   function() {

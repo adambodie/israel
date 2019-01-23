@@ -1,11 +1,14 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import {
+  render,
+  cleanup
+} from 'react-testing-library'
 
 beforeEach(() => {
   jest.resetModules();
 });
 
-const contextPages = { pages: [
+/*const contextPages = { pages: [
     {
         scroll: 'day-0', 
         day: 0,
@@ -56,4 +59,4 @@ const getMainPageItemsWithContext = (context = contextPages) => {
           const wrapper = shallow(Children);
           expect(wrapper.find('.o-main').length).toBe(1);
         });       
-    });
+    });*/

@@ -12,7 +12,7 @@ it('renders without crashing', () => {
         draw={0} 
         start={false}
         buttons={[
-                {name: 'rock', id: 0},			
+                {name: 'rock', id: 0},
                 {name: 'paper', id: 1},
                 {name: 'scissors', id: 2}
         ]} 
