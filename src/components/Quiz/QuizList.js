@@ -8,9 +8,9 @@ export default class QuizList extends Component {
 		return(
 			<Consumer>
 				{ ({ questions }) => (
-				<div className="quiz-cards">
+				<div className='quiz-cards'>
 					{questions.map((x, index) =>
-							<QuizItem index={index} key={index}/>
+						<QuizItem index={index} key={index}/>
 					).filter((x, index) => index >= begin && index <= end)}
 				</div>)
 				}

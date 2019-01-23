@@ -3,8 +3,8 @@ import { Provider } from '../Context/quiz';
 import QuizList from './QuizList';
 
 const Quiz = (props) => {
-		return (
-		<Provider>		
+	return (
+		<Provider>
 			<h1 className='pageTitle'>Quiz #{props.number}</h1>
 			<QuizList begin={props.begin} end={props.end} />
 		</Provider>

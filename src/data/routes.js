@@ -33,100 +33,100 @@ import {
 
 const routes = [
 	{
-		title: "El Al: The Beginning of the Trip to Israel" ,
+		title: 'El Al: The Beginning of the Trip to Israel' ,
 		paragraph: elAl,
-		link: "el-al",
-		prev: "todoList",
-		next: "ben-gurion",
+		link: 'el-al',
+		prev: 'todoList',
+		next: 'ben-gurion',
 	},
 	{
-		title: "Arriving in Israel: My First Thoughts",
+		title: 'Arriving in Israel: My First Thoughts',
 		paragraph: benGurion,
-		link: "ben-gurion",
-		prev: "el-al",
-		next: "old-jerusalem",		
+		link: 'ben-gurion',
+		prev: 'el-al',
+		next: 'old-jerusalem',
 	},
 	{
-		title: "The Old City",
+		title: 'The Old City',
 		paragraph: oldJerusalem,
-		link: "old-jerusalem",
-		prev: "ben-gurion",
-		next: "shuk-day",			
+		link: 'old-jerusalem',
+		prev: 'ben-gurion',
+		next: 'shuk-day',
 	},
 	{
-		title: "Mahane Yehuda: The Shuk Experience Before Shabbat",
+		title: 'Mahane Yehuda: The Shuk Experience Before Shabbat',
 		paragraph: shukDay,
-		link: "shuk-day",
-		prev: "old-jerusalem",
-		next: "shabbat"	
+		link: 'shuk-day',
+		prev: 'old-jerusalem',
+		next: 'shabbat'
 	},
 	{
-		title: "Shabbat in Jerusalem: A Day to Rest",
+		title: 'Shabbat in Jerusalem: A Day to Rest',
 		paragraph: shabbat,
-		link: "shabbat",
-		prev: "shuk-day",
-		next: "shuk-night",			
+		link: 'shabbat',
+		prev: 'shuk-day',
+		next: 'shuk-night',
 		number: 1,
 		begin: 0,
 		end: 4
 	},
 	{
-		title: "Back to the Shuk: The Night Time Experience",
+		title: 'Back to the Shuk: The Night Time Experience',
 		paragraph: shukNight,
-		link: "shuk-night",
-		prev: "shabbat",
-		next: "yad-vashem"			
+		link: 'shuk-night',
+		prev: 'shabbat',
+		next: 'yad-vashem'
 	},
 	{
-		title: "Never Forget: Yad Vashem",
+		title: 'Never Forget: Yad Vashem',
 		paragraph: yadVashem,
-		link: "yad-vashem",
-		prev: "shuk-night",
-		next: "shakshuka"		
+		link: 'yad-vashem',
+		prev: 'shuk-night',
+		next: 'shakshuka'
 	},
 	{
-		title: "Zionism 101: Mount Herzl",
+		title: 'Zionism 101: Mount Herzl',
 		paragraph: herzl,
-		link: "herzl",
-		prev: "shakshuka",
-		next: "ben-yehuda"		
+		link: 'herzl',
+		prev: 'shakshuka',
+		next: 'ben-yehuda'
 	},
 	{
-		title: "One Last Night in Jerusalem at Ben Yehuda",
+		title: 'One Last Night in Jerusalem at Ben Yehuda',
 		paragraph: benYehuda,
-		link: "ben-yehuda",
-		prev: "herzl",
-		next: "gilo",
+		link: 'ben-yehuda',
+		prev: 'herzl',
+		next: 'gilo',
 		number: 2,
 		begin: 5,
 		end: 8
 	},{
-		title: "Leaving Jerusalem: Seeing the Israeli-Arab Conflict",
+		title: 'Leaving Jerusalem: Seeing the Israeli-Arab Conflict',
 		paragraph: gilo,
-		link: "gilo",
-		prev: "ben-yehuda",
-		next: "laqye"			
+		link: 'gilo',
+		prev: 'ben-yehuda',
+		next: 'laqye'
 	},{
-		title: "Out in the Desert with the Bedouins",
+		title: 'Out in the Desert with the Bedouins',
 		paragraph: laqye,
-		link: "laqye",
-		prev: "gilo",
-		next: "arad"			
+		link: 'laqye',
+		prev: 'gilo',
+		next: 'arad'
 	},{
-		title: "Arad in the Desert: Shelter Included for the Authentic Israel Experience",
+		title: 'Arad in the Desert: Shelter Included for the Authentic Israel Experience',
 		paragraph: arad,
-		link: "arad",
-		prev: "laqye",
-		next: "desert",
+		link: 'arad',
+		prev: 'laqye',
+		next: 'desert',
 		number: 3,
 		begin: 9,
 		end: 12
 	},{
-		title: "The Negev Desert: Hot Fun Before Masada",
+		title: 'The Negev Desert: Hot Fun Before Masada',
 		paragraph: desert,
-		link: "desert",
-		prev: "arad",
-		next: "roman",
+		link: 'desert',
+		prev: 'arad',
+		next: 'roman',
 		map: true,
 		locations: [
 			{name: 'Western Wall'},
@@ -141,19 +141,19 @@ const routes = [
 			{name: 'Yad Vashem'},
 			{name: 'Mount Herzl'},
 		],
-		locationName: "Jerusalem"			
+		locationName: 'Jerusalem'
 	},{
-		title: "Masada: The Roman Ramp Up",
+		title: 'Masada: The Roman Ramp Up',
 		paragraph: roman,
-		link: "roman",
-		prev: "desert",
-		next: "masada",	
+		link: 'roman',
+		prev: 'desert',
+		next: 'masada',
 	},{
-		title: "Masada: On Top of it All!",
+		title: 'Masada: On Top of it All!',
 		paragraph: masada,
-		link: "masada",
-		prev: "roman",
-		next: "snake",
+		link: 'masada',
+		prev: 'roman',
+		next: 'snake',
 		map: true,
 		locations: [
 			{name: 'Synagogue'},
@@ -166,101 +166,101 @@ const routes = [
 			{name: 'Western Palace'}
 
 		],
-		locationName: "Masada"			
+		locationName: 'Masada'
 	},{
-		title: "Masada: Down the Snake Path",
+		title: 'Masada: Down the Snake Path',
 		paragraph: snake,
-		link: "snake",
-		prev: "masada",
-		next: "nachal"			
+		link: 'snake',
+		prev: 'masada',
+		next: 'nachal'
 	},{
-		title: "Nachal: Not a Mirage",
+		title: 'Nachal: Not a Mirage',
 		paragraph: nachal,
-		link: "nachal",
-		prev: "snake",
-		next: "dead-sea"			
+		link: 'nachal',
+		prev: 'snake',
+		next: 'dead-sea'
 	},{
-		title: "The Dead Sea: Healing in the Mud",
+		title: 'The Dead Sea: Healing in the Mud',
 		paragraph: deadSea,
-		link: "dead-sea",
-		prev: "nachal",
-		next: "tel-aviv-night"	
+		link: 'dead-sea',
+		prev: 'nachal',
+		next: 'tel-aviv-night'
 	},{
-		title: "Welcome to Tel Aviv, the Greatest City in the World",
+		title: 'Welcome to Tel Aviv, the Greatest City in the World',
 		paragraph: telAvivNight,
-		link: "tel-aviv-night",
-		prev: "dead-sea",
-		next: "tel-aviv-beach",
+		link: 'tel-aviv-night',
+		prev: 'dead-sea',
+		next: 'tel-aviv-beach',
 		number: 4,
 		begin: 13,
 		end: 16
 	},{
-		title: "Morning Stroll along the beaches of Tel Aviv",
+		title: 'Morning Stroll along the beaches of Tel Aviv',
 		paragraph: telAvivBeach,
-		link: "tel-aviv-beach",
-		prev: "tel-aviv-night",
-		next: "graffiti"	
+		link: 'tel-aviv-beach',
+		prev: 'tel-aviv-night',
+		next: 'graffiti'
 	},{
-		title: "Choose Your Own Adventure: Tagging Tel Aviv with Graffiti",
+		title: 'Choose Your Own Adventure: Tagging Tel Aviv with Graffiti',
 		paragraph: graffiti,
-		link: "graffiti",
-		prev: "tel-aviv-beach",
-		next: "carmel",
-		graffiti: true	
+		link: 'graffiti',
+		prev: 'tel-aviv-beach',
+		next: 'carmel',
+		graffiti: true
 	},{
-		title: "In Search of A Hebrew Sports Shirt",
+		title: 'In Search of A Hebrew Sports Shirt',
 		paragraph: carmel,
-		link: "carmel",
-		prev: "graffiti",
-		next: "tama"	
+		link: 'carmel',
+		prev: 'graffiti',
+		next: 'tama'
 	},{
-		title: "Choose Your Own Adventure: Tel Aviv Museum of Art",
+		title: 'Choose Your Own Adventure: Tel Aviv Museum of Art',
 		paragraph: tama,
-		link: "tama",
-		prev: "carmel",
-		next: "kibbutz"	
+		link: 'tama',
+		prev: 'carmel',
+		next: 'kibbutz'	
 	},{
-		title: "Shhhhhh!  We're going to a Kibbutz Styled Hotel!",
+		title: 'Shhhhhh!  We\'re going to a Kibbutz Styled Hotel!',
 		paragraph: kibbutz,
-		link: "kibbutz",
-		prev: "tama",
-		next: "game"	
+		link: 'kibbutz',
+		prev: 'tama',
+		next: 'game'
 	},{
-		title: "Jaffa: The Old Part of Tel Aviv",
+		title: 'Jaffa: The Old Part of Tel Aviv',
 		paragraph: jaffa,
-		link: "jaffa",
-		prev: "cat",
-		next: "innovation"	
+		link: 'jaffa',
+		prev: 'cat',
+		next: 'innovation'
 	},{
-		title: "Innovation: How Israel provides a Path to the Future",
+		title: 'Innovation: How Israel provides a Path to the Future',
 		paragraph: innovation,
-		link: "innovation",
-		prev: "jaffa",
-		next: "tel-aviv"	
+		link: 'innovation',
+		prev: 'jaffa',
+		next: 'tel-aviv'
 	},{
-		title: "One Last Lunch along Rothschild, the Heart of Tel Aviv",
+		title: 'One Last Lunch along Rothschild, the Heart of Tel Aviv',
 		paragraph: telAviv,
-		link: "tel-aviv",
-		prev: "innovation",
-		next: "independence"	
+		link: 'tel-aviv',
+		prev: 'innovation',
+		next: 'independence'
 	},{
-		title: "Independence Hall: Where Israel became Israel",
+		title: 'Independence Hall: Where Israel became Israel',
 		paragraph: independence,
-		link: "independence",
-		prev: "tel-aviv",
-		next: "farewell"	
+		link: 'independence',
+		prev: 'tel-aviv',
+		next: 'farewell'
 	},{
-		title: "Farewell Israel, What a Wonderful Trip",
+		title: 'Farewell Israel, What a Wonderful Trip',
 		paragraph: farewell,
-		link: "farewell",
-		prev: "independence",
-		next: "jukebox"	
+		link: 'farewell',
+		prev: 'independence',
+		next: 'jukebox'
 	},{
-		title: "This is the End: Heading Back Home",
+		title: 'This is the End: Heading Back Home',
 		paragraph: epilogue,
-		link: "epilogue",
-		prev: "jukebox",
-		next: "/index"	
+		link: 'epilogue',
+		prev: 'jukebox',
+		next: '/index'
 	}
 ]
 

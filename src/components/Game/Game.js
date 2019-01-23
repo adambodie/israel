@@ -3,16 +3,15 @@ import { Row, Column } from 'react-foundation';
 import GamePlayers from './GamePlayers';
 import GamePost from './GamePost';
 
-
 export default class Game extends Component {
-	constructor(){
+	constructor() {
 		super();
 		this.state = {
 			result: '',
 			draw: 0,
 			start: false,
 			buttons: [
-				{name: 'rock', id: 0},			
+				{name: 'rock', id: 0},
 				{name: 'paper', id: 1},
 				{name: 'scissors', id: 2}
 			],
@@ -34,7 +33,7 @@ export default class Game extends Component {
 			draw: 0,
 			result: '',
 			start: false
-		})		
+		})
 	}
 
 	handleClick(e, index) {
@@ -45,11 +44,11 @@ export default class Game extends Component {
 		let addDraw = draw;
 		let newResult = '';
 		if (newPlayers[0].score === newPlayers[1].score) {
-			newResult = "It's a Draw";
+			newResult = 'It\'s a Draw';
 			newPlayers[0].className = 'player-draw';
-			newPlayers[1].className = 'computer-draw';			
+			newPlayers[1].className = 'computer-draw';
 			addDraw++;
-		}  else if 	((newPlayers[1].score === 2 && newPlayers[0].score === 0) 
+		}  else if  ((newPlayers[1].score === 2 && newPlayers[0].score === 0) 
 					|| (newPlayers[1].score === 1 && newPlayers[0].score === 2) 
 					|| (newPlayers[1].score === 0 && newPlayers[0].score === 1)) {
 			newResult = `Player wins`;
@@ -69,31 +68,31 @@ export default class Game extends Component {
 			result: newResult,
 			start: true
 		})
-  }
+	}
 	render() {
 		const { buttons, players, draw, start, result } = this.state;
 		return (
-		<div>
-			<Row className="display grid-x game">
-				<Column large={6} offsetOnLarge={3}>
-					<h1>Rock, Paper, Scissors!!!</h1>
-					<GamePlayers 
-						players={players} 
-						draw={draw} 
-						start={start} 
-						handleChange={this.handleClick}
-						buttons={buttons}
-						result={result} 
-						/>
-					<div className='buttons'>
-						{buttons.map((x, index)=> <button data-testid={`button-${x.name}`} className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
-						<button className='reset' onClick={()=>this.handleReset()}>Reset</button>
-					</div>
-				</Column>
-			</Row>
-			<GamePost />
-		</div>
-		)
-	}
+			<div>
+				<Row className='display grid-x game'>
+					<Column large={6} offsetOnLarge={3}>
+						<h1>Rock, Paper, Scissors!!!</h1>
+						<GamePlayers 
+							players={players} 
+							draw={draw} 
+							start={start} 
+							handleChange={this.handleClick}
+							buttons={buttons}
+							result={result} 
+							/>
+						<div className='buttons'>
+							{buttons.map((x, index)=> <button data-testid={`button-${x.name}`} className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
+							<button className='reset' onClick={()=>this.handleReset()}>Reset</button>
+						</div>
+					</Column>
+				</Row>
+				<GamePost />
+			</div>
+			)
+		}
 }
 

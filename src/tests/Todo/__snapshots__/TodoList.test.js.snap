@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="row display grid-x todoList"
+  className="row display grid-x todoList article"
 >
   <div
     className="columns large-6 large-offset-3"

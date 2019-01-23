@@ -48,7 +48,7 @@ export class Provider extends Component {
 					date: 'November 7-8, 2018',
 					items: [ 
 					{
-						title: "Things to Bring to Israel", 
+						title: 'Things to Bring to Israel', 
 						intro: todoIntro, 
 						link: 'todoList', 
 						image: 'item',
@@ -60,7 +60,7 @@ export class Provider extends Component {
 						link: 'el-al', 
 						image: 'globe',
 						linkTitle: 'El Al'
-					},					
+					},
 					]
 				},
 				{
@@ -75,23 +75,22 @@ export class Provider extends Component {
 						image: 'welcomeIsrael',
 						linkTitle: 'Ben Gurion'
 					},
-
 					{
 						title: routes[2].title, 
 						intro: oldJerusalemIntro, 
 						link: 'old-jerusalem', 
 						image: 'jerusalem',
 						linkTitle: 'Old Jerusalem'
-					},					
+					},
 					{
 						title: routes[3].title, 
 						intro: shukDayIntro, 
 						link: 'shuk-day', 
 						image: 'shukDay',
 						linkTitle: 'Shuk Day'
-					}					
+					}
 					]
-				},				
+				},
 				{
 					scroll: 'day-2', 
 					day: 2,
@@ -110,7 +109,7 @@ export class Provider extends Component {
 						link: 'shuk-night', 
 						image: 'shukNight',
 						linkTitle: 'Shuk Night'
-					},					
+					},
 					]
 				},	
 				{
@@ -124,9 +123,9 @@ export class Provider extends Component {
 						link: 'yad-vashem', 
 						image: 'yadVashem',
 						linkTitle: 'Yad Vashem'
-					},					
+					},
 					{
-						title: "How Not to Eat Your Shakshuka", 
+						title: 'How Not to Eat Your Shakshuka', 
 						intro: shakshukaIntro, 
 						link: 'shakshuka', 
 						image: 'shakshuka',
@@ -145,7 +144,7 @@ export class Provider extends Component {
 						link: 'ben-yehuda', 
 						image: 'yehuda',
 						linkTitle: 'Ben Yehuda'
-					},						
+					},
 					]
 				},	
 				{
@@ -166,16 +165,16 @@ export class Provider extends Component {
 						link: 'laqye', 
 						image: 'laqye',
 						linkTitle: 'Laqye'
-					},	
+					},
 					{
 						title: routes[11].title, 
 						intro: aradIntro, 
 						link: 'arad', 
 						image: 'arad',
 						linkTitle: 'Arad'
-					}					
+					}
 					]
-				},	
+				},
 				{
 					scroll: 'day-5', 
 					day: 5,
@@ -224,7 +223,7 @@ export class Provider extends Component {
 						link: 'tel-aviv-night', 
 						image: 'telAvivNight',
 						linkTitle: 'Tel Aviv Night'
-					}					
+					}
 					]
 				},	
 				{
@@ -266,21 +265,21 @@ export class Provider extends Component {
 						image: 'kibbutz',
 						linkTitle: 'Kibbutz'
 					},{
-						title: "Rock, Paper, Scissors Showdown at the Kibbutz", 
+						title: 'Rock, Paper, Scissors Showdown at the Kibbutz', 
 						intro: gameIntro, 
 						link: 'game', 
 						image: 'game',
 						linkTitle: 'Game'
-					}										
+					}
 					]
-				},	
+				},
 				{
 					scroll: 'day-7', 
 					day: 7,
 					date: 'November 15, 2018',
 					items: [ 
 					{
-						title: "Cats!!!", 
+						title: 'Cats!!!', 
 						intro: catIntro, 
 						link: 'cat', 
 						image: 'cat',
@@ -322,7 +321,7 @@ export class Provider extends Component {
 						linkTitle: 'Farewell'
 					},
 					{
-						title: "Rockin' Jukebox: Sababa!", 
+						title: 'Rockin\' Jukebox: Sababa!', 
 						intro: farewellIntro, 
 						link: 'jukebox', 
 						image: 'jukebox',
@@ -334,7 +333,7 @@ export class Provider extends Component {
 						link: 'epilogue', 
 						image: 'home',
 						linkTitle: 'Epilogue'
-					}				
+					}
 					]
 				}
 			]

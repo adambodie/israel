@@ -6,7 +6,7 @@ import MainPage from './MainPage';
 const Main = () => {
 	return(
 		<Provider>
-			<div className="o-wrapper">
+			<div className='o-wrapper'>
 				<MainScrollspy />
 				<MainPage />
 			</div>

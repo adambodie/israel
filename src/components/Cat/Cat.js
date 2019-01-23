@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import { Row } from 'react-foundation';
 import axios from 'axios';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import CatPost from './CatPost';
 import CatList from './CatList';
 
@@ -13,9 +13,8 @@ export default class Cat extends Component {
 			image: ''
 		};
 	}
-
 	componentDidMount() {
-			axios.get("https://api.giphy.com/v1/gifs/search?api_key=9QkF2zr9JlrtO77ouF5NhuLQ348t4vAJ&q=cat&limit=500")	
+		axios.get('https://api.giphy.com/v1/gifs/search?api_key=9QkF2zr9JlrtO77ouF5NhuLQ348t4vAJ&q=cat&limit=500')
 			.then(response => {
 				this.setState({
 					cats: response.data.data
@@ -24,23 +23,22 @@ export default class Cat extends Component {
 			.catch(error => {
 				console.log('Error fetching and parsing data', error);
 			});
-	
-	}
+		}
 
 	render() {
 		const { cats, image } = this.state;
 		return (
-		<div className="cat">
-			<h1>Cats: The True Story</h1>
-			<Row className="display grid-x">
-				<CatPost />
-				<CatList cats={cats} image={image} />
-			</Row>
-			<div className="prev-next">
-				<Link to={ '/kibbutz' } className='custom-button'>Prev</Link>
-				<Link to={ '/jaffa' } className='custom-button'>Next</Link>
+			<div className='cat'>
+				<h1>Cats: The True Story</h1>
+				<Row className='display grid-x'>
+					<CatPost />
+					<CatList cats={cats} image={image} />
+				</Row>
+				<div className='prev-next'>
+					<Link to={ '/kibbutz' } className='custom-button'>Prev</Link>
+					<Link to={ '/jaffa' } className='custom-button'>Next</Link>
+				</div>
 			</div>
-		</div>
 		)
 	}
 }

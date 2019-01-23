@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter } from "react-router";
+import { withRouter } from 'react-router';
 import Header from './components/Header';
 
 class ScrollToTop extends Component {

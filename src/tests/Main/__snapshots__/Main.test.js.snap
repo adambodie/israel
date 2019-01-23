@@ -7,6 +7,11 @@ exports[`renders correctly 1`] = `
   <div
     className="o-sidebar o-sidebar--fixed-left c-side-nav"
   >
+    <img
+      alt="logo"
+      className="logo"
+      src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/logo.gif"
+    />
     <nav
       className="c-side-nav__body"
     >
@@ -23,6 +28,65 @@ exports[`renders correctly 1`] = `
           >
             Introduction
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#todoList"
+                  >
+                    Todo List
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#el-al"
+                  >
+                    El Al
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -34,6 +98,79 @@ exports[`renders correctly 1`] = `
             Day 
             1
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#ben-gurion"
+                  >
+                    Ben Gurion
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#old-jerusalem"
+                  >
+                    Old Jerusalem
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#shuk-day"
+                  >
+                    Shuk Day
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -45,6 +182,65 @@ exports[`renders correctly 1`] = `
             Day 
             2
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#shabbat"
+                  >
+                    Shabbat
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#shuk-night"
+                  >
+                    Shuk Night
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -56,6 +252,93 @@ exports[`renders correctly 1`] = `
             Day 
             3
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#yad-vashem"
+                  >
+                    Yad Vashem
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#shakshuka"
+                  >
+                    Shakshuka
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#herzl"
+                  >
+                    Mount Herzl
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#ben-yehuda"
+                  >
+                    Ben Yehuda
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -67,6 +350,79 @@ exports[`renders correctly 1`] = `
             Day 
             4
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#gilo"
+                  >
+                    Gilo
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#laqye"
+                  >
+                    Laqye
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#arad"
+                  >
+                    Arad
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -78,6 +434,135 @@ exports[`renders correctly 1`] = `
             Day 
             5
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#desert"
+                  >
+                    Negev Desert
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#roman"
+                  >
+                    Roman Ramp
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#masada"
+                  >
+                    Masada
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#snake"
+                  >
+                    Snake Path
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#nachal"
+                  >
+                    Ein Gedi
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#dead-sea"
+                  >
+                    Dead Sea
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#tel-aviv-night"
+                  >
+                    Tel Aviv Night
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -89,6 +574,121 @@ exports[`renders correctly 1`] = `
             Day 
             6
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#tel-aviv-beach"
+                  >
+                    Tel Aviv Beach
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#graffiti"
+                  >
+                    Graffiti
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#carmel"
+                  >
+                    Carmel Market
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#tama"
+                  >
+                    Tel Aviv Museum of Art
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#kibbutz"
+                  >
+                    Kibbutz
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#game"
+                  >
+                    Game
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li
           className="c-side-nav__item"
@@ -100,6 +700,149 @@ exports[`renders correctly 1`] = `
             Day 
             7
           </a>
+          <div
+            className="Collapsible"
+          >
+            <span
+              className="Collapsible__trigger is-closed"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={null}
+              tabIndex={null}
+            >
+              
+            </span>
+            <div
+              className="Collapsible__contentOuter"
+              onTransitionEnd={[Function]}
+              style={
+                Object {
+                  "WebkitTransition": "height 400ms linear",
+                  "height": 0,
+                  "msTransition": "height 400ms linear",
+                  "overflow": "hidden",
+                  "transition": "height 400ms linear",
+                }
+              }
+            >
+              <div
+                className="Collapsible__contentInner"
+              >
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#cat"
+                  >
+                    Cats
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#jaffa"
+                  >
+                    Jaffa
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#innovation"
+                  >
+                    Innovation
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#tel-aviv"
+                  >
+                    Rothschild
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#independence"
+                  >
+                    Independence Hall
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#farewell"
+                  >
+                    Farewell
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#jukebox"
+                  >
+                    Jukebox
+                  </a>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "12px",
+                    }
+                  }
+                >
+                  <a
+                    className="c-side-nav__link"
+                    href="#epilogue"
+                  >
+                    Epilogue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
@@ -109,19 +852,8 @@ exports[`renders correctly 1`] = `
   >
     <div
       className="container"
-      style={
-        Object {
-          "marginTop": 59,
-        }
-      }
     >
-      <section
-        style={
-          Object {
-            "minHeight": "600px",
-          }
-        }
-      >
+      <section>
         <div
           className="row display grid-x welcomeIntro"
         >
@@ -157,22 +889,12 @@ exports[`renders correctly 1`] = `
         <section
           className="o-content"
           id="day-0"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -188,13 +910,14 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="todoList"
               >
                 <h3>
                   Things to Bring to Israel
                 </h3>
                 <img
                   alt="Things to Bring to Israel"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/items.jpg"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/item.jpg"
                 />
                 <p>
                   Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you'd like to bring!
@@ -209,6 +932,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="el-al"
               >
                 <h3>
                   El Al: The Beginning of the Trip to Israel
@@ -234,22 +958,12 @@ exports[`renders correctly 1`] = `
         <section
           className="o-content"
           id="day-1"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -266,6 +980,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="ben-gurion"
               >
                 <h3>
                   Arriving in Israel: My First Thoughts
@@ -287,6 +1002,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="old-jerusalem"
               >
                 <h3>
                   The Old City
@@ -300,7 +1016,7 @@ exports[`renders correctly 1`] = `
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/old-Jerusalem"
+                  href="/old-jerusalem"
                   onClick={[Function]}
                 >
                   Read More
@@ -308,6 +1024,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="shuk-day"
               >
                 <h3>
                   Mahane Yehuda: The Shuk Experience Before Shabbat
@@ -333,22 +1050,12 @@ exports[`renders correctly 1`] = `
         <section
           className="o-content"
           id="day-2"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -365,6 +1072,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="shabbat"
               >
                 <h3>
                   Shabbat in Jerusalem: A Day to Rest
@@ -386,6 +1094,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="shuk-night"
               >
                 <h3>
                   Back to the Shuk: The Night Time Experience
@@ -411,22 +1120,12 @@ exports[`renders correctly 1`] = `
         <section
           className="o-content"
           id="day-3"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -443,6 +1142,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="yad-vashem"
               >
                 <h3>
                   Never Forget: Yad Vashem
@@ -464,6 +1164,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="shakshuka"
               >
                 <h3>
                   How Not to Eat Your Shakshuka
@@ -485,6 +1186,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="herzl"
               >
                 <h3>
                   Zionism 101: Mount Herzl
@@ -506,6 +1208,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="ben-yehuda"
               >
                 <h3>
                   One Last Night in Jerusalem at Ben Yehuda
@@ -531,22 +1234,12 @@ exports[`renders correctly 1`] = `
         <section
           className="o-content"
           id="day-4"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -563,6 +1256,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="gilo"
               >
                 <h3>
                   Leaving Jerusalem: Seeing the Israeli-Arab Conflict
@@ -584,6 +1278,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="laqye"
               >
                 <h3>
                   Out in the Desert with the Bedouins
@@ -605,6 +1300,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="arad"
               >
                 <h3>
                   Arad in the Desert: Shelter Included for the Authentic Israel Experience
@@ -630,22 +1326,12 @@ exports[`renders correctly 1`] = `
         <section
           className="o-content"
           id="day-5"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -662,6 +1348,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="desert"
               >
                 <h3>
                   The Negev Desert: Hot Fun Before Masada
@@ -683,6 +1370,7 @@ exports[`renders correctly 1`] = `
               </div>
               <div
                 className="o-content__inner-body"
+                id="roman"
               >
                 <h3>
                   Masada: The Roman Ramp Up
@@ -712,6 +1400,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="masada"
               >
                 <h3>
                   Masada: On Top of it All!
@@ -733,6 +1422,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="snake"
               >
                 <h3>
                   Masada: Down the Snake Path
@@ -754,6 +1444,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="nachal"
               >
                 <h3>
                   Nachal: Not a Mirage
@@ -775,6 +1466,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="dead-sea"
               >
                 <h3>
                   The Dead Sea: Healing in the Mud
@@ -796,6 +1488,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="tel-aviv-night"
               >
                 <h3>
                   Welcome to Tel Aviv, the Greatest City in the World
@@ -821,22 +1514,12 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
         <section
           className="o-content"
           id="day-6"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -853,6 +1536,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="tel-aviv-beach"
               >
                 <h3>
                   Morning Stroll along the beaches of Tel Aviv
@@ -874,6 +1558,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="graffiti"
               >
                 <h3>
                   Choose Your Own Adventure: Tagging Tel Aviv with Graffiti
@@ -895,6 +1580,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="carmel"
               >
                 <h3>
                   In Search of A Hebrew Sports Shirt
@@ -916,6 +1602,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="tama"
               >
                 <h3>
                   Choose Your Own Adventure: Tel Aviv Museum of Art
@@ -937,6 +1624,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="kibbutz"
               >
                 <h3>
                   Shhhhhh!  We're going to a Kibbutz Styled Hotel!
@@ -958,6 +1646,7 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="game"
               >
                 <h3>
                   Rock, Paper, Scissors Showdown at the Kibbutz
@@ -983,22 +1672,12 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
         <section
           className="o-content"
           id="day-7"
-          style={
-            Object {
-              "minHeight": "600px",
-            }
-          }
         >
           <div
             className="row display grid-x"
           >
             <div
-              className="columns o-content__inner large-10 large-offset-1"
-              style={
-                Object {
-                  "marginTop": "59px",
-                }
-              }
+              className="columns o-content__inner"
             >
               <div
                 className="o-content__inner-head"
@@ -1015,6 +1694,29 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="cat"
+              >
+                <h3>
+                  Cats!!!
+                </h3>
+                <img
+                  alt="Cats!!!"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/cat.jpg"
+                />
+                <p>
+                  Though our group all shared our Jewish faith, no matter the level of religion, there were plenty of other things we bonded over.  Aside from the obvious (sightseeing) and the necessities (bathrooms and Wi-Fi), there were the little things which brought joy.  One of those things were cats.  There were lots of cats in Israel.  But why?
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/cat"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+                id="jaffa"
               >
                 <h3>
                   Jaffa: The Old Part of Tel Aviv
@@ -1024,11 +1726,11 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jaffa.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  The last day of the trip had at last arrived.  While it was so great to be in Israel, seeing all the beauty and history, a part of me wanted to stop living in my suitcase.  We saw some cool sights in Tel Aviv, but the last day would give us a chance to see some of its history.  Our first stop on the final day would bring us to Jaffa, the historic part of town.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/jaffa"
                   onClick={[Function]}
                 >
                   Read More
@@ -1036,20 +1738,21 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="innovation"
               >
                 <h3>
-                  Innovation Center
+                  Innovation: How Israel provides a Path to the Future
                 </h3>
                 <img
-                  alt="Innovation Center"
+                  alt="Innovation: How Israel provides a Path to the Future"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/innovation.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  With Jaffa complete, we headed towards the Taglit Innovation Center, which I thought was connected to Birthright, due to the use of the word Taglit, but ended up being more about Innovation towards the future.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/innovation"
                   onClick={[Function]}
                 >
                   Read More
@@ -1057,20 +1760,21 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="tel-aviv"
               >
                 <h3>
-                  Rothschild
+                  One Last Lunch along Rothschild, the Heart of Tel Aviv
                 </h3>
                 <img
-                  alt="Rothschild"
+                  alt="One Last Lunch along Rothschild, the Heart of Tel Aviv"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAviv.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/tel-aviv"
                   onClick={[Function]}
                 >
                   Read More
@@ -1078,20 +1782,21 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="independence"
               >
                 <h3>
-                  Independence Hall
+                  Independence Hall: Where Israel became Israel
                 </h3>
                 <img
-                  alt="Independence Hall"
+                  alt="Independence Hall: Where Israel became Israel"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/independence.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  Located along Rothschild Boulevard is Independence Hall, the place where the Jewish leaders declared the land of Israel as a Jewish state.  While visiting on our last day, we got to visit Independence Hall, the place where it all happened, where we learned about the history.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/independence"
                   onClick={[Function]}
                 >
                   Read More
@@ -1099,20 +1804,65 @@ in Central Oregon was the pinnacle of my hiking experience, but I was much young
               </div>
               <div
                 className="o-content__inner-body"
+                id="farewell"
               >
                 <h3>
-                  Farewell
+                  Farewell Israel, What a Wonderful Trip
                 </h3>
                 <img
-                  alt="Farewell"
+                  alt="Farewell Israel, What a Wonderful Trip"
                   src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rothschild.jpg"
                 />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat sodales quam in vehicula. Cras vitae sodales purus, nec tempor diam. Praesent at diam in erat finibus rutrum. Vivamus faucibus nulla a facilisis facilisis. Morbi risus mauris, porta sed tempus ac, euismod eget nisi. Donec auctor metus sed velit ornare interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam non lobortis est.
+                  After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.
                 </p>
                 <a
                   className="custom-main custom-button"
-                  href="/todoList"
+                  href="/farewell"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+                id="jukebox"
+              >
+                <h3>
+                  Rockin' Jukebox: Sababa!
+                </h3>
+                <img
+                  alt="Rockin' Jukebox: Sababa!"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jukebox.jpg"
+                />
+                <p>
+                  After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/jukebox"
+                  onClick={[Function]}
+                >
+                  Read More
+                </a>
+              </div>
+              <div
+                className="o-content__inner-body"
+                id="epilogue"
+              >
+                <h3>
+                  This is the End: Heading Back Home
+                </h3>
+                <img
+                  alt="This is the End: Heading Back Home"
+                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/home.jpg"
+                />
+                <p>
+                  From the start of the trip to the end, I could feel the evolution of our group bond, and could see how much similarity, asides from being young Jewish adults, there truly was between all of us.  But knowing it would be the last time we would all be together, it made it a little sad as well.  Now it was time to go back to the airport, back to the normal life at home, back to the ordinary.  After saying goodbye to those who extended our trip, it was on to the airport, where we had plenty of time to relax, probably too much time to relax with a 10 hour flight back to New York, and for me, an additional 6 hour flight back to Portland.
+                </p>
+                <a
+                  className="custom-main custom-button"
+                  href="/epilogue"
                   onClick={[Function]}
                 >
                   Read More

@@ -10,6 +10,6 @@ it('renders without crashing', () => {
 });
 
 it('renders correctly', () => {
-	const tree = renderer.create(<Photo id="1" title="title" index="2" length="10"/>).toJSON();
+	const tree = renderer.create(<Photo id='1' title='title' index='2' length='10'/>).toJSON();
 	expect(tree).toMatchSnapshot();
 });

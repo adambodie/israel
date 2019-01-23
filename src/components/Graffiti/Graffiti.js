@@ -6,7 +6,7 @@ import TwentySevenClub from './TwentySevenClub.js';
 import Stories from './Stories.js';
 
 const Graffiti = () => (
-	<Row className="display grid-x graffiti">
+	<Row className='display grid-x graffiti'>
 		<h1>Behind the Graffiti</h1>
 		<p>Each piece of graffiti has a story behind it.  As there are lots of graffiti to be found, here you will find the stories of a few selections.</p>
 		<Rabin />

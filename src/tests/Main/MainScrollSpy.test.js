@@ -11,14 +11,14 @@ const contextPages = { pages: [
         day: 0,
         items: [ 
         {
-            title: "Things to Bring to Israel", 
-            intro: "intro intro intro", 
+            title: 'Things to Bring to Israel', 
+            intro: 'intro intro intro', 
             link: 'todoList', 
             image: 'items'
         },
         {
-            title: "Title", 
-            intro: "El Al El Al El Al", 
+            title: 'Title', 
+            intro: 'El Al El Al El Al', 
             link: 'el-al', 
             image: 'globe'
         }
@@ -28,8 +28,8 @@ const contextPages = { pages: [
         day: 1,
         items: [ 
         {
-            title: "Things to Bring to Israel", 
-            intro: "intro intro intro", 
+            title: 'Things to Bring to Israel', 
+            intro: 'intro intro intro', 
             link: 'todoList', 
             image: 'items'
         }

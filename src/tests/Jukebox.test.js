@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { MemoryRouter } from 'react-router';
 import Jukebox from '../components/Jukebox/Jukebox';
 import {
 	render,
@@ -10,11 +11,7 @@ import {
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
-	ReactDOM.render(<Jukebox />, div);
+	ReactDOM.render(<MemoryRouter><Jukebox /></MemoryRouter>, div);
 	ReactDOM.unmountComponentAtNode(div);
 });
 
-test('calls correct title', () => {
-	const { getByTestId } = render(<Jukebox />)
-	expect(getByTestId('title-display').textContent).toBe("Sababa!")
-  })

@@ -24,5 +24,5 @@ it('renders correctly', () => {
 
 test('calls correct title', () => {
   const { getByTestId } = render(<MemoryRouter><Header /></MemoryRouter>)
-  expect(getByTestId('title-display').textContent).toBe("Adam's Birthright Trip to The Land of Israel")
+  expect(getByTestId('title-display').textContent).toBe('Adam\'s Birthright Trip to The Land of Israel')
 })

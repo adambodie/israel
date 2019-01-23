@@ -4,12 +4,12 @@ import MainIntro from './MainIntro';
 import MainPageItems from './MainPageItems';
 
 
-const MainPage = () => {	
+const MainPage = () => {
 	return (
 		<Consumer>
 			{ ({ pages }) => (
-				<div className="o-main o-main--with-sidebar o-main--fixed-left-sidebar">
-					<div className="container">
+				<div className='o-main o-main--with-sidebar o-main--fixed-left-sidebar'>
+					<div className='container'>
 						<MainIntro />
 						<MainPageItems />
 					</div>

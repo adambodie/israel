@@ -23,7 +23,7 @@ export class Provider extends Component {
 		if (count % 2 === 1) {
 			newItems.forEach((item) => {
 				if (item.id === index) {
-					item.className = "item-completed";
+					item.className = 'item-completed';
 					item.count++;
 				}				
 				
@@ -31,7 +31,7 @@ export class Provider extends Component {
 		} else {
 			newItems.forEach((item) => {
 				if (item.id === index) {
-					item.className = "item";
+					item.className = 'item';
 					item.count++
 				}
 			})
@@ -48,7 +48,7 @@ export class Provider extends Component {
 				value: '' 
 			}));
 		} else {
-			alert("Please enter a value");
+			alert('Please enter a value');
 		};
 	}
 	

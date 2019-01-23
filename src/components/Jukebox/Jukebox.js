@@ -8,12 +8,12 @@ import JukeboxText from './JukeboxText';
 const Jukebox = () => {
   return (
 	  <div>
-		<div className="jukebox">
+		<div className='jukebox'>
 			<JukeboxHeader />
 			<ScrollArea
 				speed={0.8}
-				className="area"
-				contentClassName="content"
+				className='area'
+				contentClassName='content'
 				horizontal={false}
 				>
 				<JukeboxList />

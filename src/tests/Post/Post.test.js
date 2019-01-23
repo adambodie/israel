@@ -18,10 +18,10 @@ it('renders correctly', () => {
 	const tree = renderer.create(
 		<MemoryRouter>
 			<Post 
-				title="Title"
-				paragraph={"Lorem ipsum dolor sit amet"} 
-				prev={"prev"} 
-				next={"next"}
+				title='Title'
+				paragraph={'Lorem ipsum dolor sit amet'} 
+				prev={'prev'} 
+				next={'next'}
 				data={mockData}
 				/>
 		</MemoryRouter>
@@ -30,8 +30,8 @@ it('renders correctly', () => {
 });
 
 it('renders a `title`', () => {
-	const wrapper = shallow(<Post title="Title" 
-								paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."} 
+	const wrapper = shallow(<Post title='Title' 
+								paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'} 
 								prev={'prev'} 
 								next={'next'} 
 								/>
@@ -44,8 +44,8 @@ it('renders a `title`', () => {
     sinon.spy(Post.prototype, 'componentDidMount');
     const wrapper = mount(<MemoryRouter>
 		<Post
-			title="Title" 
-			paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."} 
+			title='Title' 
+			paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'} 
 			prev={'prev'} 
 			next={'next'}
 			data={mockData}

@@ -10,6 +10,11 @@ exports[`renders correctly 1`] = `
     <h1>
       How Not to Enjoy Your Shakshuka
     </h1>
+    <img
+      alt="fork"
+      className="fork"
+      src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/fork.gif"
+    />
     <div
       className="tomato"
     >
