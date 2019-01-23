@@ -18,7 +18,7 @@ import {
 	romanIntro,
 	masadaIntro,
 	snakeIntro,
-	nachalIntro,
+	einGediIntro,
 	deadSeaIntro,
 	telAvivNightIntro,
 	telAvivBeachIntro,
@@ -30,9 +30,10 @@ import {
 	catIntro,
 	jaffaIntro,
 	innovationIntro,
-	telAvivIntro,
+	rothschildIntro,
 	independenceIntro,
 	farewellIntro,
+	jukeboxIntro,
 	epilogueIntro
 } from '../../data/articles';
 import routes from '../../data/routes';
@@ -207,9 +208,9 @@ export class Provider extends Component {
 						linkTitle: 'Snake Path'
 					},{
 						title: routes[16].title, 
-						intro: nachalIntro, 
-						link: 'nachal', 
-						image: 'nachal',
+						intro: einGediIntro, 
+						link: 'ein-gedi', 
+						image: 'einGedi',
 						linkTitle: 'Ein Gedi'
 					},{
 						title: routes[17].title, 
@@ -301,9 +302,9 @@ export class Provider extends Component {
 					},
 					{
 						title: routes[26].title, 
-						intro: telAvivIntro, 
-						link: 'tel-aviv', 
-						image: 'telAviv',
+						intro: rothschildIntro, 
+						link: 'rothschild', 
+						image: 'rothschild',
 						linkTitle: 'Rothschild'
 					},
 					{
@@ -317,12 +318,12 @@ export class Provider extends Component {
 						title: routes[28].title, 
 						intro: farewellIntro, 
 						link: 'farewell', 
-						image: 'rothschild',
+						image: 'farewell',
 						linkTitle: 'Farewell'
 					},
 					{
 						title: 'Rockin\' Jukebox: Sababa!', 
-						intro: farewellIntro, 
+						intro: jukeboxIntro, 
 						link: 'jukebox', 
 						image: 'jukebox',
 						linkTitle: 'Jukebox'

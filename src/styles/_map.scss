@@ -6,6 +6,10 @@ $masadaRightValues: 406, 314, 67, 410, 337, 301, 34, 273;
 $masadaTopValues: 162, 159, 173, 106, 56, 207, 199, 187;
 $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 
+$telavivRightValues: 375, 195, 45, 200, 260, 223, 184;
+$telavivTopValues: 285, 180, 5, 165, 56, 127, 259;
+$telavivIds: 0, 1, 2, 3, 4, 5, 6;
+
 @for $i from 1 through length($jerusalemRightValues) {
 	$rightValue: nth($jerusalemRightValues, $i);
 	$topValue: nth($jerusalemTopValues, $i);
@@ -22,6 +26,16 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 	.masada-item-#{$id} {
 		right: #{$rightValue / 1.5}px;
 		top: #{$topValue / 1.5}px;
+	}
+}
+
+@for $i from 1 through length($telavivRightValues) {
+	$rightValue: nth($telavivRightValues, $i);
+	$topValue: nth($telavivTopValues, $i);
+	$id: nth($telavivIds, $i);
+	.telaviv-item-#{$id} {
+		right: #{$rightValue/1.25}px;
+		top: #{$topValue/1.25}px;
 	}
 }
 
@@ -49,7 +63,7 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 	.map {
 		width: (800px/2.25);
 		height: (400px/2.25);
-		background-image: url('https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg');
+		background-image: url($mainLink + 'masada-map.jpg');
 	}
 }
 
@@ -58,7 +72,16 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 	.map {
 		width: (500px/1.5);
 		height: (450px/1.5);
-		background-image: url('https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png');
+		background-image: url($mainLink + 'jerusalem-map.png');
+	}
+}
+
+.telaviv-map {
+	margin-top: $margin-top;
+	.map {
+		width: (450px/1.25);
+		height: (326px/1.25);
+		background-image: url($mainLink + 'tel-aviv-map.png');
 	}
 }
 
@@ -105,7 +128,23 @@ $masadaIds: 0, 1, 2, 3, 4, 5, 6, 7;
 		   top: #{$topValue/1.2}px;
 		}
 	}
+	@for $i from 1 through length($telavivRightValues) {
+		$rightValue: nth($telavivRightValues, $i);
+		$topValue: nth($telavivTopValues, $i);
+		$id: nth($telavivIds, $i);
+		.telaviv-item-#{$id} {
+			right: #{$rightValue}px;
+			top: #{$topValue}px;
+		}
+	}
 	
+	.telaviv-map {
+		margin-top: $margin-top;
+		.map {
+			width: (450px);
+			height: (326px);
+		}
+	}	
 	.map-button {
 		width: 18px;
 		height: 18px;

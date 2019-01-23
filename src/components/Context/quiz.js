@@ -49,7 +49,7 @@ export class Provider extends Component {
 				{question: question17, answer: 'B. 1909'},
 				{question: question18, answer: 'C. Palestine'},
 				{question: question19, answer: 'D. Both A and B'},
-				{question: question20, answer: 'B. Beirut'},
+				{question: question20, answer: 'B. Jaffa'},
 			]
 	}		
 	

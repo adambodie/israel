@@ -2,12 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
 
-.debug {
-	border: 2px solid red;
-}
-
 $background-color: #0038B8;
-
+$mainLink: 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/';
 $margin-top: 64px;
 
 @mixin item() {

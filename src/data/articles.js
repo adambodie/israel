@@ -1,3 +1,5 @@
+const mainLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main';
+const imageLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images';
 export const mainTitle = '# Welcome';
 
 export const mainParagraph = 
@@ -87,7 +89,7 @@ We made it to the center of the Jewish Quarter, home of the Hurva Synagogue.  Th
 
 
 # Facts about the Old City of Jerusalem
-![Old City of Jerusalem](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/old-jerusalem-map.jpg)
+![Old City of Jerusalem](${mainLink}/old-jerusalem-map.jpg)
 - There are four uneven Quarters in the Old City: Jewish Quarter, Muslim Quarter, Christian Quarter and Armenian Quarter.
 - Until 1868, the entire city of Jerusalem was within the Old City walls.
 - The wall of the Old City was built between 1535-1542 by the Turkish sultan **Suleiman the Magnificent**.
@@ -153,7 +155,7 @@ Looking at all the beer bottles on the wall, it felt like home, except for all t
 
 Once settled, it was time to pick a beer to try, which proved to be a tough decision. I went back and forth trying to figure out what I wanted. Stout? IPA? IPA? Stout? I was about ready to pick the IPA, but then we were handed out magnetic coasters to keep.  Looking through all of them, they had the Black Jack Stout, but not the IPA. So I opted for the Stout instead. Good decision indeed.  Now it was time to order food off the menu.
 
-![Black Jack Stout](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/stout.gif)
+![Black Jack Stout](${mainLink}/stout.gif)
 
 The menu featured standard bar food. Nothing overly amazing. So I ordered myself a pastrami sandwich, the Tarantino. Unfortunately, as the servers were bringing out food, they couldn't get the food names right.  Josh, who joined the group late, took a 'Turkey Sandwich' that 'no one' ordered, having himself not yet ordered food.  What I didn't know at the time was that that the 'Turkey Sandwich' was actually the Pastrami sandwich I had ordered.  To be fair, there was a lot of confusion for such a large group, but I was having fun being out enjoying my beer, so I wasn't too upset over that.  I would know if they called the name Tarantino.  Who can forget Quentin Tarantino?  But they didn't.
 
@@ -181,7 +183,7 @@ After a long winding path to the exit of the museum, I could see the view of the
 When we were done, we once again could see the forest and the valley in a wonderful view.  But what made it even better was across the valley, you could hear children at a school playing and being lively.  Leaving the Children's Memorial to contrast between the atrocities in the past and the joy of the present, was touching to say the least.  It was one of those moments that felt unbelievable.  With that part of the trip over, it was on to the next part of the trip, Mount Herzl, the Military Cemetery.  But first, a too quick lunch break...
 
 # Facts about Yad Vashem
-![Aerial view of Yad Vashem](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/aerial-yad-vashem.jpg)
+![Aerial view of Yad Vashem](${mainLink}/aerial-yad-vashem.jpg)
 - **Yad Vashem** translates to **"A Meaning and a Name"**
 - Plans to begin building Yad Vashem, in the Jewish homeland began in September 1942
 - Yad Vashem was established in 1953, with it being opened to the public in 1957, with its current building completed in 2005
@@ -275,22 +277,22 @@ After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typ
 - April 25, 1920: The **United Kingdom** takes over the land of Israel and creates the **Mandate of Palestine** with the intent to eventually allow the natives to self-determination.
 - April 2, 1947: Great Britain seeks the help UN General Assembly to create up a plan to divide Palestine
 
-![UN Partition Plan](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/un-partition-map.jpg)
+![UN Partition Plan](${mainLink}/un-partition-map.jpg)
 - November 29, 1947: The UN votes on the **Partition Plan**, which narrowly passes.  The Israelis accept the plan, wanting security more than anything even if it meant giving up land, but the Palestinians reject the plan, believe they were entitled to all of it since they had previous control and the Jews left before they arrived.
 - May 14, 1948: The Jews declare independence, creating the state of Israel
 - May 15, 1948: The **Arab-Israeli War** begins, pitting Israel against the Arab League, primarily consisting of Egypt, Jordan, Syria, Iraq, Saudi Arabia, Yemen (and briefly Lebanon).
 
-![1949 Armistice Line](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/1949-israel-map.jpg)
+![1949 Armistice Line](${mainLink}/1949-israel-map.jpg)
 - March 10, 1949: Israel wins the war, keeping the land given to them in the Partition Plan with additional Arab land. Egypt takes control of the **Gaza Strip**, and Jordan takes control of the **West Bank**.
 - June 5-10, 1967: The **Six-Day War** occurs, as Israel reclaims the West Bank, Gaza Strip and takes over Egypt's **Sinai Peninsula** (**Golan Heights** was also part of the conflict but we didn't even talk about Golan Heights)
 
-![Six-Day War Map](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/1967-israel-map.png)
+![Six-Day War Map](${mainLink}/1967-israel-map.png)
 - March 26, 1979: Israel and Egypt sign the Egypt-Israel Peace Treaty, in which Israel agrees to return the Sinai Peninsula to Egypt
 - September 13, 1993: Israel and Palestine, with the help of the United States, agree to the Oslo Accord, their first face-to-face meeting, with the intent to resolve the Arab-Israeli Conflict.
 - 1995: The Oslo Accord II is created in addition with the intention of creating a Palestinian statehood within 5 years
 - July 25, 2000: The Camp David Summit to finalize the end of the Israel-Arab Conflict is held, but no agreement is reached  
 
-![Oslo Accords](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/oslo-accord-map.png)
+![Oslo Accords](${mainLink}/oslo-accord-map.png)
 
 # Other facts about the Conflict
 - **West Bank** refers to being west of the Jordan River. 
@@ -299,7 +301,7 @@ After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typ
 - Before 1948, there were significant Jewish communities in all he Arab countries.  But after the war, they were all expelled.
 - The Islamic view of their leadership resides as one big empire known as a **Caliphate**, which for them, stretches from Northern Africa to Asia.  Connecting the two regions is Israel, hence a reason they consider Israel important to them.
 
-![Caliphate](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/caliphate.png)
+![Caliphate](${mainLink}/caliphate.png)
 
 `;
 
@@ -339,7 +341,7 @@ That, of course, was immediately brought to our attention, as Gaza has rockets t
 But with the day I'd been waiting for the whole trip coming, I went to sleep wondering what would happen.  I didn't feel Gaza would escalate their attacks, but you never know. Would I spend the next day on top of Masada, or stuck in a bomb shelter with our group and a bunch of screaming kids?
 
 # Where in the world are we now?
-![Road to Arad](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/arad-map.png)
+![Road to Arad](${mainLink}/arad-map.png)
 `;
 
 
@@ -392,7 +394,7 @@ Finally, we headed to a viewpoint along the edge, providing an amazing view of t
 
 Ducks aside, the views were quite amazing and the ruins on Masada were awesome to see.  But it was time to leave Masada and head down the more challenging Snake Path, estimated time 45 minutes down to the bottom.
 
-![Welcome to Jordan](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/cellcom.png)
+![Welcome to Jordan](${mainLink}/cellcom.png)
 
 # Masada facts
 - Masada is the Hebrew translation for the word "Fortress"
@@ -420,12 +422,12 @@ Afterwards, we entered the Visitor Center.  There I entered the Gift Shop to loo
 
 `;
 
-export const nachalIntro = `
+export const einGediIntro = `
 After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at the Ein Gedi Nature Reserve, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
 `;
 
-export const nachal = `
-${nachalIntro}
+export const einGedi = `
+${einGediIntro}
 
 There were a lot of people at the entrance, and it did feel crowded, but once we started walking, it felt like we were in an Oasis.  We were told they would be a few opportunities to see some wildlife.  But few wasn’t enough.  There ended up being plenty of animals to see. 
 
@@ -466,7 +468,7 @@ But the mud couldn’t stay on forever, so I walked back in the Dead Sea to clea
 Afterwards, there was a shower on the coast to clean off any excess mud I missed.  Then it was time to hop back on the tractor bus back to the spa.  Another shower soon awaited at the spa and I cleaned myself off one last time, to put on my regular clothes back on.  The day in nature was over, and it was the best day of the trip.  But it wasn’t quite over.  An extended bus ride was just what we needed, as it was a two hour drive to the greatest city in the world: Tel Aviv.
 
 # Dead Sea Facts
-![Dead Sea Level Comparison](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/dead-sea-level.jpg)
+![Dead Sea Level Comparison](${mainLink}/dead-sea-level.jpg)
 - Though named the Dead Sea, as it is not connected to any Ocean, it is technically a lake
 - At about 418 feet below sea level, the Dead Sea is the lowest elevation on land in the world
 - The Dead Sea contains about 35% salt, one of the most saltiest bodies of water in the world.  The typical body of water contains about 3%
@@ -524,7 +526,7 @@ As the bus dropped our Graffiti group off in an ordinary, somewhat hip neighborh
 
 I found some of the stories to be quite entertaining and the graffiti to be quite clever.  I loved seeing a part of a city I’ve never seen before anywhere.  It almost made me want to grab a spray can and tag a wall.  At the end of the tour, we were given the opportunity to do just that.  Unfortunately, we only got 5 minutes and I barely got any time to try my magic at all, tagging my initials in green.  But it was the thought that counts and it was still cool regardless
 
-![Adam could have gone on a Bike Ride](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tel-aviv-bike.jpg)
+![Adam could have gone on a Bike Ride](${mainLink}/tel-aviv-bike.jpg)
 ##### This could've been me...
 
 `;
@@ -569,28 +571,28 @@ After the Museum, if was off to our last hotel for the trip.  But first we had t
 
 # Fascinating Tel Aviv Skyscrapers
 
-![Marganit Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/marganit-tower.jpg "Marganit Tower") 
+![Marganit Tower](${mainLink}/marganit-tower.jpg "Marganit Tower") 
 
 ### Marganit Tower
 This tower, at 453 feet fall, only has 17 stories, as much of its height is due to its ‘finger’ antenna.  It is currently used by the IDF.
 
-![Matcal Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/matcal-tower.jpg "Matcal Tower")
+![Matcal Tower](${mainLink}/matcal-tower.jpg "Matcal Tower")
 
 ### Matcal Tower 
 This building is the headquarters for the Israel Ministry of Defense and holds the offices for the IDF General Staff.
 
-![Azrieli Sarona](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/azrieli-sarona.jpg "Azrieli Sarona")
+![Azrieli Sarona](${mainLink}/azrieli-sarona.jpg "Azrieli Sarona")
 
 ### Azrieli Sarona 
 This skyscraper, completed in 2017, is currently the tallest building in Israel at 782 feet.
 
-![Azrieli Center](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/azrieli-center.jpg "Azrieli Center")
+![Azrieli Center](${mainLink}/azrieli-center.jpg "Azrieli Center")
 
 ### Azrieli Center 
 The Azrieli Center is a complex of skyscrapers in Tel Aviv.  In the center of the Azrieli Center is a shopping mall, one of Israel's largest.
 
 
-![Amot Investments Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/amot-investments.jpg "Amot Investments Tower")
+![Amot Investments Tower](${mainLink}/amot-investments.jpg "Amot Investments Tower")
 
 ### Amot Investments Tower
 Amot Investments (a company with basically the same logo as Target) had this skyscraper built for IBM, with its design intended to resemble a keyboard.  Today, it it home of numerous entities including the Embassy of Latvia on the 15th floor.
@@ -654,41 +656,41 @@ Afterwards, we watched a presentation about Israel’s role in innovation and st
 
 `;
 
-export const telAvivIntro = `Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.`;
+export const rothschildIntro = `Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.`;
 
-export const telAviv = `
-${telAvivIntro}
+export const rothschild = `
+${rothschildIntro}
 
 Trying to find a decent open place for lunch that was authentic led us crossing a few blocks away from Rothschild.  But it did provide some interesting views of the skyscrapers.  I felt like I was in New York with some of the designs, though the buildings in New York were a lot taller.  It was nice eating outside and admiring the views while having lunch, though we could see an old man in an apartment across the street in nothing but a Speedo.  Fortunately, we weren’t too close to that one.  But the food was good, I had a pita with Chicken Liver, which was something I rarely, if ever, have.  And with that, we headed back to Rothschild, where Independence Hall was.
 
 # More Fascinating Tel Aviv Skyscrapers
 
-![Shalom Meir Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shalom-meir.jpg "Shalom Meir Tower") 
+![Shalom Meir Tower](${mainLink}/shalom-meir.jpg "Shalom Meir Tower") 
 
 ### Shalom Meir Tower
 This tower, completed in 1965, was the first skyscraper built in Israel, becoming the tallest building at the time in the Middle East.  At 390 feet, it remained the tallest building in Israel until 1987.
 
-![First International Bank Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/first-international-bank-tower.jpg "First International Bank Tower")
+![First International Bank Tower](${mainLink}/first-international-bank-tower.jpg "First International Bank Tower")
 
 ### First International Bank Tower 
 This tower completed in 2005, was Israel's first green tower, as well as the first to feature a double curtain wall system.  The design features 5 equilateral triangular prisms, set on top of each other at different heights.
 
-![Bank Discount Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/bank-discount.jpg "Azrieli Sarona")
+![Bank Discount Tower](${mainLink}/bank-discount.jpg "Azrieli Sarona")
 
 ### Bank Discount Tower 
 This tower is the home of the headquarters of Israel's third largest bank
 
-![Leumi Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/leumi-tower.jpg "Leumi Tower")
+![Leumi Tower](${mainLink}/leumi-tower.jpg "Leumi Tower")
 
 ### Leumi Tower
 This tower is home of Israel's second largest bank.  It has two sections, a lower section with 43 windows on each floor, and an upper high-rise section with 32 windows on each floor.
 
-![Alrov Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/alrov-tower.jpg "Alrov Tower")
+![Alrov Tower](${mainLink}/alrov-tower.jpg "Alrov Tower")
 
 ### Alrov Tower
 This tower, according to its designer, features three design parts, the Box (general shape), the Triangular Sawmill (northern facade) and the Cylinder (southern facade).
 
-![Meier on Rothschild Tower](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/meier-on-rothschild.jpg "Meier on Rothschild Tower")
+![Meier on Rothschild Tower](${mainLink}/meier-on-rothschild.jpg "Meier on Rothschild Tower")
 
 ### Meier on Rothschild Tower
 This tower is currently the tallest building located on Rothschild Boulevard.
@@ -730,11 +732,13 @@ I decided I wasn’t done talking yet.  Probably the last thing I’d ever do, b
 
 `;
 
+export const jukeboxIntro = `Over the course of our trip, we managed to hear a few songs, mostly on the bus.  From karaoke jams to popular Israeli songs, and of course, Take Me Home Country Roads, there were quite a few songs we heard. Check out the Jukebox to play the most memorable songs of the trip.`
+
 export const epilogueIntro = `From the start of the trip to the end, I could feel the evolution of our group bond, and could see how much similarity, asides from being young Jewish adults, there truly was between all of us.  But knowing it would be the last time we would all be together, it made it a little sad as well.  Now it was time to go back to the airport, back to the normal life at home, back to the ordinary.  After saying goodbye to those who extended our trip, it was on to the airport, where we had plenty of time to relax, probably too much time to relax with a 10 hour flight back to New York, and for me, an additional 6 hour flight back to Portland.`;
 
 export const epilogue = `
 
-![Back to New York](https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_6704.JPG)
+![Back to New York](${imageLink}/IMG_6704.JPG)
 
 ${epilogueIntro}
 

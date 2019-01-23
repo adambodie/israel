@@ -15,7 +15,7 @@ import {
 	roman, 
 	masada, 
 	snake,
-	nachal,
+	einGedi,
 	deadSea,
 	telAvivNight,
 	telAvivBeach,
@@ -25,7 +25,7 @@ import {
 	kibbutz,
 	jaffa,
 	innovation,
-	telAviv,
+	rothschild,
 	independence,
 	farewell,
 	epilogue
@@ -172,18 +172,18 @@ const routes = [
 		paragraph: snake,
 		link: 'snake',
 		prev: 'masada',
-		next: 'nachal'
+		next: 'ein-gedi'
 	},{
-		title: 'Nachal: Not a Mirage',
-		paragraph: nachal,
-		link: 'nachal',
+		title: 'Ein Gedi: Not a Mirage',
+		paragraph: einGedi,
+		link: 'ein-gedi',
 		prev: 'snake',
 		next: 'dead-sea'
 	},{
 		title: 'The Dead Sea: Healing in the Mud',
 		paragraph: deadSea,
 		link: 'dead-sea',
-		prev: 'nachal',
+		prev: 'ein-gedi',
 		next: 'tel-aviv-night'
 	},{
 		title: 'Welcome to Tel Aviv, the Greatest City in the World',
@@ -236,25 +236,40 @@ const routes = [
 		paragraph: innovation,
 		link: 'innovation',
 		prev: 'jaffa',
-		next: 'tel-aviv'
+		next: 'rothschild'
 	},{
 		title: 'One Last Lunch along Rothschild, the Heart of Tel Aviv',
-		paragraph: telAviv,
-		link: 'tel-aviv',
+		paragraph: rothschild,
+		link: 'rothschild',
 		prev: 'innovation',
 		next: 'independence'
 	},{
 		title: 'Independence Hall: Where Israel became Israel',
 		paragraph: independence,
 		link: 'independence',
-		prev: 'tel-aviv',
+		prev: 'rothschild',
 		next: 'farewell'
 	},{
 		title: 'Farewell Israel, What a Wonderful Trip',
 		paragraph: farewell,
 		link: 'farewell',
 		prev: 'independence',
-		next: 'jukebox'
+		next: 'jukebox',
+		number: 5,
+		begin: 17,
+		end: 20,
+		map: true,
+		locations: [
+			{name: 'Jaffa'},
+			{name: 'Independence Hall'},
+			{name: 'Tel Aviv Museum of Art'},
+			{name: 'The Center of Israeli Innovation by Taglit'},
+			{name: 'Golden Beach Hotel'},
+			{name: 'Carmel Market'},
+			{name: 'Graffiti Tour'}
+
+		],
+		locationName: 'Telaviv'
 	},{
 		title: 'This is the End: Heading Back Home',
 		paragraph: epilogue,

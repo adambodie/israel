@@ -4,9 +4,6 @@
 @import url(~slick-carousel/slick/slick-theme.css);
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 @import url("https://fonts.googleapis.com/css?family=Monoton");
-.debug {
-  border: 2px solid red; }
-
 header {
   position: fixed;
   top: 0;
@@ -808,6 +805,34 @@ td {
   right: 182px;
   top: 124.66667px; }
 
+.telaviv-item-0 {
+  right: 300px;
+  top: 228px; }
+
+.telaviv-item-1 {
+  right: 156px;
+  top: 144px; }
+
+.telaviv-item-2 {
+  right: 36px;
+  top: 4px; }
+
+.telaviv-item-3 {
+  right: 160px;
+  top: 132px; }
+
+.telaviv-item-4 {
+  right: 208px;
+  top: 44.8px; }
+
+.telaviv-item-5 {
+  right: 178.4px;
+  top: 101.6px; }
+
+.telaviv-item-6 {
+  right: 147.2px;
+  top: 207.2px; }
+
 .map-button {
   background: yellow;
   border-radius: 100%;
@@ -840,6 +865,14 @@ td {
   width: 333.33333px;
   height: 300px;
   background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png"); }
+
+.telaviv-map {
+  margin-top: 64px; }
+
+.telaviv-map .map {
+  width: 360px;
+  height: 260.8px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tel-aviv-map.png"); }
 
 @media (min-width: 512px) {
   .jerusalem-item-0 {
@@ -941,6 +974,32 @@ td {
   .masada-item-7 {
     right: 227.5px;
     top: 155.83333px; }
+  .telaviv-item-0 {
+    right: 375px;
+    top: 285px; }
+  .telaviv-item-1 {
+    right: 195px;
+    top: 180px; }
+  .telaviv-item-2 {
+    right: 45px;
+    top: 5px; }
+  .telaviv-item-3 {
+    right: 200px;
+    top: 165px; }
+  .telaviv-item-4 {
+    right: 260px;
+    top: 56px; }
+  .telaviv-item-5 {
+    right: 223px;
+    top: 127px; }
+  .telaviv-item-6 {
+    right: 184px;
+    top: 259px; }
+  .telaviv-map {
+    margin-top: 64px; }
+  .telaviv-map .map {
+    width: 450px;
+    height: 326px; }
   .map-button {
     width: 18px;
     height: 18px;
