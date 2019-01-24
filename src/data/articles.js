@@ -1,5 +1,5 @@
-const mainLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main';
-const imageLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images';
+export const mainLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main';
+export const imageLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images';
 export const mainTitle = '# Welcome';
 
 export const mainParagraph = 
@@ -184,6 +184,9 @@ When we were done, we once again could see the forest and the valley in a wonder
 
 # Facts about Yad Vashem
 ![Aerial view of Yad Vashem](${mainLink}/aerial-yad-vashem.jpg)
+
+*Picture of aerial view of Yad Vashem provided by Museum website*
+
 - **Yad Vashem** translates to **"A Meaning and a Name"**
 - Plans to begin building Yad Vashem, in the Jewish homeland began in September 1942
 - Yad Vashem was established in 1953, with it being opened to the public in 1957, with its current building completed in 2005
@@ -303,6 +306,7 @@ After leaving Gilo, we stopped at a little mall for lunch.  It felt like any typ
 
 ![Caliphate](${mainLink}/caliphate.png)
 
+*Caliphate Map*
 `;
 
 export const laqyeIntro = `
@@ -397,13 +401,13 @@ Ducks aside, the views were quite amazing and the ruins on Masada were awesome t
 ![Welcome to Jordan](${mainLink}/cellcom.png)
 
 # Masada facts
-- Masada is the Hebrew translation for the word "Fortress"
-- The fortress on Masada was built by King Herod between 37-31 BCE
+- Masada is the Hebrew translation for the word **"Fortress"**
+- The fortress on Masada was built by **King Herod** between 37-31 BCE
 - The cliffs of Masada are about 300 feet on the west side, but about 1,300 feet on the east side
-- One of the final battles of the First Jewish-Roman War, the siege of Masada, took place on top of Masada around 73 CE.  It ended in a mass suicide of 960 Sicarii Jews, who committed suicide rather than be conquered.
+- One of the final battles of the **First Jewish-Roman War**, the siege of Masada, took place on top of Masada around 73 CE.  It ended in a mass suicide of 960 Sicarii Jews, who committed suicide rather than be conquered.
 - Due to its remoteness and arid environment, it wasn’t for almost 2,000 years until Masada had human contact.
 - Due to the extreme heat, summertime visits to Masada usually start hiking before sunrise, closing in the afternoon when temperatures reach over 100 degrees.
-- The Masada Cableway has a bottom station elevation of 257 m below sea level, and an upper station elevation of 33 m above sea level, making it the lower tramway in the world
+- The **Masada Cableway** has a bottom station elevation of 257 m below sea level, and an upper station elevation of 33 m above sea level, making it the lower tramway in the world
 
 `;
 
@@ -440,11 +444,11 @@ But none of this could match the waterfalls along the path.  The last thing I ex
 We reached the end of our path at a waterfall with a pool of water to go into.  Some jumped right in, though I put my feet in the water.  I didn’t go too far in, I figured I would save that for the Dead Sea.  But with a perfect blend of desert, water and green, this area was quite amazing to me, and totally unexpected.  It was reasons like this that I chose not to research all the places on the itinerary beforehand.  After this, we headed back in preparation for our next stop, the lowest place on Earth: the Dead Sea.
 
 # Ein Gedi Nature Reserve Facts
-- The Nubian Ibex is a member of the goat family, with the Nubian Ibex, a desert-dwelling variety, being found in mountainous desert areas in Africa and the Middle East.
-- The Rock Hyrax is a small mammal that looks similar to a marmot, but like other Hyraxes, has more in common with elephants and manatees, in part due to its genital location and flattened nails
+- The **Nubian Ibex** is a member of the goat family, with the Nubian Ibex, a desert-dwelling variety, being found in mountainous desert areas in Africa and the Middle East.
+- The **Rock Hyrax** is a small mammal that looks similar to a marmot, but like other Hyraxes, has more in common with elephants and manatees, in part due to its genital location and flattened nails
 - Hyraxes are also known by some as Dassies.
 - The stream running through the nature reserve is named after King David
-- Yael, a biblical heroine from the Book of Judges, is the hebrew translation of Ibex
+- **Yael**, a biblical heroine from the Book of Judges, is the hebrew translation of Ibex
 - The Rock Hyrax typically spends about 95% of its time resting, usually basking in the sun in what some consider to be their way of thermoregulation
 `;
 
@@ -469,9 +473,9 @@ Afterwards, there was a shower on the coast to clean off any excess mud I missed
 
 # Dead Sea Facts
 ![Dead Sea Level Comparison](${mainLink}/dead-sea-level.jpg)
-- Though named the Dead Sea, as it is not connected to any Ocean, it is technically a lake
-- At about 418 feet below sea level, the Dead Sea is the lowest elevation on land in the world
-- The Dead Sea contains about 35% salt, one of the most saltiest bodies of water in the world.  The typical body of water contains about 3%
+- Though named the **Dead Sea**, as it is not connected to any Ocean, it is technically a lake
+- At about **418 feet below sea level**, the Dead Sea is the lowest elevation on land in the world
+- The Dead Sea contains about **35% salt**, one of the most saltiest bodies of water in the world.  The typical body of water contains about 3%
 - The water level of the Dead Sea has been rapidly declining since the 1930s, going from 410 sq mi to 234 sq mi, primarily caused by diverting water from the Jordan River from the north, the only connecting body of water to the Dead Sea
 - Plans to connect a waterway between the Dead Sea and the Red Sea, known as the Red Sea-Dead Sea Waterway Conveyance, are currently underway to stabilize the water within the Dead Sea and provide drinking water for Israel/Jordan/Palestine
 - Its name come from the fact that most organisms can't live in it; only miniscule bacteria and fungi can survive in the Dead Sea

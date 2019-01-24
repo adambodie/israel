@@ -2,13 +2,13 @@ import React from 'react';
 import Scrollspy from 'react-scrollspy'
 import Collapsible from 'react-collapsible';
 import { Consumer } from '../Context/main';
+import { mainLink } from '../../data/articles';
 
-const MainScrollspy = () => {
-	return (
+const MainScrollspy = () => (
 		<Consumer>
 			{ ({ pages }) => (
 				<div className='o-sidebar o-sidebar--fixed-left c-side-nav'>
-					<img className='logo' src='https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/logo.gif' alt='logo' />
+					<img className='logo' src={`${mainLink}/logo.gif`} alt='logo' />
 					<nav className='c-side-nav__body'>
 						<Scrollspy items={ pages.map((x)=> x.scroll) } currentClassName='is-current' className='c-side-nav__list nav-list' offset={-20}>
 							{pages.map((x)=> { 
@@ -39,6 +39,5 @@ const MainScrollspy = () => {
 		</Consumer>
 		
 	)
-}
 
 export default MainScrollspy;

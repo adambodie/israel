@@ -1,5 +1,7 @@
 import React from 'react';
 import { Row, Column } from 'react-foundation';
+import { mainLink } from '../data/articles';
+
 
 const NoMatch = ({ location }) => {
 	return (
@@ -7,7 +9,7 @@ const NoMatch = ({ location }) => {
 			<h1>Page Not Found</h1>
 			<Row className='display grid-x noMatch'>
 				<Column small={4}>  
-					<img src={'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/bathroom.jpg'} alt='bathroom' />
+					<img src={`${mainLink}/bathroom.jpg`} alt='bathroom' />
 				</Column>
 				<Column small={8}>
 					<p>If you're looking for the bathroom, you&apos;ve come to the right place.</p>

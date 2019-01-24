@@ -3,6 +3,8 @@ import { Consumer } from '../Context/main';
 import { Link } from 'react-router-dom';
 import { Row, Column } from 'react-foundation';
 import ReactMarkdown from 'react-markdown';
+import { mainLink } from '../../data/articles';
+
 
 const MainPageItems = () => {
 	return (
@@ -26,7 +28,7 @@ const MainPageItems = () => {
 										return (
 											<div className='o-content__inner-body' key={index} id={y.link}>
 												<h3>{y.title}</h3>
-												<img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${y.image}.jpg`} alt={y.title} />
+												<img src={`${mainLink}/${y.image}.jpg`} alt={y.title} />
 												<ReactMarkdown source={y.intro}/>
 												<Link to={ `${y.link}` } className='custom-main custom-button'>Read More</Link>
 											</div>

@@ -45,7 +45,7 @@ const App = () => {
 											map={x.map}
 											locations={x.locations}
 											locationName={x.locationName}
-											graffiti={x.graffiti}							
+											graffiti={x.graffiti}
 										/>}  
 									/>
 								)

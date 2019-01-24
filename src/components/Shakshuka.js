@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import { Row, Column } from 'react-foundation';
 import { shakshuka } from '../data/articles';
+import { mainLink } from '../data/articles';
+import { imageLink } from '../data/articles';
 
 const customStyles = {
 	content : {
@@ -53,7 +55,7 @@ export default class Shakshuka extends Component {
 			<Row className='display grid-x shakshuka'>
 				<Column large={8} offsetOnLarge={2}>
 					<h1>How Not to Enjoy Your Shakshuka</h1>
-					<img className='fork' src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/fork.gif`} alt='fork'/>
+					<img className='fork' src={`${mainLink}/fork.gif`} alt='fork'/>
 					<div className='tomato'>
 						{eggs.map((x, index) => (
 							<div key={index} data-testid={'egg ' + x.class} className={'egg ' + x.class} onClick={() => this.openModal(this, index)}></div>
@@ -75,7 +77,7 @@ export default class Shakshuka extends Component {
 					appElement={document.getElementById('root')}
 				>
 					<h2>{title}</h2>
-					<img className='thumbnail' src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/IMG_45${image}.JPG`} alt='title'/>
+					<img className='thumbnail' src={`${imageLink}/IMG_45${image}.JPG`} alt='title'/>
 					<button className='shakshuka-button' onClick={this.closeModal}>x</button>
 				</Modal>
 		</Row>

@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-
+import GamePlayer from './GamePlayer';
 export default class GamePlayers extends Component {
 
 	handleChange() {
@@ -15,10 +15,7 @@ export default class GamePlayers extends Component {
 						<div className='flex'>
 							{players.map((x, index) => {
 								return (
-									<div key={index} className='playerResult'>
-										<h3>{x.name}</h3>
-										<img className={x.className} src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${buttons[x.score].name}.png`} alt={buttons[x.score].name} />
-									</div>
+								<GamePlayer index={index} name={x.name} className={x.className} buttons={buttons} players={x}/>
 									)
 								})}
 						</div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
+import { mainLink } from '../data/articles';
 
 const Header = () => (
 	<header>
@@ -14,7 +15,7 @@ const Header = () => (
 					/>
 				</Link>
 			</div>
-			<img src={'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/header.jpg'} alt='RT-38-1047' />
+			<img src={`${mainLink}/header.jpg`} alt='RT-38-1047' />
 		</div>
 	</header>
 );
