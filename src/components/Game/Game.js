@@ -23,6 +23,8 @@ export default class Game extends Component {
 		this.handleClick = this.handleClick.bind(this);
 		this.handleReset = this.handleReset.bind(this);
 	}
+	
+
 	handleReset() {
 		const newPlayers = [
 				{name: 'Player', score: 0, win: 0, className: ''},
@@ -37,8 +39,8 @@ export default class Game extends Component {
 	}
 
 	handleClick(e, index) {
-		const newPlayers = [...this.state.players];
-		const { buttons, draw } = this.state;
+		const { buttons, draw, players } = this.state;
+		const newPlayers = [...players];
 		newPlayers[1].score = Math.floor(Math.random() * 3);
 		newPlayers[0].score = buttons[index].id;
 		let addDraw = draw;
@@ -49,13 +51,11 @@ export default class Game extends Component {
 			newPlayers[1].className = 'computer-draw';
 			addDraw++;
 		}  else if  ((newPlayers[1].score === 2 && newPlayers[0].score === 0) 
-					|| (newPlayers[1].score === 1 && newPlayers[0].score === 2) 
-					|| (newPlayers[1].score === 0 && newPlayers[0].score === 1)) {
+					|| (newPlayers[1].score < newPlayers[0].score) ) {
 			newResult = `Player wins`;
 			newPlayers[0].className = 'player-pick';
 			newPlayers[1].className = 'loss';
 			newPlayers[0].win++;
-			
 		} else {
 			newResult = `Computer wins`;
 			newPlayers[1].win++;
@@ -67,6 +67,17 @@ export default class Game extends Component {
 			draw: addDraw,
 			result: newResult,
 			start: true
+		})
+		setTimeout(() => this.resetClass(), 2000);
+	}
+	
+	resetClass() {
+		const { players } = this.state;
+		const newPlayers = [...players];
+		newPlayers[1].className = '';
+		newPlayers[0].className = '';
+		this.setState({
+			players: newPlayers
 		})
 	}
 	render() {

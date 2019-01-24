@@ -82,7 +82,9 @@ $font-family: 'Press Start 2P', cursive!important;
 		right: 25%;
 	}
 }
-
+.reset {
+	color: white;
+}
 .begin {
 	height: 300px;
 	@include flex();
@@ -91,10 +93,7 @@ $font-family: 'Press Start 2P', cursive!important;
 		color: yellow;
 		text-align: center;
 		width: 50%;
-		animation-name: begin;
-		animation-duration: 1s;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
+		animation: begin 1s infinite alternate;
 		font-size: 1.5em;
 	}	
 }
@@ -106,8 +105,7 @@ $font-family: 'Press Start 2P', cursive!important;
 	align-items: center;
 	width: 100%;
 	div {
-		display: block;
-		margin: 0 auto;
+		@include center();
 	}
 	h3 {
 		color: yellow;
@@ -123,30 +121,30 @@ $font-family: 'Press Start 2P', cursive!important;
 	&:first-child {
 		img {
 			transform: rotateY(180deg);
-		}		
+		}
 	}
 }
 
 .player-draw {
-		animation: playerDraw 1.5s;
+	animation: playerDraw 1.5s;
 }
 
 .computer-draw {
-		animation: computerDraw 1.5s;	
+	animation: computerDraw 1.5s;
 }
 
 .player-pick {
-		animation: playerPick 1s;	
+	animation: playerPick 1s;
 }
 
 .computer-pick {
-		animation: computerPick 1s;	
+	animation: computerPick 1s;
 }
 .loss {
-		animation-name: playerLoss;
-		animation-delay: 0.5s;
-		animation-duration: 1.25s;
-		animation-fill-mode: forwards;	
+	animation-name: playerLoss;
+	animation-delay: 0.5s;
+	animation-duration: 1.25s;
+	animation-fill-mode: forwards;
 }
 
 
@@ -179,7 +177,6 @@ $font-family: 'Press Start 2P', cursive!important;
 	50% {margin-left: 75px;}
 	100% {margin-left: 0;}
 }
-
 
 @keyframes computerDraw {
 	0% {margin-left: 0;}
