@@ -28,14 +28,14 @@ export default class Cat extends Component {
 	render() {
 		const { cats, image } = this.state;
 		return (
-			<div className='cat'>
+			<div className='cat post'>
 				<h1>Cats: The True Story</h1>
 				<Row className='display grid-x'>
 					<CatPost />
 					<CatList cats={cats} image={image} />
 				</Row>
 				<div className='prev-next'>
-					<Link to={ '/kibbutz' } className='custom-button'>Prev</Link>
+					<Link to={ '/game' } className='custom-button'>Prev</Link>
 					<Link to={ '/jaffa' } className='custom-button'>Next</Link>
 				</div>
 			</div>

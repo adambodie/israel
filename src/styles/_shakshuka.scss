@@ -1,6 +1,9 @@
 .shakshuka {
 	margin-top: $margin-top + 20px;
 	color: white;
+	h1 {
+		font-size: 2em;
+	}
 }
 
 .fork {
@@ -8,7 +11,7 @@
     left: 0%;
     top: 40%;
     width: 40%;
-    z-index: 999;	
+    z-index: 999;
 }
 
 .shakshuka-button {
@@ -16,7 +19,10 @@
 
 }
 .ReactModal__Overlay, .ReactModal__Overlay--after-open {
-	z-index: 99999
+	z-index: 99999;
+	h2 {
+		font-size: 1em;
+	}
 }
 
 .tomato {
@@ -45,8 +51,8 @@
 }
 
 .thumbnail {
-	width: 400px;
-	height: 300px;
+	width: 300px;
+	height: 225px;
 }
 
 .eggOne {
@@ -72,6 +78,18 @@
 }
 
 @media (min-width: 769px) {
+	.thumbnail {
+		width: 400px;
+		height: 300px;
+	}
+
+	.ReactModal__Overlay, .ReactModal__Overlay--after-open {
+		z-index: 99999;
+		h2 {
+			font-size: 1.5em;
+		}
+	}
+
 	.fork {
 		left: 20%;
 		top: 33%;

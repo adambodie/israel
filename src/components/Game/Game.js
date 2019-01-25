@@ -39,6 +39,7 @@ export default class Game extends Component {
 	}
 
 	handleClick(e, index) {
+		setTimeout(() => this.resetClass(), 1500);
 		const { buttons, draw, players } = this.state;
 		const newPlayers = [...players];
 		newPlayers[1].score = Math.floor(Math.random() * 3);
@@ -68,7 +69,7 @@ export default class Game extends Component {
 			result: newResult,
 			start: true
 		})
-		setTimeout(() => this.resetClass(), 2000);
+		
 	}
 	
 	resetClass() {

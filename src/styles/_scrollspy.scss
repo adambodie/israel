@@ -1,6 +1,15 @@
-.logo {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.o-sidebar {
+	display: flex;
+    .logo {
+		width: 50px;
+		height: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+    }
+    .c-side-nav__body {
+		display: none;
+    }
 }
 
 section {
@@ -15,11 +24,11 @@ section {
 		margin-bottom: 10px; 
 	}
 	img {
-		width: 33%;
+		width: 40%;
 		margin-bottom: 10px;
 	}
 	p {
-		width: 66%;
+		width: 90%;
 		@include center;
 		margin-bottom: 10px;
 	}
@@ -41,9 +50,6 @@ section {
 	}
 }
 
-.o-sidebar {
-    display: none;
-}
 
 ul {
 	margin-left: 0;
@@ -142,6 +148,13 @@ ul {
 		h3 {
 			color: white;
 		}
+		.logo {
+			width: 125px;
+			height: 125px;
+		}
+		.c-side-nav__body {
+			display: inherit;
+		}
 	}
 	
 	.o-sidebar--fixed-left {
@@ -155,5 +168,13 @@ ul {
 	.o-main {
 		width: calc(100% - 260px);
 		margin-left: 260px;
+	}
+	.o-content__inner-body, .welcomeIntro {
+		img {
+			width: 33%;
+		}
+		p {
+			width: 66%;
+		}
 	}
 }

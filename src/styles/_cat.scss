@@ -1,10 +1,11 @@
 .cat {
 	margin-top: $margin-top + 10;
+	p {
+		color: white;
+	}
 }
 
 .cat-button {
-	width: 110px!important;
-	height: 60px!important;
 	line-height: 1.4;
 	margin-bottom: 20px!important;
 }

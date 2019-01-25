@@ -23,8 +23,8 @@ const newCatStyles = {
 		marginRight: '-50%',
 		transform: 'translate(-50%, -50%)',
 		textAlign: 'center',
-		width: '400px',
-		height: '400px',
+		width: '300px',
+		height: '200px',
 		display: 'flex',
 		justifyContent: 'center',
 		alignItems: 'center',
@@ -85,6 +85,7 @@ export default class CatList extends Component {
 		return (
 			<Column large={6} offsetOnLarge={3}>
 				<h1>Cats, Cats, Cats!!!</h1>
+				<p>Click on a Cat to view bigger, or click Refresh to load new cats</p>
 				<div className='cat-gifs'>
 					{this.shuffle(cats).filter((x, index) => index < 9).map((x, index) => {
 						return (
@@ -95,7 +96,7 @@ export default class CatList extends Component {
 						}
 					)}
 				</div>
-				<button className='cat-button custom-button' onClick={this.newCats}>See More Cats!</button>
+				<button className='cat-button custom-button' onClick={this.newCats}>Refresh</button>
 				<Modal
 					isOpen={this.state.modalIsOpen}
 					onRequestClose={this.closeModal}

@@ -15,7 +15,7 @@ export default class GamePlayers extends Component {
 						<div className='flex'>
 							{players.map((x, index) => {
 								return (
-								<GamePlayer index={index} name={x.name} className={x.className} buttons={buttons} players={x}/>
+								<GamePlayer key={index} name={x.name} className={x.className} buttons={buttons} players={x}/>
 									)
 								})}
 						</div>

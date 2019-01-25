@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const GamePost = () => {
 	return (
-		<Row className='display grid-x game-text articles'>
+		<Row className='display grid-x game-text post'>
 			<Column large={6} offsetOnLarge={3}>
 				<h1>The Rock Paper Scissors Episode</h1>
 				<p>Rock, Paper, Scissors.  A classic game of chance where two people face off and select either Rock, Paper or Scissors.  You all know the rules:  Rock smashes Scissors.  Scissors cuts Paper.  Paper covers Rock.  You either win, you lose, or you tie.  So what does this have to do with the trip?</p>

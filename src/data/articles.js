@@ -199,7 +199,7 @@ When we were done, we once again could see the forest and the valley in a wonder
 `;
 
 export const shakshukaIntro = `
-Between Yad Vashem and the Herzl Cemetery was a quick lunch break nearby. Within a nice little mall was a few places to eat.  The first one I saw was McDonalds.  I've been there, done that from my trips to Europe.  I still remember being charged Euro cents for ketchup packets in Austria.  Are you kidding me?  So I passed up the chance at McDonalds.  So what would I have for lunch on this date?   
+Between Yad Vashem and the Herzl Cemetery was a quick lunch break nearby. Within a nice little mall was a few places to eat.  The first one I saw was McDonalds.  I've been there, done that from my trips to Europe.  I still remember being charged Euro cents for ketchup packets in [Austria](http://adventures.bodiewebdesign.com/europe).  Are you kidding me?  So I passed up the chance at McDonalds.  So what would I have for lunch on this date?   
 `;
 
 export const shakshuka = `
@@ -223,19 +223,19 @@ As our group entered Mount Herzl, we made our way to a nice marble square, with 
 
 After learning all of this, we saw the tombstone across the way, which belonged to Herzl.  It was intentionally ordinary, not the extravagant tombstones of other famous people throughout history.  But it was located at the highest point of Mount Herzl, providing a view in all directions.  After this, I added a pebble on top, which for some is traditional.  After Herzl, we headed towards more tombstones.
 
-Our next stop were the tombstones of Israel's former Prime Ministers.  I was particularly drawn to the grave of Yitzhak Rabin, who is buried next to his wife.  I was old enough to remember Rabin signing the Oslo Accord with Yasser Arafat and Bill Clinton, and I was old enough to remember when Rabin was assassinated.  As such, he always held a special spot in my heart when it comes to Israel and its leaders.  Also there were former Prime Ministers Shimon Peres and Golda Meir, the latter whom Jake loves to point out lived in his hometown of Milwaukee.  But we were there to embrace Golda's work for Israel, not Milwaukee. With that, it was off to our next stop in the cemetery.
+Our next stop were the tombstones of Israel's former Prime Ministers.  I was particularly drawn to the grave of Yitzhak Rabin, who is buried next to his wife.  I was old enough to remember Rabin signing the Oslo Accord with Yasser Arafat and Bill Clinton, and I was old enough to remember when Rabin was assassinated.  As such, he always held a special spot in my heart when it comes to Israel and its leaders.  Also there were former Prime Ministers Shimon Peres and Golda Meir, the latter whom Jake loves to point out lived in his hometown of [Milwaukee](http://adventures.bodiewebdesign.com/chicago).  But we were there to embrace Golda's work for Israel, not Milwaukee. With that, it was off to our next stop in the cemetery.
 
 Walking through the cemetery, there were multiple memorials honoring various groups.  But our next stop was for those who served in the IDF.  We were told the tale of one particular member of the IDF, Yoni Netanyahu, who was killed in action in 1976 during Operation Entebbe, a hostage rescue mission in Uganda; he was the only casualty of that mission. We also heard the story of Michael Levin, an American Jew who came to Israel to serve in the IDF and did everything he could to join and fight.
 
 After hearing these stories and seeing the IDF members passing through the cemetery, it was time to wrap up.  We headed back the way we came, and back to the bus.  Our day of hardship was over.  We learned a lot, but it was difficult to absorb the tragedy of the Holocaust and the passing of those who fought for Israel and the leaders who helped shaped and defined a nation of the Jews.  A much needed break was waiting for us back at the hotel.
 
 # Facts about Mount Herzl
-- Mount Herzl is also known as "Mount of Remembrance"
-- Theodor Herzl, the founder of Zionism, was buried at the top of Mount Herzl in 1949, with his remains moved from its original spot in Vienna, Austria, per his wishes once his vision of a Jewish state became complete.
+- Mount Herzl is also known as **"Mount of Remembrance"**
+- **Theodor Herzl**, the founder of Zionism, was buried at the top of Mount Herzl in 1949, with his remains moved from its original spot in Vienna, Austria, per his wishes once his vision of a Jewish state became complete.
 - The main IDF cemetery is located on the north end of the mountain, with plots dedicated to particular battles where members fell during battle.
 - The southern slope of the mountain contains the graves of leaders of the country of Israel and those who sacrificed their lives for the country.
 - Yad Vashem is located on the western slope of Mount Herzl
-- Yoni Netanyahu, who was killed in action during Operation Entebbe, was the older brother of current Israeli Prime Minister, Benjamin Netanyahu
+- **Yoni Netanyahu**, who was killed in action during Operation Entebbe, was the older brother of current Israeli Prime Minister, Benjamin Netanyahu
 
 `;
 
@@ -340,7 +340,8 @@ TV aside, the room was bigger, and with the other Adam joining for the night, we
 
 Having just learned about the Arab-Israeli Conflict, it seemed, perhaps ironic, that Hamas, the group in control of Gaza, would take this opportunity to fire off 460 rockets towards Israel, in what was deemed their highest intensity of attacks since the 2014 war between Israel and Gaza that had lasted 50 days.  Israel intercepted some of the rockets and fired back, causing buildings on both sides to be damaged.
 
-That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel's bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  A perfect way to forget that rockets were being fired from Gaza.
+That, of course, was immediately brought to our attention, as Gaza has rockets that could reach Masada, the beginning of our adventure the next day, along with Tel Aviv, our final destination of the next day.  With that in mind, there was a possibility of our activities being cancelled.  How would we know? By hearing a loud alarm. What would happen if this occurred? We would go to the hotel's bomb shelter.  After being shown where to find the bomb shelter, it was time to eat.  After eating, we had another activity, Where the Wind Blows, a musical chairs meets gladiator event of silly admissions.  I admitted to having driven
+[500 miles in a day](http://reno.bodiewebdesign.com), though in hindsight, it would have been cooler to admit to [driving 100 miles per hour](http://wildwildwest.bodiewebdesign.com) once. A perfect way to forget that rockets were being fired from Gaza.  I also admitted to wearing glasses, which I happened to be wearing at the time, and only thought of it because I saw Adam gesture towards his eyes.
 
 But with the day I'd been waiting for the whole trip coming, I went to sleep wondering what would happen.  I didn't feel Gaza would escalate their attacks, but you never know. Would I spend the next day on top of Masada, or stuck in a bomb shelter with our group and a bunch of screaming kids?
 
@@ -357,13 +358,12 @@ The following morning, I woke up to a beautiful day, with the sun rising, and so
 export const desert = `
 ${desertIntro}
 
-After leaving Arad and the cute kitties behind, it was a half an hour away to Masada, which took us through various twists and turns in the desert.  The music was playing on the bus, with a little karaoke, particularly The Notorious B.I.G. classic Juicy performed by Boston Andrew, which brought cheers. The scenery was typical of the desert, until we could see the Dead Sea in the distance.  Suddenly, views of the sea appeared, which were beautiful to see.  Before we knew it, we'd arrive at Masada.
+After leaving Arad and the cute kitties behind, it was a half an hour away to Masada, which took us through various twists and turns in the desert.  The music was playing on the bus, with a little karaoke, particularly The Notorious B.I.G. classic Juicy performed by [Boston Andrew](http://adventures.bodiewebdesign.com/boston), which brought cheers. The scenery was typical of the desert, until we could see the Dead Sea in the distance.  Suddenly, views of the sea appeared, which were beautiful to see.  Before we knew it, we'd arrive at Masada.
 `;
 
 export const romanIntro = `
 Before my trip to Israel and learning of the itinerary, there was one place I wasn't aware of that got me really excited upon research.  That of course, was Masada National Park.  Knowing I would have to hike up and down Masada, I spent more time being physically active to prepare myself.  Sure, I had done hikes longer, higher and more treacherous. 
-[Smith Rock](https://adventures.bodiewebdesign.com/smith-rock)
-in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
+[Smith Rock](https://adventures.bodiewebdesign.com/smith-rock) in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
 `;
 
 export const roman = `
@@ -473,6 +473,8 @@ Afterwards, there was a shower on the coast to clean off any excess mud I missed
 
 # Dead Sea Facts
 ![Dead Sea Level Comparison](${mainLink}/dead-sea-level.jpg)
+
+*NASA image comparisons of Dead Sea levels*
 - Though named the **Dead Sea**, as it is not connected to any Ocean, it is technically a lake
 - At about **418 feet below sea level**, the Dead Sea is the lowest elevation on land in the world
 - The Dead Sea contains about **35% salt**, one of the most saltiest bodies of water in the world.  The typical body of water contains about 3%
@@ -633,7 +635,7 @@ ${jaffaIntro}
 
 I had previously seen Jaffa from the beach in the distance, and had walked in the vicinity of the area on the first night in Tel Aviv, primarily the Clock Tower.  But now was the time to see the rest of it in the day.  The first stop was at Ramses II Gate Garden, an interesting spot and history.  I didn’t think the Egyptians would have been there 3500 years ago.
 
-After seeing the gate, we headed towards the port, which was pretty to see.  I’ve seen plenty of ports back home along the Pacific Coast (among other places) but none quite had the history and ancient feel that Jaffa did.
+After seeing the gate, we headed towards the port, which was pretty to see.  I’ve seen plenty of ports back home along the [Pacific Coast](http://adventures.bodiewebdesign.com/newport) (among other places) but none quite had the history and ancient feel that Jaffa did.
 
 Walking along the path, the feeling of history was replaced with a feeling of modernism as the coastline appeared with an incredible view of the skyscrapers and the sea.  It was beautiful to see, and with the contrast to the history of Jaffa, provided two very different vibes.  I made sure to get a picture of the skyline.  It was further available to see going up a hill, where more views of the buildings, including the church and the mosque, provided a unique backdrop.
 
@@ -719,7 +721,7 @@ But with this done, our journey was almost complete.  The end was near, and with
 - Because of the fear of attacks from Arab armies and British authorities preventing a declaration, the event was not widely publicized. Invitations were sent on the morning of **May 14, 1948**, the day it was signed, to those who wished to attend.  
 - As it was on a Friday, the time of 16:00 was chosen to avoid any interference with Shabbat.
 - **David Ben-Gurion**, the leader of the Yishuv, a group of Jewish residents before independence, was the first to sign the Declaration of Independence
-- Though there were 37 members of the Moetzet HaAm, the first state council, set to sign the Declaration of Independence, only 25 members were present to sign it.  They did so, after Ben-Gurion, in alphabetical order.
+- Though there were 37 members of the **Moetzet HaAm**, the first state council, set to sign the Declaration of Independence, only 25 members were present to sign it.  They did so, after Ben-Gurion, in alphabetical order.
 
 `;
 
@@ -750,7 +752,7 @@ By the time we reached the gate, I was too exhausted to do much of anything, so 
 
 Despite these moments, the flight home was quite atrocious compared to the flight there.  It was bad enough I couldn’t bring any water on the flight that I got past the checkpoints.  Why that would be an issue is beyond me.  If that were the worst thing, I would have been okay, but the plane going back to New York was akin to a third-world airplane compared to the nice, modern model we had going to Israel.  The seats weren’t nearly as nice (I was again in the very last row), the entertainment screen in front of us consisted of a little screen the size of my iPhone, and the worst part, there was no place to charge our electronics.  How could anyone survive that long of a flight without this going across the Atlantic is unfathomable.  But that wasn’t the worst part of the flight experience.  The flight itself was rocky for the first few hours of the trip, which was incredibly uncomfortable.  Without any charges for the electronics, I didn’t want to use my battery up.  So I tried to sleep.  I did manage to sleep a little (thank you Whitney for informing me of my snoring, hopefully it wasn’t too loud).  The turbulence became heavy again while reaching North America; by the time the plane landed, people started clapping once we got on the ground.
 
-After going through customs, which was a bit long, but not as long as first anticipated, even at 5:00 am in the morning, and getting our bags, it was time for us to say our last goodbyes.  Some of the group got off earlier since they were closer to the front than I was, but I was at least able to say my last goodbyes to some.  Eric, the only member of the group besides me on the West Coast, was headed to the same terminal as I, so after checking my bag with Alaska Airlines for my direct flight to Portland, I was alone again.  With another six hours on a plane, which thankfully I had rescheduled my flight, since I would not have made the initial flight, I was ready to get home.  By the time I got back home, I was completely out of it, barely able to comprehend much of anything.  Thankfully, my Mom picked me up, and waited inside the airport before the checkpoints to surprise me.  Thankfully, my luggage came back in one piece, which had gotten lost on the way home of my two prior trips to Europe.   
+After going through customs, which was a bit long, but not as long as first anticipated, even at 5:00 am in the morning, and getting our bags, it was time for us to say our last goodbyes.  Some of the group got off earlier since they were closer to the front than I was, but I was at least able to say my last goodbyes to some.  Eric, the only member of the group besides me on the West Coast, was headed to the same terminal as I, so after checking my bag with Alaska Airlines for my direct flight to Portland, I was alone again.  With another six hours on a plane, which thankfully I had rescheduled my flight, since I would not have made the initial flight, I was ready to get home.  By the time I got back home, I was completely out of it, barely able to comprehend much of anything.  Thankfully, my Mom picked me up, and waited inside the airport before the checkpoints to surprise me.  Thankfully, my luggage came back in one piece, which had gotten lost on the way home of my two prior trips to [Europe](http://adventures.bodiewebdesign.com/italy).   
 
 The journey was over, but the memories will last a lifetime.  I would love to go back to Israel again to see more; it’s an amazing place.  I learned a lot of Israel, Judaism, and most importantly, about myself.  And it’s with this that I end my story with my final words:
 

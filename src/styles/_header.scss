@@ -4,7 +4,7 @@ header {
 	width: 100%;
 	z-index: 10000;
 	img {
-		height: 33px;
+		height: 25px;
 		margin: 0;
 	}
 }
@@ -41,6 +41,11 @@ header {
 }
 
 @media (min-width: 769px) {
+	header {
+		img {
+			height: 33px;
+		}
+	}
 	.top-bar {
 		h4 {
 			font-size: 1.8em;
