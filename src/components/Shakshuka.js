@@ -1,11 +1,11 @@
 import React, { Component} from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import { Row, Column } from 'react-foundation';
 import { shakshuka } from '../data/articles';
 import { mainLink } from '../data/articles';
 import { imageLink } from '../data/articles';
+import PrevNext from './PrevNext';
 
 const customStyles = {
 	content : {
@@ -64,10 +64,7 @@ export default class Shakshuka extends Component {
 					</div>
 					<p><strong>Click on each egg above to view a picture</strong></p>
 					<ReactMarkdown source={shakshuka} className='article' />
-					<div className='prev-next'>
-						<Link to={ '/yad-vashem' } className='custom-button'>Prev</Link>
-						<Link to={ '/herzl' } className='custom-button'>Next</Link>
-					</div>
+					<PrevNext prev={'/yad-vashem'} next={'/herzl'} />
 				</Column>
 				<Modal
 					isOpen={modalIsOpen}

@@ -9,27 +9,24 @@ header {
   top: 0;
   width: 100%;
   z-index: 10000; }
-
-header img {
-  height: 25px;
-  margin: 0; }
+  header img {
+    height: 25px;
+    margin: 0; }
 
 .top-bar-left {
   display: flex; }
-
-.top-bar-left a {
-  margin-left: 5px;
-  color: white;
-  font-size: 1em; }
+  .top-bar-left a {
+    margin-left: 5px;
+    color: white;
+    font-size: 1em; }
 
 .top-bar {
   background-color: #0038B8; }
-
-.top-bar h4 {
-  font-family: 'Heebo', sans-serif;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-size: 1em; }
+  .top-bar h4 {
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 1em; }
 
 @media (min-width: 550px) {
   .top-bar h4 {
@@ -48,14 +45,12 @@ header img {
 
 .todoList {
   margin-top: 64px !important; }
-
-.todoList ul {
-  margin-top: 20px; }
-
-.todoList img {
-  display: block;
-  margin: 0 auto;
-  border: 5px solid white; }
+  .todoList ul {
+    margin-top: 20px; }
+  .todoList img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white; }
 
 .button {
   background-color: #0038B8; }
@@ -70,14 +65,12 @@ header img {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-
-.item button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item p {
-  margin: 0;
-  align-self: center; }
+  .item button {
+    align-self: center;
+    margin-right: 20px; }
+  .item p {
+    margin: 0;
+    align-self: center; }
 
 .item-completed {
   list-style: none;
@@ -86,25 +79,21 @@ header img {
   border: 1px solid black;
   display: flex;
   justify-content: space-between; }
-
-.item-completed button {
-  align-self: center;
-  margin-right: 20px; }
-
-.item-completed p {
-  margin: 0;
-  align-self: center; }
-
-.item-completed p {
-  text-decoration: line-through; }
+  .item-completed button {
+    align-self: center;
+    margin-right: 20px; }
+  .item-completed p {
+    margin: 0;
+    align-self: center; }
+  .item-completed p {
+    text-decoration: line-through; }
 
 .form {
   display: flex;
   border: 1px solid black; }
-
-.form input {
-  height: 42px;
-  margin: 0; }
+  .form input {
+    height: 42px;
+    margin: 0; }
 
 .delete, .complete {
   font-weight: bold;
@@ -113,42 +102,36 @@ header img {
 
 .o-sidebar {
   display: flex; }
-
-.o-sidebar .logo {
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px; }
-
-.o-sidebar .c-side-nav__body {
-  display: none; }
+  .o-sidebar .logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; }
+  .o-sidebar .c-side-nav__body {
+    display: none; }
 
 section {
   border-bottom: 1px solid white; }
 
 .o-content__inner-body, .welcomeIntro {
   border-bottom: 1px solid white; }
-
-.o-content__inner-body h3, .welcomeIntro h3 {
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.o-content__inner-body img, .welcomeIntro img {
-  width: 40%;
-  margin-bottom: 10px; }
-
-.o-content__inner-body p, .welcomeIntro p {
-  width: 90%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px; }
-
-.o-content__inner-body a, .welcomeIntro a {
-  color: white;
-  font-weight: bold; }
+  .o-content__inner-body h3, .welcomeIntro h3 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .o-content__inner-body img, .welcomeIntro img {
+    width: 40%;
+    margin-bottom: 10px; }
+  .o-content__inner-body p, .welcomeIntro p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .o-content__inner-body a, .welcomeIntro a {
+    color: white;
+    font-weight: bold; }
 
 .c-side-nav {
   background-color: #0038B8;
@@ -157,18 +140,16 @@ section {
 .c-side-nav__item {
   list-style: none;
   font-size: 1.2em; }
-
-.c-side-nav__item a {
-  color: white; }
+  .c-side-nav__item a {
+    color: white; }
 
 ul {
   margin-left: 0; }
 
 .is-current {
   background: navy; }
-
-.is-current > a {
-  font-weight: bold; }
+  .is-current > a {
+    font-weight: bold; }
 
 .o-main {
   color: white; }
@@ -179,14 +160,12 @@ ul {
 .Collapsible__contentInner {
   padding: 10px;
   border-top: 0; }
-
-.Collapsible__contentInner p {
-  margin-bottom: 10px;
-  font-size: 14px;
-  line-height: 20px; }
-
-.Collapsible__contentInner p:last-child {
-  margin-bottom: 0; }
+  .Collapsible__contentInner p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px; }
+    .Collapsible__contentInner p:last-child {
+      margin-bottom: 0; }
 
 .Collapsible__trigger {
   display: block;
@@ -195,22 +174,19 @@ ul {
   color: black;
   position: relative;
   color: white; }
-
-.Collapsible__trigger:after {
-  font-family: 'FontAwesome';
-  content: '\f107';
-  position: absolute;
-  right: 10px;
-  top: -30px;
-  display: block;
-  transition: transform 300ms; }
-
-.Collapsible__trigger.is-open:after {
-  transform: rotateZ(180deg); }
-
-.Collapsible__trigger.is-disabled {
-  opacity: 0.5;
-  background-color: grey; }
+  .Collapsible__trigger:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: -30px;
+    display: block;
+    transition: transform 300ms; }
+  .Collapsible__trigger.is-open:after {
+    transform: rotateZ(180deg); }
+  .Collapsible__trigger.is-disabled {
+    opacity: 0.5;
+    background-color: grey; }
 
 .CustomTriggerCSS {
   background-color: lightcoral;
@@ -230,13 +206,13 @@ ul {
     width: 260px;
     overflow-y: scroll;
     display: inherit; }
-  .o-sidebar h3 {
-    color: white; }
-  .o-sidebar .logo {
-    width: 125px;
-    height: 125px; }
-  .o-sidebar .c-side-nav__body {
-    display: inherit; }
+    .o-sidebar h3 {
+      color: white; }
+    .o-sidebar .logo {
+      width: 125px;
+      height: 125px; }
+    .o-sidebar .c-side-nav__body {
+      display: inherit; }
   .o-sidebar--fixed-left {
     position: fixed;
     min-height: 100vh;
@@ -254,27 +230,22 @@ ul {
 .post {
   margin-top: 79px;
   color: white; }
-
-.post h1 {
-  font-size: 2em; }
-
-.post h3 {
-  font-size: 1.2em; }
-
-.post li {
-  text-align: left; }
+  .post h1 {
+    font-size: 2em; }
+  .post h3 {
+    font-size: 1.2em; }
+  .post li {
+    text-align: left; }
 
 .article {
   display: block;
   margin: 0 auto;
   width: 80%; }
-
-.article a {
-  color: white;
-  font-weight: bold; }
-
-.article a:hover {
-  color: #808080; }
+  .article a {
+    color: white;
+    font-weight: bold; }
+    .article a:hover {
+      color: #808080; }
 
 .slick-list, .slick-slider, .slick-track {
   width: 375px;
@@ -410,9 +381,8 @@ table thead {
   align-items: center;
   justify-content: center;
   flex-direction: column; }
-
-.answer:hover {
-  opacity: 1; }
+  .answer:hover {
+    opacity: 1; }
 
 .quiz-card, .question, .answer {
   width: 300px;
@@ -423,22 +393,18 @@ table thead {
   line-height: 0;
   margin-bottom: 2em;
   overflow: hidden; }
-
-.quiz-card .question {
-  text-shadow: none;
-  background: white; }
-
-.quiz-card .question tbody {
-  border: none !important; }
-
-.quiz-card .question tr {
-  background: white !important;
-  line-height: 1.1; }
-
-.quiz-card .question h2 {
-  font-size: 1.0em;
-  margin: 0px 5px;
-  color: black; }
+  .quiz-card .question {
+    text-shadow: none;
+    background: white; }
+    .quiz-card .question tbody {
+      border: none !important; }
+    .quiz-card .question tr {
+      background: white !important;
+      line-height: 1.1; }
+    .quiz-card .question h2 {
+      font-size: 1.0em;
+      margin: 0px 5px;
+      color: black; }
 
 .quiz-card .answer {
   transition: transform .6s ease-out;
@@ -470,74 +436,65 @@ td {
   align-items: center;
   background: #525252;
   padding: 5px; }
-
-.buttons button {
-  font-family: "Press Start 2P", cursive !important;
-  text-align: center;
-  font-size: 8px;
-  padding: 5px;
-  margin: 5px;
-  width: 45px;
-  height: 45px;
-  background-color: red;
-  border-radius: 100%;
-  cursor: pointer;
-  outline: none;
-  box-shadow: 0 10px #990000; }
-
-.buttons button:hover {
-  background-color: #660000; }
-
-.buttons button:active {
-  background-color: #660000;
-  box-shadow: 0 5px #330000;
-  transform: translateY(4px); }
-
-.buttons img {
-  width: 30px;
-  height: 30px; }
+  .buttons button {
+    font-family: "Press Start 2P", cursive !important;
+    text-align: center;
+    font-size: 8px;
+    padding: 5px;
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: red;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 10px #990000; }
+    .buttons button:hover {
+      background-color: #660000; }
+    .buttons button:active {
+      background-color: #660000;
+      box-shadow: 0 5px #330000;
+      transform: translateY(4px); }
+  .buttons img {
+    width: 30px;
+    height: 30px; }
 
 .flex {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-
-.flex h3 {
-  font-family: "Press Start 2P", cursive !important;
-  color: yellow;
-  font-size: 1.15em; }
+  .flex h3 {
+    font-family: "Press Start 2P", cursive !important;
+    color: yellow;
+    font-size: 1.15em; }
 
 .game {
   display: block;
   margin: 0 auto;
   margin-top: 74px; }
-
-.game .columns {
-  background: black;
-  border: 15px groove #FCD526; }
-
-.game h1 {
-  background: #0038B8;
-  font-family: "Press Start 2P", cursive !important;
-  font-size: 1.6em;
-  padding: 5px; }
+  .game .columns {
+    background: black;
+    border: 15px groove #FCD526; }
+  .game h1 {
+    background: #0038B8;
+    font-family: "Press Start 2P", cursive !important;
+    font-size: 1.6em;
+    padding: 5px; }
 
 .result {
   height: 200px; }
-
-.result h4 {
-  color: yellow;
-  font-family: "Press Start 2P", cursive !important;
-  text-align: center;
-  font-size: 1em; }
-
-.result img {
-  max-width: 60px;
-  max-height: 60px;
-  position: absolute;
-  opacity: 1;
-  left: 25%;
-  right: 25%; }
+  .result h4 {
+    color: yellow;
+    font-family: "Press Start 2P", cursive !important;
+    text-align: center;
+    font-size: 1em; }
+  .result img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    opacity: 1;
+    left: 25%;
+    right: 25%; }
 
 .reset {
   color: white; }
@@ -547,40 +504,33 @@ td {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-.begin h2 {
-  font-family: "Press Start 2P", cursive !important;
-  color: yellow;
-  text-align: center;
-  width: 50%;
-  animation: begin 1s infinite alternate;
-  font-size: 1.5em; }
+  .begin h2 {
+    font-family: "Press Start 2P", cursive !important;
+    color: yellow;
+    text-align: center;
+    width: 50%;
+    animation: begin 1s infinite alternate;
+    font-size: 1.5em; }
 
 .score {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%; }
-
-.score div {
-  display: block;
-  margin: 0 auto; }
-
-.score h3 {
-  color: yellow;
-  font-family: "Press Start 2P", cursive !important;
-  text-align: center; }
+  .score div {
+    display: block;
+    margin: 0 auto; }
+  .score h3 {
+    color: yellow;
+    font-family: "Press Start 2P", cursive !important;
+    text-align: center; }
 
 .playerResult {
-  height: 100px;
   width: 150px;
+  height: 100px;
   position: relative; }
-
-.playerResult:first-child img {
-  transform: rotateY(180deg); }
-
-.game-text {
-  color: white; }
+  .playerResult:first-child img {
+    transform: rotateY(180deg); }
 
 .player-draw {
   animation: playerDraw 1.5s; }
@@ -648,29 +598,29 @@ td {
 
 @media (min-width: 769px) {
   .playerResult {
-    height: 160px;
-    width: 200px; }
+    width: 200px;
+    height: 160px; }
   .begin {
     height: 250px; }
   .result {
     height: 250px; }
-  .result img {
-    max-width: 75px;
-    max-height: 75px; }
+    .result img {
+      width: 80px;
+      height: 80px; }
   .game {
     width: 100%; }
-  .game .columns {
-    border: 20px groove #FCD526; }
+    .game .columns {
+      border: 20px groove #FCD526; }
   .buttons {
     padding: 10px; }
-  .buttons button {
-    width: 75px;
-    height: 75px;
-    font-family: "Press Start 2P", cursive !important;
-    font-size: 12px; }
-  .buttons img {
-    width: 50px;
-    height: 50px; }
+    .buttons button {
+      width: 75px;
+      height: 75px;
+      font-family: "Press Start 2P", cursive !important;
+      font-size: 12px; }
+    .buttons img {
+      width: 50px;
+      height: 50px; }
   @keyframes playerDraw {
     50% {
       margin-left: 125px; } }
@@ -687,9 +637,8 @@ td {
 .shakshuka {
   margin-top: 84px;
   color: white; }
-
-.shakshuka h1 {
-  font-size: 2em; }
+  .shakshuka h1 {
+    font-size: 2em; }
 
 .fork {
   position: absolute;
@@ -709,9 +658,8 @@ td {
 
 .ReactModal__Overlay, .ReactModal__Overlay--after-open {
   z-index: 99999; }
-
-.ReactModal__Overlay h2, .ReactModal__Overlay--after-open h2 {
-  font-size: 1em; }
+  .ReactModal__Overlay h2, .ReactModal__Overlay--after-open h2 {
+    font-size: 1em; }
 
 .tomato {
   width: 350px;
@@ -735,9 +683,8 @@ td {
   border-left-width: 35px;
   border-right-width: 35px;
   position: absolute; }
-
-.egg:hover {
-  background: gold; }
+  .egg:hover {
+    background: gold; }
 
 .thumbnail {
   width: 300px;
@@ -768,8 +715,8 @@ td {
     height: 300px; }
   .ReactModal__Overlay, .ReactModal__Overlay--after-open {
     z-index: 99999; }
-  .ReactModal__Overlay h2, .ReactModal__Overlay--after-open h2 {
-    font-size: 1.5em; }
+    .ReactModal__Overlay h2, .ReactModal__Overlay--after-open h2 {
+      font-size: 1.5em; }
   .fork {
     left: 20%;
     top: 33%;
@@ -886,9 +833,8 @@ td {
   height: 12px;
   position: absolute;
   font-size: 9.33333px; }
-
-.map-button:hover {
-  background: gold; }
+  .map-button:hover {
+    background: gold; }
 
 .map {
   position: relative;
@@ -898,27 +844,24 @@ td {
 
 .masada-map {
   margin-top: 64px; }
-
-.masada-map .map {
-  width: 355.55556px;
-  height: 177.77778px;
-  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
+  .masada-map .map {
+    width: 355.55556px;
+    height: 177.77778px;
+    background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
 
 .jerusalem-map {
   margin-top: 64px; }
-
-.jerusalem-map .map {
-  width: 333.33333px;
-  height: 300px;
-  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png"); }
+  .jerusalem-map .map {
+    width: 333.33333px;
+    height: 300px;
+    background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png"); }
 
 .telaviv-map {
   margin-top: 64px; }
-
-.telaviv-map .map {
-  width: 360px;
-  height: 260.8px;
-  background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tel-aviv-map.png"); }
+  .telaviv-map .map {
+    width: 360px;
+    height: 260.8px;
+    background-image: url("https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tel-aviv-map.png"); }
 
 @media (min-width: 512px) {
   .jerusalem-item-0 {
@@ -1043,9 +986,9 @@ td {
     top: 259px; }
   .telaviv-map {
     margin-top: 64px; }
-  .telaviv-map .map {
-    width: 450px;
-    height: 326px; }
+    .telaviv-map .map {
+      width: 450px;
+      height: 326px; }
   .map-button {
     width: 18px;
     height: 18px;
@@ -1075,22 +1018,21 @@ td {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-.jukebox-title h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 150px;
-  width: 300px;
-  margin-top: 20px;
-  font-size: 2em;
-  font-family: "Monoton", cursive !important;
-  background: #a06126;
-  border-top-left-radius: 150px;
-  border-top-right-radius: 150px;
-  border-bottom: 40px solid #c4c400;
-  border-style: groove;
-  margin-bottom: -10px; }
+  .jukebox-title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: "Monoton", cursive !important;
+    background: #a06126;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom: 40px solid #c4c400;
+    border-style: groove;
+    margin-bottom: -10px; }
 
 .jukebox-flex {
   display: flex;
@@ -1152,18 +1094,17 @@ td {
 .card > .front {
   transform: rotateY(0deg) !important;
   color: #FFFFFF; }
-
-.card > .front p {
-  background: #0038B8;
-  font-family: "Monoton", cursive !important;
-  width: 236.66667px;
-  height: 133.33333px;
-  font-size: 18px;
-  margin-top: 25px;
-  margin-bottom: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  .card > .front p {
+    background: #0038B8;
+    font-family: "Monoton", cursive !important;
+    width: 236.66667px;
+    height: 133.33333px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .card > .back {
   transform: rotateY(180deg) !important;
@@ -1198,26 +1139,23 @@ td {
 
 .area {
   margin: 0 auto;
-  height: 300px;
   width: 300px;
+  height: 300px;
   background: black; }
-
-.area .content {
-  height: 1750px; }
-
-.area .content iframe {
-  position: absolute;
-  bottom: 5px;
-  width: 177.5px;
-  height: 100px; }
+  .area .content {
+    height: 1750px; }
+    .area .content iframe {
+      position: absolute;
+      bottom: 5px;
+      width: 177.5px;
+      height: 100px; }
 
 .scrollarea .scrollbar-container {
   opacity: 1 !important;
   background: white !important; }
 
 .jukebox-text {
-  margin-top: 100px;
-  color: white; }
+  margin-top: 20px; }
 
 @keyframes side-gradient {
   0% {
@@ -1244,17 +1182,16 @@ td {
 .graffiti {
   margin-top: 64px;
   color: white; }
-
-.graffiti h1 {
-  text-align: center;
-  width: 100%; }
+  .graffiti h1 {
+    text-align: center;
+    width: 100%; }
 
 /* Rabin SCSS
 -------------------------*/
 .rabin {
   position: relative;
-  height: calc(257px/1.20);
-  width: calc(407px/1.20);
+  width: calc($rabin-width/1.20);
+  height: calc($rabin-height/1.20);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1276,8 +1213,8 @@ td {
 
 @media (min-width: 512px) {
   .rabin {
-    height: 253px;
-    width: 400px; } }
+    width: 400px;
+    height: 253px; } }
 
 /* Thanks SCSS
 --------------------*/
@@ -1324,9 +1261,8 @@ td {
   position: absolute;
   background: transparent;
   height: 134px; }
-
-.club-cover:focus {
-  outline: none; }
+  .club-cover:focus {
+    outline: none; }
 
 .cover-one {
   width: 50px;
@@ -1399,22 +1335,20 @@ td {
 .story {
   display: flex;
   flex-wrap: wrap; }
-
-.story p, .story img {
-  display: block;
-  margin: 0 auto; }
+  .story p, .story img {
+    display: block;
+    margin: 0 auto; }
 
 @media (min-width: 768px) {
   .story {
     flex-wrap: nowrap; }
-  .story p, .story img {
-    padding: 20px; } }
+    .story p, .story img {
+      padding: 20px; } }
 
 .cat {
   margin-top: 74px; }
-
-.cat p {
-  color: white; }
+  .cat p {
+    color: white; }
 
 .cat-button {
   line-height: 1.4;
@@ -1437,10 +1371,9 @@ td {
 
 .cat-post {
   color: white; }
-
-.cat-post img {
-  width: 300px;
-  height: 225px; }
+  .cat-post img {
+    width: 300px;
+    height: 225px; }
 
 .cat-modal {
   width: 75%;
@@ -1465,22 +1398,18 @@ td {
 
 .noMatch {
   color: white; }
-
-.noMatch img {
-  width: 100px;
-  height: 133px; }
-
-.noMatch p {
-  line-height: 1.2;
-  font-size: 14px;
-  text-align: left; }
-
-.noMatch a {
-  color: white;
-  font-weight: bold; }
-
-.noMatch a:hover {
-  color: #DEDEDE; }
+  .noMatch img {
+    width: 100px;
+    height: 133px; }
+  .noMatch p {
+    line-height: 1.2;
+    font-size: 14px;
+    text-align: left; }
+  .noMatch a {
+    color: white;
+    font-weight: bold; }
+    .noMatch a:hover {
+      color: #DEDEDE; }
 
 @media (min-width: 768px) {
   .noMatch img {
@@ -1502,22 +1431,20 @@ body {
   justify-content: center;
   flex-direction: column;
   font-size: calc(10px + 1vmin); }
-
-.App h1 {
-  font-family: 'Heebo', sans-serif;
-  color: white; }
+  .App h1 {
+    font-family: 'Heebo', sans-serif;
+    color: white; }
 
 .cover {
   margin-top: 64px;
   display: flex;
   align-items: center;
   justify-content: center; }
-
-.cover img {
-  animation-name: intro;
-  animation-duration: 3s;
-  width: 400px;
-  height: 400px; }
+  .cover img {
+    animation-name: intro;
+    animation-duration: 3s;
+    width: 400px;
+    height: 400px; }
 
 .prev-next {
   display: flex;
@@ -1545,10 +1472,9 @@ body {
   background: white;
   border: 2px solid #0038B8;
   text-shadow: none; }
-
-.custom-button:hover {
-  background: #0038B8;
-  color: white !important; }
+  .custom-button:hover {
+    background: #0038B8;
+    color: white !important; }
 
 .custom-main {
   margin-bottom: 30px;

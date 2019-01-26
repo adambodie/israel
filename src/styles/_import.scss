@@ -51,3 +51,14 @@ $margin-top: 64px;
 	padding: $padding;	
 	font-weight: bold;
 }
+
+@mixin rectangle($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+@mixin square($width) {
+	width: $width;
+	height: $width;
+}
+

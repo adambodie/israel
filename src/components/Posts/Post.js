@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Column } from 'react-foundation';
 import ReactMarkdown from 'react-markdown';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import PrevNext from '../PrevNext';
 import PhotoList from './PhotoList';
 import Quiz from '../Quiz/Quiz';
 import Map from '../Map';
@@ -38,10 +38,7 @@ export default class Post extends Component {
 					{begin >= 0 && (<Quiz begin={begin} end={end} number={number}/>)}
 					{map === true && (<Map locations={locations} locationName={locationName} />)}
 					{graffiti === true && (<Graffiti />)}
-					<div className='prev-next'>
-						<Link to={ prev } className='custom-button'>Prev</Link>
-						<Link to={ next } className='custom-button'>Next</Link>
-					</div>
+					<PrevNext prev={prev} next={next} />
 				</Column>
 			</Row>
 	)

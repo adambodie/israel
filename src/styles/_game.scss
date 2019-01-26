@@ -14,8 +14,7 @@ $font-family: 'Press Start 2P', cursive!important;
 		font-size: 8px;
 		padding: 5px;
 		margin: 5px;
-		width: 45px;
-		height: 45px;
+		@include square(45px);
 		background-color: red;
 		border-radius: 100%;
 		cursor: pointer;
@@ -31,8 +30,7 @@ $font-family: 'Press Start 2P', cursive!important;
 		}
 	}
 	img {
-		width: 30px;
-		height: 30px;
+		@include square(30px);
 	}
 }
 
@@ -71,8 +69,7 @@ $font-family: 'Press Start 2P', cursive!important;
 		font-size: 1em;
 	}
 	img {
-		max-width: 60px;
-		max-height: 60px;
+		@include square(60px);
 		position: absolute;
 		opacity: 1;
 		left: 25%;
@@ -112,18 +109,13 @@ $font-family: 'Press Start 2P', cursive!important;
 }
 
 .playerResult {
-	height: 100px;
-	width: 150px;
+	@include rectangle(150px, 100px);
 	position: relative;
 	&:first-child {
 		img {
 			transform: rotateY(180deg);
 		}
 	}
-}
-
-.game-text {
-	color: white;
 }
 
 .player-draw {
@@ -199,8 +191,7 @@ $font-family: 'Press Start 2P', cursive!important;
 
 @media (min-width: 769px) {
 	.playerResult {
-		height: 160px;
-		width: 200px;
+		@include rectangle(200px, 160px);
 	}
 	.begin {
 		height: 250px;
@@ -208,8 +199,7 @@ $font-family: 'Press Start 2P', cursive!important;
 	.result {
 		height: 250px;
 		img {
-			max-width: 75px;
-			max-height: 75px;
+			@include square(80px);
 		}
 	}
 	.game {
@@ -221,16 +211,14 @@ $font-family: 'Press Start 2P', cursive!important;
 	.buttons {
 		padding: 10px;
 		button {
-			width: 75px;
-			height: 75px;
+			@include square(75px);
 			font-family: $font-family;
 			font-size: 12px;
 		}
 		img {
-			width: 50px;
-			height: 50px;
-		}
+		@include square(50px);
 	}
+}
 	
 	@keyframes playerDraw {
 		50% {margin-left: 125px;}

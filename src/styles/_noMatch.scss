@@ -1,8 +1,7 @@
 .noMatch {
 	color: white;
 	img {
-		width: 100px;
-		height: 133px;
+		@include rectangle(100px, 133px);
 	}
 	p {
 		line-height: 1.2;
@@ -21,8 +20,7 @@
 @media (min-width: 768px) {
 	.noMatch {
 		img {
-			width: 150px;
-			height: 200px;
+			@include rectangle(150px, 200px);
 		}
 	}
 }

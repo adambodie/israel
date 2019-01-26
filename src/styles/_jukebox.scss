@@ -9,8 +9,7 @@ $leg-color: rgb(50, 50, 50);
 .jukebox {
 	@include center();
 	margin-top: $margin-top + 20;
-	width: 350px;
-	height: 460px;
+	@include rectangle(350px, 460px);
 	border-top-left-radius: 150px;
 	border-top-right-radius: 150px;
 	background: yellow;
@@ -24,8 +23,7 @@ $leg-color: rgb(50, 50, 50);
 	@include flex();
 	h1 {
 		@include flex();
-		height: 150px;
-		width: 300px;
+		@include rectangle(300px, 150px);
 		margin-top: 20px;
 		font-size: 2em;
 		font-family: 'Monoton', cursive!important;
@@ -102,8 +100,7 @@ $leg-color: rgb(50, 50, 50);
     p {
 		background: $background-color;
 		font-family: 'Monoton', cursive!important;
-		width: $iframe-width/1.5;
-		height: $iframe-height/1.5;
+		@include rectangle($iframe-width/1.5, $iframe-height/1.5);
 		font-size: 18px;
 		margin-top: 25px;
 		margin-bottom: 0px;
@@ -134,28 +131,25 @@ $leg-color: rgb(50, 50, 50);
 	height: 30px;
 }
 .leg {
-	width: 50px;
-	height: 50px;
+	@include square(50px);
 	background: $leg-color;
     border-bottom: 10px solid $leg-color;
     border-right: 10px solid $leg-color;
     border-bottom-style: groove;
     border-right-style: groove;
 	border-bottom-left-radius: 25%;
-	border-bottom-right-radius: 25%;		
+	border-bottom-right-radius: 25%;
 }
 .area	{
 	margin: 0 auto;
-    height: 300px;
-    width: 300px;
+    @include square(300px);
     background: black;
     .content {
 		height: 1750px;
 		iframe {
 			position: absolute;
-			bottom: 5px;			
-			width: $iframe-width/2;
-			height: $iframe-height/2;
+			bottom: 5px;
+			@include rectangle($iframe-width/2, $iframe-height/2);
 		}
     }
 }
@@ -166,8 +160,7 @@ $leg-color: rgb(50, 50, 50);
 }
 
 .jukebox-text {
-	margin-top: 100px;
-	color: white;
+	margin-top: 20px;
 }
   
 @keyframes side-gradient {

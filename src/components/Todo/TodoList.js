@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Column } from 'react-foundation';
 import ReactMarkdown from 'react-markdown';
-import { Link } from 'react-router-dom';
+import PrevNext from '../PrevNext';
 import TodoListForm from './TodoListForm.js';
 import TodoListItemList from './TodoListItemList.js';
 import { todoIntro } from '../../data/articles';
@@ -22,10 +22,7 @@ const TodoList = () => {
 						<TodoListItemList />
 					</ul>
 					<TodoListForm />
-					<div className='prev-next'>
-						<Link to={ '/index' } className='custom-button'>Prev</Link>
-						<Link to={ '/el-al' } className='custom-button'>Next</Link>
-					</div>
+					<PrevNext prev={'/index'} next={'/el-al'} />
 				</Column>
 			</Row>
 		</Provider>	

@@ -14,8 +14,7 @@ $rabin-height: 253px;
 -------------------------*/
 .rabin {
 	position: relative;
-	height: calc(257px/1.20);
-	width: calc(407px/1.20);
+	@include rectangle(calc($rabin-width/1.20), calc($rabin-height/1.20));
 	@include flex();
 	margin: 0 auto;
 
@@ -38,9 +37,7 @@ $rabin-height: 253px;
 
 @media (min-width: 512px) {
 	.rabin {
-		height: $rabin-height;
-		width: $rabin-width;
-
+		@include rectangle($rabin-width, $rabin-height);
 	}
 }
 
@@ -57,9 +54,9 @@ $rabin-height: 253px;
 	position: absolute;
 	z-index: 1000;
 	background: #e98494;
-	width: 400px;
-	height: 90px;
+	@include rectangle(400px, 90px);
 }
+
 .thanks-cover:nth-child(1) {
 	top: 0
 }
@@ -80,8 +77,7 @@ $rabin-height: 253px;
 	position: relative;
 	@include flex();
 	margin: 0 auto;
-	width: 300px;
-	height: 134px;
+	@include rectangle(300px, 134px);
 }
 .club-image {
 	position: absolute;
@@ -137,8 +133,7 @@ $rabin-height: 253px;
 
 @media (min-width: 768px) {
 	.club {
-		width: 600px;
-		height: 268px;
+		@include rectangle(600px, 268px);
 	}
 	.club-cover {
 		height: 268px;

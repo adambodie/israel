@@ -98,14 +98,12 @@
 .article-shuk-night {
 	img {
 		float: right;
-		width: 200px;
-		height: 200px;
+		@include square(200px);
 	}
 }
 .article-tama {
 	img {
-		width: calc(250px * 0.5);
-		height: calc(445px * 0.5);
+		@include rectangle(calc(250px * 0.5), calc(445px * 0.5));
 	}
 
 	p:nth-child(3n + 9) {
@@ -117,8 +115,7 @@
 
 .article-rothschild {
 		img {
-			width: calc(250px * 0.5);
-			height: calc(445px * 0.5);
+			@include rectangle(calc(250px * 0.5), calc(445px * 0.5));
 		}
 
 		p:nth-child(3n + 6) {
@@ -130,23 +127,20 @@
 
 .article-epilogue {
 	img {
-		width: 300px;
-		height: 225px;
+		@include rectangle(300px, 225px);
 	}
 }
 
 @media (min-width: 550px) {
 .article-epilogue {
 	img {
-		width: 400px;
-		height: 300px;
+		@include rectangle(400px, 300px);
 	}
 }
 
 	.article-tama {
 		img {
-			width: calc(250px * 0.7);
-			height: calc(445px * 0.7);
+			@include rectangle(calc(250px * 0.7), calc(445px * 0.7));
 		}
 
 		p:nth-child(3n + 9) {
@@ -158,8 +152,7 @@
 	}
 	.article-rothschild {
 		img {
-			width: calc(250px * 0.7);
-			height: calc(445px * 0.7);
+			@include rectangle(calc(250px * 0.7), calc(445px * 0.7));
 		}
 
 		p:nth-child(3n + 6) {
@@ -174,8 +167,7 @@
 @media (min-width: 769px) {
 .article-shuk-night {
 	img {
-		width: 350px;
-		height: 350px;
+		@include square(350px);
 	}
 }
 }
