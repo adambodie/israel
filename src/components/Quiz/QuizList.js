@@ -1,12 +1,12 @@
 import React, { Component}  from 'react';
-import { Consumer } from '../Context/quiz';
+import { QuizConsumer } from '../Context/quiz';
 import QuizItem from './QuizItem';
 
 export default class QuizList extends Component {
 	render() {
 		const { begin, end } = this.props;
 		return(
-			<Consumer>
+			<QuizConsumer>
 				{ ({ questions }) => (
 				<div className='quiz-cards'>
 					{questions.map((x, index) =>
@@ -14,7 +14,7 @@ export default class QuizList extends Component {
 					).filter((x, index) => index >= begin && index <= end)}
 				</div>)
 				}
-			</Consumer>
+			</QuizConsumer>
 		);
 	}
 }

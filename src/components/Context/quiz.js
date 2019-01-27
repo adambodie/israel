@@ -25,8 +25,9 @@ import {
 } from '../../data/quiz';
 
 const QuizContext = React.createContext();
+export const QuizConsumer = QuizContext.Consumer;
 
-export class Provider extends Component {
+class QuizProvider extends Component {
 	state = {
 			questions: [
 				{question: question0, answer: 'B. David Ben-Gurion'}, 
@@ -61,5 +62,6 @@ export class Provider extends Component {
 		)
 	}	
 }
+export default QuizProvider;
 
-export const Consumer = QuizContext.Consumer;
+

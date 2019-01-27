@@ -1381,14 +1381,7 @@ exports[`renders correctly 1`] = `
                 />
                 <p>
                   Before my trip to Israel and learning of the itinerary, there was one place I wasn't aware of that got me really excited upon research.  That of course, was Masada National Park.  Knowing I would have to hike up and down Masada, I spent more time being physically active to prepare myself.  Sure, I had done hikes longer, higher and more treacherous. 
-
-                  <a
-                    href="https://adventures.bodiewebdesign.com/smith-rock"
-                  >
-                    Smith Rock
-                  </a>
-                  
-in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
+Smith Rock in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
                 </p>
                 <a
                   className="custom-main custom-button"

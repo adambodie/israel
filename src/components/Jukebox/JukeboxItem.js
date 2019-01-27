@@ -14,12 +14,15 @@ export default class JukeboxItem extends Component {
 	}
     render() {
 		let className = 'flipper';
+		let testName = 'front-view';
 		if (this.state.view === 'back') {
 			className = className + ' flipped';
+			testName = 'back-view';
+
 		}
 		const { title, src } = this.props.data;
 		return (
-			<div className={className}  >
+			<div className={className} data-testid={testName} >
 				<div className='card'>
 					<button onClick={this.clickHandler.bind(this)} className="jukebox-button">o</button>
 					<div className='front'>

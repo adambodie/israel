@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="jukebox-title"
+>
+  <h1
+    data-testid="title-display"
+  >
+    Sababa!
+  </h1>
+</div>
+`;

@@ -63,10 +63,10 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="row display grid-x game-text articles"
+    className="row display grid-x post"
   >
     <div
-      className="columns large-6 large-offset-3"
+      className="columns large-8 large-offset-2"
     >
       <h1>
         The Rock Paper Scissors Episode

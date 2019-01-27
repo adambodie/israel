@@ -15,7 +15,7 @@ it('renders correctly', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-it('calls "onClick" prop on button click and changes text', () => {
+it('calls "pressButton" prop on button click and changes text', () => {
     // Render new instance in every test to prevent leaking state
     const spy = jest.spyOn(Thanks.prototype, 'pressButton');
     const { getByTestId, rerender } = render(<Thanks />);

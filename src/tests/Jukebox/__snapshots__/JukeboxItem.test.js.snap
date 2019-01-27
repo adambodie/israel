@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="flipper"
+  data-testid="front-view"
+>
+  <div
+    className="card"
+  >
+    <button
+      className="jukebox-button"
+      onClick={[Function]}
+    >
+      o
+    </button>
+    <div
+      className="front"
+    >
+      <p>
+        title
+      </p>
+    </div>
+    <div
+      className="back"
+    >
+      <iframe
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen={true}
+        frameBorder="0"
+        src="https://www.youtube.com/embed/src"
+        title="title"
+      />
+    </div>
+  </div>
+</div>
+`;

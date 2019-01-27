@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
-import { Consumer } from '../Context/quiz';
+import { QuizConsumer } from '../Context/quiz';
 
 export default class QuizItem extends Component {
 	static propTypes = {
@@ -10,7 +10,7 @@ export default class QuizItem extends Component {
 	render(){
 		const { index } = this.props;
 		return (
-			<Consumer>
+			<QuizConsumer>
 				{ ({ questions }) => (
 					<div className='quiz-card'>
 						<div className='question'>
@@ -22,7 +22,7 @@ export default class QuizItem extends Component {
 					</div>
 				)
 			}
-			</Consumer>
+			</QuizConsumer>
 		)
 	}
 };

@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="jukebox-flex"
+>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Tel Aviv
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/nMQw29nfzpg"
+          title="Tel Aviv"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Juicy
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/_JZom_gVfuw"
+          title="Juicy"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Take Me Home Country Roads
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/1vrEljMfXYo"
+          title="Take Me Home Country Roads"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Tiny Dancer
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/yYcyacLRPNs"
+          title="Tiny Dancer"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Bohemian Rhapsody
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/fJ9rUzIMcZQ"
+          title="Bohemian Rhapsody"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          American Idiot
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/Ee_uujKuJMI"
+          title="American Idiot"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          All Star
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/L_jWHffIx5E"
+          title="All Star"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Stacy's Mom
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/dZLfasMPOU4"
+          title="Stacy's Mom"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          I Want It That Way
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/4fndeDfaWCg"
+          title="I Want It That Way"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Don't Stop Believin'
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/1k8craCGpgs"
+          title="Don't Stop Believin'"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flipper"
+    data-testid="front-view"
+  >
+    <div
+      className="card"
+    >
+      <button
+        className="jukebox-button"
+        onClick={[Function]}
+      >
+        o
+      </button>
+      <div
+        className="front"
+      >
+        <p>
+          Understood
+        </p>
+      </div>
+      <div
+        className="back"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          src="https://www.youtube.com/embed/4dV4QC9qzBs"
+          title="Understood"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

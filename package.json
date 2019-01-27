@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@react-mock/state": "^0.1.7",
     "axios-mock-adapter": "^1.15.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",

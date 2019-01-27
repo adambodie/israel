@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="prev-next"
+>
+  <a
+    className="custom-button"
+    href="/prev"
+    onClick={[Function]}
+  >
+    Prev
+  </a>
+  <a
+    className="custom-button"
+    href="/next"
+    onClick={[Function]}
+  >
+    Next
+  </a>
+</div>
+`;
