@@ -14,7 +14,7 @@ $rabin-height: 253px;
 -------------------------*/
 .rabin {
 	position: relative;
-	@include rectangle(calc($rabin-width/1.20), calc($rabin-height/1.20));
+	@include rectangle(($rabin-width/1.20),($rabin-height/1.20));
 	@include flex();
 	margin: 0 auto;
 
@@ -37,7 +37,7 @@ $rabin-height: 253px;
 
 @media (min-width: 512px) {
 	.rabin {
-		@include rectangle($rabin-width, $rabin-height);
+		@include rectangle(400px, 253px);
 	}
 }
 

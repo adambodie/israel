@@ -13,12 +13,33 @@ import Jukebox from './components/Jukebox/Jukebox';
 import NoMatch from './components/NoMatch';
 import routes from './data/routes';
 
+const getMobileOperatingSystem = () => {
+	const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+	console.log(window);
+	  // Windows Phone must come first because its UA also contains "Android"
+	  if (/windows phone/i.test(userAgent)) {
+		  return "Windows Phone";
+	  }
+	  if (/android/i.test(userAgent)) {
+		  return "Android";
+	  }	  
+	  // iOS detection
+	  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+		  return "iOS";
+	  }	  
+	  return "unknown";
+  }
+
+let className = 'App';
+if (getMobileOperatingSystem() !== 'unknown') {
+	className = className + ' mobile';
+}
 const App = () => {
     return (
 		<Router>
 			<div>
 				<ScrollToTop >
-					<div className='App'>
+					<div className={className}>
 						<Switch>
 							<Route exact path='/' component={Landing} />
 							<Route path='/index' component={Main} />

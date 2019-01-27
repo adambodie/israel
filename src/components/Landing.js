@@ -7,6 +7,7 @@ const Landing = () => {
 		<div className='cover'>
 			<img src={`${mainLink}/cover.jpg`} alt='Cover' />
 			<Link to={'/index'} className='landing custom-button'>Enter</Link>
+			<p id='author'>by Adam Bodie</p>
 		</div>
 	)
 }

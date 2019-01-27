@@ -1,5 +1,5 @@
-export const mainLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main';
-export const imageLink = 'https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images';
+export const mainLink = 'https://birthright-israel.bodiewebdesign.com/images/main';
+export const imageLink = 'https://birthright-israel.bodiewebdesign.com/images';
 export const mainTitle = '# Welcome';
 
 export const mainParagraph = 
