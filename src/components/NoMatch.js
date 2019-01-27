@@ -1,10 +1,11 @@
 import React from 'react';
 import { Row, Column } from 'react-foundation';
 import { mainLink } from '../data/articles';
-
+import Status from '../Status'
 
 const NoMatch = ({ location }) => {
 	return (
+		<Status code={404}>
 		<div className='404'>
 			<h1>Page Not Found</h1>
 			<Row className='display grid-x noMatch'>
@@ -19,6 +20,7 @@ const NoMatch = ({ location }) => {
 				</Column>
 			</Row>
 		</div>
+		</Status>
 	);
 };
 
