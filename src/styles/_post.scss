@@ -94,6 +94,13 @@
 
 /* Feature Article CSS
 ------------------------*/
+.article-masada {
+	img {
+		float: left;
+		padding: 10px;
+		@include rectangle(252px, 450px)
+	}
+}
 
 .article-shuk-night {
 	img {
@@ -162,12 +169,4 @@
 			margin-bottom: 10px;
 		}
 	}	
-}
-
-@media (min-width: 769px) {
-.article-shuk-night {
-	img {
-		@include square(350px);
-	}
-}
 }

@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import { Column } from 'react-foundation';
-const openCatStyles = {
-	content : {
-		top: '0%',
-		left: '0%',
-		right: '0%',
-		bottom: '0%',
-		display: 'flex',
-		justifyContent: 'center',
-		alignItems: 'center',
-		background: 'black'
-	}
-};
+
 
 const newCatStyles = {
 	content : {
@@ -37,13 +26,10 @@ export default class CatList extends Component {
 	constructor() {
 		super();
 		this.state = {
-			isModalOpen: false,
 			isNewModalOpen: false
 		}
 		this.shuffle = this.shuffle.bind(this);
 		this.newCats = this.newCats.bind(this);
-		this.openModal = this.openModal.bind(this);
-		this.closeModal = this.closeModal.bind(this);
 		this.closeCatModal = this.closeCatModal.bind(this);
 	}
 	shuffle (array) {
@@ -65,18 +51,7 @@ export default class CatList extends Component {
 			cats: this.shuffle(this.props.cats),
 			newModalIsOpen: true,
 		}));
-	}
-	openModal(e, index) {
-		const image = this.props.cats[index].images.fixed_height.url;
-		this.setState({
-			modalIsOpen: true,
-			image: image,
-		});
-	}
-	closeModal() {
-		this.setState({modalIsOpen: false});
-	}
-	  
+	} 
 	closeCatModal() {
 		this.setState({newModalIsOpen: false});
 	}
@@ -90,7 +65,7 @@ export default class CatList extends Component {
 					{this.shuffle(cats).filter((x, index) => index < 9).map((x, index) => {
 						return (
 							<div key={index} className='cat-gif'>
-								<img src={x.images.fixed_height.url} alt='Cat' onClick={() => this.openModal(this, index)}/>
+								<img src={x.images.fixed_height.url} alt='Cat'/>
 							</div>
 							)
 						}
@@ -98,23 +73,13 @@ export default class CatList extends Component {
 				</div>
 				<button className='cat-button custom-button' onClick={this.newCats}>Refresh</button>
 				<Modal
-					isOpen={this.state.modalIsOpen}
-					onRequestClose={this.closeModal}
-					style={openCatStyles}
-					contentLabel='Cat Modal'
-					appElement={document.getElementById('root')}
-				>
-					<img className='cat-modal' src={this.state.image} alt='cat'/>
-					<button className='cat-modal-button' onClick={this.closeModal}>x</button>
-				</Modal>
-				<Modal
 					isOpen={this.state.newModalIsOpen}
 					onRequestClose={this.newCloseModal}
 					style={newCatStyles}
 					contentLabel='Cat Modal'
 					appElement={document.getElementById('root')}
 				>
-					<h1>New Cats have been loaded</h1>
+					<h3>New Cats have been loaded</h3>
 					<button className='cat-modal-button' onClick={this.closeCatModal}>x</button>
 				</Modal>
 			</Column>

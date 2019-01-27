@@ -11,9 +11,9 @@ export default class Game extends Component {
 			draw: 0,
 			start: false,
 			buttons: [
-				{name: 'rock', id: 0},
-				{name: 'paper', id: 1},
-				{name: 'scissors', id: 2}
+				{name: 'rock', id: 0, disabled: false},
+				{name: 'paper', id: 1, disabled: false},
+				{name: 'scissors', id: 2, disabled: false}
 			],
 			players: [
 				{name: 'Player', score: 0, win: 0, className: ''},
@@ -42,6 +42,10 @@ export default class Game extends Component {
 		setTimeout(() => this.resetClass(), 1500);
 		const { buttons, draw, players } = this.state;
 		const newPlayers = [...players];
+		const newButtons = [...buttons];
+		newButtons[0].disabled = true;
+		newButtons[1].disabled = true;
+		newButtons[2].disabled = true;
 		newPlayers[1].score = Math.floor(Math.random() * 3);
 		newPlayers[0].score = buttons[index].id;
 		let addDraw = draw;
@@ -65,6 +69,7 @@ export default class Game extends Component {
 		}
 		this.setState({
 			players: newPlayers,
+			buttons: newButtons,
 			draw: addDraw,
 			result: newResult,
 			start: true
@@ -73,12 +78,17 @@ export default class Game extends Component {
 	}
 	
 	resetClass() {
-		const { players } = this.state;
+		const { players, buttons } = this.state;
 		const newPlayers = [...players];
+		const newButtons = [...buttons];
+		newButtons[0].disabled = false;
+		newButtons[1].disabled = false;
+		newButtons[2].disabled = false;
 		newPlayers[1].className = '';
 		newPlayers[0].className = '';
 		this.setState({
-			players: newPlayers
+			players: newPlayers,
+			buttons: newButtons
 		})
 	}
 	render() {
@@ -97,7 +107,7 @@ export default class Game extends Component {
 							result={result} 
 							/>
 						<div className='buttons'>
-							{buttons.map((x, index)=> <button data-testid={`button-${x.name}`} className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
+							{buttons.map((x, index)=> <button data-testid={`button-${x.name}`} disabled={x.disabled} className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
 							<button className='reset' onClick={()=>this.handleReset()}>Reset</button>
 						</div>
 					</Column>

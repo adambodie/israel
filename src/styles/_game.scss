@@ -23,6 +23,10 @@ $font-family: 'Press Start 2P', cursive!important;
 		&:hover {
 			background-color: darken(red, 30%);
 		}
+		&:disabled {
+			background-color: gray;
+			cursor: inherit; 
+		}
 		&:active {
 			background-color: darken(red, 30%);
 			box-shadow: 0 5px darken(red, 40%);
