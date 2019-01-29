@@ -1,5 +1,4 @@
 import React from 'react';
-import Scrollspy from 'react-scrollspy'
 import Collapsible from 'react-collapsible';
 import { Consumer } from '../Context/main';
 import { mainLink } from '../../data/articles';
@@ -17,9 +16,7 @@ const MainScrollspy = () => (
 					</Collapsible>
 					</div>
 					<nav className='c-side-nav__body'>
-						<Scrollspy items={ pages.map((x)=> x.scroll) } currentClassName='is-current' className='c-side-nav__list nav-list' offset={-20}>
-							<MainScrollspyItem startIndex={100}/>
-						</Scrollspy>
+						<MainScrollspyItem startIndex={100}/>
 					</nav>
 				</div>
 			)}
