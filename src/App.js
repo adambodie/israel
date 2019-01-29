@@ -29,21 +29,18 @@ const getMobileOperatingSystem = () => {
 	  return "unknown";
   }
 
-let mobileStyles = {};
+let className = 'App';
+
 
 if (getMobileOperatingSystem() !== 'unknown') {
-	mobileStyles = {
-		background: `url('http://birthright-israel.bodiewebdesign.com/images/main/background.jpg')`,
-		width: window.screen.availWidth,
-		height: window.screen.availHeight
-	}
+	className = className + ' mobile'
 }
 const App = () => {
     return (
 		<Router>
-			<div style={mobileStyles}>
+			<div>
 				<ScrollToTop >
-					<div className='App'>
+					<div className={className}>
 						<Switch>
 							<Route exact path='/' component={Landing} />
 							<Route path='/index' component={Main} />
