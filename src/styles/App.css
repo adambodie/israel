@@ -1520,9 +1520,6 @@ body {
   font-family: 'Heebo', sans-serif;
   color: white; }
 
-.mobile {
-  background: #cc9962; }
-
 .cover {
   margin-top: 64px;
   display: flex;

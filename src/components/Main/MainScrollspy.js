@@ -12,11 +12,11 @@ const MainScrollspy = () => (
 					<img className='logo' src={`${mainLink}/logo.gif`} alt='logo' />
 					<div className='mobile-collapse'>
 					<Collapsible trigger=''>
-						<MainScrollspyItem startIndex={0} />
+						<MainScrollspyItem startIndex={0} scrollLink={''} />
 					</Collapsible>
 					</div>
 					<nav className='c-side-nav__body'>
-						<MainScrollspyItem startIndex={100}/>
+						<MainScrollspyItem startIndex={100} scrollLink={'#'}/>
 					</nav>
 				</div>
 			)}

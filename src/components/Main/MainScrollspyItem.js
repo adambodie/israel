@@ -5,6 +5,7 @@ import { Consumer } from '../Context/main';
 
 export default class MainScrollspyItem extends Component {
 	render() {
+	const { scrollLink } = this.props;
 	return (
 		<Consumer>
 			{ ({ pages }) => (
@@ -22,7 +23,7 @@ export default class MainScrollspyItem extends Component {
 									{x.items.map((y, index) => {
 										return(
 											<div style={{fontSize: '12px'}} key={index}>
-												<a href={`#${y.link}`}  className='c-side-nav__link'>{y.linkTitle}</a>
+												<a href={`${scrollLink}${y.link}`}  className='c-side-nav__link'>{y.linkTitle}</a>
 											</div>
 										)}
 									)}
