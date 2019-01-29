@@ -33,9 +33,6 @@ body {
 	
 }
 
-.mobile {
-	background: url($mainLink + 'background.jpg') no-repeat fixed center;
-}
 .cover {
 	margin-top: $margin-top;
 	@include flex();
