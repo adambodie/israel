@@ -34,7 +34,7 @@ body {
 }
 
 .mobile {
-	background: url($mainLink + 'background.jpg') no-repeat fixed center center / cover;
+	background: url($mainLink + 'background.jpg') no-repeat fixed center;
 }
 .cover {
 	margin-top: $margin-top;

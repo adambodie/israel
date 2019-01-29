@@ -60,7 +60,7 @@ export default class CatList extends Component {
 		return (
 			<Column large={6} offsetOnLarge={3}>
 				<h1>Cats, Cats, Cats!!!</h1>
-				<p>Enjoy the Cat Gifs below, or click Refresh to load new cat gifs</p>
+				<p>Enjoy the Cat gifs below, or click Refresh to load new gifs</p>
 				<div className='cat-gifs'>
 					{this.shuffle(cats).filter((x, index) => index < 9).map((x, index) => {
 						return (
