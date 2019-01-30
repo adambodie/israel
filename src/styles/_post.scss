@@ -43,17 +43,18 @@
 
 .slick-prev {
 	left: 0!important;
+	@include square(40px!important);
 }
 
 .slick-next {
 	right: 0!important;
+	@include square(40px!important);
 }
 
 
 .slick-prev:before, .slick-next:before {
 	font-size: 20px!important;
 	opacity: 1!important;
-	@include square(40px!important);
 	
 }
 
