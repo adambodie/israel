@@ -120,6 +120,16 @@ header img {
 .mobile-collapse .c-side-nav__item .Collapsible__trigger:after {
   top: -25px; }
 
+.mobile-collapsed {
+  height: 30px;
+  margin-top: 10px; }
+
+.mobile-collapsed .Collapsible__trigger:after {
+  top: -10px; }
+
+.mobile-collapsed .c-side-nav__item .Collapsible__trigger:after {
+  top: -25px; }
+
 .o-sidebar {
   display: flex;
   justify-content: space-between;

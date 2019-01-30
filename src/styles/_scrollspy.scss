@@ -9,7 +9,18 @@
 		}
 	}
 }
-
+.mobile-collapsed {
+	height: 30px;
+	margin-top: 10px;
+	.Collapsible__trigger:after{
+		top: -10px;
+	}
+	.c-side-nav__item {
+		.Collapsible__trigger:after {
+			top: -25px;
+		}
+	}
+}
 .o-sidebar {
 	display: flex;
 	justify-content: space-between;
