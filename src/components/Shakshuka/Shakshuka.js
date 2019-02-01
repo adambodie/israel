@@ -1,10 +1,8 @@
 import React, { Component} from 'react';
-import ReactMarkdown from 'react-markdown';
 import Modal from 'react-modal';
 import { Row, Column } from 'react-foundation';
-import { shakshuka } from '../data/articles';
-import { imageLink } from '../data/articles';
-import PrevNext from './PrevNext';
+import ShakshukaImage from './ShakshukaImage';
+import ShakshukaText from './ShakshukaText';
 
 const customStyles = {
 	content : {
@@ -60,9 +58,7 @@ export default class Shakshuka extends Component {
 							))
 						}
 					</div>
-					<p><strong>Click on each egg above to view a picture</strong></p>
-					<ReactMarkdown source={shakshuka} className='article' />
-					<PrevNext prev={'/yad-vashem'} next={'/herzl'} />
+					<ShakshukaText />
 				</Column>
 				<Modal
 					isOpen={modalIsOpen}
@@ -71,8 +67,7 @@ export default class Shakshuka extends Component {
 					contentLabel='Shakshuka Modal'
 					appElement={document.getElementById('root')}
 				>
-					<h2>{title}</h2>
-					<img className='thumbnail' src={`${imageLink}/IMG_45${image}.JPG`} alt='title'/>
+					<ShakshukaImage title={title} image={image} />
 					<button className='shakshuka-button' onClick={this.closeModal}>x</button>
 				</Modal>
 		</Row>

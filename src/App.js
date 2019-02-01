@@ -6,7 +6,7 @@ import Landing from './components/Landing';
 import Main from './components/Main/Main';
 import Post from './components/Posts/Post';
 import TodoList from './components/Todo/TodoList';
-import Shakshuka from './components/Shakshuka';
+import Shakshuka from './components/Shakshuka/Shakshuka';
 import Cat from './components/Cat/Cat';
 import Game from './components/Game/Game';
 import Jukebox from './components/Jukebox/Jukebox';
