@@ -54,7 +54,12 @@ export default class Shakshuka extends Component {
 					<h1>How Not to Enjoy Your Shakshuka</h1>
 					<div className='tomato'>
 						{eggs.map((x, index) => (
-							<div key={index} data-testid={'egg ' + x.class} className={'egg ' + x.class} onClick={() => this.openModal(this, index)}></div>
+							<div key={index} 
+								data-testid={'egg ' + x.class} 
+								className={'egg ' + x.class} 
+								onClick={() => this.openModal(this, index)}
+								>
+							</div>
 							))
 						}
 					</div>

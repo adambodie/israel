@@ -2,6 +2,7 @@ import React, { Component} from 'react';
 import { Row, Column } from 'react-foundation';
 import GamePlayers from './GamePlayers';
 import GamePost from './GamePost';
+import { mainLink } from '../../data/articles';
 
 export default class Game extends Component {
 	constructor() {
@@ -107,7 +108,7 @@ export default class Game extends Component {
 							result={result} 
 							/>
 						<div className='buttons'>
-							{buttons.map((x, index)=> <button data-testid={`button-${x.name}`} disabled={x.disabled} className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/${x.name}.png`} alt={x.name}  /></button>)}
+							{buttons.map((x, index)=> <button data-testid={`button-${x.name}`} disabled={x.disabled} className={`button-${x.name}`} key={index} onClick={()=> this.handleClick(this, index)}><img src={`${mainLink}/${x.name}.png`} alt={x.name}  /></button>)}
 							<button className='reset' onClick={()=>this.handleReset()}>Reset</button>
 						</div>
 					</Column>
