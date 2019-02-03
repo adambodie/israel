@@ -275,7 +275,7 @@ const routes = [
 		paragraph: epilogue,
 		link: 'epilogue',
 		prev: 'jukebox',
-		next: '/index'
+		next: 'index'
 	}
 ]
 

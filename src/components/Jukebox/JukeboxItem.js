@@ -28,7 +28,7 @@ export default class JukeboxItem extends Component {
 		return (
 			<div className={className} data-testid={testName} >
 				<div className='card'>
-					{ this.getMobileOperatingSystem() === 'unknown' && (
+					{ getMobileOperatingSystem() === 'unknown' && (
 						<React.Fragment>
 							<button onClick={this.clickHandler.bind(this)} className="jukebox-button">o</button>
 							<div className='front'>

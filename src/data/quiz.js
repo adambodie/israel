@@ -112,7 +112,7 @@ export const question11 = `
 `;
 
 export const question12 = `
-## The accord from 1993 between Israel and Palestine is named from the capital of which country?
+## The 1993 Accord between Israel & Palestine is named from the capital of which country?
 |                                                           |
 | :-------------------------- | :-------------------------- |
 | A. Sweden                   | B. Denmark                  |
