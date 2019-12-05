@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
+Array [
   <div
     className="row display grid-x game"
   >
@@ -11,14 +11,12 @@ exports[`renders correctly 1`] = `
       <h1>
         Rock, Paper, Scissors!!!
       </h1>
-      <div>
-        <div
-          className="begin"
-        >
-          <h2>
-            Press any button to begin
-          </h2>
-        </div>
+      <div
+        className="begin"
+      >
+        <h2>
+          Press any button to begin
+        </h2>
       </div>
       <div
         className="buttons"
@@ -26,31 +24,34 @@ exports[`renders correctly 1`] = `
         <button
           className="button-rock"
           data-testid="button-rock"
+          disabled={false}
           onClick={[Function]}
         >
           <img
             alt="rock"
-            src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rock.png"
+            src="/assets/main/rock.png"
           />
         </button>
         <button
           className="button-paper"
           data-testid="button-paper"
+          disabled={false}
           onClick={[Function]}
         >
           <img
             alt="paper"
-            src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/paper.png"
+            src="/assets/main/paper.png"
           />
         </button>
         <button
           className="button-scissors"
           data-testid="button-scissors"
+          disabled={false}
           onClick={[Function]}
         >
           <img
             alt="scissors"
-            src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/scissors.png"
+            src="/assets/main/scissors.png"
           />
         </button>
         <button
@@ -61,7 +62,7 @@ exports[`renders correctly 1`] = `
         </button>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="row display grid-x post"
   >
@@ -102,6 +103,6 @@ exports[`renders correctly 1`] = `
         </a>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

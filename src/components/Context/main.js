@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import { 
 	todoIntro, 
 	elAlIntro, 
@@ -35,10 +35,10 @@ import {
 	farewellIntro,
 	jukeboxIntro,
 	epilogueIntro
-} from '../../data/articles';
-import routes from '../../data/routes';
+} from '../../data/articles'
+import routes from '../../data/routes'
 
-const MainContext = React.createContext();
+const MainContext = React.createContext()
 
 export class Provider extends Component {
 	state = {
@@ -349,4 +349,4 @@ export class Provider extends Component {
 	}	
 }
 
-export const Consumer = MainContext.Consumer;
+export const Consumer = MainContext.Consumer

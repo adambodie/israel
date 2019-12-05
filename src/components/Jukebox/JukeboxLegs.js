@@ -1,13 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const JukeboxLegs = () => {
-	return (
-		<div className='legs'>
-			<div className='leg-bottom'></div>
-			<div className='leg'></div>
-			<div className='leg'></div>
-		</div>
-	);
-};
+const JukeboxLegs = () => (
+	<div className='legs'>
+		<div className='leg-bottom'></div>
+		<div className='leg'></div>
+		<div className='leg'></div>
+	</div>
+)
 
-export default JukeboxLegs;
+export default JukeboxLegs

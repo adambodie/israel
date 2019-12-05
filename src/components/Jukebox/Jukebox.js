@@ -1,13 +1,12 @@
-import React from 'react';
-import ScrollArea from 'react-scrollbar';
-import JukeboxHeader from './JukeboxHeader';
-import JukeboxLegs from './JukeboxLegs';
-import JukeboxList from './JukeboxList';
-import JukeboxText from './JukeboxText';
+import React from 'react'
+import ScrollArea from 'react-scrollbar'
+import JukeboxHeader from './JukeboxHeader'
+import JukeboxLegs from './JukeboxLegs'
+import JukeboxList from './JukeboxList'
+import JukeboxText from './JukeboxText'
 
-const Jukebox = () => {
-  return (
-	  <div>
+const Jukebox = () => (
+	<React.Fragment>
 		<div className='jukebox'>
 			<JukeboxHeader />
 			<ScrollArea
@@ -21,8 +20,7 @@ const Jukebox = () => {
 			<JukeboxLegs />
 		</div>
 		<JukeboxText />
-	</div>
-  );
-};
+	</React.Fragment>
+)
 
-export default Jukebox;
+export default Jukebox

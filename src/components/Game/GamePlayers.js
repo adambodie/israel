@@ -1,27 +1,21 @@
-import React, { Component} from 'react';
-import GamePlayer from './GamePlayer';
-import GameBegin from './GameBegin';
-import GameScore from './GameScore';
-import GameResult from './GameResult';
+import React, { Component} from 'react'
+import GamePlayer from './GamePlayer'
+import GameBegin from './GameBegin'
+import GameScore from './GameScore'
+import GameResult from './GameResult'
 
 export default class GamePlayers extends Component {
-
 	handleChange() {
-		this.props.handleClick();
-	}
-	
+		this.props.handleClick()
+	}	
 	render() {
-		const { players, start, result, buttons, draw } = this.props;
+		const { players, start, result, buttons, draw } = this.props
 		return (
 			<React.Fragment>
 				{start ? (
 					<div className='result'>
 						<div className='flex'>
-							{players.map((x, index) => {
-								return (
-								<GamePlayer key={index} name={x.name} className={x.className} buttons={buttons} players={x}/>
-									)
-								})}
+							{players.map((x, index) => <GamePlayer key={index} name={x.name} className={x.className} buttons={buttons} players={x}/>)}
 						</div>
 						<GameResult result={result} />
 						<GameScore players={players} draw={draw} />
@@ -34,4 +28,3 @@ export default class GamePlayers extends Component {
 		)
 	}
 }
-

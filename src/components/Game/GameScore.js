@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const GameScore = ({ players, draw }) => {
 	return (
@@ -19,4 +19,4 @@ const GameScore = ({ players, draw }) => {
 	)
 }
 
-export default GameScore;
+export default GameScore

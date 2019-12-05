@@ -1,8 +1,8 @@
-import React, { Component} from 'react';
-import Modal from 'react-modal';
-import { Row, Column } from 'react-foundation';
-import ShakshukaImage from './ShakshukaImage';
-import ShakshukaText from './ShakshukaText';
+import React, { Component} from 'react'
+import Modal from 'react-modal'
+import { Row, Column } from 'react-foundation'
+import ShakshukaImage from './ShakshukaImage'
+import ShakshukaText from './ShakshukaText'
 
 const customStyles = {
 	content : {
@@ -13,11 +13,11 @@ const customStyles = {
 		marginRight: '-50%',
 		transform: 'translate(-50%, -50%)'
 	}
-};
+}
 
 export default class Shakshuka extends Component {
 	constructor() {
-		super();
+		super()
 		this.state = {
 			modalIsOpen: false,
 			image: '',
@@ -28,26 +28,26 @@ export default class Shakshuka extends Component {
 				{'class': 'eggFour',  'title': 'Ahuzat Beit Hakerem', 'image': '39'},
 				{'class': 'eggFive',  'title': 'Keres Shopping Mall Square', 'image': '47'}
 			]
-		};
-		this.openModal = this.openModal.bind(this);
-		this.closeModal = this.closeModal.bind(this);
+		}
+		this.openModal = this.openModal.bind(this)
+		this.closeModal = this.closeModal.bind(this)
 	}
 	openModal(e, index) {
-		const { eggs } = this.state;
-		const image = eggs[index].image;
-		const title = eggs[index].title;
+		const { eggs } = this.state
+		const image = eggs[index].image
+		const title = eggs[index].title
 			this.setState({
 				modalIsOpen: true,
 				image: image,
 				title: title
-			});
-		}
+			})
+	}
 	closeModal() {
-		this.setState({modalIsOpen: false});
+		this.setState({modalIsOpen: false})
 	}
 
 	render() {
-		const { eggs, title, image, modalIsOpen } = this.state;
+		const { eggs, title, image, modalIsOpen } = this.state
 		return (
 			<Row className='display grid-x shakshuka'>
 				<Column large={8} offsetOnLarge={2}>
@@ -79,5 +79,3 @@ export default class Shakshuka extends Component {
 		)
 	}
 }
-
-

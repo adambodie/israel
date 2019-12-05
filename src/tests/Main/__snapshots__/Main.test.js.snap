@@ -10,8 +10,866 @@ exports[`renders correctly 1`] = `
     <img
       alt="logo"
       className="logo"
-      src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/logo.gif"
+      src="/assets/main/logo.gif"
     />
+    <div
+      className="mobile-collapse"
+    >
+      <div
+        className="Collapsible"
+      >
+        <span
+          className="Collapsible__trigger is-closed"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          style={null}
+          tabIndex={null}
+        >
+          
+        </span>
+        <div
+          className="Collapsible__contentOuter"
+          onTransitionEnd={[Function]}
+          style={
+            Object {
+              "WebkitTransition": "height 400ms linear",
+              "height": 0,
+              "msTransition": "height 400ms linear",
+              "overflow": "hidden",
+              "transition": "height 400ms linear",
+            }
+          }
+        >
+          <div
+            className="Collapsible__contentInner"
+          >
+            <ul
+              className="c-side-nav__list nav-list"
+              style={Object {}}
+            >
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-0"
+                >
+                  Introduction
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#todoList"
+                        >
+                          Todo List
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#el-al"
+                        >
+                          El Al
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-1"
+                >
+                  Day 1
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#ben-gurion"
+                        >
+                          Ben Gurion
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#old-jerusalem"
+                        >
+                          Old Jerusalem
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#shuk-day"
+                        >
+                          Shuk Day
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-2"
+                >
+                  Day 2
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#shabbat"
+                        >
+                          Shabbat
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#shuk-night"
+                        >
+                          Shuk Night
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-3"
+                >
+                  Day 3
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#yad-vashem"
+                        >
+                          Yad Vashem
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#shakshuka"
+                        >
+                          Shakshuka
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#herzl"
+                        >
+                          Mount Herzl
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#ben-yehuda"
+                        >
+                          Ben Yehuda
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-4"
+                >
+                  Day 4
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#gilo"
+                        >
+                          Gilo
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#laqye"
+                        >
+                          Laqye
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#arad"
+                        >
+                          Arad
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-5"
+                >
+                  Day 5
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#desert"
+                        >
+                          Negev Desert
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#roman"
+                        >
+                          Roman Ramp
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#masada"
+                        >
+                          Masada
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#snake"
+                        >
+                          Snake Path
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#ein-gedi"
+                        >
+                          Ein Gedi
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#dead-sea"
+                        >
+                          Dead Sea
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#tel-aviv-night"
+                        >
+                          Tel Aviv Night
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-6"
+                >
+                  Day 6
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#tel-aviv-beach"
+                        >
+                          Tel Aviv Beach
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#graffiti"
+                        >
+                          Graffiti
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#carmel"
+                        >
+                          Carmel Market
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#tama"
+                        >
+                          Tel Aviv Museum of Art
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#kibbutz"
+                        >
+                          Kibbutz
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#game"
+                        >
+                          Game
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                className="c-side-nav__item"
+              >
+                <a
+                  className="c-side-nav__link"
+                  href="#day-7"
+                >
+                  Day 7
+                </a>
+                <div
+                  className="Collapsible"
+                >
+                  <span
+                    className="Collapsible__trigger is-closed"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    style={null}
+                    tabIndex={null}
+                  >
+                    
+                  </span>
+                  <div
+                    className="Collapsible__contentOuter"
+                    onTransitionEnd={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransition": "height 400ms linear",
+                        "height": 0,
+                        "msTransition": "height 400ms linear",
+                        "overflow": "hidden",
+                        "transition": "height 400ms linear",
+                      }
+                    }
+                  >
+                    <div
+                      className="Collapsible__contentInner"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#cat"
+                        >
+                          Cats
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#jaffa"
+                        >
+                          Jaffa
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#innovation"
+                        >
+                          Innovation
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#rothschild"
+                        >
+                          Rothschild
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#independence"
+                        >
+                          Independence Hall
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#farewell"
+                        >
+                          Farewell
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#jukebox"
+                        >
+                          Jukebox
+                        </a>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "fontSize": "12px",
+                          }
+                        }
+                      >
+                        <a
+                          className="c-side-nav__link"
+                          href="#epilogue"
+                        >
+                          Epilogue
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <nav
       className="c-side-nav__body"
     >
@@ -95,8 +953,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-1"
           >
-            Day 
-            1
+            Day 1
           </a>
           <div
             className="Collapsible"
@@ -179,8 +1036,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-2"
           >
-            Day 
-            2
+            Day 2
           </a>
           <div
             className="Collapsible"
@@ -249,8 +1105,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-3"
           >
-            Day 
-            3
+            Day 3
           </a>
           <div
             className="Collapsible"
@@ -347,8 +1202,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-4"
           >
-            Day 
-            4
+            Day 4
           </a>
           <div
             className="Collapsible"
@@ -431,8 +1285,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-5"
           >
-            Day 
-            5
+            Day 5
           </a>
           <div
             className="Collapsible"
@@ -571,8 +1424,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-6"
           >
-            Day 
-            6
+            Day 6
           </a>
           <div
             className="Collapsible"
@@ -697,8 +1549,7 @@ exports[`renders correctly 1`] = `
             className="c-side-nav__link"
             href="#day-7"
           >
-            Day 
-            7
+            Day 7
           </a>
           <div
             className="Collapsible"
@@ -865,1006 +1716,1016 @@ exports[`renders correctly 1`] = `
             </h1>
             <img
               alt="Welcome"
-              src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/welcome.jpg"
+              src="/assets/main/welcome.jpg"
             />
+            <p>
+              Welcome to my Birthright Trip to the Land of Israel.  Here you will see photos, read my story, and learn facts about the places in Israel I saw, along with a few other goodies.  To view my project in chronological order, press the Begin button below, or you if would like to view an individual section, click on the sidebar to find your section of choice.  Thank you and enjoy!
+            </p>
+            <a
+              className="custom-button"
+              href="/todoList"
+              onClick={[Function]}
+            >
+              Begin
+            </a>
+            <h1>
+              Prologue
+            </h1>
             <p>
               Growing up as a Jewish American in Portland, Oregon, I often heard about the land of the Jewish people: Israel.  Attending Jewish School, studying to become a Bar Mitzvah, going to the Portland Jewish Academy (PJA) in the 7th Grade, I often wondered what life would be like in the land of Israel.  Jerusalem, Tel Aviv, the Dead Sea, all the places mentioned in the Torah.  To me, an important step of understanding Judaism is to experience it in Israel.
             </p>
             <p>
-              I could've taken the opportunity in the 8th Grade at the PJA, but was it worth it to be the only boy in my class that year, at a school where I didn't fit in?  The clear answer was no, and thus, I went back to public Middle School and didn't go to Israel.  Years went by before I had another opportunity to go to Israel.
+              I could've taken the opportunity in the 8th Grade at the PJA, but was it worth it to be the only boy in my class that year, at a school where I didn't fit in?  The clear answer was no, and thus, I went back to public Middle School and didn't go to Israel.  Years went by before I had another opportunity.
             </p>
             <p>
               When I was 26 years old, I learned of Birthright Israel, a program that allowed people who have never been to Israel before, an opportunity to travel there with little or no cost to get and stay there.  After all, it's important for people of the Jewish faith to visit the land of Israel at least once in their life.  I was psyched having learned this, to help me get in touch with my Jewish roots.
             </p>
             <p>
-              But the powers that be prevented me from going.  I was denied the chance; not enough room for Adam to go, Birthright told me, even though it would seem they would want someone like me who was at the age limit of 26.  So it seemed like I would never be able to go to Israel.  I'm not made of money;  and it's certainly not as easy as writing a check.  So years went by, wondering what could have been.  But then, last December, I received an email I never expected: Birthright Israel was extending the age limit to people up to 32 years old, which once again, gave myself an opportunity to go, right at the age limit.  Suddenly, a second chance at Israel presented itself.
+              But the powers that be prevented me from going.  I was denied the chance not enough room for Adam to go, Birthright told me, even though it would seem they would want someone like me who was at the age limit of 26.  So it seemed like I would never be able to go to Israel.  So years went by, wondering what could have been.  But then, in December of 2017, I received an email I never expected: Birthright Israel was extending the age limit to people up to 32 years old, which once again, gave myself an opportunity to go, right at the age limit.  Suddenly, a second chance at Israel presented itself.
             </p>
             <p>
-              Now had to be the time.  I am far more mature this time around, and able to handle myself for such a big trip, both physically, mentally and socially.  So when I applied this time around, I was all in, applying at the very first chance I could get, with no technical issues stopping me.  I initially applied for the trip in May, unable to go in the Summer due to work scheduling issues.  But as weeks went by, I saw deja vu all over again, thinking I would be denied yet again.  They offered a fall trip, but I figured I wasn't eligible since I would be 33.  After questioning them, I was thankfully told I was wrong; I was eligible since I applied as a 32 year old.  And with that, I was accepted into Birthright Israel.  My second chance was granted.  I never thought I'd get it, but as my Mom always tells me, things happen for a reason.
+              Now had to be the time.  I was more mature this time around, and able to handle myself for such a big trip, both physically, mentally and socially.  So when I applied this time around, I was all in, applying at the very first chance I could get, with no technical issues stopping me.  I chose to sign up for the trip through Amazing Israel, since they had their trip May, which was beneficial to me since unable to go in the Summer due to work scheduling issues.  But as weeks went by, I saw deja vu all over again, thinking I would be denied yet again.  They offered a fall trip, but I figured I wasn't eligible since I would be 33.  After questioning them, I was thankfully told I was wrong I was eligible since I applied as a 32 year old.  And with that, I was accepted into Birthright Israel.  My second chance was granted.  I never thought I'd get it, but as my Mom always tells me, things happen for a reason.
             </p>
           </div>
         </div>
       </section>
-      <div>
-        <section
-          className="o-content"
-          id="day-0"
+      <section
+        className="o-content"
+        id="day-0"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Introduction
-                </h1>
-                <h5>
-                  November 7-8, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="todoList"
+                Introduction
+              </h1>
+              <h5>
+                November 7-8, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="todoList"
+            >
+              <h3>
+                Things to Bring to Israel
+              </h3>
+              <img
+                alt="Things to Bring to Israel"
+                src="assets/main/item.jpg"
+              />
+              <p>
+                Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you'd like to bring!
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/todoList"
+                onClick={[Function]}
               >
-                <h3>
-                  Things to Bring to Israel
-                </h3>
-                <img
-                  alt="Things to Bring to Israel"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/item.jpg"
-                />
-                <p>
-                  Before going to Israel, one must pack items to take with them.  Some things are automatic, like clothing.  Other things are required to enter, like your Passport.  Everything else is optional depending on your taste.  With that, feel free to add, remove and check off any items you'd like to bring!
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/todoList"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="el-al"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="el-al"
+            >
+              <h3>
+                El Al: The Beginning of the Trip to Israel
+              </h3>
+              <img
+                alt="El Al: The Beginning of the Trip to Israel"
+                src="assets/main/globe.jpg"
+              />
+              <p>
+                The journey to Israel began by flying to the Newark Airport, where our group met.  For plenty, it was a short drive or fairly short plane ride away.  For me, it was flying across country and spending the night in Newark.  To get to Newark, I flew first to the Detroit Airport, then to the Newark Airport.  Fortunately, the layover in Detroit was only about an hour, and the gates were basically next to each other.  That made things less stress free.  What didn't make things stress free was getting to the hotel from the airport.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/el-al"
+                onClick={[Function]}
               >
-                <h3>
-                  El Al: The Beginning of the Trip to Israel
-                </h3>
-                <img
-                  alt="El Al: The Beginning of the Trip to Israel"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/globe.jpg"
-                />
-                <p>
-                  The journey to Israel began by flying to the Newark Airport, where our group met.  For plenty, it was a short or fairly short drive away.  For me, it was flying across country and spending the night in Newark.  To get to Newark, I flew first to the Detroit Airport, then to the Newark Airport.  Fortunately, the layover in Detroit was only about an hour, and the gates were basically next to each other.  That made things less stress free.  What didn't make things stress free was getting to the hotel from the airport.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/el-al"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-1"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-1"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  1
-                </h1>
-                <h5>
-                  November 9, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="ben-gurion"
+                Day 
+                1
+              </h1>
+              <h5>
+                November 9, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="ben-gurion"
+            >
+              <h3>
+                Arriving in Israel: My First Thoughts
+              </h3>
+              <img
+                alt="Arriving in Israel: My First Thoughts"
+                src="assets/main/welcomeIsrael.jpg"
+              />
+              <p>
+                After 10 hours of flying, our plane finally landed in Israel.  Upon landing, it felt almost surreal.  It felt like the dawn of the night, but yet it was 6:30 in the morning local time.  In the weeks before I left, I kept saying to myself "I can't believe I'm going to Israel."  Once I arrived, all I could say was, "I can't believe I made it to Israel."
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/ben-gurion"
+                onClick={[Function]}
               >
-                <h3>
-                  Arriving in Israel: My First Thoughts
-                </h3>
-                <img
-                  alt="Arriving in Israel: My First Thoughts"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/welcomeIsrael.jpg"
-                />
-                <p>
-                  After 10 hours of flying, our plane finally landed in Israel.  Upon landing, it felt almost surreal.  It felt like the dawn of the night, but yet it was 6:30 in the morning local time.  The past week, I kept saying to myself "I can't believe I'm going to Israel."  Suddenly, it was, "I can't believe I made it to Israel."
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/ben-gurion"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="old-jerusalem"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="old-jerusalem"
+            >
+              <h3>
+                The Old City
+              </h3>
+              <img
+                alt="The Old City"
+                src="assets/main/jerusalem.jpg"
+              />
+              <p>
+                Having arrived just outside the Old City, particularly Jaffa Gate, I once again thought of Rome and all of its historical architecture.  I got a glimpse of modernism with a Welcome to Taglit Birthright Israel sign, which I had to get a selfie in front of.  It was also my first chance to get for WiFi outside the airport, as well as my first chance to really ask, "Where's the Bathroom?"  I declined to go the first time, focusing on taking every picture I could in the park we stopped at.  But before we could actually go inside the Old City, first we needed an icebreaker and a history lesson.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/old-jerusalem"
+                onClick={[Function]}
               >
-                <h3>
-                  The Old City
-                </h3>
-                <img
-                  alt="The Old City"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jerusalem.jpg"
-                />
-                <p>
-                  Having arrived just outside the Old City, particularly Jaffa Gate, I once again thought of Rome and all of its historical architecture.  I got a glimpse of modernism with a Welcome to Taglit Birthright Israel sign, which I had to get a selfie in front of.  It was also my first chance to get for WiFi outside the airport, as well as my first chance to really ask, "Where's the Bathroom?"  I declined to go the first time, focusing on taking every picture I could in the park we stopped at.  But before we could actually go inside the Old City, first we needed an icebreaker and a history lesson.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/old-jerusalem"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="shuk-day"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="shuk-day"
+            >
+              <h3>
+                Mahane Yehuda: The Shuk Experience Before Shabbat
+              </h3>
+              <img
+                alt="Mahane Yehuda: The Shuk Experience Before Shabbat"
+                src="assets/main/shukDay.jpg"
+              />
+              <p>
+                It was time to leave the Old City behind, as our next destination awaited.  The hotel would have been quite nice at the time, but thanks to convenient timing, and the staff's desire to adjust us to local time the best they could, now was the time for our next trip, the Mahane Yehuda, a popular market known as the Shuk.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/shuk-day"
+                onClick={[Function]}
               >
-                <h3>
-                  Mahane Yehuda: The Shuk Experience Before Shabbat
-                </h3>
-                <img
-                  alt="Mahane Yehuda: The Shuk Experience Before Shabbat"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shukDay.jpg"
-                />
-                <p>
-                  It was time to leave the Old City behind, as our next destination awaited.  The hotel would have been quite nice at the time, but thanks to convenient timing, and the staff's desire to adjust us to local time the best they could, now was the time for our next trip, the Mahane Yehuda, a popular market known as the Shuk.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/shuk-day"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-2"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-2"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  2
-                </h1>
-                <h5>
-                  November 10, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="shabbat"
+                Day 
+                2
+              </h1>
+              <h5>
+                November 10, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="shabbat"
+            >
+              <h3>
+                Shabbat in Jerusalem: A Day to Rest
+              </h3>
+              <img
+                alt="Shabbat in Jerusalem: A Day to Rest"
+                src="assets/main/shabbat.jpg"
+              />
+              <p>
+                Shabbat is celebrated every week as a day of rest.  It starts on Friday night and ends the following night.  We were lucky our first night in Israel was in Shabbat, since adjusting to a different time zone, especially at least 7 hours.  Thanks to our luck, our first night was a great opportunity to sleep, sleep and sleep.  There was plenty of time to sleep, and sleep I did.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/shabbat"
+                onClick={[Function]}
               >
-                <h3>
-                  Shabbat in Jerusalem: A Day to Rest
-                </h3>
-                <img
-                  alt="Shabbat in Jerusalem: A Day to Rest"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shabbat.jpg"
-                />
-                <p>
-                  Shabbat is celebrated every week as a day of rest.  It starts on Friday night and ends the following night.  We were lucky our first night in Israel was in Shabbat, since adjusting to a different time zone, especially at least 7 hours.  Thanks to our luck, our first night was a great opportunity to sleep, sleep and sleep.  There was plenty of time to sleep, and sleep I did.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/shabbat"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="shuk-night"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="shuk-night"
+            >
+              <h3>
+                Back to the Shuk: The Night Time Experience
+              </h3>
+              <img
+                alt="Back to the Shuk: The Night Time Experience"
+                src="assets/main/shukNight.jpg"
+              />
+              <p>
+                Going out at night gave me my first chance to enjoy some nightlife and look hip.  But the weather was teetering between the line of “Should I bring a jacket or not?” Bring it and I risk being too warm and looking bundled up. Not bringing it makes me look hip but risks being too cold and having a possible rain shower hit.  My Mom would always tell me to bring a jacket in this type of weather and I would usually say no, and being in Jerusalem, it made no difference.  So when Hadas asked me the same question, I was more than prepared for a good response.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/shuk-night"
+                onClick={[Function]}
               >
-                <h3>
-                  Back to the Shuk: The Night Time Experience
-                </h3>
-                <img
-                  alt="Back to the Shuk: The Night Time Experience"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shukNight.jpg"
-                />
-                <p>
-                  Going out at night gave me my first chance to enjoy some nightlife and look hip.  But the weather was teetering between the line of “Should I bring a jacket or not?” Bring it and I risk being too warm and looking bundled up. Not bringing it makes me look hip but risks being too cold and having a possible rain shower hit.  My Mom would always tell me to bring a jacket in this type of weather and I would usually say no, and being in Jerusalem, it made no difference.  So when Hadas asked me the same question, I was more than prepared for a good response.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/shuk-night"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-3"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-3"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  3
-                </h1>
-                <h5>
-                  November 11, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="yad-vashem"
+                Day 
+                3
+              </h1>
+              <h5>
+                November 11, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="yad-vashem"
+            >
+              <h3>
+                Never Forget: Yad Vashem
+              </h3>
+              <img
+                alt="Never Forget: Yad Vashem"
+                src="assets/main/yadVashem.jpg"
+              />
+              <p>
+                Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust.  And no place captures the horrific events like Yad Vashem, Israel's National Holocaust Museum.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/yad-vashem"
+                onClick={[Function]}
               >
-                <h3>
-                  Never Forget: Yad Vashem
-                </h3>
-                <img
-                  alt="Never Forget: Yad Vashem"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/yadVashem.jpg"
-                />
-                <p>
-                  Being Jewish is never easy.  With all the anti-Semitism in the world, our Jewish community must not forget the hate and stay strong.  Especially in this day and age, with the attack on the Jewish community in Pittsburgh having occurred two weeks prior and in our thoughts.  So with all of that, Sunday was our day of difficulty.  No event reminds us of that more than the Holocaust. And no place captures the horrific events like Yad Vashem, Israel's National Holocaust Museum.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/yad-vashem"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="shakshuka"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="shakshuka"
+            >
+              <h3>
+                How Not to Eat Your Shakshuka
+              </h3>
+              <img
+                alt="How Not to Eat Your Shakshuka"
+                src="assets/main/shakshuka.jpg"
+              />
+              <p>
+                Between Yad Vashem and the Herzl Cemetery was a quick lunch break nearby. Within a nice little mall was a few places to eat.  The first one I saw was McDonalds.  I've been there, done that from my trips to Europe.  I still remember being charged Euro cents for ketchup packets in Austria.  Are you kidding me?  So I passed up the chance at McDonalds.  What would I have for lunch on this date?   
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/shakshuka"
+                onClick={[Function]}
               >
-                <h3>
-                  How Not to Eat Your Shakshuka
-                </h3>
-                <img
-                  alt="How Not to Eat Your Shakshuka"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/shakshuka.jpg"
-                />
-                <p>
-                  Between Yad Vashem and the Herzl Cemetery was a quick lunch break nearby. Within a nice little mall was a few places to eat.  The first one I saw was McDonalds.  I've been there, done that from my trips to Europe.  I still remember being charged Euro cents for ketchup packets in Austria.  Are you kidding me?  So I passed up the chance at McDonalds.  So what would I have for lunch on this date?   
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/shakshuka"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="herzl"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="herzl"
+            >
+              <h3>
+                Zionism 101: Mount Herzl
+              </h3>
+              <img
+                alt="Zionism 101: Mount Herzl"
+                src="assets/main/herzl.jpg"
+              />
+              <p>
+                Our next stop was at Mount Herzl, home of Israel's National Cemetery, where many influential Israelis and IDF members are buried. It was here we would learn about Zionism, a term I admit I knew of but didn't fully understand over the years.  This would be the place I would better understand Zionism.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/herzl"
+                onClick={[Function]}
               >
-                <h3>
-                  Zionism 101: Mount Herzl
-                </h3>
-                <img
-                  alt="Zionism 101: Mount Herzl"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/herzl.jpg"
-                />
-                <p>
-                  Our next stop was at Mount Herzl, home of Israel's National Cemetery, where many influential Israelis and IDF members are buried. It was here we would learn about Zionism, a term I admit I knew of but didn't fully understand over the years.  This would be the place I would better understand Zionism.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/herzl"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="ben-yehuda"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="ben-yehuda"
+            >
+              <h3>
+                One Last Night in Jerusalem at Ben Yehuda
+              </h3>
+              <img
+                alt="One Last Night in Jerusalem at Ben Yehuda"
+                src="assets/main/yehuda.jpg"
+              />
+              <p>
+                After returning from Mount Herzl, another night out was what we needed to at least have a good time on an otherwise challenging day. It would also be our last night in Jerusalem.  With that, after eating dinner at the hotel, we headed to Ben Yehuda Street, a popular part of town in the heart of Jerusalem.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/ben-yehuda"
+                onClick={[Function]}
               >
-                <h3>
-                  One Last Night in Jerusalem at Ben Yehuda
-                </h3>
-                <img
-                  alt="One Last Night in Jerusalem at Ben Yehuda"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/yehuda.jpg"
-                />
-                <p>
-                  After returning from Mount Herzl, another night out was what we needed to at least have a good time on an otherwise challenging day. It would also be our last night in Jerusalem.  With that, after eating dinner at the hotel, we headed to Ben Yehuda Street, a popular part of town in the heart of Jerusalem.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/ben-yehuda"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-4"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-4"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  4
-                </h1>
-                <h5>
-                  November 12, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="gilo"
+                Day 
+                4
+              </h1>
+              <h5>
+                November 12, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="gilo"
+            >
+              <h3>
+                Leaving Jerusalem: Seeing the Israeli-Arab Conflict
+              </h3>
+              <img
+                alt="Leaving Jerusalem: Seeing the Israeli-Arab Conflict"
+                src="assets/main/gilo.jpg"
+              />
+              <p>
+                After a good night sleep, it was time to leave Jerusalem and learn more about the Israeli-Arab Conflict.  With all the history of Jerusalem and the land of Israel as a whole, there are many things to consider when trying to figure out how to bring peace to the Middle East.  Layers of layers of complexity, emotion, and religiousness make the Israel issue one that cannot be figured out in a day, or a year, or perhaps a lifetime.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/gilo"
+                onClick={[Function]}
               >
-                <h3>
-                  Leaving Jerusalem: Seeing the Israeli-Arab Conflict
-                </h3>
-                <img
-                  alt="Leaving Jerusalem: Seeing the Israeli-Arab Conflict"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/gilo.jpg"
-                />
-                <p>
-                  After a good night sleep, it was time to get ready to leave Jerusalem and learn more about the Israeli-Arab Conflict.  With all the history of Jerusalem and the land of Israel as a whole, there are many things to consider when trying to figure out how to bring peace to the Middle East.  Layers of layers of complexity, emotion, and religiousness make the Israel issue one that cannot be figured out in a day, or a year, or perhaps a lifetime.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/gilo"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="laqye"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="laqye"
+            >
+              <h3>
+                Out in the Desert with the Bedouins
+              </h3>
+              <img
+                alt="Out in the Desert with the Bedouins"
+                src="assets/main/laqye.jpg"
+              />
+              <p>
+                Though Jerusalem is a beautiful city full of history and culture, it was time to leave and see other parts of Israel.  On a 7 Day trip, we can only get a taste of what Israel has to offer.  We would have to spend months in order to see everything Israel had to offer.  But a small piece of the pie is better than no piece of the pie.  With that in mind, the adventure headed south towards the desert.  Our first stop was in the town of Laqye, within the Southern District.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/laqye"
+                onClick={[Function]}
               >
-                <h3>
-                  Out in the Desert with the Bedouins
-                </h3>
-                <img
-                  alt="Out in the Desert with the Bedouins"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/laqye.jpg"
-                />
-                <p>
-                  Though Jerusalem is a beautiful city full of history and culture, it was time to leave and see other parts of Israel.  On a 7 Day trip, we can only get a taste of what Israel has to offer.  We would have to spend months, seeing everything Israel had to offer.  But a small piece of the pie is better than no piece of the pie.  With that in mind, the adventure headed south towards the desert.  Our first stop was in the town of Laqye, within the Southern District.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/laqye"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="arad"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="arad"
+            >
+              <h3>
+                Arad in the Desert: Shelter Included for the Authentic Israel Experience
+              </h3>
+              <img
+                alt="Arad in the Desert: Shelter Included for the Authentic Israel Experience"
+                src="assets/main/arad.jpg"
+              />
+              <p>
+                We arrived in the town of Arad, where our hotel was for the night.  Since it was dark, we couldn't get a few of Arad, but entering the hotel area, we could see how spread out it was compared to Bait Vagan.  The rooms looked more modern, had more amenities, including hand soap, as well as a TV.  
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/arad"
+                onClick={[Function]}
               >
-                <h3>
-                  Arad in the Desert: Shelter Included for the Authentic Israel Experience
-                </h3>
-                <img
-                  alt="Arad in the Desert: Shelter Included for the Authentic Israel Experience"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/arad.jpg"
-                />
-                <p>
-                  We arrived in the town of Arad, where our hotel was for the night.  Since it was dark, we couldn't get a few of Arad, but entering the hotel area, we could see how spread out it was compared to Bait Vagan.  The rooms looked more modern, had more amenities, including hand soap, as well as a TV.  
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/arad"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-5"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-5"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  5
-                </h1>
-                <h5>
-                  November 13, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="desert"
+                Day 
+                5
+              </h1>
+              <h5>
+                November 13, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="desert"
+            >
+              <h3>
+                The Negev Desert: Hot Fun Before Masada
+              </h3>
+              <img
+                alt="The Negev Desert: Hot Fun Before Masada"
+                src="assets/main/desert.jpg"
+              />
+              <p>
+                The following morning, I woke up to a beautiful day, with the sun rising, and some rather cute cats our group fell in love with.  It was clear that there would be no escalation from Gaza.  And with that, after breakfast, our day of exercise would begin with a trip to Masada.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/desert"
+                onClick={[Function]}
               >
-                <h3>
-                  The Negev Desert: Hot Fun Before Masada
-                </h3>
-                <img
-                  alt="The Negev Desert: Hot Fun Before Masada"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/desert.jpg"
-                />
-                <p>
-                  The following morning, I woke up to a beautiful day, with the sun rising, and some rather cute cats our group fell in love with.  It was clear that there would be no escalation from Gaza.  And with that, after breakfast, our day of exercise would begin with a trip to Masada.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/desert"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="roman"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="roman"
+            >
+              <h3>
+                Masada: The Roman Ramp Up
+              </h3>
+              <img
+                alt="Masada: The Roman Ramp Up"
+                src="assets/main/roman.jpg"
+              />
+              <p>
+                Before my trip to Israel and learning of the itinerary, there was one place I wasn't aware of that got me really excited upon research.  That of course, was Masada National Park.  Knowing I would have to hike up and down Masada, I spent more time being physically active to prepare myself.  Sure, I had done hikes longer, higher and more treacherous.  Smith Rock in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/roman"
+                onClick={[Function]}
               >
-                <h3>
-                  Masada: The Roman Ramp Up
-                </h3>
-                <img
-                  alt="Masada: The Roman Ramp Up"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/roman.jpg"
-                />
-                <p>
-                  Before my trip to Israel and learning of the itinerary, there was one place I wasn't aware of that got me really excited upon research.  That of course, was Masada National Park.  Knowing I would have to hike up and down Masada, I spent more time being physically active to prepare myself.  Sure, I had done hikes longer, higher and more treacherous. 
-Smith Rock in Central Oregon was the pinnacle of my hiking experience, but I was much younger back then.  How would I hold up nine years later?
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/roman"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="masada"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="masada"
+            >
+              <h3>
+                Masada: On Top of it All!
+              </h3>
+              <img
+                alt="Masada: On Top of it All!"
+                src="assets/main/masada.jpg"
+              />
+              <p>
+                After heading through the gate on top of Masada, we were treated with ancient architecture, sweeping views all around, and plenty of desert to go around.  Enough to make you feel like you’re on top of the world, with the sun shining through the clouds, as if you’re someplace special.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/masada"
+                onClick={[Function]}
               >
-                <h3>
-                  Masada: On Top of it All!
-                </h3>
-                <img
-                  alt="Masada: On Top of it All!"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/masada.jpg"
-                />
-                <p>
-                  After heading through the gate on top of Masada, we were treated with ancient architecture, sweeping views all around, and plenty of desert to go around.  Enough to make you feel like you’re on top of the world, with the sun shining through the clouds, as if you’re someplace special.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/masada"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="snake"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="snake"
+            >
+              <h3>
+                Masada: Down the Snake Path
+              </h3>
+              <img
+                alt="Masada: Down the Snake Path"
+                src="assets/main/snake.jpg"
+              />
+              <p>
+                Going up the Roman Path to Masada wasn't too painful.  It didn't take too long.  But the real challenge was going down, as the east side of Masada dropped down a much higher elevation than the west side of Masada.  As such, the estimated time we were given was 45 minutes.  After making sure we had gone to the bathroom and filling up our water bottles all the way to the top, the time to go down Masada began, with me wanting to track my time and effort on my Apple Watch.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/snake"
+                onClick={[Function]}
               >
-                <h3>
-                  Masada: Down the Snake Path
-                </h3>
-                <img
-                  alt="Masada: Down the Snake Path"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/snake.jpg"
-                />
-                <p>
-                  Going up the Roman Path to Masada wasn't too painful.  It didn't take too long.  But the real challenge was going down, as the east side of Masada dropped down a much higher elevation than the west side of Masada.  As such, the estimated time we were given was 45 minutes.  After making sure we had gone to the bathroom and filling up our water bottles all the way to the top, the time to go down Masada began, with me wanting to track my time and effort on my Apple Watch.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/snake"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="ein-gedi"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="ein-gedi"
+            >
+              <h3>
+                Ein Gedi: Not a Mirage
+              </h3>
+              <img
+                alt="Ein Gedi: Not a Mirage"
+                src="assets/main/einGedi.jpg"
+              />
+              <p>
+                After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at the Ein Gedi Nature Reserve, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/ein-gedi"
+                onClick={[Function]}
               >
-                <h3>
-                  Ein Gedi: Not a Mirage
-                </h3>
-                <img
-                  alt="Ein Gedi: Not a Mirage"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/einGedi.jpg"
-                />
-                <p>
-                  After Masada, we had another hike on the schedule, but one not nearly as grueling. That would be at the Ein Gedi Nature Reserve, a nature park not too far from Masada with lovely scenery, wildlife, and plenty of surprises.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/ein-gedi"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="dead-sea"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="dead-sea"
+            >
+              <h3>
+                The Dead Sea: Healing in the Mud
+              </h3>
+              <img
+                alt="The Dead Sea: Healing in the Mud"
+                src="assets/main/deadSea.jpg"
+              />
+              <p>
+                After a lot of hiking, we all needed to rest.  And what a better way to relax and take it easy than going to the Dead Sea, where you can float in the water, cover yourself in its healing mud and otherwise just have fun on the salty beach.  Fortunately, it wasn’t too far from the nature hike, and equally fortunate, there was a spa to eat.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/dead-sea"
+                onClick={[Function]}
               >
-                <h3>
-                  The Dead Sea: Healing in the Mud
-                </h3>
-                <img
-                  alt="The Dead Sea: Healing in the Mud"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/deadSea.jpg"
-                />
-                <p>
-                  After a lot of hiking, we all needed to rest.  And what a better way to relax and take it easy than going to the Dead Sea, where you can float in the water, cover yourself in its healing mud and otherwise just have fun on the salty beach.  Fortunately, it wasn’t too far from the nature hike, and equally fortunate, there was a spa to eat.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/dead-sea"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="tel-aviv-night"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="tel-aviv-night"
+            >
+              <h3>
+                Welcome to Tel Aviv, the Greatest City in the World
+              </h3>
+              <img
+                alt="Welcome to Tel Aviv, the Greatest City in the World"
+                src="assets/main/telAvivNight.jpg"
+              />
+              <p>
+                It was quite an adventure going from our hotel in Arad to Masada, the nature hike in Ein Gedi and the Dead Sea.  These were some of the things, particularly Masada, that I had been looking forward to the most.  But the day was far from over.  Now it was time for a bus ride to the coolest, modern, partying city in Israel, which of course, is Tel Aviv.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/tel-aviv-night"
+                onClick={[Function]}
               >
-                <h3>
-                  Welcome to Tel Aviv, the Greatest City in the World
-                </h3>
-                <img
-                  alt="Welcome to Tel Aviv, the Greatest City in the World"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAvivNight.jpg"
-                />
-                <p>
-                  It was quite an adventure going from our hotel in Arad to Masada, the nature hike in Ein Gedi and the Dead Sea.  These were some of the things, particularly Masada, that I had been looking forward to the most.  But the day was far from over.  Now it was time for a bus ride to the coolest, modern, partying city in Israel, which of course, is Tel Aviv.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/tel-aviv-night"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-6"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-6"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  6
-                </h1>
-                <h5>
-                  November 14, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="tel-aviv-beach"
+                Day 
+                6
+              </h1>
+              <h5>
+                November 14, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="tel-aviv-beach"
+            >
+              <h3>
+                Morning Stroll along the beaches of Tel Aviv
+              </h3>
+              <img
+                alt="Morning Stroll along the beaches of Tel Aviv"
+                src="assets/main/telAvivBeach.jpg"
+              />
+              <p>
+                I woke up in Tel Aviv, in a bigger room with my own bed, wondering what Tel Aviv would look like in the sun.  To say the least, I got a great first impression.  I had no idea in the dark, but our room had a patio door with an outside view.  Looking at the view, I could see the beautiful Mediterranean Sea and the buildings within view.  It was going to be a wonderful day!
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/tel-aviv-beach"
+                onClick={[Function]}
               >
-                <h3>
-                  Morning Stroll along the beaches of Tel Aviv
-                </h3>
-                <img
-                  alt="Morning Stroll along the beaches of Tel Aviv"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/telAvivBeach.jpg"
-                />
-                <p>
-                  I woke up in Tel Aviv, in a bigger room with my own bed, wondering what Tel Aviv would look like in the sun.  To say the least, I got a great first impression.  I had no idea in the dark, but our room had a patio door with an outside view.  Looking at the view, I could see the beautiful Mediterranean Sea and the buildings within view.  It was going to be a wonderful day!
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/tel-aviv-beach"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="graffiti"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="graffiti"
+            >
+              <h3>
+                Choose Your Own Adventure: Tagging Tel Aviv with Graffiti
+              </h3>
+              <img
+                alt="Choose Your Own Adventure: Tagging Tel Aviv with Graffiti"
+                src="assets/main/graffiti.jpg"
+              />
+              <p>
+                For our main activities of the day, we were given two choices for our morning activity.  For the morning, we could either go on a bike tour or a graffiti tour.  To me, the choice was fairly simple.  Though I would have covered more ground in a bike, and seen more, it would have been harder to get pictures.  Plus I haven’t ridden a bike in years. So I chose the Graffiti tour to see a fascinating and unique part of Tel Aviv.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/graffiti"
+                onClick={[Function]}
               >
-                <h3>
-                  Choose Your Own Adventure: Tagging Tel Aviv with Graffiti
-                </h3>
-                <img
-                  alt="Choose Your Own Adventure: Tagging Tel Aviv with Graffiti"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/graffiti.jpg"
-                />
-                <p>
-                  For our main activities of the day, we were given two choices for our morning activity.  For the morning, we could either go on a bike tour or a graffiti tour.  To me, the choice was fairly simple.  Though I would have covered more ground in a bike, and seen more, it would have been harder to get pictures.  Plus I haven’t ridden a bike in years. So I chose the Graffiti tour to see a fascinating and unique part of Tel Aviv.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/graffiti"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="carmel"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="carmel"
+            >
+              <h3>
+                In Search of A Hebrew Sports Shirt
+              </h3>
+              <img
+                alt="In Search of A Hebrew Sports Shirt"
+                src="assets/main/carmel.jpg"
+              />
+              <p>
+                After keeping it real on the Graffiti tour, we were given a chance to do some souvenir shopping and have lunch before our afternoon activity, so we headed to Carmel Market, Tel Aviv’s popular Shuk.  I had been thinking about getting souvenirs for myself and my family, so I was determined to find something there.  When someone had mentioned Hebrew Sport team shirts, I knew I had to find one.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/carmel"
+                onClick={[Function]}
               >
-                <h3>
-                  In Search of A Hebrew Sports Shirt
-                </h3>
-                <img
-                  alt="In Search of A Hebrew Sports Shirt"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/carmel.jpg"
-                />
-                <p>
-                  After keeping it real on the Graffiti tour, we were given a chance to do some souvenir shopping and have lunch before our afternoon activity, so we headed to Carmel Market, Tel Aviv’s popular Shuk.  I had been thinking about getting souvenirs for myself and my family, so I was determined to find something there.  When someone had mentioned Hebrew Sport team shirts, I knew I had to find one.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/carmel"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="tama"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="tama"
+            >
+              <h3>
+                Choose Your Own Adventure: Tel Aviv Museum of Art
+              </h3>
+              <img
+                alt="Choose Your Own Adventure: Tel Aviv Museum of Art"
+                src="assets/main/tama.jpg"
+              />
+              <p>
+                After lunch, our afternoon activity was to be at a Museum, with three options provided to us: Tel Aviv Museum of Art, the Diaspora Museum or the Yitzhak Rabin Museum.  Though in a perfect world I could have gone to all three, I ended up going to the Art Museum due to my affinity for Art.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/tama"
+                onClick={[Function]}
               >
-                <h3>
-                  Choose Your Own Adventure: Tel Aviv Museum of Art
-                </h3>
-                <img
-                  alt="Choose Your Own Adventure: Tel Aviv Museum of Art"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/tama.jpg"
-                />
-                <p>
-                  After lunch, our afternoon activity was to be at a Museum, with three options provided to us: Tel Aviv Museum of Art, the Diaspora Museum or the Yitzhak Rabin Museum.  Though in a perfect world I could have gone to all three, I ended up going to the Art Museum due to my affinity for Art.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/tama"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="kibbutz"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="kibbutz"
+            >
+              <h3>
+                Shhhhhh!  We're going to a Kibbutz Styled Hotel!
+              </h3>
+              <img
+                alt="Shhhhhh!  We're going to a Kibbutz Styled Hotel!"
+                src="assets/main/kibbutz.jpg"
+              />
+              <p>
+                With our own adventures chosen completed, we headed off to our last hotel for the trip, a Kibbutz styled hotel located a little bit north of Tel Aviv.  I was slightly concerned because of the word Kibbutz that it would lack technology.  But entering Shefayim, I quickly realized there was nothing to be concerned about.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/kibbutz"
+                onClick={[Function]}
               >
-                <h3>
-                  Shhhhhh!  We're going to a Kibbutz Styled Hotel!
-                </h3>
-                <img
-                  alt="Shhhhhh!  We're going to a Kibbutz Styled Hotel!"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/kibbutz.jpg"
-                />
-                <p>
-                  With our own adventures chosen completed, we headed off to our last hotel for the trip, a Kibbutz styled hotel located a little bit north of Tel Aviv.  I was slightly concerned because of the word Kibbutz that it would lack technology.  But entering Shefayim, I quickly realized there was nothing to be concerned about.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/kibbutz"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="game"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="game"
+            >
+              <h3>
+                Rock, Paper, Scissors Showdown at the Kibbutz
+              </h3>
+              <img
+                alt="Rock, Paper, Scissors Showdown at the Kibbutz"
+                src="assets/main/game.jpg"
+              />
+              <p>
+                Rock, Paper, Scissors.  A classic game of chance where two people face off and select either Rock, Paper or Scissors.  You all know the rules:  Rock smashes Scissors.  Scissors cuts Paper.  Paper covers Rock.  You either win, you lose, or you tie.  So what does this have to do with the trip?
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/game"
+                onClick={[Function]}
               >
-                <h3>
-                  Rock, Paper, Scissors Showdown at the Kibbutz
-                </h3>
-                <img
-                  alt="Rock, Paper, Scissors Showdown at the Kibbutz"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/game.jpg"
-                />
-                <p>
-                  Rock, Paper, Scissors.  A classic game of chance where two people face off and select either Rock, Paper or Scissors.  You all know the rules:  Rock smashes Scissors.  Scissors cuts Paper.  Paper covers Rock.  You either win, you lose, or you tie.  So what does this have to do with the trip?
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/game"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-        <section
-          className="o-content"
-          id="day-7"
+        </div>
+      </section>
+      <section
+        className="o-content"
+        id="day-7"
+      >
+        <div
+          className="row display grid-x"
         >
           <div
-            className="row display grid-x"
+            className="columns o-content__inner"
           >
             <div
-              className="columns o-content__inner"
+              className="o-content__inner-head"
             >
-              <div
-                className="o-content__inner-head"
+              <h1
+                className="c-heading-4 c-heading-4--upper"
               >
-                <h1
-                  className="c-heading-4 c-heading-4--upper"
-                >
-                  Day 
-                  7
-                </h1>
-                <h5>
-                  November 15, 2018
-                </h5>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="cat"
+                Day 
+                7
+              </h1>
+              <h5>
+                November 15, 2018
+              </h5>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="cat"
+            >
+              <h3>
+                Cats!!!
+              </h3>
+              <img
+                alt="Cats!!!"
+                src="assets/main/cat.jpg"
+              />
+              <p>
+                Though our group all shared our Jewish faith, no matter the level of religion, there were plenty of other things we bonded over.  Aside from the obvious (sightseeing) and the necessities (bathrooms and Wi-Fi), there were the little things which brought joy.  One of those things were cats.  There were lots of cats in Israel.  But why?
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/cat"
+                onClick={[Function]}
               >
-                <h3>
-                  Cats!!!
-                </h3>
-                <img
-                  alt="Cats!!!"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/cat.jpg"
-                />
-                <p>
-                  Though our group all shared our Jewish faith, no matter the level of religion, there were plenty of other things we bonded over.  Aside from the obvious (sightseeing) and the necessities (bathrooms and Wi-Fi), there were the little things which brought joy.  One of those things were cats.  There were lots of cats in Israel.  But why?
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/cat"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="jaffa"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="jaffa"
+            >
+              <h3>
+                Jaffa: The Old Part of Tel Aviv
+              </h3>
+              <img
+                alt="Jaffa: The Old Part of Tel Aviv"
+                src="assets/main/jaffa.jpg"
+              />
+              <p>
+                The last day of the trip had at last arrived.  While it was so great to be in Israel, seeing all the beauty and history, a part of me wanted to stop living in my suitcase.  We saw some cool sights in Tel Aviv, but the last day would give us a chance to see some of its history.  Our first stop on the final day would bring us to Jaffa, the historic part of town.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/jaffa"
+                onClick={[Function]}
               >
-                <h3>
-                  Jaffa: The Old Part of Tel Aviv
-                </h3>
-                <img
-                  alt="Jaffa: The Old Part of Tel Aviv"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jaffa.jpg"
-                />
-                <p>
-                  The last day of the trip had at last arrived.  While it was so great to be in Israel, seeing all the beauty and history, a part of me wanted to stop living in my suitcase.  We saw some cool sights in Tel Aviv, but the last day would give us a chance to see some of its history.  Our first stop on the final day would bring us to Jaffa, the historic part of town.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/jaffa"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="innovation"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="innovation"
+            >
+              <h3>
+                Innovation: How Israel provides a Path to the Future
+              </h3>
+              <img
+                alt="Innovation: How Israel provides a Path to the Future"
+                src="assets/main/innovation.jpg"
+              />
+              <p>
+                With Jaffa complete, we headed towards the Taglit Innovation Center, which I thought was connected to Birthright, due to the use of the word Taglit, but ended up being more about Innovation towards the future.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/innovation"
+                onClick={[Function]}
               >
-                <h3>
-                  Innovation: How Israel provides a Path to the Future
-                </h3>
-                <img
-                  alt="Innovation: How Israel provides a Path to the Future"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/innovation.jpg"
-                />
-                <p>
-                  With Jaffa complete, we headed towards the Taglit Innovation Center, which I thought was connected to Birthright, due to the use of the word Taglit, but ended up being more about Innovation towards the future.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/innovation"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="rothschild"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="rothschild"
+            >
+              <h3>
+                One Last Lunch along Rothschild, the Heart of Tel Aviv
+              </h3>
+              <img
+                alt="One Last Lunch along Rothschild, the Heart of Tel Aviv"
+                src="assets/main/rothschild.jpg"
+              />
+              <p>
+                Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/rothschild"
+                onClick={[Function]}
               >
-                <h3>
-                  One Last Lunch along Rothschild, the Heart of Tel Aviv
-                </h3>
-                <img
-                  alt="One Last Lunch along Rothschild, the Heart of Tel Aviv"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/rothschild.jpg"
-                />
-                <p>
-                  Now it was time to have some lunch before the next activity.  We didn’t have a whole lot of time, but being in the heart of Tel Aviv, I certainly had plans to enjoy the last views we would see.  And with the weather about perfect, we got to enjoy more of the fascinating looking skyscrapers.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/rothschild"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="independence"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="independence"
+            >
+              <h3>
+                Independence Hall: Where Israel became Israel
+              </h3>
+              <img
+                alt="Independence Hall: Where Israel became Israel"
+                src="assets/main/independence.jpg"
+              />
+              <p>
+                Located along Rothschild Boulevard is Independence Hall, the place where the Jewish leaders declared the land of Israel as a Jewish state.  While visiting on our last day, we got to visit Independence Hall, the place where it all happened, where we learned about the history.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/independence"
+                onClick={[Function]}
               >
-                <h3>
-                  Independence Hall: Where Israel became Israel
-                </h3>
-                <img
-                  alt="Independence Hall: Where Israel became Israel"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/independence.jpg"
-                />
-                <p>
-                  Located along Rothschild Boulevard is Independence Hall, the place where the Jewish leaders declared the land of Israel as a Jewish state.  While visiting on our last day, we got to visit Independence Hall, the place where it all happened, where we learned about the history.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/independence"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="farewell"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="farewell"
+            >
+              <h3>
+                Farewell Israel, What a Wonderful Trip
+              </h3>
+              <img
+                alt="Farewell Israel, What a Wonderful Trip"
+                src="assets/main/farewell.jpg"
+              />
+              <p>
+                After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/farewell"
+                onClick={[Function]}
               >
-                <h3>
-                  Farewell Israel, What a Wonderful Trip
-                </h3>
-                <img
-                  alt="Farewell Israel, What a Wonderful Trip"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/farewell.jpg"
-                />
-                <p>
-                  After Independence Hall, we were given a little time to explore Rothschild Boulevard before having one last dinner together.  At last the end of the trip was near.  Things had been quite wonderful, but the realization that it had to end is part of life.  So with that, it was one last hurrah for most of us (those who opted to extend their trip, which I would’ve done if I had the time to do so, got more chances to explore), but for the group of 26, plus our two staff leads, Jake & Anabelle, our tour guide Hadas, and of course, our security guard Boris, this would be the last time we would all be together.  But rather than go out with a whimper, I went out with a proverbial bang.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/farewell"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="jukebox"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="jukebox"
+            >
+              <h3>
+                Rockin' Jukebox: Sababa!
+              </h3>
+              <img
+                alt="Rockin' Jukebox: Sababa!"
+                src="assets/main/jukebox.jpg"
+              />
+              <p>
+                Over the course of our trip, we managed to hear a few songs, mostly on the bus.  From karaoke jams to popular Israeli songs, and of course, Take Me Home Country Roads, there were quite a few songs we heard. Check out the Jukebox to play the most memorable songs of the trip.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/jukebox"
+                onClick={[Function]}
               >
-                <h3>
-                  Rockin' Jukebox: Sababa!
-                </h3>
-                <img
-                  alt="Rockin' Jukebox: Sababa!"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/jukebox.jpg"
-                />
-                <p>
-                  Over the course of our trip, we managed to hear a few songs, mostly on the bus.  From karaoke jams to popular Israeli songs, and of course, Take Me Home Country Roads, there were quite a few songs we heard. Check out the Jukebox to play the most memorable songs of the trip.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/jukebox"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
-              <div
-                className="o-content__inner-body"
-                id="epilogue"
+                Read More
+              </a>
+            </div>
+            <div
+              className="o-content__inner-body"
+              id="epilogue"
+            >
+              <h3>
+                This is the End: Heading Back Home
+              </h3>
+              <img
+                alt="This is the End: Heading Back Home"
+                src="assets/main/home.jpg"
+              />
+              <p>
+                From the start of the trip to the end, I could feel the evolution of our group bond, and could see how much similarity, asides from being young Jewish adults, there truly was between all of us.  But knowing it would be the last time we would all be together, it made it a little sad as well.  Now it was time to go back to the airport, back to the normal life at home, back to the ordinary.  After saying goodbye to those who extended our trip, it was on to the airport, where we had plenty of time to relax, probably too much time to relax with a 10 hour flight back to New York, and for me, an additional 6 hour flight back to Portland.
+              </p>
+              <a
+                className="custom-main custom-button"
+                href="/epilogue"
+                onClick={[Function]}
               >
-                <h3>
-                  This is the End: Heading Back Home
-                </h3>
-                <img
-                  alt="This is the End: Heading Back Home"
-                  src="https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/images/main/home.jpg"
-                />
-                <p>
-                  From the start of the trip to the end, I could feel the evolution of our group bond, and could see how much similarity, asides from being young Jewish adults, there truly was between all of us.  But knowing it would be the last time we would all be together, it made it a little sad as well.  Now it was time to go back to the airport, back to the normal life at home, back to the ordinary.  After saying goodbye to those who extended our trip, it was on to the airport, where we had plenty of time to relax, probably too much time to relax with a 10 hour flight back to New York, and for me, an additional 6 hour flight back to Portland.
-                </p>
-                <a
-                  className="custom-main custom-button"
-                  href="/epilogue"
-                  onClick={[Function]}
-                >
-                  Read More
-                </a>
-              </div>
+                Read More
+              </a>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
   </div>
 </div>

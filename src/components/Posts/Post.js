@@ -1,34 +1,34 @@
-import React, { Component } from 'react';
-import { Row, Column } from 'react-foundation';
-import ReactMarkdown from 'react-markdown';
-import axios from 'axios';
-import PrevNext from '../PrevNext';
-import PhotoList from './PhotoList';
-import Quiz from '../Quiz/Quiz';
-import Map from '../Map';
-import Graffiti from '../Graffiti/Graffiti';
-export default class Post extends Component {
+import React, { Component } from 'react'
+import { Row, Column } from 'react-foundation'
+import ReactMarkdown from 'react-markdown'
+import axios from 'axios'
+import PrevNext from '../PrevNext'
+import PhotoList from './PhotoList'
+import Quiz from '../Quiz/Quiz'
+import Map from '../Map'
+import Graffiti from '../Graffiti/Graffiti'
 
+export default class Post extends Component {
 	constructor() {
-		super();
+		super()
 		this.state = {
 			photographs: []
-		};
+		}
 	}
 	componentDidMount() {
 		axios.get(this.props.data)
 			.then(response => {
 				this.setState({
 					photographs: response.data
-				});
+				})
 			})
 			.catch(error => {
-				console.log('Error fetching and parsing data', error);
-			});
+				console.log('Error fetching and parsing data', error)
+			})
 	}
 	render() {
-		const { title, paragraph, link, begin, end, number, map, locations, locationName, graffiti, prev, next } = this.props;
-		const { photographs } = this.state;
+		const { title, paragraph, link, begin, end, number, map, locations, locationName, graffiti, prev, next } = this.props
+		const { photographs } = this.state
 		return (
 			<Row className='display grid-x post'>
 				<Column large={8} offsetOnLarge={2}>
@@ -41,6 +41,6 @@ export default class Post extends Component {
 					<PrevNext prev={prev} next={next} />
 				</Column>
 			</Row>
-	)
+		)
+	}
 }
-};

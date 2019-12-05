@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import { 
 	question0, 
 	question1, 
@@ -22,10 +22,10 @@ import {
 	question19,
 	question20
 
-} from '../../data/quiz';
+} from '../../data/quiz'
 
-const QuizContext = React.createContext();
-export const QuizConsumer = QuizContext.Consumer;
+const QuizContext = React.createContext()
+export const QuizConsumer = QuizContext.Consumer
 
 class QuizProvider extends Component {
 	state = {
@@ -62,6 +62,6 @@ class QuizProvider extends Component {
 		)
 	}	
 }
-export default QuizProvider;
+export default QuizProvider
 
 

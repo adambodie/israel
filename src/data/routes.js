@@ -29,7 +29,7 @@ import {
 	independence,
 	farewell,
 	epilogue
-	} from './articles';
+	} from './articles'
 
 const routes = [
 	{
@@ -279,4 +279,4 @@ const routes = [
 	}
 ]
 
-export default routes;
+export default routes

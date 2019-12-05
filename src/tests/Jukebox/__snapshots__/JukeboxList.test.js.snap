@@ -28,7 +28,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/nMQw29nfzpg"
@@ -61,7 +61,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/_JZom_gVfuw"
@@ -94,7 +94,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/1vrEljMfXYo"
@@ -127,7 +127,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/yYcyacLRPNs"
@@ -160,7 +160,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/fJ9rUzIMcZQ"
@@ -193,7 +193,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/Ee_uujKuJMI"
@@ -226,7 +226,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/L_jWHffIx5E"
@@ -259,7 +259,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/dZLfasMPOU4"
@@ -292,7 +292,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/4fndeDfaWCg"
@@ -325,7 +325,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/1k8craCGpgs"
@@ -358,7 +358,7 @@ exports[`renders correctly 1`] = `
         className="back"
       >
         <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture"
           allowFullScreen={true}
           frameBorder="0"
           src="https://www.youtube.com/embed/4dV4QC9qzBs"

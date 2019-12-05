@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const GameBegin = () => {
-	return (
-		<div className='begin'>
-			<h2>Press any button to begin</h2>
-		</div>
-	)
-}
+const GameBegin = () => (
+	<div className='begin'>
+		<h2>Press any button to begin</h2>
+	</div>
+)
 
-export default GameBegin;
+export default GameBegin

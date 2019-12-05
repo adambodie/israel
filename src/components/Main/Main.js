@@ -1,17 +1,15 @@
-import React from 'react';
-import { Provider } from '../Context/main';
-import MainScrollspy from './MainScrollspy';
-import MainPage from './MainPage';
+import React from 'react'
+import { Provider } from '../Context/main'
+import MainScrollspy from './MainScrollspy'
+import MainPage from './MainPage'
 
-const Main = () => {
-	return(
-		<Provider>
-			<div className='o-wrapper'>
-				<MainScrollspy />
-				<MainPage />
-			</div>
-		</Provider>
-	)
-}
+const Main = () => (
+	<Provider>
+		<div className='o-wrapper'>
+			<MainScrollspy />
+			<MainPage />
+		</div>
+	</Provider>
+)
 
-export default Main;
+export default Main

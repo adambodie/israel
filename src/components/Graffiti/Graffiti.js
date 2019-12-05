@@ -1,9 +1,9 @@
-import React from 'react';
-import { Row } from 'react-foundation';
-import Rabin from './Rabin.js';
-import Thanks from './Thanks.js';
-import TwentySevenClub from './TwentySevenClub.js';
-import Stories from './Stories.js';
+import React from 'react'
+import { Row } from 'react-foundation'
+import Rabin from './Rabin.js'
+import Thanks from './Thanks.js'
+import TwentySevenClub from './TwentySevenClub.js'
+import Stories from './Stories.js'
 
 const Graffiti = () => (
 	<Row className='display grid-x graffiti'>
@@ -16,4 +16,4 @@ const Graffiti = () => (
 	</Row>
 )
 
-export default Graffiti;
+export default Graffiti

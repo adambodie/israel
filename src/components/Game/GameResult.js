@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const GameBegin = ({result}) => {
 	return (
@@ -8,4 +8,4 @@ const GameBegin = ({result}) => {
 	)
 }
 
-export default GameBegin;
+export default GameBegin

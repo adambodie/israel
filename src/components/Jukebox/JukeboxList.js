@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import JukeboxItem from './JukeboxItem';
+import React, { Component } from 'react'
+import JukeboxItem from './JukeboxItem'
 
 export default class JukeboxList extends Component {
 	constructor(props) {
-		super(props);
+		super(props)
 		this.state = {
 			data: [
 					{title: 'Tel Aviv', src: 'nMQw29nfzpg'},
@@ -18,16 +18,15 @@ export default class JukeboxList extends Component {
 					{title: 'Don\'t Stop Believin\'', src: '1k8craCGpgs'},
 					{title: 'Understood', src: '4dV4QC9qzBs'}
 				]
-			};
 		}
+	}
 	render() {
-		let cards = [];
-		this.state.data.forEach((y, index) => cards.push(<JukeboxItem data={y} key={index}/>));
+		let cards = []
+		this.state.data.forEach((y, index) => cards.push(<JukeboxItem data={y} key={index}/>))
 		return (
 			<div className='jukebox-flex'>
 				{cards}
 			</div>
-		);
+		)
 	}
-};
-
+}

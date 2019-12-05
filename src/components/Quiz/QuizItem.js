@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import ReactMarkdown from 'react-markdown';
-import PropTypes from 'prop-types';
-import { QuizConsumer } from '../Context/quiz';
+import React, { Component } from 'react'
+import ReactMarkdown from 'react-markdown'
+import PropTypes from 'prop-types'
+import { QuizConsumer } from '../Context/quiz'
 
 export default class QuizItem extends Component {
 	static propTypes = {
 		index: PropTypes.number.isRequired,
 	}
 	render(){
-		const { index } = this.props;
+		const { index } = this.props
 		return (
 			<QuizConsumer>
 				{ ({ questions }) => (
@@ -25,6 +25,6 @@ export default class QuizItem extends Component {
 			</QuizConsumer>
 		)
 	}
-};
+}
 
 

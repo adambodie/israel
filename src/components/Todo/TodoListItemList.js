@@ -1,23 +1,16 @@
-import React from 'react';
-import { Consumer } from '../Context/todo';
-import TodoListItem from './TodoListItem';
+import React from 'react'
+import { Consumer } from '../Context/todo'
+import TodoListItem from './TodoListItem'
 
-const TodoListItemList = () => {
-	return(
-		<Consumer>
+const TodoListItemList = () => (
+	<Consumer>
 		{ ({ items }) => (
-			<React.Fragment>
-				{items.map((item, index) =>
-					<TodoListItem 
-						key={item.id.toString()}
-						index={index}
-					/>	
-				)}
-			</React.Fragment>
+			<ul>
+				{items.map((item, index) => <TodoListItem key={item.id.toString()} index={index}/>)}
+			</ul>
 			)
 		}
-		</Consumer>
-	);
-}
+	</Consumer>
+)
 
-export default TodoListItemList;
+export default TodoListItemList

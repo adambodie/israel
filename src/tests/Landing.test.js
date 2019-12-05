@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import renderer from 'react-test-renderer';
-import { MemoryRouter } from 'react-router';
-import Landing from '../components/Landing';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import renderer from 'react-test-renderer'
+import { MemoryRouter } from 'react-router'
+import Landing from '../components/Landing'
 import {
   render,
   cleanup
@@ -11,16 +11,16 @@ import {
 afterEach(cleanup)
 
 it('renders without crashing', () => {
-	const div = document.createElement('div');
-	ReactDOM.render(<MemoryRouter><Landing /></MemoryRouter>, div);
-	ReactDOM.unmountComponentAtNode(div);
-});
+	const div = document.createElement('div')
+	ReactDOM.render(<MemoryRouter><Landing /></MemoryRouter>, div)
+	ReactDOM.unmountComponentAtNode(div)
+})
 
 it('renders correctly', () => {
 	const tree = renderer.create(
     <MemoryRouter>
       <Landing />
     </MemoryRouter>
-  ).toJSON();
-	expect(tree).toMatchSnapshot();
-});
+  ).toJSON()
+	expect(tree).toMatchSnapshot()
+})

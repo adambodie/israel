@@ -1,7 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import FontAwesome from 'react-fontawesome';
-import { mainLink } from '../data/articles';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import FontAwesome from 'react-fontawesome'
 
 const Header = () => (
 	<header>
@@ -15,9 +14,9 @@ const Header = () => (
 					/>
 				</Link>
 			</div>
-			<img src={`${mainLink}/header.jpg`} alt='RT-38-1047' />
+			<img src={`/assets/main/header.jpg`} alt='RT-38-1047' />
 		</div>
 	</header>
-);
+)
 
-export default Header;
+export default Header

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Modal from 'react-modal';
-import { Column } from 'react-foundation';
+import React, { Component } from 'react'
+import Modal from 'react-modal'
+import { Column } from 'react-foundation'
 
 
 const newCatStyles = {
@@ -18,45 +18,43 @@ const newCatStyles = {
 		justifyContent: 'center',
 		alignItems: 'center',
 	}
-};
-
-
+}
 
 export default class CatList extends Component {
 	constructor() {
-		super();
+		super()
 		this.state = {
 			isNewModalOpen: false
 		}
-		this.shuffle = this.shuffle.bind(this);
-		this.newCats = this.newCats.bind(this);
-		this.closeCatModal = this.closeCatModal.bind(this);
+		this.shuffle = this.shuffle.bind(this)
+		this.newCats = this.newCats.bind(this)
+		this.closeCatModal = this.closeCatModal.bind(this)
 	}
 	shuffle (array) {
-		let currentIndex = array.length, temporaryValue, randomIndex;
+		let currentIndex = array.length, temporaryValue, randomIndex
 		// While there remain elements to shuffle...
 		while (0 !== currentIndex) {
 			// Pick a remaining element...
-			randomIndex = Math.floor(Math.random() * currentIndex);
-			currentIndex -= 1;
+			randomIndex = Math.floor(Math.random() * currentIndex)
+			currentIndex -= 1
 			// And swap it with the current element.
-			temporaryValue = array[currentIndex];
-			array[currentIndex] = array[randomIndex];
-			array[randomIndex] = temporaryValue;
-		};
-		return array;
+			temporaryValue = array[currentIndex]
+			array[currentIndex] = array[randomIndex]
+			array[randomIndex] = temporaryValue
+		}
+		return array
 	}
 	newCats() {
 		  this.setState(prevState => ({
 			cats: this.shuffle(this.props.cats),
 			newModalIsOpen: true,
-		}));
+		}))
 	} 
 	closeCatModal() {
-		this.setState({newModalIsOpen: false});
+		this.setState({newModalIsOpen: false})
 	}
 	render() {
-		const { cats } = this.props;
+		const { cats } = this.props
 		return (
 			<Column large={6} offsetOnLarge={3}>
 				<h1>Cats, Cats, Cats!!!</h1>
@@ -83,6 +81,6 @@ export default class CatList extends Component {
 					<button className='cat-modal-button' onClick={this.closeCatModal}>x</button>
 				</Modal>
 			</Column>
-		);
+		)
 	}
 }
