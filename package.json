@@ -30,7 +30,8 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && aws s3 sync build s3://birthright-israel.bodiewebdesign.com --acl public-read"
   },
   "eslintConfig": {
     "extends": "react-app"

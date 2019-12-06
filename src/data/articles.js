@@ -706,7 +706,7 @@ export const epilogueIntro = `From the start of the trip to the end, I could fee
 
 export const epilogue = `
 
-![Back to New York](/assets/IMG_6704.JPG)
+![Back to New York](/assets/photos/IMG_6704.JPG)
 
 ${epilogueIntro}
 

@@ -3,7 +3,7 @@ import { Consumer } from '../Context/todo'
 
 const TodoListForm = () => (
 	<Consumer>
-		{ ({ actions, items, value }) => {
+		{ ({ actions, value }) => {
 			const handleChange = (e) => actions.onHandleChange(e.target.value)
 			const handleSubmit = (e) => {
 				actions.onHandleSubmit(e.target.value)

@@ -52,7 +52,7 @@ const App = () => {
 											title={x.title}
 											link={x.link}
 											paragraph={x.paragraph} 
-											data={`https://s3-us-west-2.amazonaws.com/birthright-israel.bodiewebdesign.com/data/${x.link}.json`}
+											data={`/assets/data/${x.link}.json`}
 											prev={`/${x.prev}`}
 											next={`/${x.next}`}
 											begin={x.begin} 

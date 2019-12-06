@@ -1,38 +1,34 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Collapsible from 'react-collapsible'
 import Scrollspy from 'react-scrollspy'
 import { Consumer } from '../Context/main'
 
-export default class MainScrollspyItem extends Component {
-	render() {
-		const { scrollLink } = this.props
-		return (
-			<Consumer>
-				{ ({ pages }) => (
-						<Scrollspy items={ pages.map((x)=> x.scroll) } currentClassName='is-current' className='c-side-nav__list nav-list' offset={-20}>
-						{pages.map((x, startIndex) => (
-							<li className='c-side-nav__item' key={startIndex}>
-								<a href={`#day-${x.day}`} className='c-side-nav__link'>
-									{x.day === 0 ? (`Introduction`) : (`Day ${x.day}`)}
-								</a>
-								<Collapsible trigger=''>
-									{x.items.map((y, index) => (
-										<div style={{fontSize: '12px'}} key={index}>
-											<a href={`${scrollLink}${y.link}`}  className='c-side-nav__link'>{y.linkTitle}</a>
-										</div>
-										)
-									)}
-								</Collapsible>
-							</li>
-						)
-					)}
-					</Scrollspy>
+const MainScrollspyItem = ({ scrollLink }) => (
+	<Consumer>
+		{ ({ pages }) => (
+			<Scrollspy items={ pages.map((x)=> x.scroll) } currentClassName='is-current' className='c-side-nav__list nav-list' offset={-20}>
+				{pages.map((x, startIndex) => (
+					<li className='c-side-nav__item' key={startIndex}>
+						<a href={`#day-${x.day}`} className='c-side-nav__link'>
+							{x.day === 0 ? (`Introduction`) : (`Day ${x.day}`)}
+						</a>
+						<Collapsible trigger=''>
+							{x.items.map((y, index) => (
+								<div style={{fontSize: '12px'}} key={index}>
+									<a href={`${scrollLink}${y.link}`}  className='c-side-nav__link'>{y.linkTitle}</a>
+								</div>
+								)
+							)}
+						</Collapsible>
+					</li>
+					)
 				)}
-			</Consumer>
-		)
-	}
-}
+			</Scrollspy>
+		)}
+	</Consumer>
+)
 
+export default MainScrollspyItem
 
 
 
