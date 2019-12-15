@@ -19,9 +19,9 @@ export default class TodoListItem extends Component {
 						<Link color={Colors.ALERT} onClick={()=> handleRemove(items[index].id)} className='delete'>X</Link>
 						<p>{items[index].name}</p>
 						{items[index].className === 'item-completed' ? (
-							<Link color={Colors.SUCCESS} onClick={()=> handleComplete(items[index].id)} className='complete'>&#x2713</Link>
+							<Link color={Colors.SUCCESS} onClick={()=> handleComplete(items[index].id)} className='complete'>&#x2713;</Link>
 						) : (
-							<Link color={Colors.PRIMARY} onClick={()=> handleComplete(items[index].id)} className='complete'>&#x2713</Link>
+							<Link color={Colors.PRIMARY} onClick={()=> handleComplete(items[index].id)} className='complete'>&#x2713;</Link>
 						)}
 					</li>
 				)

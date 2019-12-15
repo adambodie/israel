@@ -1,5 +1,5 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.css");
 @import url("https://fonts.googleapis.com/css?family=Heebo");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.css");
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
@@ -690,7 +690,7 @@ td {
 .tomato {
   width: 350px;
   height: 300px;
-  background: url("http://birthright-israel.bodiewebdesign.com/images/main/tomato.jpg");
+  background: url("/assets/main/tomato.jpg");
   border-radius: 100%;
   position: relative;
   display: flex;
@@ -869,21 +869,21 @@ td {
   .masada-map .map {
     width: 355.55556px;
     height: 177.77778px;
-    background-image: url("http://birthright-israel.bodiewebdesign.com/images/main/masada-map.jpg"); }
+    background-image: url("/assets/main/masada-map.jpg"); }
 
 .jerusalem-map {
   margin-top: 64px; }
   .jerusalem-map .map {
     width: 333.33333px;
     height: 300px;
-    background-image: url("http://birthright-israel.bodiewebdesign.com/images/main/jerusalem-map.png"); }
+    background-image: url("/assets/main/jerusalem-map.png"); }
 
 .telaviv-map {
   margin-top: 64px; }
   .telaviv-map .map {
     width: 360px;
     height: 260.8px;
-    background-image: url("http://birthright-israel.bodiewebdesign.com/images/main/tel-aviv-map.png"); }
+    background-image: url("/assets/main/tel-aviv-map.png"); }
 
 @media (min-width: 512px) {
   .jerusalem-item-0 {
@@ -1447,7 +1447,7 @@ body {
 .App {
   text-align: center;
   text-shadow: 2px 2px 4px black;
-  background: url("http://birthright-israel.bodiewebdesign.com/images/main/background.jpg") no-repeat bottom fixed;
+  background: url("/assets/main/background.jpg") no-repeat bottom fixed;
   background-size: cover;
   min-height: 100vh;
   display: flex;

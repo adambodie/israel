@@ -1,0 +1,25 @@
+import * as quiz from './questions'
+
+export const QUIZ_QUESTIONS = [
+	{question: quiz.question0, answer: 'B. David Ben-Gurion'}, 
+	{question: quiz.question1, answer: 'C. 1948'},
+	{question: quiz.question2, answer: 'D. Ottoman'},
+	{question: quiz.question3, answer: 'B. 7'},
+	{question: quiz.question4, answer: 'C. Temple Mount'},
+	{question: quiz.question5, answer: 'D. Theodor Herzl'},
+	{question: quiz.question6, answer: 'A. Yitzhak Rabin'},
+	{question: quiz.question7, answer: 'C. 1942'},
+	{question: quiz.question8, answer: 'A. Mount Herzl'},
+	{question: quiz.question9, answer: 'B. United Kingdom'},
+	{question: quiz.question10, answer: 'D. Jordan'},
+	{question: quiz.question11, answer: 'B. Egypt'},
+	{question: quiz.question12, answer: 'C. Norway'},
+	{question: quiz.question13, answer: 'B. 35%'},
+	{question: quiz.question14, answer: 'A. Herod the Great'},
+	{question: quiz.question15, answer: 'A. Yes'},
+	{question: quiz.question16, answer: 'C. Declining Sea Levels after Spa was built'},
+	{question: quiz.question17, answer: 'B. 1909'},
+	{question: quiz.question18, answer: 'C. Palestine'},
+	{question: quiz.question19, answer: 'D. Both A and B'},
+	{question: quiz.question20, answer: 'B. Jaffa'},
+]

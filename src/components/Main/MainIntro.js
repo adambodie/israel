@@ -1,10 +1,17 @@
 import React from 'react'
 import { Row, Column } from 'react-foundation'
 import ReactMarkdown from 'react-markdown'
-import { mainTitle, mainParagraph } from '../../data/articles'
 import { Link } from 'react-router-dom'
+import { connect } from 'react-redux'
 
-const MainIntro = () => (
+const mapStateToProps = state => {
+	return {
+		mainTitle: state.mainTitle,
+		mainParagraph: state.mainParagraph
+	}
+}
+
+const MainIntro = ({ mainTitle, mainParagraph }) => (
 	<section>
 		<Row className='display grid-x welcomeIntro'>
 			<Column large={10} offsetOnLarge={1} className='o-hero u-align-left'>
@@ -19,4 +26,4 @@ const MainIntro = () => (
 	</section>
 )
 
-export default MainIntro
+export default connect(mapStateToProps) (MainIntro)

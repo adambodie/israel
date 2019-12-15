@@ -1,9 +1,15 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import { shakshuka } from '../../data/articles'
 import PrevNext from '../PrevNext'
+import { connect } from 'react-redux'
 
-const ShakshukaText = () => (
+const mapStateToProps = state => {
+	return {
+		shakshuka: state.shakshuka,
+	}
+}
+
+const ShakshukaText = ({ shakshuka }) => (
 	<React.Fragment>
 		<p><strong>Click on each egg above to view a picture</strong></p>
 		<ReactMarkdown source={shakshuka} className='article' />
@@ -11,4 +17,4 @@ const ShakshukaText = () => (
 	</React.Fragment>
 )
 
-export default ShakshukaText
+export default connect(mapStateToProps) (ShakshukaText)

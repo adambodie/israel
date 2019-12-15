@@ -1,19 +1,16 @@
-import React, { Component}  from 'react'
-import { QuizConsumer } from '../Context/quiz'
+import React from 'react'
 import QuizItem from './QuizItem'
+import { connect } from 'react-redux'
 
-export default class QuizList extends Component {
-	render() {
-		const { begin, end } = this.props
-		return(
-			<QuizConsumer>
-				{ ({ questions }) => (
-					<div className='quiz-cards'>
-						{questions.map((x, index) => <QuizItem index={index} key={index}/>).filter((x, index) => index >= begin && index <= end)}
-					</div>
-					)
-				}
-			</QuizConsumer>
-		)
+const mapStateToProps = state => {
+	return {
+		quizQuestions: state.quizQuestions,
 	}
 }
+const QuizList = ({ quizQuestions, begin, end }) => (
+	<div className='quiz-cards'>
+		{quizQuestions.map((quizQuestion, index) => <QuizItem quizQuestion={quizQuestion} key={index}/>)
+				  .filter((x, index) => index >= begin && index <= end)}
+	</div>
+)
+export default connect(mapStateToProps) (QuizList)

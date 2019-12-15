@@ -4,12 +4,17 @@ import ReactMarkdown from 'react-markdown'
 import PrevNext from '../PrevNext'
 import TodoListForm from './TodoListForm.js'
 import TodoListItemList from './TodoListItemList.js'
-import { todoIntro } from '../../data/articles'
 import { Provider } from '../Context/todo'
 import ReactTooltip from 'react-tooltip'
+import { connect } from 'react-redux'
 
+const mapStateToProps = state => {
+	return {
+		todoIntro: state.todoIntro,
+	}
+}
 
-const TodoList = () => (
+const TodoList = ({ todoIntro }) => (
 	<Provider>
 		<Row className='display grid-x todoList article'>
 			<Column large={6} offsetOnLarge={3}>
@@ -25,4 +30,4 @@ const TodoList = () => (
 	</Provider>
 )
 
-export default TodoList
+export default connect(mapStateToProps) (TodoList)

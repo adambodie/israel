@@ -1,68 +1,37 @@
-import { 
-	elAl, 
-	benGurion, 
-	oldJerusalem, 
-	shukDay, 
-	shabbat, 
-	shukNight, 
-	yadVashem, 
-	herzl, 
-	benYehuda, 
-	gilo, 
-	laqye, 
-	arad, 
-	desert, 
-	roman, 
-	masada, 
-	snake,
-	einGedi,
-	deadSea,
-	telAvivNight,
-	telAvivBeach,
-	graffiti,
-	carmel,
-	tama,
-	kibbutz,
-	jaffa,
-	innovation,
-	rothschild,
-	independence,
-	farewell,
-	epilogue
-	} from './articles'
+import * as articles from './articles'
 
-const routes = [
+export const ROUTES = [
 	{
 		title: 'El Al: The Beginning of the Trip to Israel' ,
-		paragraph: elAl,
+		paragraph: articles.elAl,
 		link: 'el-al',
 		prev: 'todoList',
 		next: 'ben-gurion',
 	},
 	{
 		title: 'Arriving in Israel: My First Thoughts',
-		paragraph: benGurion,
+		paragraph: articles.benGurion,
 		link: 'ben-gurion',
 		prev: 'el-al',
 		next: 'old-jerusalem',
 	},
 	{
 		title: 'The Old City',
-		paragraph: oldJerusalem,
+		paragraph: articles.oldJerusalem,
 		link: 'old-jerusalem',
 		prev: 'ben-gurion',
 		next: 'shuk-day',
 	},
 	{
 		title: 'Mahane Yehuda: The Shuk Experience Before Shabbat',
-		paragraph: shukDay,
+		paragraph: articles.shukDay,
 		link: 'shuk-day',
 		prev: 'old-jerusalem',
 		next: 'shabbat'
 	},
 	{
 		title: 'Shabbat in Jerusalem: A Day to Rest',
-		paragraph: shabbat,
+		paragraph: articles.shabbat,
 		link: 'shabbat',
 		prev: 'shuk-day',
 		next: 'shuk-night',
@@ -72,28 +41,28 @@ const routes = [
 	},
 	{
 		title: 'Back to the Shuk: The Night Time Experience',
-		paragraph: shukNight,
+		paragraph: articles.shukNight,
 		link: 'shuk-night',
 		prev: 'shabbat',
 		next: 'yad-vashem'
 	},
 	{
 		title: 'Never Forget: Yad Vashem',
-		paragraph: yadVashem,
+		paragraph: articles.yadVashem,
 		link: 'yad-vashem',
 		prev: 'shuk-night',
 		next: 'shakshuka'
 	},
 	{
 		title: 'Zionism 101: Mount Herzl',
-		paragraph: herzl,
+		paragraph: articles.herzl,
 		link: 'herzl',
 		prev: 'shakshuka',
 		next: 'ben-yehuda'
 	},
 	{
 		title: 'One Last Night in Jerusalem at Ben Yehuda',
-		paragraph: benYehuda,
+		paragraph: articles.benYehuda,
 		link: 'ben-yehuda',
 		prev: 'herzl',
 		next: 'gilo',
@@ -102,19 +71,19 @@ const routes = [
 		end: 8
 	},{
 		title: 'Leaving Jerusalem: Seeing the Israeli-Arab Conflict',
-		paragraph: gilo,
+		paragraph: articles.gilo,
 		link: 'gilo',
 		prev: 'ben-yehuda',
 		next: 'laqye'
 	},{
 		title: 'Out in the Desert with the Bedouins',
-		paragraph: laqye,
+		paragraph: articles.laqye,
 		link: 'laqye',
 		prev: 'gilo',
 		next: 'arad'
 	},{
 		title: 'Arad in the Desert: Shelter Included for the Authentic Israel Experience',
-		paragraph: arad,
+		paragraph: articles.arad,
 		link: 'arad',
 		prev: 'laqye',
 		next: 'desert',
@@ -123,7 +92,7 @@ const routes = [
 		end: 12
 	},{
 		title: 'The Negev Desert: Hot Fun Before Masada',
-		paragraph: desert,
+		paragraph: articles.desert,
 		link: 'desert',
 		prev: 'arad',
 		next: 'roman',
@@ -144,13 +113,13 @@ const routes = [
 		locationName: 'Jerusalem'
 	},{
 		title: 'Masada: The Roman Ramp Up',
-		paragraph: roman,
+		paragraph: articles.roman,
 		link: 'roman',
 		prev: 'desert',
 		next: 'masada',
 	},{
 		title: 'Masada: On Top of it All!',
-		paragraph: masada,
+		paragraph: articles.masada,
 		link: 'masada',
 		prev: 'roman',
 		next: 'snake',
@@ -169,25 +138,25 @@ const routes = [
 		locationName: 'Masada'
 	},{
 		title: 'Masada: Down the Snake Path',
-		paragraph: snake,
+		paragraph: articles.snake,
 		link: 'snake',
 		prev: 'masada',
 		next: 'ein-gedi'
 	},{
 		title: 'Ein Gedi: Not a Mirage',
-		paragraph: einGedi,
+		paragraph: articles.einGedi,
 		link: 'ein-gedi',
 		prev: 'snake',
 		next: 'dead-sea'
 	},{
 		title: 'The Dead Sea: Healing in the Mud',
-		paragraph: deadSea,
+		paragraph: articles.deadSea,
 		link: 'dead-sea',
 		prev: 'ein-gedi',
 		next: 'tel-aviv-night'
 	},{
 		title: 'Welcome to Tel Aviv, the Greatest City in the World',
-		paragraph: telAvivNight,
+		paragraph: articles.telAvivNight,
 		link: 'tel-aviv-night',
 		prev: 'dead-sea',
 		next: 'tel-aviv-beach',
@@ -196,62 +165,62 @@ const routes = [
 		end: 16
 	},{
 		title: 'Morning Stroll along the beaches of Tel Aviv',
-		paragraph: telAvivBeach,
+		paragraph: articles.telAvivBeach,
 		link: 'tel-aviv-beach',
 		prev: 'tel-aviv-night',
 		next: 'graffiti'
 	},{
 		title: 'Choose Your Own Adventure: Tagging Tel Aviv with Graffiti',
-		paragraph: graffiti,
+		paragraph: articles.graffiti,
 		link: 'graffiti',
 		prev: 'tel-aviv-beach',
 		next: 'carmel',
 		graffiti: true
 	},{
 		title: 'In Search of A Hebrew Sports Shirt',
-		paragraph: carmel,
+		paragraph: articles.carmel,
 		link: 'carmel',
 		prev: 'graffiti',
 		next: 'tama'
 	},{
 		title: 'Choose Your Own Adventure: Tel Aviv Museum of Art',
-		paragraph: tama,
+		paragraph: articles.tama,
 		link: 'tama',
 		prev: 'carmel',
 		next: 'kibbutz'	
 	},{
 		title: 'Shhhhhh!  We\'re going to a Kibbutz Styled Hotel!',
-		paragraph: kibbutz,
+		paragraph: articles.kibbutz,
 		link: 'kibbutz',
 		prev: 'tama',
 		next: 'game'
 	},{
 		title: 'Jaffa: The Old Part of Tel Aviv',
-		paragraph: jaffa,
+		paragraph: articles.jaffa,
 		link: 'jaffa',
 		prev: 'cat',
 		next: 'innovation'
 	},{
 		title: 'Innovation: How Israel provides a Path to the Future',
-		paragraph: innovation,
+		paragraph: articles.innovation,
 		link: 'innovation',
 		prev: 'jaffa',
 		next: 'rothschild'
 	},{
 		title: 'One Last Lunch along Rothschild, the Heart of Tel Aviv',
-		paragraph: rothschild,
+		paragraph: articles.rothschild,
 		link: 'rothschild',
 		prev: 'innovation',
 		next: 'independence'
 	},{
 		title: 'Independence Hall: Where Israel became Israel',
-		paragraph: independence,
+		paragraph: articles.independence,
 		link: 'independence',
 		prev: 'rothschild',
 		next: 'farewell'
 	},{
 		title: 'Farewell Israel, What a Wonderful Trip',
-		paragraph: farewell,
+		paragraph: articles.farewell,
 		link: 'farewell',
 		prev: 'independence',
 		next: 'jukebox',
@@ -272,11 +241,10 @@ const routes = [
 		locationName: 'Telaviv'
 	},{
 		title: 'This is the End: Heading Back Home',
-		paragraph: epilogue,
+		paragraph: articles.epilogue,
 		link: 'epilogue',
 		prev: 'jukebox',
 		next: 'index'
 	}
 ]
 
-export default routes

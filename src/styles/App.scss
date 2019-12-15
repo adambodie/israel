@@ -20,7 +20,7 @@ body {
 .App {
 	text-align: center;
 	text-shadow: 2px 2px 4px black;
-	background: url($mainLink + 'background.jpg') no-repeat bottom fixed;
+	background: url('/assets/main/background.jpg') no-repeat bottom fixed;
 	background-size: cover;
 	min-height: 100vh;
 	@include flex();

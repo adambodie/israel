@@ -73,7 +73,7 @@ exports[`renders correctly 1`] = `
           >
             <img
               alt="title1"
-              src="/assets/IMG_4001.JPG"
+              src="/assets/photos/IMG_4001.JPG"
             />
             <h3>
               title1
@@ -111,7 +111,7 @@ exports[`renders correctly 1`] = `
           >
             <img
               alt="title"
-              src="/assets/IMG_4000.JPG"
+              src="/assets/photos/IMG_4000.JPG"
             />
             <h3>
               title
@@ -149,7 +149,7 @@ exports[`renders correctly 1`] = `
           >
             <img
               alt="title1"
-              src="/assets/IMG_4001.JPG"
+              src="/assets/photos/IMG_4001.JPG"
             />
             <h3>
               title1
@@ -186,7 +186,7 @@ exports[`renders correctly 1`] = `
           >
             <img
               alt="title"
-              src="/assets/IMG_4000.JPG"
+              src="/assets/photos/IMG_4000.JPG"
             />
             <h3>
               title
@@ -223,7 +223,7 @@ exports[`renders correctly 1`] = `
           >
             <img
               alt="title1"
-              src="/assets/IMG_4001.JPG"
+              src="/assets/photos/IMG_4001.JPG"
             />
             <h3>
               title1

@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
-import { getMobileOperatingSystem } from '../../App.js'
+import { connect } from 'react-redux'
 
-export default class JukeboxItem extends Component {
+const mapStateToProps = state => {
+	return {
+		getMobileOperatingSystem: state.getMobileOperatingSystem
+	}
+}
+
+class JukeboxItem extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {view: 'front'}
@@ -17,7 +23,7 @@ export default class JukeboxItem extends Component {
 	render() {
 		let className = 'flipper'
 		let testName = 'front-view'
-		if (getMobileOperatingSystem() !== 'unknown') {
+		if (this.props.getMobileOperatingSystem !== 'unknown') {
 			className = className + ' flipped'
 		}
 		if (this.state.view === 'back') {
@@ -29,7 +35,7 @@ export default class JukeboxItem extends Component {
 		return (
 			<div className={className} data-testid={testName} >
 				<div className='card'>
-					{ getMobileOperatingSystem() === 'unknown' && (
+					{ this.props.getMobileOperatingSystem === 'unknown' && (
 						<React.Fragment>
 							<button onClick={this.clickHandler.bind(this)} className='jukebox-button'>o</button>
 							<div className='front'>
@@ -46,3 +52,4 @@ export default class JukeboxItem extends Component {
 	}
 }
 
+export default connect(mapStateToProps)(JukeboxItem)

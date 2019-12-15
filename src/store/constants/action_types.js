@@ -1,0 +1,5 @@
+export const HOVER_ON = 'HOVER_ON'
+export const HOVER_OFF = 'HOVER_OFF'
+export const PRESS_BUTTON = 'PRESS_BUTTON'
+export const SHUFFLE_ARRAY = 'SHUFFLE_ARRAY'
+export const FETCH_CATS= 'FETCH_CATS'

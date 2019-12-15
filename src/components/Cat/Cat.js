@@ -1,9 +1,9 @@
 import React, { Component} from 'react'
 import { Row } from 'react-foundation'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
 import CatPost from './CatPost'
 import CatList from './CatList'
+import PrevNext from '../PrevNext'
 
 export default class Cat extends Component {
 	constructor() {
@@ -34,10 +34,7 @@ export default class Cat extends Component {
 					<CatPost />
 					<CatList cats={cats} image={image} />
 				</Row>
-				<div className='prev-next'>
-					<Link to={ '/game' } className='custom-button'>Prev</Link>
-					<Link to={ '/jaffa' } className='custom-button'>Next</Link>
-				</div>
+				<PrevNext prev={'/game'} next={'/jaffa'} />
 			</div>
 		)
 	}

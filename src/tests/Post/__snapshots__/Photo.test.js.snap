@@ -4,7 +4,7 @@ exports[`renders correctly 1`] = `
 Array [
   <img
     alt="title"
-    src="/assets/IMG_1.JPG"
+    src="/assets/photos/IMG_1.JPG"
   />,
   <h3>
     title
