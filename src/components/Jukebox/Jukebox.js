@@ -1,14 +1,14 @@
 import React from 'react'
 import ScrollArea from 'react-scrollbar'
-import JukeboxHeader from './JukeboxHeader'
-import JukeboxLegs from './JukeboxLegs'
 import JukeboxList from './JukeboxList'
 import JukeboxText from './JukeboxText'
 
 const Jukebox = () => (
 	<React.Fragment>
 		<div className='jukebox'>
-			<JukeboxHeader />
+			<div className='jukebox-title'>
+				<h1 data-testid='title-display'>Sababa!</h1>
+			</div>
 			<ScrollArea
 				speed={0.8}
 				className='area'
@@ -17,7 +17,11 @@ const Jukebox = () => (
 				>
 				<JukeboxList />
 			</ScrollArea>
-			<JukeboxLegs />
+			<div className='legs'>
+				<div className='leg-bottom'></div>
+				<div className='leg'></div>
+				<div className='leg'></div>
+			</div>
 		</div>
 		<JukeboxText />
 	</React.Fragment>

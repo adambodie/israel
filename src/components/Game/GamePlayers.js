@@ -1,8 +1,6 @@
 import React, { Component} from 'react'
 import GamePlayer from './GamePlayer'
-import GameBegin from './GameBegin'
 import GameScore from './GameScore'
-import GameResult from './GameResult'
 
 export default class GamePlayers extends Component {
 	handleChange() {
@@ -17,11 +15,15 @@ export default class GamePlayers extends Component {
 						<div className='flex'>
 							{players.map((x, index) => <GamePlayer key={index} name={x.name} className={x.className} buttons={buttons} players={x}/>)}
 						</div>
-						<GameResult result={result} />
+						<div className='resultText'>
+							<h4>{result}</h4>
+						</div>
 						<GameScore players={players} draw={draw} />
 					</div>
 				) : (
-					<GameBegin />
+					<div className='begin'>
+						<h2>Press any button to begin</h2>
+					</div>
 				)
 			}
 			</React.Fragment>

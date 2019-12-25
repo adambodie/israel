@@ -11,10 +11,7 @@ const mapStateToProps = state => {
 
 const MainScrollspy = ({ getMobileOperatingSystem }) => {
 	const isMobile = getMobileOperatingSystem === 'unknown' ? '#' : ''
-	let className = 'mobile-collapse'
-	if (getMobileOperatingSystem !== 'unknown' && window.width < 768) {
-		className = className + 'd'
-	}
+	let className = 'mobile-collapsed' ? (getMobileOperatingSystem !== 'unknown' && window.width < 768) : 'mobile-collapse'
 	return (
 		<div className='o-sidebar o-sidebar--fixed-left c-side-nav'>
 			<img className='logo' src={`/assets/main/logo.gif`} alt='logo' />
